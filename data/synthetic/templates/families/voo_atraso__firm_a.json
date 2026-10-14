@@ -1,0 +1,139 @@
+{
+  "tese": "voo_atraso",
+  "firm": "firm_a",
+  "especifico": {
+    "fatos": [
+      "Em data de {DATA_FATO}, a parte autora, pessoa {AUTOR_QUALIFICACAO}, devidamente identificada pelos documentos {AUTOR_RG} e {AUTOR_CPF}, compareceu ao aeroporto de {VOO_ORIGEM} com a finalidade de embarcar no voo {VOO_NUMERO}, operado pela ré {REU_NOME}, cujo destino final era a localidade de {VOO_DESTINO}. O bilhete de passagem foi adquirido regularmente, mediante confirmação de reserva sob o código {CODIGO_RESERVA}, sendo que todos os requisitos e trâmites necessários ao embarque foram devidamente observados pela demandante, que chegou ao aeroporto com a devida antecedência, conforme orientações da própria companhia aérea.",
+      "O itinerário programado era de suma importância, pois a parte autora tinha compromisso inadiável a ser honrado na cidade de destino, fato este de pleno conhecimento da empresa ré, uma vez que, ab initio, restou informado à equipe de atendimento da transportadora a essencialidade do cumprimento do horário estabelecido. Todavia, data venia, a conduta negligente da ré frustrou por completo o planejamento da parte requerente.",
+      "Ao chegar ao aeroporto, a parte autora foi surpreendida com a notícia de atraso significativo do referido voo, sem qualquer comunicação prévia eficaz por parte da companhia aérea. O atraso prolongou-se por expressivas {HORAS_ATRASO} horas, excedendo em muito o prazo tolerável e razoável, conforme os padrões estabelecidos pela legislação vigente e pelas normativas da Agência Nacional de Aviação Civil.",
+      "Durante toda a extensão do atraso, não foram ofertadas, pela ré, as devidas formas de assistência material previstas na Resolução ANAC 400/2016. A parte autora permaneceu no aeroporto sem receber alimentação, facilidades de comunicação ou apoio para eventual pernoite, não obstante o longo período de espera. Tal omissão agravou sobremaneira o sofrimento e o desconforto enfrentados.",
+      "Em virtude da ausência de assistência, a parte autora viu-se compelida a arcar, às próprias expensas, com despesas extraordinárias, como alimentação, transporte alternativo e comunicação, gastos estes não previstos e absolutamente evitáveis, caso a ré tivesse cumprido com suas obrigações legais e contratuais. Ressalte-se que tais dispêndios estão devidamente comprovados por meio de documentos que instruem a presente exordial.",
+      "O atraso injustificado ocasionou a perda do compromisso previamente agendado na cidade de destino, trazendo à parte autora prejuízos de ordem moral e material. Não se trata, pois, de mero aborrecimento cotidiano, mas de verdadeira afronta aos direitos fundamentais do consumidor, que confiou na pontualidade e segurança da prestação do serviço adquirido.",
+      "Ressalte-se, ainda, que a ré, mesmo instada a prestar esclarecimentos sobre o motivo do atraso, limitou-se a fornecer respostas genéricas e insatisfatórias, não apresentando justificativa plausível para o inadimplemento contratual. Tal postura evidencia o desrespeito para com o consumidor e a deliberada omissão quanto aos deveres de informação e assistência.",
+      "Os transtornos vivenciados pela parte autora extrapolam, com efeito, o mero dissabor, atingindo sua dignidade e causando-lhe profundo constrangimento diante da situação vexatória de espera, incerteza e abandono em local público. A conduta da empresa ré, ao descurar dos direitos do usuário do transporte aéreo, mostra-se absolutamente reprovável e enseja reparação em sua integralidade.",
+      "Além dos danos morais decorrentes do sofrimento, frustração e abalo psicológico suportados, a parte autora foi diretamente onerada em seu patrimônio, uma vez que as despesas realizadas durante o atraso são de responsabilidade exclusiva da ré, cuja obrigação de assistência é inequívoca e prevista expressamente pela legislação de regência.",
+      "Em suma, a narrativa dos fatos demonstra, de forma cabal, a falha na prestação do serviço de transporte aéreo por parte da ré, caracterizada pelo atraso excessivo e pela completa ausência de assistência material, culminando em prejuízos de ordem patrimonial e extrapatrimonial à parte autora, a quem se impõe o direito à devida indenização."
+    ],
+    "direito": [
+      {
+        "titulo": "Da Responsabilidade Objetiva do Transportador Aéreo",
+        "paragrafos": [
+          "Nos termos do artigo 14 do Código de Defesa do Consumidor, a responsabilidade do fornecedor de serviços é objetiva, respondendo independentemente de culpa pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos. No caso em apreço, resta inequívoca a configuração da falha na prestação do serviço por parte da ré, consubstanciada no atraso excessivo do voo e na ausência das medidas de assistência obrigatórias.",
+          "A jurisprudência pátria, em consonância com a doutrina de Sérgio Cavalieri Filho, reconhece que a responsabilidade das companhias aéreas é objetiva, não cabendo à transportadora eximir-se de sua obrigação de transportar o passageiro ao destino contratado no tempo e modo ajustados, salvo em situações de caso fortuito externo ou força maior, os quais não restaram demonstrados in casu.",
+          "Outrossim, o artigo 737 do Código Civil reforça o dever do transportador de conduzir o passageiro são e salvo ao destino, sob pena de indenizar os prejuízos resultantes do descumprimento contratual. Resta, pois, evidenciado o dever de indenizar ante o ilícito praticado pela ré, porquanto não comprovada qualquer excludente de responsabilidade."
+        ]
+      },
+      {
+        "titulo": "Da Violação à Resolução ANAC 400/2016 e à Obrigação de Assistência Material",
+        "paragrafos": [
+          "A Resolução ANAC nº 400/2016, que regula as condições gerais de transporte aéreo, determina, em seus artigos 8º e 27, que a transportadora deve prestar assistência material adequada aos passageiros sempre que houver atraso superior a uma hora, ofertando facilidades de comunicação, alimentação e, em casos mais graves, acomodação e traslado. In casu, a parte autora permaneceu desassistida, não obstante o prolongado tempo de espera.",
+          "A omissão da ré em fornecer a assistência prevista extrapola o mero inadimplemento contratual, configurando infração administrativa e, sobretudo, gerando a obrigação de indenizar os danos suportados pelo consumidor. Como leciona Carlos Roberto Gonçalves, o dano moral decorre, muitas vezes, do simples descumprimento do dever de assistência, pois a frustração e o sofrimento causados ao passageiro são inafastáveis.",
+          "A conduta da ré, ao descumprir a normativa da ANAC, viola não apenas a legislação de defesa do consumidor, mas também princípios basilares da dignidade da pessoa humana, ao deixar o passageiro à própria sorte em situação de vulnerabilidade."
+        ]
+      },
+      {
+        "titulo": "Dos Danos Materiais Decorrentes do Atraso e da Omissão de Assistência",
+        "paragrafos": [
+          "É incontroverso que a parte autora, em face do atraso e da ausência de assistência, foi compelida a realizar despesas não programadas, as quais, por força do artigo 402 do Código Civil, devem ser ressarcidas integralmente. Tais gastos configuram dano material direto, sendo devida a recomposição patrimonial da parte prejudicada.",
+          "Consoante ensinamento de Maria Helena Diniz, os prejuízos materiais, para serem ressarcidos, demandam apenas a demonstração do nexo de causalidade entre a conduta ilícita e o dano, o que, no presente caso, resta amplamente comprovado pelos documentos acostados aos autos.",
+          "Assim, impõe-se a condenação da ré ao pagamento do valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO}), a título de indenização pelos gastos extraordinários realizados em razão do inadimplemento contratual e da falha na prestação dos serviços."
+        ]
+      },
+      {
+        "titulo": "Dos Danos Morais pelo Sofrimento, Frustração e Violação à Dignidade",
+        "paragrafos": [
+          "No tocante aos danos morais, insta salientar que o sofrimento, a angústia, a frustração e o constrangimento experimentados pela parte autora em razão do atraso injustificado do voo e da inaceitável ausência de assistência material são evidentes. A doutrina, representada por Silvio de Salvo Venosa, reconhece que o dano moral prescinde de prova do prejuízo, bastando a demonstração do fato e do nexo causal.",
+          "O Superior Tribunal de Justiça já consolidou o entendimento de que o descumprimento das normas de assistência ao passageiro em situações de atraso configura, por si só, lesão à esfera extrapatrimonial do consumidor, ensejando o dever de indenizar. Assim, é impositiva a condenação da ré ao pagamento de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), a título de compensação pelos danos morais suportados."
+        ]
+      },
+      {
+        "titulo": "Da Inexistência de Excludentes de Responsabilidade",
+        "paragrafos": [
+          "Cumpre asseverar que, em momento algum, a ré apresentou justificativa plausível para o atraso do voo ou para a ausência de assistência, não havendo elementos que configurem caso fortuito externo ou força maior, únicos excludentes admitidos pela legislação e pela jurisprudência dominante para afastar a responsabilidade objetiva do transportador.",
+          "Dessa forma, não se vislumbra qualquer óbice ao acolhimento dos pedidos formulados, devendo ser integralmente reconhecido o direito da parte autora à reparação pelos danos materiais e morais sofridos, ante a manifesta falha na prestação do serviço, em total afronta à boa-fé contratual e à confiança depositada pelo consumidor."
+        ]
+      }
+    ],
+    "pedidos": [
+      "a condenação da ré ao pagamento de indenização por danos materiais no valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO}), ressarcindo integralmente as despesas extraordinárias comprovadamente realizadas em decorrência do atraso e da ausência de assistência material",
+      "a condenação da ré ao pagamento de indenização por danos morais no valor de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), em razão do sofrimento, frustração e abalo psicológico suportados pela parte autora",
+      "a condenação da ré ao pagamento de correção monetária e juros legais sobre os valores das indenizações desde a data do evento danoso ({DATA_FATO}), nos termos da legislação vigente",
+      "a condenação da ré ao pagamento de todas as custas processuais e honorários advocatícios, na forma da lei",
+      "a citação da ré, no endereço {REU_ENDERECO}, para, querendo, apresentar contestação, sob pena de revelia e confissão quanto à matéria de fato",
+      "a produção de todas as provas em direito admitidas, especialmente documental, testemunhal e, se necessário, pericial",
+      "a intimação da ré para apresentar, em juízo, todos os documentos relativos ao voo {VOO_NUMERO}, realizado em {DATA_FATO}, bem como eventuais comunicados internos sobre o atraso e medidas de assistência",
+      "a condenação da ré a apresentar, em juízo, justificativa formal para o atraso do voo e relatório de assistência material eventualmente prestada",
+      "a expedição de ofício à ANAC para que informe sobre eventuais registros de reclamação e fiscalização relativos ao voo {VOO_NUMERO} na data de {DATA_FATO}",
+      "a condenação da ré ao cumprimento das obrigações de fazer e não fazer, consistentes na observância das normas de assistência material aos passageiros em situações de atraso futuro, sob pena de multa diária"
+    ]
+  },
+  "parafrases": {
+    "f0": "Na data de {DATA_FATO}, a parte autora, qualificada como {AUTOR_QUALIFICACAO}, portando os documentos {AUTOR_RG} e {AUTOR_CPF}, compareceu ao aeroporto de {VOO_ORIGEM} com a intenção de embarcar no voo {VOO_NUMERO}, operado pela empresa ré {REU_NOME}, com destino final à cidade de {VOO_DESTINO}. O bilhete foi adquirido regularmente, estando a reserva confirmada sob o código {CODIGO_RESERVA}, e todos os procedimentos necessários ao embarque foram rigorosamente seguidos pela autora, que chegou ao local com antecedência, conforme as orientações fornecidas pela própria companhia aérea.",
+    "f1": "O trajeto planejado possuía caráter essencial, uma vez que a parte autora precisava comparecer a um compromisso inadiável no destino, circunstância que foi devidamente comunicada à ré desde o início, deixando claro à equipe da transportadora a necessidade do cumprimento rigoroso do horário. No entanto, a negligência da demandada comprometeu integralmente os planos da parte autora, frustrando suas expectativas.",
+    "f2": "Ao chegar ao aeroporto, a autora foi informada de forma inesperada sobre o considerável atraso do voo, sem que houvesse qualquer aviso prévio efetivo por parte da companhia aérea. Tal atraso perdurou por expressivas {HORAS_ATRASO} horas, ultrapassando em muito o limite considerado aceitável, conforme os parâmetros legais e as normas da ANAC.",
+    "f3": "Durante todo o período do atraso, a ré deixou de fornecer as formas de assistência material exigidas pela Resolução ANAC 400/2016. A parte autora permaneceu no terminal sem acesso a alimentação, meios de comunicação ou qualquer suporte para pernoite, mesmo diante do longo tempo de espera, o que intensificou ainda mais o sofrimento e o desconforto vivenciados.",
+    "f4": "Devido à falta de assistência prestada pela ré, a parte autora foi obrigada a custear, por conta própria, despesas imprevistas como alimentação, transporte alternativo e comunicação, gastos que poderiam ter sido evitados caso a empresa tivesse cumprido suas obrigações. Destaca-se que tais valores estão devidamente comprovados através dos documentos anexados a esta inicial.",
+    "f5": "O atraso sem justificativa acarretou a perda do compromisso previamente assumido na cidade de destino, resultando em prejuízos tanto de ordem material quanto moral para a parte autora. Não se trata de um simples transtorno cotidiano, mas de uma violação aos direitos básicos do consumidor, que depositou sua confiança na pontualidade e segurança do serviço contratado.",
+    "f6": "Importa frisar que, mesmo após ser solicitada a esclarecer as razões do atraso, a ré limitou-se a fornecer respostas vagas e insatisfatórias, sem apresentar justificativa adequada para o descumprimento do contrato. Esta atitude demonstra o desrespeito ao consumidor e a clara omissão em relação aos deveres de informação e assistência.",
+    "f7": "Os aborrecimentos enfrentados pela parte autora ultrapassam os meros dissabores do cotidiano, atingindo sua dignidade e causando constrangimento diante da situação de espera prolongada, incerteza e sensação de abandono em ambiente público. A omissão da ré em garantir os direitos do passageiro de transporte aéreo revela conduta censurável, que deve ser integralmente reparada.",
+    "f8": "Além dos danos morais advindos do sofrimento, da frustração e do abalo psíquico experimentados, a parte autora também teve seu patrimônio afetado, já que todas as despesas surgidas durante o atraso são de exclusiva responsabilidade da ré, cuja obrigação de prestar assistência encontra respaldo direto na legislação aplicável.",
+    "f9": "Dessa forma, a exposição dos fatos evidencia de maneira incontestável a falha na prestação do serviço de transporte aéreo por parte da ré, manifestada pelo atraso excessivo e total ausência de assistência material, o que gerou prejuízos patrimoniais e extrapatrimoniais à parte autora, que faz jus à devida indenização.",
+    "d0.0": "Nos moldes do artigo 14 do Código de Defesa do Consumidor, a responsabilidade do prestador de serviço é objetiva, respondendo pela reparação dos danos independentemente de culpa, seja por defeitos na prestação dos serviços ou por informações insuficientes a respeito de sua utilização e riscos. No presente caso, resta clara a falha cometida pela ré, caracterizada pelo atraso excessivo no voo e pela omissão quanto às medidas de assistência obrigatórias.",
+    "d0.1": "A jurisprudência nacional, acompanhando o entendimento de Sérgio Cavalieri Filho, reafirma que as companhias aéreas respondem objetivamente, não podendo se eximir da obrigação de transportar o passageiro ao destino contratado nos termos acordados, salvo ocorrência de caso fortuito externo ou força maior, situações estas não comprovadas nos autos.",
+    "d0.2": "O artigo 737 do Código Civil também estabelece o dever do transportador de conduzir o passageiro ao destino em segurança, sob pena de indenizar os prejuízos advindos do descumprimento do contrato. Assim, está configurado o dever de indenizar diante da conduta ilícita da ré, não havendo qualquer excludente de responsabilidade demonstrado.",
+    "d1.0": "A Resolução ANAC nº 400/2016, em seus artigos 8º e 27, obriga a transportadora a prestar a devida assistência material aos passageiros em casos de atraso superior a uma hora, incluindo facilidades de comunicação, alimentação e, quando necessário, acomodação e traslado. No caso em tela, a parte autora permaneceu sem qualquer assistência durante o longo período de espera.",
+    "d1.1": "A ausência de assistência por parte da ré ultrapassa o simples inadimplemento contratual, configurando infração administrativa e, sobretudo, gerando o dever de indenizar os prejuízos experimentados pelo consumidor. Conforme ensina Carlos Roberto Gonçalves, o dano moral pode decorrer exclusivamente do descumprimento do dever de assistência, diante da frustração e do sofrimento inevitavelmente causados ao passageiro.",
+    "d1.2": "Ao descumprir a regulamentação da ANAC, a ré infringe não só a legislação de proteção ao consumidor, mas também princípios fundamentais relacionados à dignidade da pessoa humana, deixando o passageiro em situação de vulnerabilidade sem qualquer apoio.",
+    "d2.0": "É indiscutível que, em razão do atraso e da falta de assistência, a parte autora teve que arcar com despesas não planejadas, as quais, à luz do artigo 402 do Código Civil, devem ser totalmente ressarcidas. Estes gastos caracterizam dano material direto, fazendo jus à recomposição do patrimônio lesado.",
+    "d2.1": "Nos termos do entendimento de Maria Helena Diniz, bastando a comprovação do nexo causal entre a conduta ilícita e o prejuízo, os danos materiais devem ser integralmente indenizados, o que é confirmado pelos documentos juntados a estes autos.",
+    "d2.2": "Logo, deve a ré ser condenada ao pagamento de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO}), a título de indenização pelos gastos extraordinários suportados em virtude do inadimplemento contratual e da deficiência na prestação do serviço.",
+    "d3.0": "No que se refere aos danos morais, destaca-se que o sofrimento, a angústia, a frustração e o constrangimento vivenciados pela parte autora em decorrência do atraso injustificado do voo e da ausência de assistência material são manifestos. A doutrina de Silvio de Salvo Venosa corrobora que o dano moral independe de comprovação do prejuízo, bastando a demonstração do fato e do nexo causal.",
+    "d3.1": "O Superior Tribunal de Justiça já firmou entendimento no sentido de que o descumprimento das normas de assistência em casos de atraso de voo constitui, por si só, violação à esfera extrapatrimonial do consumidor, ensejando o dever de indenizar. Assim, é de rigor a condenação da ré ao pagamento de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), como compensação pelos danos morais experimentados.",
+    "d4.0": "Cumpre ressaltar que a ré, em nenhum momento, apresentou justificativa plausível para o atraso do voo ou para a omissão na assistência, inexistindo qualquer elemento que configure caso fortuito externo ou força maior, sendo estes os únicos excludentes aceitos pela legislação e pela jurisprudência para afastar a responsabilidade objetiva do transportador.",
+    "d4.1": "Diante disso, inexiste qualquer impedimento ao acolhimento dos pedidos formulados, devendo ser plenamente reconhecido o direito da parte autora à reparação pelos danos materiais e morais sofridos, tendo em vista a evidente falha na prestação do serviço, em desrespeito à boa-fé contratual e à confiança legitimamente depositada pelo consumidor.",
+    "p0": "a condenação da ré ao ressarcimento integral das despesas extraordinárias comprovadas, no valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO}), em razão do atraso e da ausência de assistência material",
+    "p1": "a condenação da ré ao pagamento de indenização pelos danos morais no montante de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), diante do sofrimento, frustração e abalo psicológico experimentados pela parte autora",
+    "p2": "a condenação da ré à incidência de correção monetária e juros legais sobre os valores das indenizações, a partir da data do evento danoso ({DATA_FATO}), conforme previsão legal",
+    "p3": "a condenação da ré ao pagamento das custas processuais e honorários advocatícios, nos termos da legislação vigente",
+    "p4": "a citação da ré, no endereço {REU_ENDERECO}, para que, querendo, apresente defesa, sob pena de revelia e confissão quanto à matéria de fato",
+    "p5": "a produção de todas as provas em direito admitidas, especialmente documental, testemunhal e, caso necessário, pericial",
+    "p6": "a intimação da ré para que apresente em juízo todos os documentos referentes ao voo {VOO_NUMERO}, realizado em {DATA_FATO}, bem como eventuais comunicados internos acerca do atraso e das medidas de assistência adotadas",
+    "p7": "a condenação da ré a apresentar, em juízo, justificativa formal sobre o atraso do voo e relatório detalhado da assistência material eventualmente prestada",
+    "p8": "a expedição de ofício à ANAC para que informe acerca de eventuais registros de reclamação e procedimentos de fiscalização relativos ao voo {VOO_NUMERO} na data de {DATA_FATO}",
+    "p9": "a condenação da ré ao cumprimento das obrigações de fazer e não fazer, consistentes na observância das normas de assistência material aos passageiros em situações de atraso futuro, sob pena de imposição de multa diária"
+  },
+  "extras": [
+    {
+      "secao_alvo": "fatos",
+      "texto": "Destaca-se que a parte autora, durante a permanência forçada no aeroporto, teve sua rotina pessoal e profissional severamente prejudicada, impossibilitando o desempenho de atividades previamente programadas e ocasionando transtornos irreparáveis."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "Enfatiza-se que mesmo após a constatação do atraso, a parte autora buscou, sem sucesso, obter informações claras e precisas junto aos funcionários da ré, tendo sido submetida a longas filas e atendimentos insatisfatórios."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "Ademais, o quadro de estresse vivenciado pela parte autora foi agravado pela ausência de local adequado para descanso, sendo obrigada a permanecer em condições desconfortáveis, sem acesso a áreas reservadas ou prioritárias."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "O artigo 6º, inciso VI, do Código de Defesa do Consumidor, assegura ao consumidor a efetiva prevenção e reparação de danos patrimoniais e morais, fundamento que ampara os pedidos ora formulados."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "A Súmula 297 do Superior Tribunal de Justiça estabelece que o Código de Defesa do Consumidor é aplicável às relações entre passageiros e companhias aéreas, reforçando a incidência da responsabilidade objetiva no presente caso."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "Os princípios da boa-fé objetiva e da confiança, que norteiam as relações de consumo, foram flagrantemente violados pela conduta omissiva da ré, o que acarreta a obrigação de reparar integralmente os danos."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "Seja concedido à parte autora o benefício da prioridade na tramitação do feito, caso comprovada a condição de pessoa idosa ou portadora de doença grave, nos termos da legislação vigente."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "Requer-se a condenação da ré à divulgação, em seu sítio eletrônico, de informações claras e atualizadas sobre os direitos dos passageiros em caso de atraso ou cancelamento de voos, como medida preventiva e educativa."
+    }
+  ]
+}

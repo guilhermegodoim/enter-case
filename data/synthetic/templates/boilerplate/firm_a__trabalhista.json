@@ -1,0 +1,49 @@
+{
+  "enderecamento": "Excelentíssimo(a) Senhor(a) Doutor(a) Juiz(a) da {VARA} da Justiça do Trabalho de {COMARCA}.",
+  "qualificacao": "I - DAS PARTES. A parte autora, {AUTOR_NOME}, pessoa {AUTOR_QUALIFICACAO}, portadora do CPF nº {AUTOR_CPF} e do RG nº {AUTOR_RG}, residente e domiciliada à {AUTOR_ENDERECO}, endereço eletrônico {AUTOR_EMAIL}, por intermédio de seu advogado regularmente constituído, {ADVOGADO_NOME}, vem, com o devido respeito e acatamento, à presença de Vossa Excelência propor a presente {NOME_ACAO} em face de {REU_NOME}, pessoa jurídica inscrita no CNPJ sob o nº {REU_CNPJ}, com sede à {REU_ENDERECO}, pelas razões de fato e de direito a seguir expostas, esperando, ab initio, que a justiça se faça em sua máxima extensão, em consonância com os princípios que regem o Direito do Trabalho e com o elevado entendimento dos tribunais pátrios.",
+  "gratuidade": {
+    "titulo": "II - DA JUSTIÇA GRATUITA",
+    "paragrafos": [
+      "A parte autora, ora reclamante, encontra-se em situação de hipossuficiência econômica, não dispondo de recursos próprios suficientes para arcar com as custas processuais e honorários advocatícios sem prejuízo de seu sustento e de sua família, motivo pelo qual, data venia, faz jus à concessão dos benefícios da justiça gratuita, nos termos do artigo 790, § 3º, da CLT, combinado com o artigo 5º, inciso LXXIV, da Constituição Federal. Tal prerrogativa é assegurada ao trabalhador, parte vulnerável da relação jurídica, cuja subsistência não pode ser comprometida pelo simples exercício do direito de ação.",
+      "Ressalta-se, in casu, que a declaração de hipossuficiência firmada por esta parte autora goza de presunção de veracidade, nos moldes da Súmula 463 do Tribunal Superior do Trabalho, não cabendo qualquer exigência de comprovação adicional, salvo impugnação fundamentada por parte da reclamada, o que, de todo modo, não se vislumbra no presente feito. Assim, requer-se seja deferida, ab initio, a justiça gratuita, garantindo-se à parte reclamante o amplo acesso ao Judiciário, princípio basilar do Estado Democrático de Direito, conforme bem observa Maurício Godinho Delgado em sua doutrina."
+    ]
+  },
+  "aplicabilidade": [
+    {
+      "titulo": "III - DA APLICAÇÃO DOS PRINCÍPIOS PROTETIVOS DO DIREITO DO TRABALHO",
+      "paragrafos": [
+        "É cediço que a relação de emprego é permeada por manifesta desigualdade entre as partes, razão pela qual o Direito do Trabalho, desde sua gênese, ampara-se nos princípios da proteção, da primazia da realidade e da continuidade da relação empregatícia, conforme leciona Valentin Carrion. Tais princípios visam restabelecer o equilíbrio material entre empregado e empregador, atribuindo à parte hipossuficiente a necessária tutela jurídica, o que se impõe, in casu, ante a natureza alimentar dos créditos trabalhistas. Destaca-se, data venia, que a aplicação destes princípios é de rigor, notadamente diante da reiterada jurisprudência do Tribunal Superior do Trabalho, que orienta a interpretação das normas sempre em favor da parte mais fraca da relação.",
+        "Outrossim, a hermenêutica trabalhista, ab initio, orienta-se pela máxima eficácia das normas protetivas, não se admitindo interpretações restritivas em detrimento do trabalhador, como também aduz Alice Monteiro de Barros. Assim, pugna-se para que o presente feito seja analisado sob a égide dos princípios que norteiam o Direito do Trabalho, garantindo-se a efetividade dos direitos assegurados constitucional e infraconstitucionalmente, em consonância com a dignidade da pessoa humana e os valores sociais do trabalho."
+      ]
+    },
+    {
+      "titulo": "IV - DO ÔNUS DA PROVA E DOCUMENTOS (SÚMULA 338 DO TST)",
+      "paragrafos": [
+        "Na seara trabalhista, incumbe ao empregador a guarda e apresentação dos documentos relativos à relação de emprego, sendo-lhe atribuído o ônus da prova quanto à regularidade do contrato e à quitação das obrigações trabalhistas, ex vi do artigo 818 da CLT e artigo 373, inciso II, do CPC, além da Súmula 338 do TST. Caso o empregador não apresente os cartões de ponto, recibos de pagamento ou quaisquer outros documentos essenciais ao deslinde da controvérsia, presume-se verdadeira a jornada e a alegação trazidas pela parte autora, ressalvando-se o entendimento consolidado pelo Tribunal Superior do Trabalho.",
+        "Assim, requer-se, desde já, que seja determinada à reclamada a apresentação de todos os documentos pertinentes à relação de emprego, sob pena de confissão e inversão do ônus da prova, nos termos da legislação vigente e da reiterada jurisprudência pátria, garantindo-se a efetividade da prestação jurisdicional e a observância do devido processo legal, princípio reitor do ordenamento jurídico brasileiro, conforme manifesta Sergio Pinto Martins em sua obra de referência."
+      ]
+    },
+    {
+      "titulo": "V - DOS HONORÁRIOS SUCUMBENCIAIS, CORREÇÃO MONETÁRIA E JUROS",
+      "paragrafos": [
+        "Nos moldes do artigo 791-A da CLT, introduzido pela Lei nº 13.467/2017, a parte autora faz jus ao recebimento de honorários sucumbenciais, fixados entre o mínimo de 5% e o máximo de 15% sobre o valor que resultar da liquidação da sentença, considerando-se o zelo profissional do patrono e a complexidade da demanda, como orienta Maurício Godinho Delgado em seus ensinamentos. Requer-se, portanto, a condenação da reclamada ao pagamento dos honorários advocatícios sucumbenciais, em observância ao princípio da causalidade.",
+        "No que tange à atualização dos créditos laborais, impende salientar que a correção monetária deverá ser aplicada na forma da Súmula 381 do TST, incidindo a partir do vencimento de cada obrigação, enquanto os juros de mora deverão ser calculados à razão de 1% ao mês, pro rata die, nos termos do artigo 39, § 1º, da Lei nº 8.177/91. Tal entendimento visa preservar o valor real do crédito trabalhista, de natureza eminentemente alimentar, evitando-se o enriquecimento sem causa da parte inadimplente, princípio consagrado, ab initio, pela doutrina majoritária e pela reiterada jurisprudência dos tribunais superiores."
+      ]
+    }
+  ],
+  "pedidos_gerais": [
+    "A citação da reclamada, {REU_NOME}, no endereço {REU_ENDERECO}, para, querendo, apresentar defesa, sob pena de revelia e confissão quanto à matéria de fato.",
+    "A produção de todas as provas em direito admitidas, especialmente documental, testemunhal e depoimento pessoal da reclamada, sob pena de confissão.",
+    "A concessão dos benefícios da justiça gratuita, diante da hipossuficiência da parte autora, nos termos dos artigos 790, § 3º, e 791-A, § 4º, ambos da CLT.",
+    "A condenação da reclamada ao pagamento dos honorários advocatícios sucumbenciais, na forma do artigo 791-A da CLT.",
+    "A aplicação da correção monetária e dos juros de mora desde o vencimento das obrigações, na forma da legislação vigente.",
+    "A intimação do advogado da parte autora, {ADVOGADO_NOME}, para todos os atos e termos do processo, inclusive para recebimento de eventuais valores."
+  ],
+  "fecho": [
+    "Dá-se à causa o valor de {VALOR_CAUSA} ({VALOR_CAUSA_EXTENSO}), para todos os efeitos legais.",
+    "Nestes termos, pede deferimento.",
+    "{COMARCA}, {DATA_PETICAO}.",
+    "{ADVOGADO_NOME}",
+    "OAB {ADVOGADO_OAB}"
+  ]
+}

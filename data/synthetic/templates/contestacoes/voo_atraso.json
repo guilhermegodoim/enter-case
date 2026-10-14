@@ -1,0 +1,86 @@
+{
+  "enderecamento": "Excelentíssimo(a) Senhor(a) Doutor(a) Juiz(a) de Direito da {VARA} da Comarca de {COMARCA}, referente ao processo nº {PROCESSO_NUMERO}.",
+  "qualificacao": "{REU_NOME}, inscrita no CNPJ sob o nº {REU_CNPJ}, com sede à {REU_ENDERECO}, por intermédio de seu advogado infra-assinado, {REU_ADVOGADO_NOME}, vem, respeitosamente, apresentar contestação à ação movida por {AUTOR_NOME}.",
+  "sintese": [
+    "A parte autora ajuizou a presente demanda alegando que adquiriu passagem aérea junto à empresa ré para o trecho {VOO_ORIGEM} – {VOO_DESTINO}, identificado pelo voo nº {VOO_NUMERO}, com reserva sob o código {CODIGO_RESERVA}.",
+    "Afirma que, na data de {DATA_FATO}, houve atraso de {HORAS_ATRASO} horas na chegada ao destino, sem que lhe fosse prestada a devida assistência material prevista na Resolução ANAC 400/2016.",
+    "Alega que, em razão do atraso, sofreu perda de compromisso previamente agendado e teve gastos extras, pleiteando indenização por danos materiais no valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO}) e danos morais no valor de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}).",
+    "Sustenta a responsabilidade objetiva da transportadora, amparando-se nos artigos 14 do Código de Defesa do Consumidor e 737 do Código Civil, e afirma que não houve justificativa adequada para o atraso.",
+    "Ao final, requer a condenação da ré ao pagamento das indenizações pleiteadas, acrescidas de correção monetária e juros, além das demais cominações legais."
+  ],
+  "preliminares": [
+    {
+      "titulo": "Ilegitimidade passiva",
+      "paragrafos": [
+        "Caso se constate que o atraso narrado decorreu de ato imputável a empresa distinta daquela que emitiu o bilhete ou operou o voo em questão, impugna-se, por cautela, a legitimidade passiva da ora contestante, requerendo-se a exclusão da lide, nos termos do art. 485, VI, do CPC.",
+        "A ré destaca que eventuais responsabilidades por execução do serviço de transporte, especialmente em casos de codeshare, devem ser atribuídas à efetiva transportadora, caso diversa daquela indicada na inicial."
+      ]
+    },
+    {
+      "titulo": "Impugnação ao pedido de gratuidade de justiça",
+      "paragrafos": [
+        "A empresa ré impugna expressamente o pedido de justiça gratuita formulado por {AUTOR_NOME}, por não haver nos autos comprovação suficiente da alegada hipossuficiência financeira, nos termos do art. 99, § 2º, do CPC.",
+        "Requer, assim, que eventual concessão do benefício seja revogada ou, subsidiariamente, que a parte autora seja instada a comprovar documentalmente a real impossibilidade de arcar com as custas processuais."
+      ]
+    }
+  ],
+  "merito": [
+    {
+      "titulo": "Ausência de falha na prestação do serviço",
+      "paragrafos": [
+        "Não houve falha na prestação do serviço por parte da empresa ré. O atraso no voo nº {VOO_NUMERO}, operado na data de {DATA_FATO}, decorreu de circunstâncias alheias à atuação da companhia, sendo motivado por fatores operacionais e de segurança, conforme será demonstrado em sede de instrução processual.",
+        "Cabe salientar que a transportadora adota todas as medidas necessárias para garantir a regularidade de seus voos, aplicando rigorosamente as normas técnicas e operacionais previstas pela ANAC e demais órgãos reguladores."
+      ]
+    },
+    {
+      "titulo": "Assistência material devidamente prestada",
+      "paragrafos": [
+        "Ao contrário do alegado, a empresa ré forneceu a assistência material cabível, nos termos da Resolução ANAC 400/2016. A parte autora foi devidamente informada sobre o atraso e recebeu os auxílios correspondentes ao tempo de espera, conforme registros disponíveis e documentos anexos.",
+        "Caso haja divergência quanto à prestação ou não da assistência, a ré requer expressamente a produção de prova documental e testemunhal para comprovar o cumprimento integral das obrigações regulamentares."
+      ]
+    },
+    {
+      "titulo": "Excludente de responsabilidade",
+      "paragrafos": [
+        "A responsabilidade da transportadora aérea, embora objetiva, comporta excludentes, especialmente quando o evento decorre de força maior, caso fortuito ou de terceiros, conforme art. 14, § 3º, II, do CDC e art. 737 do CC. No caso dos autos, o atraso foi provocado por fatores excepcionais, alheios à vontade da empresa ré, o que afasta o dever de indenizar.",
+        "É necessário que reste comprovada a conduta culposa da ré para a configuração da obrigação de indenizar, o que não se verifica na hipótese em análise."
+      ]
+    },
+    {
+      "titulo": "Inexistência de danos materiais comprovados",
+      "paragrafos": [
+        "A parte autora não logrou demonstrar a efetiva ocorrência de prejuízo material decorrente do alegado atraso. Os supostos gastos extras e perda de compromisso não foram comprovados nos autos, sendo ônus do autor, nos termos do art. 373, I, do CPC.",
+        "Assim, não há que se falar em condenação ao pagamento de danos materiais, por ausência de nexo causal e inexistência de prova idônea."
+      ]
+    },
+    {
+      "titulo": "Inadequação do pedido de danos morais",
+      "paragrafos": [
+        "O mero atraso no voo, por si só, não é causa suficiente para ensejar indenização por danos morais, salvo se demonstrado efetivo abalo psíquico ou violação de direitos da personalidade, o que não restou configurado.",
+        "A jurisprudência pátria, inclusive dos tribunais superiores, tem entendido que situações cotidianas, como pequenos atrasos, não geram, automaticamente, direito à compensação moral, especialmente quando prestada a devida assistência ao passageiro."
+      ]
+    },
+    {
+      "titulo": "Subsidiariedade dos pedidos e eventual minoração dos valores",
+      "paragrafos": [
+        "Na remota hipótese de eventual condenação, requer-se, subsidiariamente, que os valores de eventuais indenizações sejam fixados em patamar módico e razoável, em atenção aos princípios da razoabilidade, proporcionalidade e vedação ao enriquecimento sem causa.",
+        "Solicita-se ainda que as indenizações, se devidas, sejam limitadas ao efetivamente comprovado, afastando-se valores exorbitantes e sem lastro probatório."
+      ]
+    }
+  ],
+  "pedidos": [
+    "O recebimento da presente contestação, com a total improcedência dos pedidos formulados pela parte autora.",
+    "O reconhecimento da ilegitimidade passiva, com a consequente exclusão da empresa ré do polo passivo, caso cabível.",
+    "A revogação ou indeferimento do benefício de gratuidade de justiça, salvo comprovação idônea da hipossuficiência.",
+    "Subsidiariamente, em caso de eventual condenação, que os valores de danos materiais e morais sejam fixados com moderação, em respeito aos princípios da razoabilidade e proporcionalidade.",
+    "A produção de todas as provas admitidas em direito, em especial documental e testemunhal.",
+    "A condenação da parte autora ao pagamento de custas e honorários advocatícios, nos termos da lei.",
+    "A intimação da parte autora para que se manifeste sobre todos os documentos ora juntados."
+  ],
+  "fecho": [
+    "Nestes termos, pede deferimento.",
+    "{COMARCA}, {DATA_PETICAO}.",
+    "{REU_ADVOGADO_NOME}",
+    "OAB {REU_ADVOGADO_OAB}"
+  ]
+}

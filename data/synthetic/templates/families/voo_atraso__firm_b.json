@@ -1,0 +1,149 @@
+{
+  "tese": "voo_atraso",
+  "firm": "firm_b",
+  "especifico": {
+    "fatos": [
+      "Em {DATA_FATO}, a parte autora embarcou no voo {VOO_NUMERO}, partindo de {VOO_ORIGEM} com destino final em {VOO_DESTINO}, conforme comprovante de reserva {CODIGO_RESERVA}.",
+      "O serviço foi contratado junto à empresa {REU_NOME}, responsável pelo transporte aéreo, com expectativa de chegada ao destino no horário previamente estipulado.",
+      "No entanto, o voo sofreu significativo atraso de {HORAS_ATRASO} horas na chegada ao destino final, sem qualquer justificativa plausível apresentada pela companhia aérea.",
+      "Durante o período de espera, não foi fornecida assistência material adequada, conforme determina a Resolução ANAC 400/2016, deixando a parte autora sem alimentação, comunicação ou acomodação adequada.",
+      "A falha na prestação de serviço obrigou a parte autora a arcar com despesas imprevistas, como alimentação e transporte, gerando prejuízo financeiro comprovado.",
+      "Além dos danos materiais, a parte autora perdeu compromisso relevante previamente agendado em {VOO_DESTINO}, causando transtornos pessoais e profissionais.",
+      "A conduta da ré evidenciou total descaso com os direitos do consumidor, agravando a experiência negativa vivenciada pela parte autora.",
+      "A ausência de informações claras e suporte durante o atraso contribuiu para aumentar o desconforto e a sensação de desamparo da parte autora.",
+      "O evento resultou em abalo moral significativo, ultrapassando o mero dissabor cotidiano, dada a frustração de legítimas expectativas e o prejuízo pessoal.",
+      "A parte autora buscou solução administrativa junto à companhia aérea, porém não obteve resposta satisfatória, restando necessário recorrer ao Judiciário para reparação dos danos sofridos."
+    ],
+    "direito": [
+      {
+        "titulo": "RESPONSABILIDADE OBJETIVA DO TRANSPORTADOR",
+        "paragrafos": [
+          "Nos termos do art. 14 do Código de Defesa do Consumidor, o fornecedor de serviços responde objetivamente pelos danos causados aos consumidores, independentemente de culpa.",
+          "O artigo 737 do Código Civil reforça o dever da transportadora de conduzir o passageiro incólume ao destino, respondendo por perdas e danos decorrentes de falha na execução do contrato.",
+          "A jurisprudência é pacífica quanto à responsabilidade objetiva das companhias aéreas por atrasos e prejuízos causados ao consumidor.",
+          "No caso concreto, restou demonstrada a falha na prestação de serviço, ensejando o dever de indenizar."
+        ]
+      },
+      {
+        "titulo": "VIOLAÇÃO À RESOLUÇÃO ANAC 400/2016",
+        "paragrafos": [
+          "A Resolução ANAC 400/2016 disciplina os direitos dos passageiros em situações de atraso de voo, estabelecendo a obrigação de prestar assistência material proporcional ao tempo de espera.",
+          "O descumprimento dessa obrigação caracteriza ilícito administrativo e reforça o dever de reparar os danos causados ao consumidor.",
+          "No caso, a ausência de alimentação, comunicação e acomodação evidencia o descaso da ré com a legislação regulatória.",
+          "Tal conduta agrava o sofrimento do passageiro e enseja reparação específica, conforme precedentes dos tribunais brasileiros."
+        ]
+      },
+      {
+        "titulo": "DANOS MATERIAIS COMPROVADOS",
+        "paragrafos": [
+          "Os gastos extraordinários realizados pela parte autora em decorrência do atraso, como alimentação e transporte, são comprovados por documentação anexada aos autos.",
+          "Estes valores devem ser ressarcidos integralmente, pois decorrem diretamente da falha da ré em prestar o serviço contratado de forma adequada.",
+          "A responsabilidade pelo ressarcimento é objetiva, não havendo excludente aplicável no caso concreto.",
+          "O reembolso desses valores é medida que se impõe para recompor o patrimônio da parte lesada."
+        ]
+      },
+      {
+        "titulo": "DANOS MORAIS DECORRENTES DO ATRASO",
+        "paragrafos": [
+          "O atraso prolongado, aliado à ausência de assistência e à perda de compromisso relevante, gerou abalo psicológico e transtornos que ultrapassam o mero aborrecimento.",
+          "A responsabilidade objetiva da ré alcança também os danos morais, conforme entendimento consolidado do STJ.",
+          "A condenação ao pagamento de indenização por dano moral tem caráter compensatório e pedagógico, desestimulando práticas semelhantes.",
+          "O valor pleiteado é proporcional à gravidade dos fatos e à extensão do dano experimentado."
+        ]
+      },
+      {
+        "titulo": "APLICAÇÃO DO CDC E PROTEÇÃO DO CONSUMIDOR",
+        "paragrafos": [
+          "A relação jurídica entre as partes é nitidamente de consumo, sendo aplicáveis as normas protetivas do Código de Defesa do Consumidor.",
+          "O CDC assegura ao consumidor a reparação integral pelos danos materiais e morais sofridos em virtude de falha na prestação do serviço.",
+          "A inversão do ônus da prova é medida adequada diante da hipossuficiência da parte autora e da verossimilhança das alegações.",
+          "O Judiciário tem reconhecido o direito do passageiro à indenização nessas hipóteses, reforçando a necessidade de proteção do consumidor."
+        ]
+      }
+    ],
+    "pedidos": [
+      "a) A citação do réu {REU_NOME}, no endereço {REU_ENDERECO}, para apresentar defesa, sob pena de revelia.",
+      "b) A condenação do réu ao pagamento de danos materiais no valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO}), correspondentes às despesas comprovadas com alimentação, transporte e outros gastos decorrentes do atraso.",
+      "c) A condenação do réu ao pagamento de indenização por danos morais no valor de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), em razão do abalo psicológico e dos transtornos causados.",
+      "d) A inversão do ônus da prova, nos termos do art. 6º, VIII, do CDC, diante da hipossuficiência da parte autora.",
+      "e) A condenação do réu a apresentar todos os documentos relativos ao voo {VOO_NUMERO}, especialmente registros de atraso e comunicação aos passageiros.",
+      "f) O reconhecimento da responsabilidade objetiva do réu, com fundamento no art. 14 do CDC e art. 737 do Código Civil.",
+      "g) A aplicação da Resolução ANAC 400/2016 para fins de apuração dos direitos violados.",
+      "h) A condenação do réu ao pagamento das custas processuais e honorários advocatícios."
+    ]
+  },
+  "parafrases": {
+    "f0": "Na data de {DATA_FATO}, a parte autora realizou o embarque no voo {VOO_NUMERO}, saindo de {VOO_ORIGEM} e tendo como destino final {VOO_DESTINO}, conforme demonstra o comprovante de reserva de número {CODIGO_RESERVA}.",
+    "f1": "O transporte aéreo foi contratado diretamente com a empresa {REU_NOME}, que assumiu a obrigação de entregar a parte autora ao destino na hora previamente acordada.",
+    "f2": "Todavia, houve um atraso expressivo de {HORAS_ATRASO} horas na chegada ao destino final, sem que a companhia aérea apresentasse justificativa razoável para tal ocorrência.",
+    "f3": "Durante todo o tempo de espera, a parte autora não recebeu a assistência material devida conforme prevê a Resolução ANAC 400/2016, ficando desamparada quanto a alimentação, meios de comunicação e acomodação apropriada.",
+    "f4": "Devido à má prestação dos serviços, a parte autora precisou suportar despesas inesperadas com alimentação e transporte, as quais resultaram em prejuízo financeiro comprovado.",
+    "f5": "Além das perdas financeiras, a parte autora deixou de comparecer a compromisso importante previamente marcado em {VOO_DESTINO}, o que lhe ocasionou transtornos tanto pessoais quanto profissionais.",
+    "f6": "A conduta adotada pela ré demonstrou evidente desatenção aos direitos do consumidor, contribuindo para intensificar a experiência negativa vivida pela parte autora.",
+    "f7": "A falta de informações precisas e de suporte durante o atraso agravou o desconforto e a sensação de abandono experimentados pela parte autora.",
+    "f8": "Tal situação culminou em significativo abalo moral, extrapolando o mero dissabor cotidiano, diante da frustração de expectativas legítimas e do prejuízo pessoal sofrido.",
+    "f9": "A parte autora tentou resolver a questão diretamente com a companhia aérea por meio de canais administrativos, mas não obteve resposta satisfatória, tornando necessária a busca pela tutela jurisdicional para obter a reparação dos danos.",
+    "d0.0": "Nos termos do artigo 14 do Código de Defesa do Consumidor, o prestador de serviços responde de forma objetiva pelos prejuízos causados ao consumidor, independentemente de existência de culpa.",
+    "d0.1": "Conforme dispõe o artigo 737 do Código Civil, a transportadora tem o dever legal de conduzir o passageiro ileso ao destino contratado, respondendo por perdas e danos em caso de falha no serviço.",
+    "d0.2": "A jurisprudência consolidou o entendimento de que as companhias aéreas são responsáveis objetivamente por atrasos e pelos prejuízos causados aos consumidores.",
+    "d0.3": "Neste caso específico, ficou comprovada a inadequação na prestação do serviço, o que gera o dever de indenizar.",
+    "d1.0": "A Resolução ANAC 400/2016 regulamenta os direitos dos passageiros em situações de atraso de voo, determinando que a assistência material seja oferecida de acordo com o tempo de espera.",
+    "d1.1": "O descumprimento de tal obrigação representa infração administrativa e reforça o dever de indenizar o consumidor pelos danos acarretados.",
+    "d1.2": "No presente caso, a ausência de fornecimento de alimentação, comunicação e acomodação comprova o descaso da ré em relação à legislação específica do setor.",
+    "d1.3": "Essa postura da companhia ré agrava o sofrimento do consumidor, ensejando a necessidade de reparação específica, conforme reconhecido em decisões dos tribunais brasileiros.",
+    "d2.0": "As despesas extraordinárias suportadas pela parte autora em razão do atraso, como alimentação e transporte, estão devidamente comprovadas por meio dos documentos anexados aos autos.",
+    "d2.1": "Tais valores devem ser ressarcidos integralmente à parte autora, pois resultam diretamente da ineficácia do serviço prestado pela ré.",
+    "d2.2": "A responsabilidade pela restituição desses valores é de natureza objetiva, não existindo excludente aplicável ao caso em questão.",
+    "d2.3": "A restituição dos valores despendidos é medida necessária para reparar devidamente o patrimônio da parte autora.",
+    "d3.0": "O atraso excessivo, somado à falta de assistência e ao prejuízo de compromisso relevante, causou abalo psicológico e transtornos que vão além de mero aborrecimento.",
+    "d3.1": "A responsabilidade da parte ré, que é objetiva, abrange também o dano moral, como já pacificado pelo Superior Tribunal de Justiça.",
+    "d3.2": "A indenização por dano moral, além de compensar o lesado, possui caráter pedagógico, visando desestimular condutas semelhantes por parte da ré.",
+    "d3.3": "O valor solicitado a título de dano moral se mostra adequado à gravidade dos fatos e à extensão do prejuízo experimentado pela parte autora.",
+    "d4.0": "A relação entre as partes é claramente de consumo, aplicando-se, portanto, as normas protetivas do Código de Defesa do Consumidor.",
+    "d4.1": "O Código de Defesa do Consumidor garante ao consumidor o direito à reparação integral dos danos materiais e morais em razão de falha na prestação dos serviços.",
+    "d4.2": "Diante da hipossuficiência da parte autora e da plausibilidade das alegações, faz-se pertinente a inversão do ônus da prova.",
+    "d4.3": "O Poder Judiciário tem reiteradamente reconhecido o direito à indenização do passageiro em situações análogas, reafirmando a proteção do consumidor.",
+    "p0": "a) Que seja determinada a citação do réu {REU_NOME}, no endereço {REU_ENDERECO}, para que apresente defesa, sob pena de revelia e confissão.",
+    "p1": "b) Que o réu seja condenado ao pagamento dos danos materiais no valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO}), correspondentes às despesas comprovadas de alimentação, transporte e demais gastos em razão do atraso.",
+    "p2": "c) Que seja fixada condenação do réu ao pagamento de indenização por danos morais no valor de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), diante do abalo psicológico e transtornos ocasionados.",
+    "p3": "d) A concessão da inversão do ônus da prova, nos moldes do art. 6º, inciso VIII, do Código de Defesa do Consumidor, considerando a hipossuficiência da parte autora.",
+    "p4": "e) Que o réu seja compelido a apresentar todos os documentos relativos ao voo {VOO_NUMERO}, em especial os registros do atraso e as comunicações realizadas aos passageiros.",
+    "p5": "f) O reconhecimento da responsabilidade objetiva da ré, com fundamento no artigo 14 do Código de Defesa do Consumidor e artigo 737 do Código Civil.",
+    "p6": "g) A aplicação dos dispositivos da Resolução ANAC 400/2016 para apuração e reparação dos direitos violados.",
+    "p7": "h) A condenação do réu ao pagamento das custas processuais, bem como dos honorários advocatícios."
+  },
+  "extras": [
+    {
+      "secao_alvo": "fatos",
+      "texto": "A parte autora compareceu ao aeroporto com a devida antecedência e cumpriu todas as exigências estabelecidas pela companhia aérea para o embarque no voo {VOO_NUMERO}."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "Houve alteração reiterada nos horários de embarque informados pela ré, o que gerou ainda mais insegurança e ansiedade à parte autora durante a espera."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "Em razão do atraso, outros passageiros também manifestaram insatisfação e buscaram esclarecimentos junto aos funcionários da companhia, sem sucesso."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "O artigo 20 do Código de Defesa do Consumidor também prevê a responsabilidade do fornecedor de serviços pela adequada prestação, reforçando o dever de indenizar diante da inexecução ou execução defeituosa."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "O entendimento consolidado nos tribunais superiores é de que o dano moral em casos de atraso de voo é presumido, dispensando a demonstração de prejuízo extrapatrimonial específico."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "A jurisprudência reconhece que o descumprimento das normas da ANAC enseja, por si só, a obrigação de reparação, independentemente de demonstração de dolo ou culpa."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "i) Que seja oficiada a Agência Nacional de Aviação Civil (ANAC) para que informe eventuais ocorrências registradas referentes ao voo {VOO_NUMERO} na data de {DATA_FATO}."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "j) A condenação do réu ao pagamento de juros e correção monetária sobre os valores devidos, a contar do evento danoso."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "tese": "cobranca_indevida",
+  "firm": "firm_b",
+  "especifico": {
+    "fatos": [
+      "A parte autora mantinha conta corrente junto à instituição financeira {REU_NOME}, identificada pelo contrato número {CONTRATO_NUMERO}. Desde {DATA_FATO}, a autora passou a perceber descontos mensais em seu extrato sem qualquer aviso prévio ou justificativa.",
+      "Os valores debitados referiam-se à cobrança de seguro e/ou pacote de serviços, sem que a parte autora tivesse solicitado, contratado ou sequer autorizado a contratação de tais produtos financeiros.",
+      "Em momento algum a autora recebeu informações claras sobre a natureza, valor ou periodicidade desses descontos, sendo surpreendida ao conferir os extratos bancários referentes à sua conta.",
+      "A autora procurou atendimento junto à agência da instituição {REU_NOME}, buscando esclarecimentos e o cancelamento imediato das cobranças. Apesar das tentativas, não foi apresentado qualquer contrato assinado ou gravação telefônica confirmando o aceite da autora.",
+      "Mesmo após reclamações formais, os descontos continuaram ocorrendo, gerando prejuízo financeiro recorrente e insegurança quanto à movimentação de sua própria conta corrente.",
+      "A autora sofreu não apenas prejuízo material, mas também constrangimento e abalo psicológico em razão da conduta da instituição, que falhou em prestar informações adequadas e violou a confiança essencial à relação bancária.",
+      "A ausência de transparência e de documento hábil demonstrando a contratação caracteriza falha grave no dever de informação, agravada pela repetição dos débitos mesmo após reclamações.",
+      "Os descontos indevidos totalizam o valor de {VALOR_DEBITO} ({VALOR_DEBITO_EXTENSO}), conforme comprovantes anexados, valor esse que jamais foi devido ou autorizado pela parte autora.",
+      "Diante da persistência da conduta ilícita, a autora não teve alternativa senão buscar o Judiciário para ver cessados os descontos, reconhecida a inexistência do débito e reparados os danos sofridos.",
+      "A conduta reiterada do réu viola o direito básico do consumidor de ser previamente informado sobre qualquer cobrança e de não ser compelido ao pagamento por serviço não solicitado.",
+      "A situação gerou transtornos significativos à autora, que se viu privada de parte de seus recursos financeiros e obrigada a despender tempo e energia para solucionar problema causado exclusivamente pela instituição."
+    ],
+    "direito": [
+      {
+        "titulo": "DA INEXISTÊNCIA DE CONTRATAÇÃO E DO DÉBITO",
+        "paragrafos": [
+          "A ausência de prova da contratação do seguro ou pacote de serviços impossibilita a cobrança dos valores descontados da conta da parte autora. O artigo 6º, inciso III, do Código de Defesa do Consumidor, assegura o direito à informação adequada e clara sobre os produtos e serviços contratados.",
+          "O banco réu não apresentou qualquer documento que comprove a anuência da autora, seja por assinatura de contrato, gravação de ligação telefônica ou outro meio idôneo. Diante disso, inexiste relação jurídica que justifique os descontos realizados.",
+          "A declaração de inexistência do débito é medida que se impõe, porquanto não há origem lícita para a cobrança contestada, sendo ela manifestamente indevida pela ausência de contratação."
+        ]
+      },
+      {
+        "titulo": "DA REPETIÇÃO DE INDÉBITO EM DOBRO",
+        "paragrafos": [
+          "O artigo 42, parágrafo único, do Código de Defesa do Consumidor, determina que o consumidor cobrado em quantia indevida tem direito à restituição em dobro do valor pago, salvo engano justificável.",
+          "Como não houve engano justificável, mas sim cobrança reiterada sem respaldo contratual, a autora faz jus à devolução em dobro do montante descontado, totalizando R$ {VALOR_DEBITO} ({VALOR_DEBITO_EXTENSO}) a ser restituído em dobro pelo réu.",
+          "A repetição de indébito possui caráter punitivo e visa desestimular práticas abusivas por parte das instituições financeiras, preservando os direitos do consumidor."
+        ]
+      },
+      {
+        "titulo": "DO DANO MORAL DECORRENTE DA CONDUTA ILÍCITA",
+        "paragrafos": [
+          "A cobrança indevida e a falha no dever de informação ultrapassam o mero aborrecimento, atingindo a esfera moral da parte autora, que se viu privada de recursos e submetida a constrangimento.",
+          "O dano moral, nesses casos, é presumido diante da ilicitude da conduta e da violação da confiança inerente à relação bancária, cabendo indenização compatível com a extensão do dano, conforme o valor postulado de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO})."
+        ]
+      },
+      {
+        "titulo": "DA INVERSÃO DO ÔNUS DA PROVA",
+        "paragrafos": [
+          "Nos termos do artigo 6º, inciso VIII, do CDC, caberá ao réu demonstrar a existência de contratação válida e a autorização da parte autora para os descontos realizados.",
+          "A vulnerabilidade do consumidor e a impossibilidade de produção de prova negativa justificam a inversão do ônus da prova em favor da autora, o que se requer desde já."
+        ]
+      },
+      {
+        "titulo": "DA RESPONSABILIDADE OBJETIVA DA INSTITUIÇÃO FINANCEIRA",
+        "paragrafos": [
+          "O artigo 14 do CDC prevê a responsabilidade objetiva do fornecedor de serviços por danos causados aos consumidores, independentemente de culpa.",
+          "A instituição ré responde pelos prejuízos decorrentes dos descontos indevidos e não pode transferir ao consumidor o risco de sua atividade, devendo arcar integralmente com os danos materiais e morais causados à autora."
+        ]
+      }
+    ],
+    "pedidos": [
+      "a) Seja declarada a inexistência do débito referente aos descontos realizados na conta corrente da autora, relativos a seguro/pacote de serviços, por ausência de contratação.",
+      "b) Que o réu seja condenado a restituir à autora, em dobro, os valores descontados indevidamente, no montante de {VALOR_DEBITO} ({VALOR_DEBITO_EXTENSO}), conforme artigo 42, parágrafo único, do CDC.",
+      "c) Que o réu seja condenado ao pagamento de indenização por danos morais, em valor não inferior a {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), em razão dos prejuízos e constrangimentos causados.",
+      "d) Que seja determinado o imediato cancelamento de qualquer contratação não autorizada de seguro ou pacote de serviços vinculados à conta da autora.",
+      "e) Que o réu apresente, caso possua, prova documental da contratação dos serviços cobrados, sob pena de confissão quanto à inexistência da relação jurídica.",
+      "f) Que seja determinada a inversão do ônus da prova, nos termos do artigo 6º, inciso VIII, do CDC.",
+      "g) Que o réu se abstenha de realizar novos descontos relacionados a serviços não contratados, sob pena de multa.",
+      "h) A condenação do réu ao pagamento de custas processuais e honorários advocatícios."
+    ]
+  },
+  "parafrases": {
+    "f0": "A parte autora possuía conta corrente junto à instituição financeira {REU_NOME}, sob o contrato de número {CONTRATO_NUMERO}. A partir de {DATA_FATO}, passou a notar descontos mensais em seu extrato bancário, sem qualquer comunicação prévia ou justificativa apresentada.",
+    "f1": "Os débitos lançados correspondiam à cobrança de seguro e/ou pacote de serviços, os quais não foram solicitados, contratados ou autorizados pela parte autora em qualquer oportunidade.",
+    "f2": "Em nenhuma ocasião a autora foi informada, de maneira clara, a respeito da natureza, valores ou frequência dos descontos, tendo sido surpreendida ao verificar os extratos da sua conta bancária.",
+    "f3": "Ao buscar esclarecimentos e solicitar o cancelamento dos débitos junto à agência de {REU_NOME}, a autora não obteve resposta satisfatória, tampouco recebeu qualquer contrato assinado ou registro de ligação que comprovasse sua autorização.",
+    "f4": "Mesmo após as reclamações formais apresentadas, os descontos persistiram, ocasionando recorrente prejuízo financeiro e insegurança quanto à movimentação da conta corrente da autora.",
+    "f5": "Além das perdas financeiras, a autora foi submetida a constrangimento e abalo psicológico, em razão da conduta da instituição que deixou de prestar informações adequadas e violou a confiança indispensável à relação de consumo bancária.",
+    "f6": "A inexistência de transparência e de documento idôneo que comprove a contratação configura séria falha no dever de informação, agravada pela continuidade dos débitos mesmo após reclamações.",
+    "f7": "Os descontos indevidos somam o montante de {VALOR_DEBITO} ({VALOR_DEBITO_EXTENSO}), conforme comprovado pelos documentos em anexo, montante este que não foi jamais devido ou autorizado pela parte autora.",
+    "f8": "Diante da manutenção da conduta ilícita pela instituição, a autora viu-se obrigada a recorrer ao Poder Judiciário para interromper os descontos, obter a declaração de inexistência do débito e buscar reparação pelos danos sofridos.",
+    "f9": "A reiterada conduta do réu afronta o direito essencial do consumidor de ser previamente informado sobre cobranças e de não ser obrigado ao pagamento de serviços não solicitados.",
+    "f10": "Tal situação trouxe à autora significativos transtornos, pois teve parte de seus recursos financeiros subtraída e precisou despender tempo e esforços para solucionar impasse causado exclusivamente pela instituição.",
+    "d0.0": "A cobrança dos valores descontados da parte autora é inadmissível, pois não há qualquer prova da contratação do seguro ou pacote de serviços. O artigo 6º, inciso III, do Código de Defesa do Consumidor, garante o direito à informação clara e adequada sobre produtos e serviços.",
+    "d0.1": "O réu não apresentou documento que demonstre anuência da autora, seja por assinatura, gravação telefônica ou qualquer outro meio idôneo. Assim, inexiste relação jurídica que justifique os descontos contestados.",
+    "d0.2": "É imprescindível a declaração de inexistência do débito, tendo em vista a ausência de base legítima para a cobrança, cuja origem é manifestamente indevida pela falta de contratação.",
+    "d1.0": "Nos termos do artigo 42, parágrafo único, do Código de Defesa do Consumidor, o consumidor cobrado indevidamente faz jus à devolução em dobro do valor pago, salvo quando houver engano justificável.",
+    "d1.1": "Não havendo engano justificável, mas sim cobrança reiterada sem base contratual, cabe à autora a restituição em dobro do valor descontado, totalizando R$ {VALOR_DEBITO} ({VALOR_DEBITO_EXTENSO}), a ser devolvido pelo réu.",
+    "d1.2": "A repetição do indébito possui caráter sancionador, visando coibir práticas abusivas de instituições financeiras e assegurar a efetividade dos direitos do consumidor.",
+    "d2.0": "A cobrança indevida, aliada à omissão no dever de informar, supera meros dissabores cotidianos e atinge a esfera moral da autora, que foi privada de recursos e exposta a constrangimentos.",
+    "d2.1": "Nessas hipóteses, o dano moral é presumido diante da ilicitude da conduta e do rompimento da confiança na relação bancária, justificando indenização compatível com a extensão dos prejuízos, conforme o valor de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}) postulado.",
+    "d3.0": "De acordo com o artigo 6º, inciso VIII, do CDC, cabe ao réu o ônus de demonstrar a existência de contratação válida e a autorização da autora para os descontos questionados.",
+    "d3.1": "A condição de vulnerabilidade do consumidor e a dificuldade de produzir prova negativa autorizam a inversão do ônus da prova em benefício da autora, o que desde já se requer.",
+    "d4.0": "O artigo 14 do CDC estabelece a responsabilidade objetiva do fornecedor pelos danos causados aos consumidores, independentemente de culpa, no âmbito da prestação de serviços.",
+    "d4.1": "A instituição ré deve responder integralmente pelos danos materiais e morais decorrentes dos descontos irregulares, não podendo transferir ao consumidor o risco inerente à sua atividade.",
+    "p0": "a) Seja reconhecida a inexistência do débito referente aos descontos efetuados na conta corrente da autora, relativos a seguro ou pacote de serviços, em virtude da não contratação.",
+    "p1": "b) Que o réu seja condenado a devolver em dobro à autora os valores descontados indevidamente, no importe de {VALOR_DEBITO} ({VALOR_DEBITO_EXTENSO}), conforme prevê o artigo 42, parágrafo único, do CDC.",
+    "p2": "c) Que o réu seja responsabilizado ao pagamento de indenização por danos morais, em valor não inferior a {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), em virtude dos prejuízos e constrangimentos sofridos.",
+    "p3": "d) Que seja determinado o cancelamento imediato de qualquer contratação não autorizada de seguro ou pacote de serviços vinculados à conta da autora.",
+    "p4": "e) Que o réu apresente, caso possua, prova documental da contratação dos serviços cobrados, sob pena de confissão quanto à inexistência da obrigação.",
+    "p5": "f) Que seja deferida a inversão do ônus da prova, nos termos do artigo 6º, inciso VIII, do CDC.",
+    "p6": "g) Que o réu seja compelido a abster-se de proceder novos descontos relativos a serviços não contratados, sob pena de imposição de multa.",
+    "p7": "h) A condenação do réu ao pagamento das custas processuais e honorários advocatícios."
+  },
+  "extras": [
+    {
+      "secao_alvo": "fatos",
+      "texto": "Ressalte-se que, em diversas oportunidades, a autora buscou solucionar o impasse por vias administrativas, inclusive por meio de contato telefônico e registro de protocolo junto ao serviço de atendimento ao consumidor de {REU_NOME}, sem obter êxito na resolução do problema."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "A conduta da instituição financeira {REU_NOME} afetou negativamente o planejamento financeiro da autora, comprometendo o pagamento de despesas essenciais e causando desorganização em seu orçamento mensal."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "Em nenhum momento foi disponibilizada à autora qualquer proposta formal, termo de adesão ou documento que pudesse indicar ciência ou anuência quanto à contratação de seguro ou pacote de serviços."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "A Súmula 297 do STJ reconhece a aplicação do Código de Defesa do Consumidor às instituições financeiras, de modo que todos os direitos e garantias previstos na legislação consumerista são plenamente aplicáveis ao caso em tela."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "Nos termos do artigo 51, IV, do CDC, são nulas de pleno direito as cláusulas contratuais que estabeleçam obrigações consideradas iníquas ou que coloquem o consumidor em desvantagem exagerada, reforçando a ilegitimidade de qualquer cobrança não autorizada."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "A jurisprudência pátria é pacífica no sentido de que a cobrança por serviço não solicitado enseja a restituição em dobro e a reparação moral, independentemente da existência de prejuízo material efetivo, bastando a comprovação da conduta abusiva."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "Que seja expedido ofício ao Banco Central do Brasil para que informe a existência de eventuais normas internas da instituição ré que autorizem a cobrança de seguro ou pacote de serviços sem anuência expressa do consumidor."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "Seja autorizada a produção de prova pericial, caso necessário, para verificar a ausência de contratação dos serviços e a extensão dos prejuízos sofridos pela autora em decorrência dos descontos indevidos."
+    }
+  ]
+}

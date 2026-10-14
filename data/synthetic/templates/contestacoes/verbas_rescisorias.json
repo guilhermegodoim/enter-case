@@ -1,0 +1,83 @@
+{
+  "enderecamento": "Excelentíssimo(a) Senhor(a) Doutor(a) Juiz(a) da {VARA} da {COMARCA} – Processo nº {PROCESSO_NUMERO}.",
+  "qualificacao": "{REU_NOME}, pessoa jurídica de direito privado, inscrita no CNPJ sob o nº {REU_CNPJ}, com sede à {REU_ENDERECO}, por intermédio de seu advogado infra-assinado, {REU_ADVOGADO_NOME}, inscrito na OAB sob o nº {REU_ADVOGADO_OAB}, vem, respeitosamente, apresentar CONTESTAÇÃO à demanda ajuizada por {AUTOR_NOME}, pelos motivos de fato e de direito a seguir expostos.",
+  "sintese": [
+    "A parte autora, qualificada na inicial, alega ter sido admitida pela empresa ré em {DATA_ADMISSAO}, exercendo a função de {CARGO}, com jornada de trabalho de {JORNADA} e salário mensal de {SALARIO} ({SALARIO_EXTENSO}).",
+    "Afirma ter sido dispensada sem justa causa em {DATA_DEMISSAO}, contudo, sustenta que não teria recebido as verbas rescisórias no prazo legal, incluindo saldo de salário, aviso prévio indenizado, férias proporcionais acrescidas do terço constitucional, décimo terceiro salário proporcional, bem como os depósitos de FGTS com a multa de 40%.",
+    "Aduz, ainda, que a empresa ré não teria providenciado a entrega das guias para saque do FGTS e habilitação ao seguro-desemprego, motivo pelo qual pleiteia, além do pagamento das verbas rescisórias, a incidência das multas previstas nos artigos 467 e 477, § 8º, da CLT.",
+    "Requer a condenação da ré ao pagamento de todas as verbas rescisórias detalhadas, às multas legais e à entrega dos documentos rescisórios, alegando ser detentora de direito líquido e certo às parcelas pleiteadas.",
+    "Por fim, indica o valor da causa em {VALOR_CAUSA} ({VALOR_CAUSA_EXTENSO}), postulando a procedência integral da demanda."
+  ],
+  "preliminares": [
+    {
+      "titulo": "Impugnação ao pedido de justiça gratuita",
+      "paragrafos": [
+        "Caso tenha havido concessão do benefício da justiça gratuita à parte autora, a empresa ré impugna a alegada hipossuficiência econômica, requerendo que seja comprovada efetivamente a impossibilidade de arcar com as custas do processo sem prejuízo do próprio sustento, nos termos do artigo 790, § 3º, da CLT."
+      ]
+    },
+    {
+      "titulo": "Falta de interesse de agir quanto à entrega de guias",
+      "paragrafos": [
+        "A empresa ré destaca que, à época da rescisão, procedeu à entrega das guias para saque do FGTS e habilitação ao seguro-desemprego, motivo pelo qual inexiste interesse de agir quanto ao pedido de expedição desses documentos, restando prejudicado o pleito inicial nesta parte."
+      ]
+    }
+  ],
+  "merito": [
+    {
+      "titulo": "Quitação das verbas rescisórias",
+      "paragrafos": [
+        "A empresa ré refuta a alegação de inadimplemento das verbas rescisórias, pois realizou o pagamento integral de todas as parcelas devidas à parte autora, dentro do prazo legal, conforme recibo de quitação e comprovantes bancários anexados. Ressalta-se que o cálculo rescisório abrangeu saldo de salário, aviso prévio indenizado, férias proporcionais acrescidas do terço constitucional e décimo terceiro salário proporcional, não havendo qualquer pendência.",
+        "Assim, não subsiste fundamento para a condenação da ré ao pagamento de verbas já quitadas, motivo pelo qual requer a improcedência dos pedidos formulados na inicial."
+      ]
+    },
+    {
+      "titulo": "FGTS e multa de 40%",
+      "paragrafos": [
+        "No tocante ao FGTS e à multa de 40%, a empresa ré procedeu aos depósitos fundiários regularmente durante o pacto laboral, bem como efetuou a indenização de 40% sobre o saldo do FGTS por ocasião da rescisão contratual, conforme comprovantes anexados.",
+        "Portanto, não há valores remanescentes a título de FGTS ou multa rescisória a serem satisfeitos, sendo improcedente o pedido autoral neste particular."
+      ]
+    },
+    {
+      "titulo": "Multa do artigo 477, § 8º, da CLT",
+      "paragrafos": [
+        "A multa prevista no artigo 477, § 8º, da CLT somente é devida em caso de atraso injustificado no pagamento das verbas rescisórias, situação que não se verifica na hipótese dos autos, uma vez que a empresa ré cumpriu rigorosamente o prazo estabelecido.",
+        "Dessa forma, inexiste motivo para aplicação da referida penalidade, devendo o pedido ser julgado improcedente."
+      ]
+    },
+    {
+      "titulo": "Multa do artigo 467 da CLT",
+      "paragrafos": [
+        "A multa do artigo 467 da CLT pressupõe a existência de verbas incontroversas não quitadas na primeira audiência, o que não ocorre, pois não há parcelas incontroversas inadimplidas pela empresa ré.",
+        "Como todas as verbas foram quitadas tempestivamente, não há falar em aplicação da penalidade, motivo pelo qual se requer a improcedência do pleito."
+      ]
+    },
+    {
+      "titulo": "Entrega das guias rescisórias",
+      "paragrafos": [
+        "A empresa ré reitera que entregou todas as guias necessárias para saque do FGTS e habilitação ao seguro-desemprego, conforme documentos anexos, não subsistindo obrigação pendente nesse aspecto.",
+        "Em caso de eventual extravio, coloca-se à disposição para emitir novamente os documentos, não havendo fundamento para condenação judicial."
+      ]
+    },
+    {
+      "titulo": "Pedidos subsidiários",
+      "paragrafos": [
+        "Na remota hipótese de entendimento diverso, a empresa ré requer que eventuais condenações sejam limitadas aos valores efetivamente devidos, descontando-se todas as quantias já pagas, bem como que as multas legais sejam aplicadas apenas em caso de comprovado atraso injustificado, conforme jurisprudência consolidada do TST."
+      ]
+    }
+  ],
+  "pedidos": [
+    "Sejam acolhidas as preliminares arguidas, com a extinção do feito sem resolução de mérito quanto aos pedidos de entrega de guias e concessão da justiça gratuita, caso não comprovada a necessidade.",
+    "No mérito, seja julgada totalmente improcedente a presente reclamação trabalhista, reconhecendo-se que todas as verbas rescisórias e demais parcelas foram quitadas tempestivamente.",
+    "Caso Vossa Excelência entenda pela existência de valores devidos, que seja autorizada a compensação com as quantias já pagas à parte autora.",
+    "Sejam julgados improcedentes os pedidos de aplicação das multas dos artigos 467 e 477, § 8º, da CLT.",
+    "Que não seja imputado à empresa ré o ônus de entrega das guias rescisórias, tendo em vista já terem sido devidamente fornecidas.",
+    "Na hipótese de eventual condenação, que os valores sejam limitados ao estritamente devido, observando-se a dedução de quantias já satisfeitas.",
+    "Protesta pela produção de todos os meios de prova em direito admitidos, especialmente documental."
+  ],
+  "fecho": [
+    "Nestes termos, pede deferimento.",
+    "{COMARCA}, {DATA_PETICAO}.",
+    "{REU_ADVOGADO_NOME}",
+    "OAB/{REU_ADVOGADO_OAB}"
+  ]
+}
