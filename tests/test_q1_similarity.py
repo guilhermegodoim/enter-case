@@ -206,3 +206,12 @@ def test_pipeline_gray_zone_uses_judge_verdict(texts, monkeypatch):
     idx.ingest("d0", texts["orig"])
     d = idx.ingest("d1", texts["swap"])
     assert calls and d.action == "copia" and d.pairs[0].stage == "llm" and d.needs_review
+
+
+def test_review_flag_only_when_chosen_match_is_gray(texts):
+    rule = Rule("r", "align_cov", "content_ratio", t_diff=0.65, t_copy=0.012, gray_factor=2.0)
+    idx = CaseIndex(Config(rule))
+    idx.ingest("d0", texts["orig"])
+    idx.ingest("d1", texts["version"])
+    d = idx.ingest("d2", texts["pdf"])  # cópia certa por hash de d0
+    assert d.action == "copia" and d.match == "d0" and not d.needs_review

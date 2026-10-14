@@ -318,7 +318,7 @@ def report(results: list[dict], lsh: dict, meta: dict, judge_summary: dict) -> s
                 f'`{r["metodo"]}`', f'{_pct(r["pares"]["macro_f1"])} ({_pct(lo)}–{_pct(hi)})',
                 _pct(pc["copia"]["precision"]), _pct(pc["copia"]["recall"]),
                 _pct(pc["versao"]["f1"]), _pct(pc["diferente"]["f1"]),
-                _pct(d["acuracia_acao"]), _pct(d["precisao_copia"]),
+                _pct(d["acuracia_acao"]), _pct(d["precisao_copia"]), _pct(d["revisao_humana"]),
                 f'{d["latencia_ms_p50"]:.0f} / {d["latencia_ms_p95"]:.0f}',
                 f'{d["custo_usd_por_doc"]:.5f}',
             ])  # fmt: skip
@@ -326,7 +326,8 @@ def report(results: list[dict], lsh: dict, meta: dict, judge_summary: dict) -> s
 
     header = [
         "método", "macro-F1 % (IC95)", "P cópia", "R cópia", "F1 versão", "F1 dif.",
-        "acurácia ação (doc)", "precisão ação cópia", "latência ms p50/p95", "US$/doc",
+        "acurácia ação (doc)", "precisão ação cópia", "revisão humana %",
+        "latência ms p50/p95", "US$/doc",
     ]  # fmt: skip
     rels = sorted({k for r in results for k in r["pares"]["por_relacao"]})
     keys = [r["metodo"] for r in results if r["grupo"] == "metodo"]

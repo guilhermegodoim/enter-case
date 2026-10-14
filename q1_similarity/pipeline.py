@@ -11,7 +11,7 @@ Ação sobre o documento novo (nunca esconde nada; só agrupa e sinaliza):
   trabalho já feito no canônico pode ser reaproveitado.
 - versão: entra na família como nova versão do documento casado, com o diff anexado.
 - diferente: abre família nova.
-- revisão humana: qualquer decisão que passou pela zona cinzenta.
+- revisão humana: quando o par que decidiu a ação caiu na zona cinzenta.
 """
 
 from __future__ import annotations
@@ -134,7 +134,8 @@ class CaseIndex:
             action,
             match,
             canon,
-            needs_review=any(p.gray for p in pairs if p.label != "diferente"),
+            # revisão só quando a decisão tomada veio da zona cinzenta
+            needs_review=bool(best and best.gray),
             pairs=pairs,
             latency_ms=cpu_ms + llm_ms + extra_ms,
             llm_cost=sum(p.llm_cost for p in pairs),
