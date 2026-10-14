@@ -14,15 +14,23 @@ class FakeClient:
     def __init__(self):
         self.chat_calls = 0
         self.embed_inputs: list[list[str]] = []
-        self.chat = NS(completions=NS(parse=self._parse))
+        self.status = "completed"
+        self.refusal: str | None = None
+        self.responses = NS(parse=self._parse)
         self.embeddings = NS(create=self._embed)
 
     def _parse(self, **kwargs):
         self.chat_calls += 1
-        msg = NS(content='{"tese": "dano moral"}', refusal=None)
+        assert kwargs["store"] is False
+        content = [NS(type="output_text", text='{"tese": "dano moral"}')]
+        if self.refusal:
+            content = [NS(type="refusal", refusal=self.refusal)]
         return NS(
-            choices=[NS(message=msg, finish_reason="stop")],
-            usage=NS(prompt_tokens=100, completion_tokens=10),
+            status=self.status,
+            incomplete_details=None if self.status == "completed" else NS(reason="max_tokens"),
+            output=[NS(type="message", content=content)],
+            output_text='{"tese": "dano moral"}',
+            usage=NS(input_tokens=100, output_tokens=10),
             model="gpt-4.1-mini-2025-04-14",
         )
 
@@ -88,6 +96,19 @@ def test_embed_only_sends_uncached_texts(llm):
     assert not r1.cache_hit and not r2.cache_hit
     _, r3 = client_llm.embed(["voo"], model="text-embedding-3-small")
     assert r3.cache_hit
+
+
+def test_incomplete_and_refusal_raise_and_are_not_cached(llm):
+    client_llm, fake = llm
+    fake.status = "incomplete"
+    with pytest.raises(LLMError, match="incompleta"):
+        call(client_llm)
+    fake.status, fake.refusal = "completed", "não posso"
+    with pytest.raises(LLMError, match="recusa"):
+        call(client_llm)
+    fake.refusal = None
+    _, rec = call(client_llm)
+    assert not rec.cache_hit and fake.chat_calls == 3
 
 
 def test_missing_key_raises(tmp_path, monkeypatch):

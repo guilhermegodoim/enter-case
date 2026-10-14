@@ -1,0 +1,78 @@
+{
+  "enderecamento": "Excelentíssimo(a) Senhor(a) Juiz(a) de Direito da {VARA} da Comarca de {COMARCA}, processo nº {PROCESSO_NUMERO}.",
+  "qualificacao": "{REU_NOME}, inscrita no CNPJ sob o nº {REU_CNPJ}, com sede à {REU_ENDERECO}, por seu advogado infra-assinado, {REU_ADVOGADO_NOME}, conforme instrumento de mandato anexo, vem, respeitosamente, apresentar Contestação à ação movida por {AUTOR_NOME}.",
+  "sintese": [
+    "A parte autora, {AUTOR_NOME}, ajuizou a presente demanda alegando que adquiriu passagem aérea junto à ré para o trecho {VOO_ORIGEM} – {VOO_DESTINO}, voo nº {VOO_NUMERO}, sob o código de reserva {CODIGO_RESERVA}. Sustenta ter ocorrido cancelamento unilateral do referido voo na data de {DATA_FATO}, sem aviso prévio mínimo de 72 horas, conforme exige a Resolução ANAC 400/2016.",
+    "Alega, ainda, que foi reacomodada apenas no voo subsequente, supostamente disponível somente no dia seguinte, experimentando atraso de {HORAS_ATRASO} horas. Afirma não ter recebido da empresa ré qualquer assistência material, seja hospedagem ou alimentação, durante o período de espera.",
+    "Aduz que, ao pleitear o reembolso integral do valor pago pela passagem, a parte autora teve seu pedido negado, contrariando, em seu entendimento, o disposto nos arts. 12 e 21 da Resolução ANAC 400/2016.",
+    "Por tais fundamentos, a parte autora pleiteia a condenação da ré ao pagamento de danos materiais, no valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO}), e danos morais, no valor de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO}), além de outros pedidos acessórios.",
+    "Requer, por fim, a procedência total da demanda, com a condenação da ré nos termos expostos na petição inicial."
+  ],
+  "preliminares": [
+    {
+      "titulo": "Ilegitimidade passiva",
+      "paragrafos": [
+        "Ressalta-se, preliminarmente, que a responsabilidade pelo cancelamento do voo em questão pode decorrer de fatores alheios à atuação da companhia aérea, como determinações das autoridades aeroportuárias, condições meteorológicas adversas ou eventos de força maior. Caso reste comprovado que o cancelamento decorreu de causas excludentes de responsabilidade, a ré não poderá ser responsabilizada pelos danos apontados pela parte autora.",
+        "Ademais, eventual responsabilidade por assistência material pode ser compartilhada com terceiros, a depender das circunstâncias, razão pela qual se requer o reconhecimento da ilegitimidade passiva, alternativamente, com a inclusão dos demais responsáveis no polo passivo, caso sejam identificados no decorrer da instrução."
+      ]
+    },
+    {
+      "titulo": "Impugnação ao pedido de gratuidade de justiça",
+      "paragrafos": [
+        "Caso tenha sido deferida gratuidade de justiça à parte autora, impugna-se o benefício, por ausência de comprovação efetiva da hipossuficiência financeira, nos termos do art. 99, §2º, do CPC. A parte autora não juntou documentação idônea que comprove a impossibilidade de arcar com as custas processuais sem prejuízo do próprio sustento.",
+        "Requer-se, assim, a revogação ou o indeferimento da gratuidade, com a determinação de regular recolhimento das custas processuais."
+      ]
+    }
+  ],
+  "merito": [
+    {
+      "titulo": "Inexistência de falha na prestação do serviço",
+      "paragrafos": [
+        "A empresa ré nega que tenha havido qualquer falha ou descumprimento das normas estabelecidas pela ANAC. O cancelamento do voo nº {VOO_NUMERO}, ocorrido em {DATA_FATO}, decorreu de motivo justificado, alheio à vontade da companhia, conforme será demonstrado nos autos. Todas as providências necessárias para minimizar transtornos aos passageiros foram adotadas imediatamente.",
+        "Além disso, eventual atraso ou necessidade de reacomodação está expressamente prevista nas condições gerais de transporte, amplamente aceitas pela parte autora no momento da aquisição da passagem."
+      ]
+    },
+    {
+      "titulo": "Cumprimento das obrigações de informação e assistência",
+      "paragrafos": [
+        "A ré esclarece que realizou comunicação tempestiva acerca do cancelamento do voo, utilizando os canais de contato fornecidos pela parte autora no ato da compra, em total consonância com o art. 12 da Resolução ANAC 400/2016. Não houve, portanto, omissão ou ausência de aviso prévio, sendo possível comprovar a tentativa de contato por e-mail ({AUTOR_EMAIL}) e telefone.",
+        "Quanto à assistência material, a ré informa que foram disponibilizadas opções de reacomodação em outros voos e fornecidas orientações sobre alimentação e hospedagem, conforme registros internos e documentos que ora se juntam. Caso a parte autora não tenha utilizado tais benefícios, tal decorre de decisão própria, não de omissão da companhia."
+      ]
+    },
+    {
+      "titulo": "Ausência de dano material a ser indenizado",
+      "paragrafos": [
+        "Não restou comprovado nos autos qualquer desembolso extraordinário por parte da autora em decorrência do cancelamento do voo. Os pedidos de ressarcimento de valores, a título de danos materiais ({VALOR_DANO_MATERIAL}), são infundados, uma vez que a reacomodação foi oferecida sem ônus adicional à parte autora.",
+        "Eventuais gastos com alimentação ou hospedagem não foram comprovados documentalmente, sendo incabível a condenação da ré em valores genéricos e sem lastro probatório."
+      ]
+    },
+    {
+      "titulo": "Inexistência de dano moral",
+      "paragrafos": [
+        "O mero atraso ou cancelamento de voo, com posterior reacomodação, não configura, por si só, dano moral indenizável. Conforme entendimento consolidado do STJ, é necessário que haja demonstração de efetivo abalo à esfera extrapatrimonial, o que não ocorreu no presente caso.",
+        "A parte autora não sofreu qualquer prejuízo relevante capaz de ensejar reparação por danos morais, sendo incabível o pedido de {VALOR_DANO_MORAL}, que se mostra desproporcional e carente de fundamento."
+      ]
+    },
+    {
+      "titulo": "Descabimento do pedido de reembolso integral",
+      "paragrafos": [
+        "A negativa de reembolso integral do valor da passagem encontra respaldo legal, uma vez que a reacomodação da parte autora foi prontamente oferecida, em consonância com o artigo 21 da Resolução ANAC 400/2016. A opção de reembolso é alternativa à reacomodação, cabendo ao consumidor manifestar sua escolha no momento oportuno.",
+        "No caso em tela, a parte autora aceitou a reacomodação, tendo utilizado o serviço prestado. Não há, portanto, ilegalidade ou abusividade na conduta da ré ao não efetuar o reembolso pretendido."
+      ]
+    }
+  ],
+  "pedidos": [
+    "Requer o acolhimento das preliminares para extinguir o feito sem resolução do mérito, caso Vossa Excelência entenda pela ilegitimidade passiva ou pela ausência dos requisitos para concessão da gratuidade de justiça.",
+    "No mérito, requer a total improcedência dos pedidos formulados pela parte autora.",
+    "Subsidiariamente, caso reconhecida qualquer responsabilidade da ré, requer que eventual condenação observe os princípios da razoabilidade e proporcionalidade, limitando-se aos valores estritamente comprovados nos autos.",
+    "Requer a produção de todas as provas em direito admitidas, especialmente documental e testemunhal.",
+    "Pugna pela condenação da parte autora ao pagamento de custas processuais e honorários advocatícios.",
+    "Protesta pela intimação de todos os atos processuais no endereço profissional constante nos autos."
+  ],
+  "fecho": [
+    "Nesses termos, pede deferimento.",
+    "{COMARCA}, {DATA_PETICAO}.",
+    "{REU_ADVOGADO_NOME}",
+    "OAB/{REU_ADVOGADO_OAB}"
+  ]
+}

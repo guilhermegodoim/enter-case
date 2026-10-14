@@ -1,0 +1,153 @@
+{
+  "tese": "horas_extras",
+  "firm": "firm_b",
+  "especifico": {
+    "fatos": [
+      "A parte autora foi admitida pela parte reclamada em {DATA_ADMISSAO}, para exercer a função de {CARGO}, percebendo remuneração mensal de {SALARIO} ({SALARIO_EXTENSO}).",
+      "Durante todo o pacto laboral, a parte autora sempre laborou em jornada superior à contratual, realizando habitualmente {JORNADA}, extrapolando a jornada legal, sem o correspondente pagamento das horas extras.",
+      "A média semanal de horas extras prestadas foi de aproximadamente {HORAS_EXTRAS_SEMANAIS}, situação que era de pleno conhecimento da reclamada.",
+      "Apesar da jornada extenuante, a parte autora não recebia qualquer valor a título de horas extras, tampouco era compensada por meio de banco de horas ou sistema similar.",
+      "O controle de ponto sempre foi feito de forma britânica, com marcação invariável dos horários de entrada, saída e intervalos, desconsiderando a real jornada praticada.",
+      "Além disso, a reclamada suprimiu de forma sistemática o intervalo intrajornada mínimo de uma hora, previsto no art. 71 da CLT, concedendo intervalos muito inferiores ao legalmente exigido.",
+      "A conduta da reclamada violou o direito da parte autora ao intervalo mínimo para repouso e alimentação, prejudicando sua saúde e segurança no ambiente de trabalho.",
+      "Em diversos dias, a parte autora realizou jornadas superiores a oito horas, sem fruição integral do intervalo, permanecendo à disposição da empresa durante todo o expediente.",
+      "A supressão do intervalo intrajornada foi prática reiterada e não eventual, sendo facilmente comprovada por testemunhas e pelos próprios registros de jornada.",
+      "Após o término do contrato de trabalho em {DATA_DEMISSAO}, a reclamada não efetuou o pagamento de quaisquer valores a título de horas extras nem do adicional respectivo, tampouco os reflexos nas demais verbas trabalhistas.",
+      "Diante desse cenário, resta evidente o descumprimento das normas legais e convencionais por parte da reclamada, o que motiva a presente ação."
+    ],
+    "direito": [
+      {
+        "titulo": "HORAS EXTRAS HABITUAIS",
+        "paragrafos": [
+          "O artigo 7º, inciso XVI, da Constituição Federal garante ao trabalhador o pagamento das horas extras, com adicional de no mínimo 50% sobre a hora normal, nas hipóteses em que se ultrapassa a jornada contratual.",
+          "A parte autora laborava além do limite legal, realizando em média {HORAS_EXTRAS_SEMANAIS} horas extras por semana, sem receber qualquer contraprestação pelo serviço extraordinário.",
+          "A não quitação das horas extras implica enriquecimento ilícito da reclamada e afronta direta ao direito fundamental ao recebimento de salário justo.",
+          "Assim, é devido o pagamento das horas extras prestadas, com o respectivo adicional legal, bem como seus reflexos nas demais parcelas salariais."
+        ]
+      },
+      {
+        "titulo": "CONTROLE DE PONTO BRITÂNICO",
+        "paragrafos": [
+          "O artigo 74, § 2º, da CLT determina que empresas com mais de 20 empregados mantenham sistema de controle de jornada.",
+          "No caso concreto, o controle de ponto adotado era britânico, com registros invariáveis e padronizados, o que afasta sua credibilidade como meio de prova.",
+          "A Súmula 338 do TST presume verídica a jornada alegada pelo trabalhador quando o controle de ponto é fraudulento ou não reflete a realidade.",
+          "Portanto, deve prevalecer a jornada efetivamente cumprida pela parte autora, conforme declarado na inicial."
+        ]
+      },
+      {
+        "titulo": "SUPRESSÃO DO INTERVALO INTRAJORNADA",
+        "paragrafos": [
+          "O artigo 71, § 4º, da CLT assegura ao empregado o direito ao intervalo mínimo de uma hora para repouso e alimentação em jornadas superiores a seis horas.",
+          "A supressão ou concessão parcial do intervalo intrajornada enseja o pagamento, como extra, do período suprimido, acrescido do respectivo adicional.",
+          "No presente caso, a reclamada não respeitou o intervalo mínimo, devendo ser condenada ao pagamento do período correspondente como hora extra, com todos os reflexos legais.",
+          "Esta é a orientação consolidada do Tribunal Superior do Trabalho, que reconhece o direito do trabalhador ao recebimento das horas relativas ao intervalo não usufruído."
+        ]
+      },
+      {
+        "titulo": "REFLEXOS DAS HORAS EXTRAS E INTERVALOS",
+        "paragrafos": [
+          "As horas extras e o adicional pelo intervalo intrajornada não concedido integram a remuneração para todos os fins, conforme o artigo 457 da CLT.",
+          "Dessa forma, tais parcelas devem repercutir sobre aviso prévio, férias acrescidas de um terço, décimo terceiro salário, FGTS e multa de 40%.",
+          "A ausência de pagamento desses reflexos implica redução indevida das verbas rescisórias e outros direitos trabalhistas.",
+          "O reconhecimento e pagamento dos reflexos é medida que se impõe para recompor o patrimônio jurídico da parte autora."
+        ]
+      },
+      {
+        "titulo": "ÔNUS DA PROVA",
+        "paragrafos": [
+          "Nos termos do artigo 818 da CLT e do artigo 373, II, do CPC, cabe à reclamada apresentar o controle fidedigno da jornada de trabalho.",
+          "Diante da adoção de sistema de ponto britânico, presume-se verdadeira a jornada alegada pela parte autora, invertendo-se o ônus da prova em seu favor.",
+          "A ausência de prova hábil por parte da reclamada acarreta o reconhecimento da jornada e das supressões de intervalo descritas na inicial.",
+          "Assim, a condenação da reclamada é medida de rigor diante da ausência de registros válidos dos horários efetivamente praticados."
+        ]
+      }
+    ],
+    "pedidos": [
+      "a) Condenação da reclamada ao pagamento de todas as horas extras trabalhadas além da jornada de {JORNADA}, à razão de 50% de adicional, considerando a média de {HORAS_EXTRAS_SEMANAIS} por semana.",
+      "b) Pagamento do adicional de 50% sobre as horas relativas ao intervalo intrajornada suprimido, nos termos do art. 71, § 4º, da CLT.",
+      "c) Reflexos das horas extras e do adicional do intervalo intrajornada sobre férias acrescidas de 1/3, 13º salário, aviso prévio, FGTS e multa de 40%.",
+      "d) Expedição de ofício ao Ministério do Trabalho comunicando as irregularidades constatadas no controle de jornada.",
+      "e) Apresentação, pela reclamada, dos cartões de ponto e controles de frequência do período contratual, sob pena de confissão.",
+      "f) Retificação do TRCT para inclusão das parcelas deferidas nesta ação.",
+      "g) Concessão de honorários advocatícios sobre o valor da condenação, conforme legislação aplicável.",
+      "h) Pagamento das diferenças salariais apuradas em liquidação, acrescidas de juros e correção monetária.",
+      "i) Condenação da reclamada ao pagamento do valor da causa de {VALOR_CAUSA} ({VALOR_CAUSA_EXTENSO}) ou do valor apurado em liquidação."
+    ]
+  },
+  "parafrases": {
+    "f0": "A parte reclamante foi contratada pela parte reclamada em {DATA_ADMISSAO}, para desempenhar o cargo de {CARGO}, tendo como salário mensal o valor de {SALARIO} ({SALARIO_EXTENSO}).",
+    "f1": "Durante toda a relação empregatícia, a parte autora exerceu jornada superior à contratada, realizando de modo habitual {JORNADA}, ultrapassando o limite legal sem que houvesse o devido pagamento das horas extraordinárias.",
+    "f2": "A quantidade média de horas extras realizadas semanalmente era de cerca de {HORAS_EXTRAS_SEMANAIS}, situação plenamente conhecida pela parte reclamada.",
+    "f3": "Apesar da sobrecarga de trabalho, a parte autora não recebeu qualquer quantia referente a horas extraordinárias, tampouco houve compensação mediante banco de horas ou outro sistema equivalente.",
+    "f4": "O sistema de controle de ponto adotado era sempre britânico, com horários de entrada, saída e intervalos marcados de forma idêntica diariamente, desconsiderando a jornada real desempenhada.",
+    "f5": "Ademais, a reclamada rotineiramente deixou de conceder o intervalo intrajornada mínimo de uma hora previsto no artigo 71 da CLT, permitindo apenas pausas substancialmente inferiores ao exigido por lei.",
+    "f6": "Tal conduta por parte da reclamada feriu o direito da parte autora ao intervalo mínimo para repouso e alimentação, comprometendo sua saúde e segurança laboral.",
+    "f7": "Em vários dias, a parte autora ultrapassou a jornada de oito horas, não gozando do intervalo integral e permanecendo à disposição da empresa durante todo o expediente.",
+    "f8": "A eliminação do intervalo intrajornada foi uma conduta reiterada, não ocasional, e pode ser facilmente comprovada tanto por testemunhas quanto pelos próprios registros de jornada.",
+    "f9": "Com o encerramento do vínculo empregatício em {DATA_DEMISSAO}, a reclamada não pagou qualquer valor a título de horas extras, adicional correspondente ou reflexos nas demais verbas trabalhistas.",
+    "f10": "Frente a essa realidade, resta claro o descumprimento das normas legais e convencionais pela reclamada, fundamento da presente demanda.",
+    "d0.0": "O art. 7º, XVI, da Constituição Federal assegura ao trabalhador o direito de receber horas extras, com adicional de pelo menos 50% sobre o valor da hora normal, quando excedida a jornada contratual.",
+    "d0.1": "A parte reclamante, de fato, cumpriu jornada superior ao limite legal, realizando em média {HORAS_EXTRAS_SEMANAIS} horas extras por semana, sem qualquer contraprestação pelo serviço extraordinário.",
+    "d0.2": "A omissão no pagamento das horas extras caracteriza enriquecimento ilícito da empresa e afronta ao direito fundamental do trabalhador de receber salário compatível com o labor prestado.",
+    "d0.3": "Portanto, é devida a quitação das horas extras laboradas, acrescidas do respectivo adicional e dos reflexos nas demais verbas salariais.",
+    "d1.0": "O art. 74, § 2º, da CLT obriga as empresas com mais de 20 funcionários a manterem sistema de controle de jornada de trabalho.",
+    "d1.1": "No presente caso, o sistema de ponto utilizado era o chamado britânico, com registros fixos e padronizados, o que compromete sua validade como prova.",
+    "d1.2": "Segundo a Súmula 338 do TST, presume-se verdadeira a jornada informada pelo trabalhador quando o registro de ponto é fraudulento ou não corresponde à realidade.",
+    "d1.3": "Dessa maneira, deve ser considerada a jornada efetivamente cumprida pela parte autora, conforme descrito na inicial.",
+    "d2.0": "O art. 71, § 4º, da CLT garante ao empregado o intervalo mínimo de uma hora para repouso e alimentação em jornadas que excedam seis horas.",
+    "d2.1": "A supressão total ou parcial do intervalo intrajornada enseja o pagamento do tempo suprimido como extra, acrescido do respectivo adicional.",
+    "d2.2": "No cenário apresentado, a reclamada descumpriu o intervalo mínimo legal, devendo ser condenada ao pagamento das horas correspondentes como extras e seus reflexos.",
+    "d2.3": "Tal entendimento está consolidado no Tribunal Superior do Trabalho, que assegura ao empregado o recebimento das horas relativas ao intervalo não concedido.",
+    "d3.0": "As horas extras e o adicional pelo intervalo intrajornada não concedido devem integrar a remuneração para todos os fins, nos termos do art. 457 da CLT.",
+    "d3.1": "Assim, essas verbas têm reflexo em aviso prévio, férias acrescidas de um terço, décimo terceiro salário, FGTS e multa de 40%.",
+    "d3.2": "A não inclusão desses reflexos resulta em diminuição indevida das verbas rescisórias e demais direitos trabalhistas.",
+    "d3.3": "Por conseguinte, a condenação ao pagamento dos reflexos é medida necessária para restabelecer o patrimônio jurídico da parte autora.",
+    "d4.0": "De acordo com o art. 818 da CLT e o art. 373, II, do CPC, compete à reclamada apresentar controle fiel da jornada de trabalho.",
+    "d4.1": "Na hipótese de adoção do sistema de ponto britânico, presume-se verdadeira a jornada alegada pela parte autora, invertendo-se o ônus da prova.",
+    "d4.2": "A ausência de apresentação de prova idônea pela reclamada implica o reconhecimento da jornada e dos intervalos suprimidos narrados na petição inicial.",
+    "d4.3": "Portanto, é imperiosa a condenação da reclamada diante da inexistência de registros válidos que comprovem os horários efetivamente cumpridos.",
+    "p0": "a) Que a reclamada seja condenada ao pagamento de todas as horas extras prestadas além da jornada de {JORNADA}, com adicional de 50%, considerando a média semanal de {HORAS_EXTRAS_SEMANAIS}.",
+    "p1": "b) Que seja determinado o pagamento do adicional de 50% sobre as horas relativas ao intervalo intrajornada suprimido, em conformidade com o art. 71, § 4º, da CLT.",
+    "p2": "c) Que sejam reconhecidos os reflexos das horas extras e do adicional do intervalo intrajornada sobre férias acrescidas de 1/3, décimo terceiro salário, aviso prévio, FGTS e multa de 40%.",
+    "p3": "d) Que seja expedido ofício ao Ministério do Trabalho informando as irregularidades verificadas no controle de jornada da reclamada.",
+    "p4": "e) Que a reclamada apresente todos os cartões de ponto e controles de frequência do período trabalhado, sob pena de confissão.",
+    "p5": "f) Que seja determinada a retificação do TRCT para inclusão das verbas deferidas nesta reclamação.",
+    "p6": "g) Que sejam fixados honorários advocatícios sobre o valor da condenação, conforme o que dispõe a legislação vigente.",
+    "p7": "h) Que sejam pagas as diferenças salariais apuradas em liquidação, acrescidas de juros legais e correção monetária.",
+    "p8": "i) Que a reclamada seja condenada ao pagamento do valor da causa de {VALOR_CAUSA} ({VALOR_CAUSA_EXTENSO}), ou do montante apurado em liquidação."
+  },
+  "extras": [
+    {
+      "secao_alvo": "fatos",
+      "texto": "Durante o contrato de trabalho, a parte autora era submetida a metas e produtividade incompatíveis com a jornada registrada, o que reforça a alegação de labor extraordinário não computado nos controles oficiais."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "A parte autora frequentemente era orientada a registrar horários fictícios para atender aos padrões da empresa, sendo pressionada a não anotar corretamente os horários reais de entrada, saída e intervalos."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "Mesmo nos períodos em que a parte autora esteve afastada por motivos de saúde, os registros de ponto continuaram a apresentar horários padronizados, evidenciando a inconsistência do controle de jornada."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "O descumprimento reiterado da legislação trabalhista pela reclamada caracteriza conduta dolosa, passível de multa e aplicação de penalidades administrativas, conforme previsto na CLT."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "A conduta da reclamada viola ainda o princípio da primazia da realidade, pelo qual prevalecem os fatos efetivamente ocorridos sobre os registros meramente formais, conforme entendimento pacificado na Justiça do Trabalho."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "O dano à saúde causado pela supressão do intervalo intrajornada pode ensejar indenização por danos morais, caso reste comprovado prejuízo à integridade física ou psíquica da parte autora."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "j) Condenação da reclamada ao pagamento de indenização por danos morais, caso seja reconhecido prejuízo à saúde da parte autora em decorrência da supressão do intervalo intrajornada."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "k) Aplicação de multa prevista no artigo 477 da CLT em caso de descumprimento das obrigações rescisórias reconhecidas nesta ação."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "itens": [
+    {
+      "referencia": "TJSP, Apelação Cível nº 1012345-89.2023.8.26.0001, Rel. Des. Maria de Souza, j. 15/03/2023",
+      "texto": "CONSUMIDOR – DESCONTO INDEVIDO – SEGURO NÃO CONTRATADO – FALHA NA PRESTAÇÃO DE SERVIÇOS – DANO MORAL E MATERIAL. Demonstrada a realização de descontos mensais em conta corrente por seguro não solicitado, revela-se falha no dever de informação e prestação do serviço bancário. Configurada a cobrança indevida, correta a declaração de inexistência do débito e a condenação do banco à restituição em dobro, nos termos do art. 42, parágrafo único, do CDC. Danos morais devidos diante do abalo à esfera extrapatrimonial do consumidor. Recurso desprovido."
+    },
+    {
+      "referencia": "TJMG, Apelação Cível nº 5023456-12.2022.8.13.0002, Rel. Des. João Pereira, j. 22/11/2022",
+      "texto": "CONSUMIDOR – COBRANÇA INDEVIDA – PACOTE DE SERVIÇOS BANCÁRIOS – AUSÊNCIA DE CONTRATAÇÃO – RESTITUIÇÃO EM DOBRO – DANO MORAL. A cobrança de valores referentes a pacote de serviços não contratado caracteriza prática abusiva e descumprimento do dever de informação. Declaração de inexistência do débito e restituição em dobro são medidas que se impõem, conforme o art. 42, parágrafo único, do CDC. Reconhecido o dano moral pelo transtorno causado ao consumidor. Sentença mantida."
+    },
+    {
+      "referencia": "TJRS, Apelação Cível nº 70098765-43.2021.8.21.0003, Rel. Des. Carla Andrade, j. 05/09/2021",
+      "texto": "CONTRATO BANCÁRIO – SEGURO NÃO CONTRATADO – DESCONTO EM CONTA – COBRANÇA INDEVIDA – CDC. Verificada a cobrança mensal de seguro não solicitado pelo consumidor, resta configurada a falha no dever de informação e a prática abusiva. Mantida a declaração de inexistência do débito, com restituição em dobro dos valores descontados. Indenização por danos morais fixada, diante do abalo à dignidade do consumidor. Apelação não provida."
+    },
+    {
+      "referencia": "TJDFT, Apelação Cível nº 0701234-56.2023.8.07.0001, Rel. Des. Ricardo Lima, j. 10/04/2023",
+      "texto": "CONSUMIDOR – DESCONTO INDEVIDO – FALTA DE ANUÊNCIA – PACOTE DE SERVIÇOS – REPETIÇÃO DO INDÉBITO – DANO MORAL. Efetuados descontos mensais em conta corrente a título de pacote de serviços não contratado, impõe-se a declaração de inexistência do débito e a restituição em dobro, conforme preceitua o CDC. Configurado o dano moral, diante da frustração das legítimas expectativas do consumidor. Recurso conhecido e desprovido."
+    },
+    {
+      "referencia": "TJBA, Apelação Cível nº 8001234-77.2022.8.05.0004, Rel. Des. Ana Lúcia Santos, j. 18/08/2022",
+      "texto": "CONSUMIDOR – DESCONTO EM CONTA CORRENTE – SEGURO NÃO SOLICITADO – FALHA NA INFORMAÇÃO – RESTITUIÇÃO EM DOBRO – DANO MORAL. A realização de descontos por seguro não contratado configura falha na prestação de serviços e ofensa ao dever de informação. Devida a declaração de inexistência do débito, restituição em dobro dos valores e indenização por danos morais, considerando o transtorno suportado pela parte autora. Apelo improvido."
+    },
+    {
+      "referencia": "TJPE, Apelação Cível nº 0034567-98.2022.8.17.0001, Rel. Des. Fabiano Oliveira, j. 27/02/2022",
+      "texto": "CONSUMIDOR – COBRANÇA INDEVIDA – PACOTE DE SERVIÇOS NÃO CONTRATADO – REPETIÇÃO DE INDÉBITO – DANO MORAL. Configurado desconto mensal em conta corrente referente a pacote de serviços não contratado, impõe-se a declaração de inexistência da obrigação e a restituição em dobro, nos termos do art. 42, parágrafo único, do CDC. Danos morais reconhecidos, dada a frustração e angústia experimentadas pelo consumidor. Sentença mantida."
+    },
+    {
+      "referencia": "TJPR, Apelação Cível nº 1234567-54.2023.8.16.0001, Rel. Des. Paulo Mendes, j. 04/07/2023",
+      "texto": "CONSUMIDOR – SEGURO NÃO SOLICITADO – DESCONTO AUTOMÁTICO – RESTITUIÇÃO EM DOBRO – DANO MORAL – FALHA NA INFORMAÇÃO. Existindo descontos em conta corrente por seguro jamais contratado, resta caracterizada a prática abusiva e a violação do dever de informação. Correta a determinação de restituição em dobro e indenização por danos morais, diante do abalo à confiança do consumidor. Apelo desprovido."
+    },
+    {
+      "referencia": "TJRJ, Apelação Cível nº 0102345-67.2021.8.19.0001, Rel. Des. Helena Duarte, j. 12/10/2021",
+      "texto": "CONSUMIDOR – DESCONTO NÃO AUTORIZADO – SEGURO/PACTO DE SERVIÇOS – INEXISTÊNCIA DE CONTRATAÇÃO – RESTITUIÇÃO EM DOBRO – DANO MORAL. Descontos mensais realizados sem autorização do consumidor por serviço ou seguro não contratado configuram cobrança indevida, ensejando a restituição em dobro do valor pago, nos termos do CDC, além de indenização por danos morais, pela violação dos direitos da personalidade. Recurso não provido."
+    }
+  ]
+}

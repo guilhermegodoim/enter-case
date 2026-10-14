@@ -1,0 +1,141 @@
+{
+  "tese": "voo_cancelamento",
+  "firm": "firm_b",
+  "especifico": {
+    "fatos": [
+      "Em {DATA_FATO}, a parte autora adquiriu passagem aérea junto à {REU_NOME}, conforme código de reserva {CODIGO_RESERVA}, para o voo {VOO_NUMERO}, com trajeto de {VOO_ORIGEM} para {VOO_DESTINO}.",
+      "No dia previsto para o embarque, ao comparecer ao aeroporto, a parte autora foi surpreendida com o cancelamento unilateral do voo por parte da companhia aérea, sem qualquer aviso prévio, tampouco justificativa plausível.",
+      "A comunicação do cancelamento não respeitou o prazo mínimo de 72 horas estipulado pela Resolução ANAC 400/2016, impossibilitando a parte autora de reorganizar seus compromissos ou buscar alternativas de deslocamento.",
+      "A companhia aérea limitou-se a oferecer reacomodação apenas para o dia seguinte, obrigando a parte autora a pernoitar na cidade de origem sem qualquer assistência material, como hospedagem ou alimentação.",
+      "Durante o período em que aguardou novo voo, a parte autora não recebeu qualquer assistência, nem mesmo orientações adequadas sobre seus direitos, ficando desamparada e arcando com gastos não previstos.",
+      "A parte autora buscou esclarecimentos junto à {REU_NOME}, sendo informada que não teria direito ao reembolso integral dos valores pagos, restando-lhe apenas aceitar a reacomodação ou crédito para futura viagem.",
+      "Diante da recusa da companhia em efetuar o reembolso integral e da ausência de auxílio, a parte autora foi obrigada a arcar com despesas de alimentação, transporte e hospedagem não programadas.",
+      "O episódio causou grande frustração, transtornos emocionais e prejuízos financeiros à parte autora, que tinha compromissos inadiáveis no destino, além de ter vivenciado situação de constrangimento e desrespeito.",
+      "A conduta da {REU_NOME} afrontou direitos básicos do consumidor, pois além de não informar com antecedência sobre o cancelamento, deixou a parte autora desassistida, em total descumprimento das normas da ANAC.",
+      "Em razão dos fatos narrados, a parte autora busca a reparação pelos danos materiais referentes às despesas suportadas e pelos danos morais decorrentes do abalo emocional e da violação de seus direitos."
+    ],
+    "direito": [
+      {
+        "titulo": "DO DIREITO À INFORMAÇÃO E PRÉVIO AVISO DE CANCELAMENTO",
+        "paragrafos": [
+          "A Resolução ANAC 400/2016, em seu artigo 12, determina que o transportador deve comunicar ao passageiro, com antecedência mínima de 72 horas, qualquer alteração programada do voo, incluindo cancelamentos.",
+          "A ausência de aviso prévio impediu a parte autora de tomar providências para minimizar os prejuízos, violando seu direito à informação, garantido também pelo artigo 6º, inciso III, do Código de Defesa do Consumidor.",
+          "A conduta da companhia aérea, ao cancelar o voo sem o devido aviso, caracteriza falha na prestação do serviço, ensejando a responsabilidade objetiva prevista no artigo 14 do CDC."
+        ]
+      },
+      {
+        "titulo": "DA ASSISTÊNCIA MATERIAL AO PASSAGEIRO",
+        "paragrafos": [
+          "O artigo 21 da Resolução ANAC 400/2016 prevê que, em caso de atraso ou cancelamento de voo, a companhia aérea deve oferecer assistência material adequada ao passageiro, incluindo alimentação, hospedagem e transporte, conforme o tempo de espera.",
+          "No presente caso, a parte autora não recebeu qualquer forma de assistência material, sendo obrigada a custear todas as despesas relativas à espera pelo novo voo.",
+          "Tal omissão agrava a responsabilidade da companhia aérea, que deixou de cumprir obrigação legal expressa, evidenciando o dano material sofrido pela parte autora."
+        ]
+      },
+      {
+        "titulo": "DO DIREITO AO REEMBOLSO INTEGRAL",
+        "paragrafos": [
+          "A parte autora solicitou o reembolso integral da quantia paga, direito assegurado pelo artigo 29 da Resolução ANAC 400/2016 em caso de cancelamento de voo não provocado pelo passageiro.",
+          "A recusa da companhia aérea em proceder ao reembolso integral configura prática abusiva, vedada pelo artigo 39, V, do CDC.",
+          "O consumidor não pode ser penalizado por falha exclusiva do fornecedor, devendo ser restituído de forma integral, incluindo eventuais taxas ou encargos."
+        ]
+      },
+      {
+        "titulo": "DA RESPONSABILIDADE OBJETIVA E DOS DANOS MORAIS",
+        "paragrafos": [
+          "A responsabilidade da companhia aérea pelos danos causados aos passageiros é objetiva, nos termos do artigo 14 do CDC, sendo suficiente a demonstração do defeito na prestação do serviço e do nexo causal.",
+          "O cancelamento do voo sem aviso, ausência de assistência e recusa de reembolso geraram não apenas prejuízos financeiros, mas intenso sofrimento psicológico à parte autora.",
+          "A jurisprudência consolidada reconhece que situações como a vivenciada ensejam indenização por danos morais, diante do evidente abalo à dignidade e ao direito de personalidade do consumidor."
+        ]
+      },
+      {
+        "titulo": "DA REPARAÇÃO DOS DANOS MATERIAIS",
+        "paragrafos": [
+          "A parte autora faz jus ao ressarcimento integral dos valores despendidos com alimentação, hospedagem e transporte decorrentes da omissão da companhia aérea.",
+          "Os comprovantes das despesas serão oportunamente apresentados, sendo tais valores diretamente vinculados à falha na prestação do serviço.",
+          "A indenização por danos materiais visa recompor o patrimônio da parte autora, nos termos do artigo 927 do Código Civil, diante do prejuízo efetivamente suportado."
+        ]
+      }
+    ],
+    "pedidos": [
+      "a) A condenação da {REU_NOME} ao pagamento de indenização por danos morais à parte autora, no valor de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO});",
+      "b) A condenação da {REU_NOME} ao ressarcimento integral dos danos materiais suportados, conforme comprovantes, no valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO});",
+      "c) A condenação da {REU_NOME} ao reembolso integral do valor pago pela passagem aérea cancelada;",
+      "d) A condenação da {REU_NOME} ao pagamento de todas as despesas com alimentação, hospedagem e transporte suportadas em decorrência do cancelamento, devidamente corrigidas;",
+      "e) A condenação da {REU_NOME} ao pagamento de juros legais e correção monetária sobre os valores devidos, a contar do evento danoso;",
+      "f) A declaração de que a conduta da {REU_NOME} violou o direito à informação e à assistência previstos na Resolução ANAC 400/2016;",
+      "g) A determinação para que a {REU_NOME} apresente em juízo todos os registros de comunicação referente ao cancelamento do voo {VOO_NUMERO};",
+      "h) A inversão do ônus da prova, nos termos do artigo 6º, inciso VIII, do CDC;",
+      "i) A condenação da {REU_NOME} ao pagamento de custas e honorários advocatícios."
+    ]
+  },
+  "parafrases": {
+    "f0": "Na data de {DATA_FATO}, a parte autora efetuou a compra de bilhete aéreo junto à {REU_NOME}, sob o código de reserva {CODIGO_RESERVA}, referente ao voo {VOO_NUMERO}, cujo itinerário seria de {VOO_ORIGEM} até {VOO_DESTINO}.",
+    "f1": "No momento do embarque, ao comparecer ao aeroporto, a parte autora foi surpreendida pelo cancelamento unilateral do voo por parte da companhia aérea, sem que houvesse qualquer comunicação prévia ou justificativa adequada.",
+    "f2": "A notificação do cancelamento desrespeitou o prazo mínimo de 72 horas previsto na Resolução ANAC 400/2016, impossibilitando que a parte autora reorganizasse seus compromissos ou optasse por alternativas de deslocamento.",
+    "f3": "A ré ofereceu apenas a reacomodação para o dia subsequente, obrigando a parte autora a permanecer na cidade de origem sem fornecer qualquer assistência material, como hospedagem ou alimentação.",
+    "f4": "Durante o tempo de espera pelo novo voo, a parte autora ficou sem qualquer tipo de auxílio ou orientação adequada sobre seus direitos, arcando sozinha com despesas não previstas e permanecendo desamparada.",
+    "f5": "Ao procurar esclarecimentos junto à {REU_NOME}, a parte autora foi informada de que não teria direito ao reembolso integral dos valores pagos, cabendo-lhe apenas aceitar a reacomodação ou crédito para futura utilização.",
+    "f6": "Diante da negativa da companhia aérea de efetuar o reembolso integral e da ausência de qualquer auxílio, restou à parte autora suportar gastos não planejados com alimentação, transporte e hospedagem.",
+    "f7": "Tal episódio gerou à parte autora significativa frustração, transtornos de ordem emocional e perdas financeiras, já que possuía compromissos inadiáveis no destino, além de ter passado por situação vexatória e desrespeitosa.",
+    "f8": "A atuação da {REU_NOME} afrontou direitos fundamentais do consumidor, pois, além de não comunicar o cancelamento com a devida antecedência, deixou a parte autora sem qualquer assistência, em flagrante descumprimento das normas da ANAC.",
+    "f9": "Em vista dos fatos expostos, a parte autora requer a reparação pelos danos materiais, relativos às despesas suportadas, bem como pelos danos morais advindos do abalo emocional e da violação de seus direitos.",
+    "d0.0": "Nos termos do artigo 12 da Resolução ANAC 400/2016, o transportador tem a obrigação de avisar o passageiro, com no mínimo 72 horas de antecedência, sobre qualquer alteração programada, incluindo cancelamentos de voo.",
+    "d0.1": "A ausência de comunicação prévia privou a parte autora da possibilidade de adotar medidas para mitigar prejuízos, violando o direito à informação previsto no artigo 6º, inciso III, do Código de Defesa do Consumidor.",
+    "d0.2": "Ao cancelar o voo sem o devido aviso, a empresa aérea incorreu em falha na prestação do serviço, respondendo objetivamente conforme dispõe o artigo 14 do CDC.",
+    "d1.0": "O artigo 21 da Resolução ANAC 400/2016 estabelece que, em caso de atraso ou cancelamento, a companhia aérea deve fornecer assistência material adequada, como alimentação, hospedagem e transporte, conforme o tempo de espera do passageiro.",
+    "d1.1": "No caso concreto, a parte autora não recebeu qualquer assistência material, sendo compelida a custear, por conta própria, todas as despesas decorrentes da espera pelo novo voo.",
+    "d1.2": "Essa omissão por parte da companhia aérea agrava sua responsabilidade, pois deixou de cumprir obrigação legal expressa, demonstrando o prejuízo material sofrido pela parte autora.",
+    "d2.0": "A parte autora requereu o reembolso integral dos valores pagos, direito previsto no artigo 29 da Resolução ANAC 400/2016 em casos de cancelamento de voo não ocasionado pelo passageiro.",
+    "d2.1": "A negativa da companhia aérea em realizar o reembolso integral configura conduta abusiva, expressamente vedada pelo artigo 39, V, do Código de Defesa do Consumidor.",
+    "d2.2": "Não é admissível que o consumidor seja penalizado por falha exclusiva da fornecedora, devendo ser restituído integralmente, inclusive quanto a taxas e encargos incidentes.",
+    "d3.0": "A responsabilidade da ré pelos danos suportados pelo consumidor é objetiva, conforme artigo 14 do CDC, bastando a demonstração do defeito na prestação do serviço e do nexo causal.",
+    "d3.1": "O cancelamento do voo sem aviso, associado à ausência de assistência adequada e à recusa do reembolso, resultou não apenas em prejuízo financeiro, mas também em sofrimento psicológico à parte autora.",
+    "d3.2": "A jurisprudência é pacífica ao reconhecer que situações como a presente ensejam indenização por danos morais, diante do evidente comprometimento à dignidade e ao direito de personalidade do consumidor.",
+    "d4.0": "A parte autora tem direito à restituição integral dos valores desembolsados com alimentação, hospedagem e transporte, em razão da omissão da companhia aérea.",
+    "d4.1": "Os comprovantes das despesas serão apresentados oportunamente, estando tais valores diretamente ligados à falha na prestação do serviço pela ré.",
+    "d4.2": "A indenização por danos materiais destina-se a recompor o patrimônio da parte autora, conforme artigo 927 do Código Civil, diante do prejuízo efetivamente experimentado.",
+    "p0": "a) Que a {REU_NOME} seja condenada ao pagamento de indenização por danos morais à parte autora, no importe de {VALOR_DANO_MORAL} ({VALOR_DANO_MORAL_EXTENSO});",
+    "p1": "b) Que a {REU_NOME} seja condenada a ressarcir integralmente os danos materiais experimentados, segundo comprovantes, no valor de {VALOR_DANO_MATERIAL} ({VALOR_DANO_MATERIAL_EXTENSO});",
+    "p2": "c) Que a {REU_NOME} seja condenada a reembolsar integralmente o valor pago pela passagem aérea cancelada;",
+    "p3": "d) Que a {REU_NOME} arque com todas as despesas de alimentação, hospedagem e transporte suportadas em virtude do cancelamento, devidamente atualizadas;",
+    "p4": "e) Que a {REU_NOME} seja condenada ao pagamento de juros legais e correção monetária sobre todos os valores devidos, a partir do evento danoso;",
+    "p5": "f) Que seja declarada a violação, por parte da {REU_NOME}, do direito à informação e à assistência previstos na Resolução ANAC 400/2016;",
+    "p6": "g) Que a {REU_NOME} seja compelida a apresentar em juízo todos os registros de comunicação relacionados ao cancelamento do voo {VOO_NUMERO};",
+    "p7": "h) Que seja deferida a inversão do ônus da prova, nos termos do artigo 6º, inciso VIII, do Código de Defesa do Consumidor;",
+    "p8": "i) Que a {REU_NOME} seja condenada ao pagamento das custas processuais e honorários advocatícios."
+  },
+  "extras": [
+    {
+      "secao_alvo": "fatos",
+      "texto": "A parte autora estava acompanhada de criança menor de idade durante o cancelamento, agravando o desconforto e a dificuldade de permanência no aeroporto durante o período de espera."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "Em razão do cancelamento, a parte autora perdeu compromissos profissionais previamente agendados em {VOO_DESTINO}, ocasionando inclusive prejuízo em sua atividade econômica."
+    },
+    {
+      "secao_alvo": "fatos",
+      "texto": "Não foi disponibilizado pela companhia aérea qualquer canal eficiente de atendimento presencial ou remoto para esclarecimentos imediatos, o que aumentou a sensação de abandono."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "O artigo 37 do Código de Defesa do Consumidor veda práticas abusivas e enganosas, sendo aplicável ao presente caso diante da conduta omissiva da companhia aérea."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "O Superior Tribunal de Justiça já consolidou entendimento de que o cancelamento de voo sem aviso prévio e sem assistência adequada gera dano moral in re ipsa."
+    },
+    {
+      "secao_alvo": "direito",
+      "texto": "A falha na prestação do serviço caracteriza também ato ilícito, nos termos do artigo 186 do Código Civil, ensejando reparação integral dos danos."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "j) A condenação da {REU_NOME} ao pagamento de multa diária em caso de descumprimento de eventual determinação judicial de fornecimento de documentos ou informações."
+    },
+    {
+      "secao_alvo": "pedidos",
+      "texto": "k) A intimação da {REU_NOME} para apresentar a íntegra do contrato de transporte aéreo firmado com a parte autora, especialmente as condições gerais aplicáveis."
+    }
+  ]
+}

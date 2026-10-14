@@ -1,4 +1,4 @@
-"""Wrapper OpenAI: saídas estruturadas (JSON schema estrito), cache em disco e ledger.
+"""Wrapper OpenAI (Responses API): saídas estruturadas, cache em disco e ledger.
 
 - Cache endereçado por sha256(tipo, modelo, mensagens, schema, parâmetros): mudar prompt,
   schema ou modelo invalida automaticamente; reexecutar benchmark custa zero.
@@ -12,6 +12,7 @@ import hashlib
 import json
 import os
 import tempfile
+import threading
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
@@ -87,6 +88,7 @@ class LLM:
         self.chat_model = chat_model or self.settings.chat_model
         self.embed_model = embed_model or self.settings.embed_model
         self.records: list[CallRecord] = []
+        self._lock = threading.Lock()  # chamadas concorrentes (ThreadPoolExecutor)
 
     @property
     def client(self) -> Any:
@@ -108,23 +110,26 @@ class LLM:
         user: str,
         model: str | None = None,
         temperature: float | None = 0.0,
-        seed: int | None = None,
+        max_output_tokens: int | None = None,
         prompt_version: str | None = None,
     ) -> tuple[T, CallRecord]:
-        """Chamada com saída estruturada validada por `schema`.
+        """Chamada com saída estruturada validada por `schema` (Responses API, JSON schema estrito).
 
-        temperature=None omite o parâmetro (modelos de raciocínio não aceitam).
+        Usa a Responses API: na Chat Completions, `response_format` passou a ser ignorado para
+        esta conta (texto livre em vez de JSON). temperature=None omite o parâmetro (modelos de
+        raciocínio não aceitam). store=False: nada fica guardado do lado da OpenAI.
         """
         model = model or self.chat_model
-        messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
         key = cache_key(
             {
                 "kind": "chat",
+                "api": "responses",
                 "model": model,
-                "messages": messages,
+                "instructions": system,
+                "input": user,
                 "schema": schema.model_json_schema(),
                 "temperature": temperature,
-                "seed": seed,
+                "max_output_tokens": max_output_tokens,
             }
         )
         entry = self.cache.get(key)
@@ -133,22 +138,35 @@ class LLM:
             kwargs: dict[str, Any] = {}
             if temperature is not None:
                 kwargs["temperature"] = temperature
-            if seed is not None:
-                kwargs["seed"] = seed
+            if max_output_tokens is not None:
+                kwargs["max_output_tokens"] = max_output_tokens
             t0 = time.perf_counter()
-            resp = self.client.chat.completions.parse(
-                model=model, messages=messages, response_format=schema, **kwargs
+            resp = self.client.responses.parse(
+                model=model,
+                instructions=system,
+                input=[{"role": "user", "content": user}],
+                text_format=schema,
+                store=False,
+                **kwargs,
             )
             latency = (time.perf_counter() - t0) * 1000
-            choice = resp.choices[0]
-            if getattr(choice.message, "refusal", None):
-                raise LLMError(f"recusa do modelo: {choice.message.refusal}")
-            if choice.finish_reason == "length" or choice.message.content is None:
-                raise LLMError(f"resposta incompleta (finish_reason={choice.finish_reason})")
+            if resp.status != "completed":
+                raise LLMError(
+                    f"resposta incompleta (status={resp.status}, {resp.incomplete_details})"
+                )
+            refusals = [
+                c.refusal
+                for item in resp.output
+                if item.type == "message"
+                for c in item.content
+                if c.type == "refusal"
+            ]
+            if refusals:
+                raise LLMError(f"recusa do modelo: {refusals[0]}")
             entry = {
-                "content": choice.message.content,
-                "input_tokens": resp.usage.prompt_tokens,
-                "output_tokens": resp.usage.completion_tokens,
+                "content": resp.output_text,
+                "input_tokens": resp.usage.input_tokens,
+                "output_tokens": resp.usage.output_tokens,
                 "latency_ms": latency,
                 "model_snapshot": getattr(resp, "model", None),
             }
@@ -227,11 +245,13 @@ class LLM:
             cache_hit=hit,
             key=key,
         )
-        self.records.append(rec)
-        if self.ledger_path:
-            self.ledger_path.parent.mkdir(parents=True, exist_ok=True)
-            with self.ledger_path.open("a", encoding="utf-8") as f:
-                f.write(json.dumps({"ts": time.time(), **asdict(rec)}, ensure_ascii=False) + "\n")
+        with self._lock:
+            self.records.append(rec)
+            if self.ledger_path:
+                self.ledger_path.parent.mkdir(parents=True, exist_ok=True)
+                with self.ledger_path.open("a", encoding="utf-8") as f:
+                    line = json.dumps({"ts": time.time(), **asdict(rec)}, ensure_ascii=False)
+                    f.write(line + "\n")
         return rec
 
     def summary(self) -> dict[str, Any]:

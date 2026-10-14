@@ -23,6 +23,8 @@ uv run pytest              # testes offline (cliente OpenAI simulado)
 uv run pytest -m live      # teste contra a API real (requer chave)
 uv run enter smoke         # 1 chamada estruturada + 1 embedding reais
 uv run enter mask arq.txt  # normaliza e mascara entidades de um texto
+uv run q1 build            # monta o dataset sintético da Q1 (determinístico, sem LLM)
+uv run q1 gen-templates    # (já executado) gera os templates via LLM; só refaz o que falta
 uv run ruff check .
 ```
 
@@ -30,11 +32,12 @@ uv run ruff check .
 
 | Caminho | Conteúdo |
 |---|---|
-| `common/llm.py` | Wrapper OpenAI: saída estruturada, temperatura 0, cache em disco, ledger de custo/latência |
+| `common/llm.py` | Wrapper OpenAI (Responses API): saída estruturada, cache em disco, ledger de custo/latência |
 | `common/text.py` | Normalização de OCR/PDF e mascaramento de entidades (nomes, CPF/CNPJ, valores, datas, nº CNJ) |
 | `common/runs.py` | `run_id` determinístico (modelo, prompt, schema, dataset, código) e artefatos em `results/<run_id>/` |
 | `common/pricing.py` | Tabela de preços por modelo para custo por documento |
-| `q1_similarity/` | *(fase 1-2)* gerador sintético, pipeline e benchmark |
+| `q1_similarity/` | Gerador do dataset sintético; *(fase 2)* pipeline e benchmark |
+| `data/synthetic/q1/` | Casos, documentos e pares rotulados da Q1 ([README](data/synthetic/q1/README.md), [estatísticas](data/synthetic/q1/STATS.md)) |
 | `q2_arguments/` | *(fase 3-5)* coleta de sentenças, extração, ancoragem, revisão |
 | `docs/` | *(fase 6)* respostas escritas |
 

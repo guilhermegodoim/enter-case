@@ -1,0 +1,52 @@
+{
+  "enderecamento": "Excelentíssimo(a) Senhor(a) Juiz(a) da {VARA} da {COMARCA}.",
+  "qualificacao": "{AUTOR_NOME}, {AUTOR_QUALIFICACAO}, portador(a) do CPF nº {AUTOR_CPF} e RG nº {AUTOR_RG}, residente e domiciliado(a) à {AUTOR_ENDERECO}, e-mail {AUTOR_EMAIL}, por seu advogado, {ADVOGADO_NOME}, vem propor a presente {NOME_ACAO} em face de {REU_NOME}, inscrito no CNPJ sob nº {REU_CNPJ}, com endereço à {REU_ENDERECO}, pelos fatos e fundamentos a seguir expostos.",
+  "gratuidade": {
+    "titulo": "DA JUSTIÇA GRATUITA",
+    "paragrafos": [
+      "A parte autora declara expressamente não possuir condições de arcar com as custas processuais e honorários advocatícios sem prejuízo do próprio sustento e de sua família.",
+      "Nos termos do art. 790, § 3º, da CLT, e do art. 98 do CPC, requer seja deferida a gratuidade da justiça, permitindo o pleno acesso ao Judiciário.",
+      "Caso entenda necessário, a parte autora está disposta a comprovar tal condição por outros meios admitidos em direito."
+    ]
+  },
+  "aplicabilidade": [
+    {
+      "titulo": "DOS PRINCÍPIOS PROTETIVOS DO DIREITO DO TRABALHO",
+      "paragrafos": [
+        "O Direito do Trabalho é regido por princípios que visam equilibrar a relação entre empregado e empregador, destacando-se o princípio da proteção ao trabalhador.",
+        "A aplicação desses princípios garante o respeito aos direitos mínimos da parte autora, assegurando que eventuais dúvidas sejam interpretadas da forma mais favorável ao trabalhador.",
+        "Assim, requer-se que o Juízo adote interpretação protetiva sempre que houver lacuna ou dúvida quanto aos fatos ou à legislação aplicável."
+      ]
+    },
+    {
+      "titulo": "DO ÔNUS DA PROVA E DOCUMENTOS (SÚMULA 338 DO TST)",
+      "paragrafos": [
+        "O empregador detém o dever legal de manter e apresentar todos os documentos relacionados ao contrato de trabalho, conforme dispõe a Súmula 338 do TST.",
+        "Na ausência desses documentos, presume-se verdadeira a jornada e as condições alegadas pela parte autora, cabendo à reclamada o ônus de comprovar o contrário.",
+        "Assim, a produção de provas deve observar a distribuição do ônus, especialmente quanto a controles de ponto e demais registros."
+      ]
+    },
+    {
+      "titulo": "DOS HONORÁRIOS, CORREÇÃO MONETÁRIA E JUROS",
+      "paragrafos": [
+        "Nos termos do art. 791-A da CLT, são devidos honorários sucumbenciais à parte autora no caso de procedência dos pedidos formulados na presente ação.",
+        "Os valores eventualmente reconhecidos deverão ser atualizados monetariamente e acrescidos de juros de mora conforme os índices aplicáveis à Justiça do Trabalho.",
+        "Requer-se que tais critérios sejam observados desde o vencimento de cada parcela até o efetivo pagamento."
+      ]
+    }
+  ],
+  "pedidos_gerais": [
+    "a) A citação da parte ré para apresentar defesa, sob pena de revelia e confissão quanto à matéria de fato.",
+    "b) A concessão dos benefícios da justiça gratuita à parte autora.",
+    "c) A produção de todas as provas admitidas, em especial documental, testemunhal e depoimento pessoal da parte ré.",
+    "d) A condenação da parte ré ao pagamento de honorários sucumbenciais, nos termos da legislação vigente.",
+    "e) A intimação das partes para todos os atos do processo, inclusive para apresentação de cálculos e documentos."
+  ],
+  "fecho": [
+    "Dá-se à causa o valor de {VALOR_CAUSA} ({VALOR_CAUSA_EXTENSO}), para fins de alçada.",
+    "Nestes termos, pede deferimento.",
+    "{COMARCA}, {DATA_PETICAO}.",
+    "{ADVOGADO_NOME}",
+    "OAB {ADVOGADO_OAB}"
+  ]
+}
