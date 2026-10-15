@@ -17,7 +17,7 @@ from pydantic import BaseModel, Field
 
 from common.config import ROOT
 from common.llm import LLM
-from common.text import sha256_text
+from common.text import fix_strings, sha256_text
 from q2_arguments.corpus import load_rulings, ruling_text
 from q2_arguments.ground import Source, anchor
 from q2_arguments.schema import (
@@ -169,6 +169,7 @@ def draft_one(llm: LLM, rid: str, model: str = DRAFT_MODEL) -> GoldRuling:
         temperature=None,
         prompt_version=DRAFT_PROMPT_VERSION,
     )
+    parsed = RascunhoSentenca.model_validate(fix_strings(parsed.model_dump()))
     src = Source(text)
     args = [
         Argumento(

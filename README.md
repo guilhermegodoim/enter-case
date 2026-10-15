@@ -31,6 +31,9 @@ uv run q2 build            # seleciona e anonimiza o corpus da Q2 em data/ruling
 uv run q2 draft-gold       # rascunhos do gold da Q2 via LLM (nunca sobrescreve revisados)
 uv run q2 review           # editor do gold (Streamlit): corrigir, aprovar, ancorar citações
 uv run q2 gold-status      # quantas sentenças revisadas, citações ancoradas
+uv run q2 extract <ruling_id> --config chunk_mini_verif   # extrai e mostra argumentos de 1 sentença
+uv run q2 bench            # benchmark Q2: calibra merge no dev, mede no test, grava results/<run_id>/
+uv run q2 bench --gold revisado   # só sentenças com gold revisado por humano
 uv run ruff check .
 ```
 
@@ -44,7 +47,7 @@ uv run ruff check .
 | `common/pricing.py` | Tabela de preços por modelo para custo por documento |
 | `q1_similarity/` | Dataset sintético, pipeline de similaridade (hash → MinHash → alinhamento → juiz LLM) e benchmark |
 | `data/synthetic/q1/` | Casos, documentos e pares rotulados da Q1 ([README](data/synthetic/q1/README.md), [estatísticas](data/synthetic/q1/STATS.md)) |
-| `q2_arguments/` | Coleta TJSP, corpus anonimizado, schema, ancoragem de citações, gold + editor *(extração e benchmark: fase 4-5)* |
+| `q2_arguments/` | Coleta TJSP, corpus anonimizado, schema, ancoragem de citações, gold + editor, segmentação/chunking, extração, merge, verificador, benchmark *(armazenamento e revisão: fase 5)* |
 | `data/rulings/` | Corpus da Q2: 30 sentenças públicas anonimizadas ([README](data/rulings/README.md), [estatísticas](data/rulings/STATS.md)) |
 | `data/gold/` | Gold da Q2: argumentos por sentença, rascunho LLM corrigido por humano ([guia](data/gold/GUIDE.md)) |
 | `docs/` | *(fase 6)* respostas escritas |

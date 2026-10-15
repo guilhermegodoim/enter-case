@@ -18,7 +18,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, TypeVar
 
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 
 from common.config import Settings
 from common.pricing import cost_usd
@@ -141,14 +141,17 @@ class LLM:
             if max_output_tokens is not None:
                 kwargs["max_output_tokens"] = max_output_tokens
             t0 = time.perf_counter()
-            resp = self.client.responses.parse(
-                model=model,
-                instructions=system,
-                input=[{"role": "user", "content": user}],
-                text_format=schema,
-                store=False,
-                **kwargs,
-            )
+            try:
+                resp = self.client.responses.parse(
+                    model=model,
+                    instructions=system,
+                    input=[{"role": "user", "content": user}],
+                    text_format=schema,
+                    store=False,
+                    **kwargs,
+                )
+            except ValidationError as e:  # JSON inválido (ex.: saída degenerada em loop)
+                raise LLMError(f"saída não confere com o schema {schema.__name__}: {e}") from e
             latency = (time.perf_counter() - t0) * 1000
             if resp.status != "completed":
                 raise LLMError(
