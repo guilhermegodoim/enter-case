@@ -1,0 +1,94 @@
+{
+  "ruling_id": "tjsp-1003119-56.2025.8.26.0363",
+  "text_sha256": "0f8933d72ace3ccb6d0ef9078a7bc1674e2a53c691959c254e30e6772530d7f1",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "extinto_sem_merito",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Há inépcia da petição inicial pelo não atendimento da emenda e falta de documentos essenciais, impondo seu indeferimento",
+      "resumo": "O juiz indeferiu a inicial e extinguiu o processo sem resolução do mérito porque a autora, mesmo intimada, não atendeu integralmente à ordem de emenda: não especificou contratos e cláusulas a revisar, não comprovou a situação econômica exigida no rito do superendividamento, não instruiu com documentos indispensáveis e atribuiu valor da causa sem correspondência ao proveito econômico. Aplicou-se o art. 321, parágrafo único, e o art. 485, I, do CPC, à luz dos arts. 319 e 320 do CPC e do art. 104-A do CDC.",
+      "tipo": "preliminar",
+      "tema": "descumprimento de emenda à inicial",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 319 do CPC",
+        "art. 320 do CPC",
+        "art. 321, parágrafo único, do CPC",
+        "art. 485, I, do CPC",
+        "art. 104-A do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "No caso em voga a petição inicial não vai além de sugerir o superendividamento da parte autora a partir de tantos e quantos contratos.",
+          "char_start": 3690,
+          "char_end": 3824,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso em voga, a autor nem sequer especificou os contratos.",
+          "char_start": 6377,
+          "char_end": 6438,
+          "score": 100.0
+        },
+        {
+          "texto": "Ante o exposto, INDEFIRO A PETIÇÃO INICIAL com fundamento no artigo 321, parágrafo único, do Código de Processo Civil. Em consequência, JULGO EXTINTO o processo a teor do artigo 485, I, do mesmo Diploma Legal.",
+          "char_start": 16498,
+          "char_end": 16707,
+          "score": 100.0
+        }
+      ],
+      "secao": "dispositivo"
+    },
+    {
+      "id": "a02",
+      "titulo": "Remessa de cópia à OAB por indícios de litigância predatória para apuração administrativa",
+      "resumo": "Diante de indícios de advocacia/litigância predatória, o juiz determinou o envio de cópia da sentença à OAB para apuração, fundamentando-se no Comunicado CG 424/2024 que orienta providências para coibir tais práticas.",
+      "tipo": "acessorio",
+      "tema": "remessa à OAB",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Comunicado CG 424/2024 (CGJ/SP)"
+      ],
+      "citacoes": [
+        {
+          "texto": "Daí indícios daquilo que se convencionou chamar de advocacia ou litigância predatória, consistente na captação indiscriminada de clientela e massificação de demandas, tudo a recomendar maior rigor na fiscalização da representação processual.",
+          "char_start": 10417,
+          "char_end": 10658,
+          "score": 100.0
+        },
+        {
+          "texto": "Com o escopo de coibir tal prática e, sobretudo, assegurar o uso escorreito do Poder Judiciário, a Corregedoria Geral da Justiça de São Paulo publicou recentemente o Comunicado CG no 424/2024, por meio do qual não apenas alistou situações indicativas da litigância predatória, mas também, e principalmente, enumerou providências passíveis de adoção pelos Magistrados que se deparam com tais casos.",
+          "char_start": 10660,
+          "char_end": 11057,
+          "score": 100.0
+        },
+        {
+          "texto": "Remeta-se cópia desta sentença à Ordem dos Advogados do Brasil para a apuração administrativa que reputar pertinente, independentemente daquelas exigências todas feitas pelo órgão de classe, pois processo eletrônico, tem ele acesso pleno à sua íntegra.",
+          "char_start": 16831,
+          "char_end": 17083,
+          "score": 100.0
+        }
+      ],
+      "secao": "dispositivo"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 5284,
+    "output_tokens": 5229,
+    "cost_usd": 0.058895,
+    "latency_ms": 44254,
+    "citacoes": 6,
+    "citacoes_ancoradas": 6
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

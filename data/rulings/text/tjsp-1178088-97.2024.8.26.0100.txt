@@ -1,0 +1,91 @@
+SENTENÇA
+
+Processo no: 1178088-97.2024.8.26.0100
+
+Classe - Assunto: Procedimento Comum Cível - Responsabilidade do Fornecedor
+
+Requerente: [AUTOR]
+
+Requerido: Facebook Serviços Online do Brasil Ltda.
+
+Juiz(a) de Direito: Dr(a). Luciana Novakoski Ferreira Alves de Oliveira
+
+Vistos.
+
+Trata-se de ação de obrigação de fazer c.c. indenização por danos morais ajuizada por [AUTOR] em face de FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA.
+
+Alega, em síntese, que perdeu acesso à sua conta de WhatsApp, vinculada ao número [TELEFONE], em razão de banimento pela plataforma, por suposta violação dos termos de serviço. Informa que tentou todos os métodos e procedimentos para a efetiva recuperação da conta, não logrando êxito, tampouco obteve resposta sobre quais as condutas que supostamente teria violado. Requer, em tutela de urgência, que seja determinado o restabelecimento de acesso à conta vinculada ao número telefônico, sob pena de multa diária. Ao final, pugna pela confirmação da tutela, bem como condenação da ré ao pagamento de indenização por danos morais, no valor de R$ 10.000,00. Junta documentos (fls. 14/20).
+
+A tutela antecipada é indeferida, às fls. 21/22.
+
+A ré apresenta contestação, às fls. 45/67. Em sede de preliminar, alega ilegitimidade passiva do Facebook Brasil no que se refere a pedidos envolvendo o Whatsapp LLC. Outrossim, anota perda superveniente do objeto da ação, pois a conta no aplicativo aparenta estar disponível. No mérito, defende legítima a suspensão da conta, porquanto a autora foi informada acerca de atividades não permitidas na plataforma, dentre elas a oferta de créditos consignados, ramo em que a requerente trabalha fls. 52. Defende que as restrições aplicadas à conta ocorrem no exercício regular do direito. Anota que a obrigação de restabelecer a conta com todo o conteúdo anterior é inviável, porque tal serviço é prestado por empresa diversa - a WhatsApp LLC. Impugna a inversão do ônus da prova, nega a ocorrência de danos morais e pugna pela improcedência da pretensão inicial.
+
+Sobrevém réplica (fls. 160/161).
+
+Intimadas a se manifestarem sobre a produção de provas, as partes pugnam pelo julgamento antecipado da lide.
+
+É o relatório.
+
+Fundamento e decido.
+
+Trata-se de hipótese de julgamento antecipado da lide, nos termos do artigo 355, inciso I, do Código de Processo Civil, por ser desnecessária a dilação probatória, uma vez que os autos já estão suficientemente instruídos por documentos.
+
+A preliminar de ilegitimidade passiva não comporta acolhimento. A plataforma de comunicação WhatsApp integra o mesmo grupo econômico do réu, sendo o Facebook responsável, no país, para atuar como representante da empresa estrangeira. Nesse sentido, destaco entendimento deste Tribunal de Justiça:
+
+"AGRAVO DE INSTRUMENTO. Ação de obrigação de fazer cumulada com tutela de urgência para reativação de conta no Instagram/Facebook e "WhatsApp" cumulada com indenização por dano moral. Tutela de urgência. Indeferimento. Não conhecimento do recurso quanto às contas mantidas junto ao Instagram e Facebook porque da réplica apresentada nos autos principais extrai-se que o agravante recuperou tais contas. Alegação da agravada de ilegitimidade passiva quanto à conta mantida junto ao "WhatsApp". Inadmissibilidade. Empresas pertencentes ao mesmo grupo econômico. Legitimidade para representar o grupo empresarial no país. Precedentes. Agravada que se limitou a alegar genericamente que a conta mantida junto ao "WhatsApp" foi banida por violação aos Termos de Serviço da plataforma. Conta mantida junto ao "WhatsApp" que é utilizada como contato de trabalho, que fora bloqueada sem justificativa. Reforma da r. decisão para determinar à agravada que restabeleça a referida conta. Recurso provido na parte conhecida." (TJSP, Agravo de Instrumento no 2241183-64.2022.8.26.0000, 15a Câmara de Direito Privado, Rel. Des. Jairo Brazil, julgado em 13 de fevereiro de 2023).
+
+E, embora a empresa "Whatsapp LLC", responsável pelo aplicativo Whatsapp, tenha sua sede nos Estados Unidos, a prestação do serviço ocorreu no Brasil, atingindo consumidor brasileiro. Logo, há competência da justiça brasileira, conforme previsto no Marco Civil da Internet:
+
+Art. 11. Em qualquer operação de coleta, armazenamento, guarda e tratamento de registros, de dados pessoais ou de comunicações por provedores de conexão e de aplicações de internet em que pelo menos um desses atos ocorra em território nacional, deverão ser obrigatoriamente respeitados a legislação brasileira e os direitos à privacidade, à proteção dos dados pessoais e ao sigilo das comunicações privadas e dos registros.
+
+§ 1o O disposto no caput aplica-se aos dados coletados em território nacional e ao conteúdo das comunicações, desde que pelo menos um dos terminais esteja localizado no Brasil.
+
+§ 2o O disposto no caput aplica-se mesmo que as atividades sejam realizadas por pessoa jurídica sediada no exterior, desde que oferte serviço ao público brasileiro ou pelo menos uma integrante do mesmo grupo econômico possua estabelecimento no Brasil.
+
+§ 3o Os provedores de conexão e de aplicações de internet deverão prestar, na forma da regulamentação, informações que permitam a verificação quanto ao cumprimento da legislação brasileira referente à coleta, à guarda, ao armazenamento ou ao tratamento de dados, bem como quanto ao respeito à privacidade e ao sigilo de comunicações.
+
+De outro lado, não é o caso de se reconhecer a perda superveniente do objeto da ação, uma vez que a parte ré sequer comprovou, ainda que minimamente, estar a conta da conta da autora disponível para o seu uso.
+
+No mérito, o pedido é parcialmente procedente.
+
+Restou incontroversa a desativação da conta da autora na rede social do Instagram, conforme fls. 17.
+
+A autora alega que a desativação das contas ocorreu de forma arbitrária, já que não houve motivo justo para tanto e sequer teve oportunidade para defesa. A ré, ao revés, alega que a autora violou os Termos de Uso e Diretrizes da Comunidade da plataforma, estando, dessa forma, legitimada a desativar o perfil.
+
+Ora, há evidente relação de consumo entre as partes. Em consequência, a ré responde objetivamente por eventuais falhas na prestação de seus serviços, responsabilidade que somente seria afastada em caso de culpa exclusiva da vítima ou de terceiro.
+
+Aqui, no entanto, a ré não logrou comprovar qualquer conduta da autora violadora das normas contratuais das partes ou internas da plataforma, ônus que lhe incumbia, na forma do art. 6o, inciso VIII, do Código de Defesa do Consumidor.
+
+Ao contrário, houve falha dos serviços da ré ao aplicar sanções à conta da autora, sem especificar qual seria o trecho dos termos de uso supostamente infringido. A alegação meramente genérica de violação aos Termos de Uso fere o dever de informação, previsto no artigo 6o inciso III, do CDC, além de violar o direito de defesa do usuário.
+
+Além disso, a alegação superficial de que a autora comercializava créditos consignados também não se sustenta, porque ela vem desprovida de prova, ainda que mínima, da conduta supostamente inapropriada.
+
+A ausência de prévia comunicação, a inexistência de aviso claro sobre quais conteúdos teriam sido considerados ofensivos às diretrizes, e a negativa de acesso a instância administrativa para contestação ou revisão das medidas adotadas, tornam inequívoca a falha na prestação do serviço, caracterizando desequilíbrio contratual e violação do princípio da boa-fé objetiva.
+
+Cabe ressaltar que o contrato celebrado entre as partes é típico de adesão, sendo a autora mera destinatária final do serviço prestado, em contexto de hipossuficiência técnica quanto à compreensão, contestação e aplicação das cláusulas contratuais automatizadas.
+
+A invocação genérica da autonomia privada como escudo para justificar atos unilaterais de restrição e limitação de perfis profissionais, quando não acompanhada de lastro probatório mínimo que demonstre o justo motivo, vulnera não apenas a proteção contratual do consumidor, mas compromete o próprio ambiente normativo das relações digitais, cuja legitimação se sustenta na transparência, previsibilidade e razoabilidade das medidas adotadas pelas plataformas.
+
+Portanto, tendo a ré agido ilicitamente na condução da conta da autora, deve ela ser obrigada a restabelecê-la, como requerido na inicial.
+
+A autora também faz jus ao recebimento de indenização por danos morais. A frustração da expectativa gerada pela falha na prestação do serviço, somada às circunstâncias do caso, configuram mais do que mero aborrecimento. A autora teve sua conta suspensa sem a possibilidade de aviso aos seus clientes. Para reparação do abalo à sua honra e imagem, mostra-se razoável o valor de R$ 3.000,00, suficiente para reparar o abalo moral suportado, sem lhe causar, por outro lado, enriquecimento sem causa.
+
+Contudo, em relação ao pedido de restauração do conteúdo de conversas e dados da autora, é sabido que as mensagens trocadas no aplicativo WhatsApp são criptografadas de ponta a ponta e não podem ser acessadas pelo provedor. Por isso, acolhe-se a alegação de impossibilidade de cumprimento da obrigação de determinar a restituição das mensagens e documentos.
+
+Sobre isso, já decidiu o Tribunal de Justiça de São Paulo:
+
+AÇÃO DE OBRIGAÇÃO DE FAZER CUMULADA COM INDENIZAÇÃO POR DANOS MORAIS. Autora que teve sua conta de WhatsApp banida. Sentença de procedência para o fim de determinar o restabelecimento dos serviços, com recuperação de todo o histórico de conversa e arquivos, sob pena de multa diária de R$5.000,00, limitada a R$150.000,00, bem como para condenar o réu no pagamento de indenização por danos morais, no valor de R$17.000,00. Preliminar de ilegitimidade rejeitada. Facebook Brasil que responde pela empresa estrangeira WhatsApp LLC, por aplicação do art. 75, X, do CPC. Jurisprudência do Superior Tribunal de Justiça e deste E. Tribunal nesse sentido. Autora que foi vítima de golpe e forneceu ao fraudador informações pessoais, dados bancários, telefone, e-mail e Whatsapp. Autora que não adotou as cautelas devidas. Banimento da conta pela ré cerca de uma hora após o uso indevido do Whatsapp por terceiros. Dever de segurança bem cumprido. Exercício regular de direito. Culpa exclusiva de terceiro e da vítima que afastam a responsabilidade civil do réu (art. 14, §3o, II, do CDC). Restabelecimento de todo o histórico de mensagens e arquivos. Descabimento. Criptografia de ponta-a-ponta que protege as conversas e impede que terceiros, inclusive o próprio Whatsapp, tenham acesso. Impossibilidade técnica configurada. Obrigação de restabelecimento dos serviços mantida, mas não no estado em que encontrava. Multa cominatória que é devida. Montante, contudo, que é excessivo e desproporcional. "Astreintes" que não tem caráter indenizatório e não pode ensejar enriquecimento sem causa. Serviços que já foram restabelecidos. Multa reduzida para R$5.000,00, aplicada de forma única. Precedentes em casos semelhantes. Sentença reformada. Recurso provido em parte. (TJSP; Apelação Cível 1018972-89.2023.8.26.0003; Relator (a): Milton Carvalho; Órgão Julgador: 36a Câmara de Direito Privado; Foro Regional III - Jabaquara - 2a Vara Cível; Data do Julgamento: 28/11/2024; Data de Registro: 28/11/2024)
+
+AGRAVO DE INSTRUMENTO - Decisão que concedeu a tutela para reativar as contas de whatsapp business da parte autora, sob pena de multa diária de R$ 1.000,00 limitada a R$ 200.00,00 Recurso do requerido [....]. RESTABELECIMENTO DAS CONTAS NO ESTADO EM QUE SE ENCONTRAVAM Conforme termos de uso do próprio aplicativo, evidencia-se que a criptografia ponta-a-ponta protege as conversas e impede que terceiros, inclusive o próprio Whatsapp, tenham acesso Impossibilidade de armazenamento e disponibilização dos conteúdos no estado original, uma vez que o provedor não registra tais informações RECURSO PROVIDO NESTE ASPECTO. [...] Decisão parcialmente reformada RECURSO PARCIALMENTE PROVIDO. (TJSP; Agravo de Instrumento 2256892-71.2024.8.26.0000; Rel. Sacchi de Oliveira; 24a Câmara de Direito Privado; j. 18/10/2024)
+
+Ante o exposto, JULGO PARCIALMENTE PROCEDENTES os pedidos, com resolução do mérito, nos termos do artigo 487, inciso I, do Código de Processo Civil, para condenar o réu ao restabelecimento da conta da autora, sob número [TELEFONE], na plataforma WhatsApp, e ao pagamento de indenização por danos morais, no valor de R$ 3.000,00, acrescidos de correção monetária, a partir desta sentença, e de juros de mora, desde o ilícito.
+
+Respeitados os termos iniciais supra referidos, até agosto de 2024, a correção monetária será calculada pelo INPC (antigo índice da tabela prática), e os juros moratórios serão de 1% ao mês; a partir de setembro de 2024, a correção monetária será calculada pelo IPCA, e os juros moratórios serão calculados pela taxa SELIC, com desconto do IPCA, na forma dos arts. 389, parágrafo único, e 406, § 1o, ambos do Código Civil, com a redação dada pela Lei 14.905/24.
+
+Em razão da sucumbência mínima da parte autora, condeno o réu ao pagamento das custas e despesas processuais e de honorários advocatícios de R$ 1.500,00, arbitrados por equidade, na forma do art. 85, § 8o, do Código de Processo Civil.
+
+P.I.C.
+
+São Paulo, 27 de agosto de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

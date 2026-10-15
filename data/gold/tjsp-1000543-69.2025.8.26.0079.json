@@ -1,0 +1,110 @@
+{
+  "ruling_id": "tjsp-1000543-69.2025.8.26.0079",
+  "text_sha256": "f1eda848fb257df10e826bc6a2dae54212077974eaa6a75754c5ad3c490acb34",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Incidência do CDC e responsabilidade objetiva da transportadora aérea",
+      "resumo": "O juízo reconheceu a relação de consumo entre as partes e aplicou o CDC, afirmando a responsabilidade objetiva do transportador, sujeita apenas às excludentes do nexo causal, cujo ônus probatório é do fornecedor.",
+      "tipo": "merito",
+      "tema": "aplicação do CDC",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2º do CDC",
+        "art. 3º do CDC",
+        "art. 14 do CDC",
+        "art. 6º, VIII, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A relação jurídica havida entre as partes é de consumo, inserida no contexto dos artigos 2° e 3° do Código de Defesa do Consumidor, atuando a requerida na qualidade de fornecedora e a autora na qualidade de destinatária final e consumidora dos produtos e serviços oferecidos.",
+          "char_start": 2574,
+          "char_end": 2849,
+          "score": 100.0
+        },
+        {
+          "texto": "Por consequência, a responsabilidade do transportador é objetiva e independe de culpa, nos termos do art. 14 do CDC, somente podendo ser elidida quando presente alguma das causas excludentes do nexo causal, cabendo ao fornecedor o ônus da prova no que toca à regular prestação do serviço (art. 6o, inciso VIII).",
+          "char_start": 3801,
+          "char_end": 4112,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Prestação de assistência material adequada conforme Resolução 400/ANAC",
+      "resumo": "A ré demonstrou ter prestado assistência material com hospedagem e reacomodação no primeiro voo disponível, em conformidade com a Resolução 400/ANAC, o que foi reconhecido pelo juízo.",
+      "tipo": "merito",
+      "tema": "assistência material (Res. 400/ANAC)",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Resolução 400/2016 da ANAC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não obstante, a requerida comprovou que prestou a devida assistência material à autora, com hospedagem (fl. 130) e realocação no primeiro voo disponível, em cumprimento ao determinado na Resolução no 400 da ANAC.",
+          "char_start": 5331,
+          "char_end": 5543,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Inexistência de dano moral pelo atraso e perda de conexão, por não ser in re ipsa e caracterizar mero dissabor",
+      "resumo": "Com base no art. 251-A do CBA, o juízo entendeu que o dano moral não é presumido; atrasos como o narrado são fatos corriqueiros do transporte aéreo e, havendo assistência e ausência de prova de abalo concreto, não há indenização por dano moral.",
+      "tipo": "merito",
+      "tema": "dano moral (inexistência)",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 251-A do CBA",
+        "art. 5º, X, CF",
+        "Resolução 400/2016 da ANAC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Aplica-se à espécie o rigor do art. 251-A do Código Brasileiro de Aeronáutica (CBA), que afasta a presunção do dano (in re ipsa) e condiciona a indenização por falha na execução do contrato de transporte à demonstração da efetiva ocorrência do prejuízo e de sua extensão.",
+          "char_start": 5058,
+          "char_end": 5329,
+          "score": 100.0
+        },
+        {
+          "texto": "Ademais, todo aquele que se utiliza do transporte aéreo sabe que são comuns atrasos temporários em decorrência de manutenção da aeronave ou de adequação de tráfego, e tal fato não caracteriza evento extraordinário que supere a condição de contratempo cotidiano de modo a configurar dano moral reparável.",
+          "char_start": 4753,
+          "char_end": 5056,
+          "score": 100.0
+        },
+        {
+          "texto": "Conclui-se, daí, que a conduta da empresa aérea não expôs a parte a qualquer situação humilhante ou vexatória, mas a mero dissabor da vida cotidiana.",
+          "char_start": 5545,
+          "char_end": 5694,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 4095,
+    "output_tokens": 5134,
+    "cost_usd": 0.05645875,
+    "latency_ms": 43548,
+    "citacoes": 6,
+    "citacoes_ancoradas": 6
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

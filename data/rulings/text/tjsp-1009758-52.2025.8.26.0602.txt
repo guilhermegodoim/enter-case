@@ -1,0 +1,93 @@
+SENTENÇA
+
+Processo no: 1009758-52.2025.8.26.0602
+
+Classe - Assunto Busca e Apreensão em Alienação Fiduciária - Alienação Fiduciária
+
+Requerente: Banco Votorantim S.A.
+
+Requerido: [REU]
+
+Juiz(a) de Direito: Dr(a). Fabiano Rodrigues Crepaldi
+
+Vistos.
+
+Trata-se de ação de busca e apreensão com pedido de liminar, com fundamento no Decreto Lei 911/69, na qual o requerente alega que as partes celebraram um contrato de financiamento em parcelas, tendo a garantia recaído sobre o veículo descrito na inicial. Notificada extrajudicialmente, a parte ré não teria efetuado o pagamento do débito. Requer a busca e apreensão do veículo.
+
+A liminar foi deferida (fls. 91/92) e cumprida (fls. 284/286).
+
+A ré compareceu espontaneamente nos autos e apresentou contestação (fls. 97/112), sustentando notificação extrajudicial irregular, abusividade na cobrança no tocante à capitalização diária de juros bem como à incidência de juros abusivos. Pleiteia a cassação da liminar concedida.
+
+Em réplica (fls. 191/202) o requerente afirma ausência de purgação da mora, regularidade na cobrança de juros, além da manutenção da liminar anteriormente deferida.
+
+Decisão (fls. 203/204) mantém a liminar.
+
+É O RELATÓRIO.
+
+FUNDAMENTO E DECIDO.
+
+O feito comporta julgamento imediato, sendo desnecessária a produção de outras provas.
+
+Tendo em vista o comparecimento espontâneo da parte ré, faz-se desnecessária sua citação, sobretudo diante da sua manifestação expressa às fls. 299/300.
+
+O pedido principal é procedente.
+
+Houve contratação de Cédula de Crédito Bancário no 151442609, em decorrência do financiamento de veículo automotor, em 22/11/2023 (fls. 61/65), com incidência de taxa mensal de juros remuneratórios de 2,92% a.m. e 42,99% a.a. (ambas relacionadas ao custo efetivo total).
+
+Inicialmente, cumpre destacar aqui não haver dúvidas quanto à constituição em mora da parte ré, que foi devidamente notificada, uma vez que a notificação foi enviada para o endereço informado pelo devedor-fiduciante de acordo com o que consta no contrato, cumprindo os requisitos constantes do parágrafo 2o do art. 2o do Decreto Lei. 911/69 (fls. 72/74).
+
+Sendo assim, a alegação da requerida quanto a irregularidades na notificação extrajudicial enviada, não merecem acolhimento.
+
+Além disso, o réu deixou de depositar o valor integral da dívida, e por isso perdeu eventual oportunidade para purgar a mora (art. 3o, § 2o, do Decreto-Lei no 911/69), o que deu causa à resolução do contrato, caracterizado o esbulho possessório. Verificado o inadimplemento contratual, cabe à instituição financeira executar qualquer das garantias pactuadas, sem ordem de preferência, em especial porque o procedimento de busca e apreensão em questão visa tão somente apreender o bem dado em garantia, ante a transferência do domínio decorrente da relação contratual.
+
+Apenas o pagamento integral da dívida permitiria ao devedor reaver o bem dado em garantia ao credor fiduciário. Foi consolidado pelo STJ no julgamento do REsp Repetitivo 1418593/MS, julgado em 14/05/2014, para efeitos do art. 543-C, do Código de Processo Civil, que:
+
+"Nos contratos firmados na vigência da Lei no 10.931/2004, compete ao devedor, no prazo de cinco (05) dias após a execução da liminar na ação de busca e apreensão, pagar a integralidade da dívida entendida esta como os valores apresentados e comprovados pelo credor na inicial sob pena de consolidação da propriedade do bem móvel objeto de alienação fiduciária".
+
+Em sua contestação (fls. 97/112), a requerida alega que a inadimplência foi causada pela ilegalidade dos encargos do contrato, o que não deve prosperar. Cumpre destacar que a aplicabilidade do Código de Defesa do Consumidor às instituições financeiras é matéria pacífica e não demanda maiores considerações (súmula 297 STJ).
+
+Em momento algum a requerida nega a inadimplência.
+
+O contrato prevê a taxa de juros mensal e anual, o valor de cada parcela e a somatória delas, de modo claro e inequívoco. A taxa de juros contratada é de 2,50% a.m., conforme consta na fl. 62 do contrato firmado. A taxa de juros anual de 42,99% (fl. 62) refere-se ao Custo Efetivo Total (CET), pois no contrato foram financiados inúmeros encargos, dentre os quais tarifa de cadastro do contrato. Logo, o CET se refere ao impacto percentual de todos os encargos em relação ao valor líquido do bem adquirido e não há nenhuma irregularidade no fato do percentual do CET ser superior da taxa de juros pactuada entre as partes, pois, repiso, a taxa de juros, tarifas e impostos financiados seguem a mesma taxa contratada, mas o custo efetivo total (CET) leva em consideração apenas o impacto sobre o valor principal tomado.
+
+Importante destacar que permanece consolidado o entendimento de que as instituições financeiras não se submetem às limitações da Lei da Usura, conforme Súnula 596 do Supremo Tribunal Federal.
+
+"As disposições do Decreto 22.626/33 não se aplicam às taxas de juros e aos outros encargos cobrados nas operações realizadas por instituições públicas ou privadas que integrem o sistema financeiro nacional".
+
+Da mesma forma, inexiste limitação constitucional das taxas de juros, após a revogação do art. 192, §3o, da Constituição Federal pela Emenda Constitucional no 40/2003.
+
+No que tange à capitalização de juros, o Superior Tribunal de Justiça consolidou o entendimento de sua licitude em periodicidade inferior à anual nos contratos celebrados após a edição da Medida Provisória no 2.170-36/2001, desde que expressamente pactuada, através da Súmula 539, que assim dispõe:
+
+"É permitida a capitalização de juros com periodicidade inferior à anual em contratos celebrados com instituições integrantes do Sistema Financeiro Nacional a partir de 31/03/2000, desde que expressamente pactuada."
+
+Se é certo que ao juiz é dado reconhecer a abusividade dos juros, em face da aplicação do Código de Defesa do Consumidor à relação jurídica estabelecida entre a instituição financeira e o cliente, não é menos certo que o reconhecimento da abusividade deve levar em conta a aplicação dos juros da mesma espécie de contrato praticada por outros bancos e disciplinada pelo Banco Central.
+
+Nesse sentido, a cobrança de juros remuneratórios no percentual cobrado, frente à média de mercado relativa ao mesmo período e modalidade de crédito, não incide em abusividade porque não supera aquilo normalmente esperado da espécie de contrato celebrado entre as partes, não se verificando comissão de permanência, mas cobrança de juros nos percentuais acordados, considerando os encargos também financiados.
+
+Nesse sentido:
+
+REVISIONAL DE CONTRATO BANCÁRIO CÉDULA DE CRÉDITO BANCÁRIO FINANCIAMENTO DE VEÍCULO ALEGAÇÃO DE EXCESSO NA TAXA DE JUROS APLICADA DESCABIMENTO - Não obstante a taxa de juros mensal entabulada no financiamento contratado pelo autor fosse de 2,6375% e a taxa média praticada para contratações semelhantes à época fosse de 1,50%, não se observa abuso na taxa prevista no contrato entabulado entre as partes. Assim é, pois só se verifica a abusividade quando a taxa de juros pactuada supera o dobro da média praticada pelo mercado, hipótese que não se verifica nos autos. Sentença mantida. Recurso desprovido." (TJSP; Apelação Cível 1003852-50.2020.8.26.0281; Relator: Walter Fonseca; Órgão Julgador: 11a Câmara de Direito Privado; Foro de Itatiba - 1a Vara Cível; Data do Julgamento: 14/06/2024; Data de Registro: 14/06/2024).
+
+APELAÇÃO. AÇÃO REVISIONAL DE CONTRATO DE FINANCIAMENTO DE VEÍCULO. SENTENÇA DE PARCIAL PROCEDÊNCIA. INCONFORMISMO DO BANCO REQUERIDO. SUBSISTÊNCIA. 1. Alegação do banco requerido de que os juros foram devidamente pactuados entre as partes, não havendo abusividade. 2. Juros remuneratórios. Taxa prevista no contrato é inferior ao dobro da taxa média de mercado. Taxa abusiva é aquela que supera o dobro da taxa de mercado. Validade das taxas contratadas: 1,58% ao mês e 20,70% ao ano. Taxa média de mercado para o período e tipo de operação contratada é de 1,55% ao mês e de 12,14% ao ano. 3. Sentença reformada. Recurso a que se dá provimento." (TJSP. Apelação Cível 1004482-45.2022.8.26.0020; Relator: Celso Alves de Rezende; Órgão Julgador: 16a Câmara de Direito Privado; Foro Regional XII - Nossa Senhora do Ó - 3a Vara Cível; Data do Julgamento: 13/02/2025; Data de Registro: 13/02/2025).
+
+No caso, a taxa média de juros na época da contratação era de 2,50% ao mês, conforme consulta no site do Banco Central, e a taxa de juros contratada, sem a incidência dos encargos financiados, foi de 2,15% ao mês, diante do que não se verifica ilegalidade ou abusividade na taxa de juros aplicada ao contrato impugnado.
+
+Ademais, tratando a hipótese de negócio jurídico envolvendo pessoas maiores, capazes e bens disponíveis, sem qualquer indício de vícios ou abusividades contratuais no que tange aos juros aplicados, deve ser privilegiado o que foi livremente pactuado entre as partes.
+
+Diante do exposto, JULGO PROCEDENTE o pedido, tornando definitiva a liminar.
+
+Deixo de declarar a consolidação da propriedade em nas mãos do credor fiduciário, uma vez que esta se opera por força de lei, a qual também faculta a transferência do bem independentemente de determinação judicial (§ 3o, do artigo 3o, do Decreto-Lei no 911/69, na redação conferida pela Lei no 10.931/04), sem prejuízo de eventual saldo a ser cobrado na forma do artigo 66, §§ 4o e 5o, da Lei no 4.728/65, alterado pelo artigo 1o do Decreto-Lei no 911/69. Note-se que a propriedade somente se consolida após o decurso do prazo para purgação da mora, o que deve ser observado pelo credor fiduciário (§ 2o, do artigo 3o, do referido diploma).
+
+Caso o bem tenha sido bloqueado, por determinação deste Juízo, efetive-se o necessário para levantamento da restrição.
+
+Arcará a parte requerida com as custas, despesas e honorários advocatícios,que arbitro em 10% do valor da causa atualizado.
+
+Transitada em julgado a presente sentença e em nada sendo pleiteado, ao arquivo.
+
+Int.
+
+Sorocaba, 30 de setembro de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA
+
+417421

@@ -1,0 +1,173 @@
+SENTENÇA
+
+Processo Digital no: 1036314-09.2024.8.26.0576
+
+Classe - Assunto Procedimento Comum Cível - Revisão de Juros Remuneratórios, Capitalização/Anatocismo
+
+Requerente: [AUTOR]
+
+Requerido: Banco Inbursa S.a.
+
+Juiz(a) de Direito: Dr(a). JOSE ROBERTO LOPES FERNANDES
+
+Vistos.
+
+Trata-se de ação declaratória de impossibilidade de capitalização composta de juros c/c revisional de contrato bancário ajuizada por [AUTOR] em face de Banco Inbursa S.A. (fls. 1/14).
+
+Afirmou a autora ter celebrado com a instituição financeira ré, em 17/07/2023, contrato de empréstimo consignado no montante de R$ 16.009,59, a ser adimplido em 82 prestações no valor inicial de R$ 364,48. Sustentou que a casa bancária desrespeitou a taxa de juros e aplicou capitalização composta por meio da Tabela Price sem prévia pactuação clara, o que caracterizaria anatocismo e onerosidade excessiva. Apresentou laudo contábil unilateral aduzindo que, caso recalculada a dívida sob o método linear simples de Gauss à taxa de 1,72% ao mês, o valor devido por parcela seria de R$ 277,38, perfazendo cobrança excedente de R$ 7.142,15. Pugnou pela concessão de tutela de urgência para limitação das prestações ao valor incontroverso e abstenção de negativação, pela inversão do ônus probatório, pela revisão das cláusulas contratuais com substituição da Tabela Price pelo método Gauss, pela repetição em dobro do indébito e pela condenação do banco em verbas sucumbenciais. Atribuiu à causa o valor de R$ 14.284,30. Juntou documentos (fls. 15/45).
+
+Por decisão inicial de fls. 46/47, foi determinada a emenda da petição inicial para individualização da contratação. A requerente emendou a inicial às fls. 52/55 ratificando os termos postulados.
+
+A decisão de fls. 56/58 indeferiu o segredo de justiça e a tutela antecipada de urgência, além de determinar a comprovação da hipossuficiência financeira.
+
+O Banco Inbursa S.A. ofertou contestação às fls. 87/109. No mérito, alegou a validade integral da Cédula de Crédito Bancário decorrente de regular portabilidade de crédito consignado, pontuando que as taxas mensal e anual foram previamente informadas, inexistindo abusividade frente às normas do Conselho Monetário Nacional. Defendeu a plena legalidade da capitalização de juros nos termos do art. 28, § 1o, inciso I, da Lei Federal no 10.931/2004 e das Súmulas 539 e 541 do Superior Tribunal de Justiça. Combateu expressamente a pretensão de aplicação do método Gauss, argumentando que se trata de fórmula estatística inadequada à amortização de financiamentos bancários e que a Tabela Price não configura anatocismo ilegal. Concluiu pela inocorrência de cobrança indevida e pela inaplicabilidade da repetição em dobro, pugnando pela total improcedência da demanda. Trouxe aos autos a íntegra da Cédula de Crédito Bancário no 202307171028755 e o extrato da operação (fls. 110/141).
+
+Houve réplica pela autora às fls. 142/148.
+
+Intimadas as partes para especificação de provas (fls. 149/150), a requerente manifestou-se à fl. 158 requerendo o julgamento antecipado da lide com base nas provas documentais já acostadas.
+
+Designada audiência de tentativa de conciliação (fls. 164/167), não houve acordo entre as partes (fl. 175).
+
+Vieram os autos conclusos para prolação de sentença.
+
+É o relatório.
+
+Fundamento.
+
+A matéria em disputa é só de direito, despiciendas outras provas além das que já foram trazidas, motivo autorizante de se dar o julgamento no estado do processo, modalidade julgamento antecipado da lide.
+
+Ademais, a controvérsia repousa em matéria predominantemente de direito e interpretação de cláusulas de mútuo financeiro já instruído com a respectiva Cédula de Crédito Bancário e extrato de evolução, sendo prescindível a dilação probatória pericial, mormente quando a parte autora expressamente pugnou pelo julgamento no estado em que se encontra o feito.
+
+O cerne da questão é a legalidade ou não das práticas atacadas na inicial à luz do Código de Defesa do Consumidor.
+
+Não se pode negar que o contrato e relação em tela são de adesão. Consideram-se contratos de adesão: "aqueles que não resultam do livre debate entre as partes, mas provêm do fato de uma delas aceitar tacitamente cláusulas e condições previamente estabelecidas pela outra". Caio Mário da Silva Pereira - Instituições de Direito Civil, volume III, 6a edição, Editora Forense.
+
+Nem todas as cláusulas contratuais são passíveis de serem reconhecidas como injurídicas, mas somente aquelas que sejam ilegais ou excessivamente onerosas à parte aderente.
+
+Além disso, é de plena dominância o entendimento de que contratos bancários são de consumo, sujeitando-se eles às disposições do Código do Consumidor.
+
+A jurisprudência majoritária e a doutrina mais abalizada têm se manifestado nesse sentido, inclusive com entendimento sumulado do Superior Tribunal de Justiça (Súmula 297).
+
+O artigo 39 do Código de Defesa do Consumidor estabelece em seu inciso V, que é vedado ao fornecedor exigir vantagem excessiva do consumidor.
+
+O artigo 51 dispõe que são nulas de pleno direito as cláusulas contratuais que estabeleçam obrigações consideradas iníquas, abusivas, que coloquem o consumidor em desvantagem exagerada, ou seja, incompatíveis com a boa fé e a equidade.
+
+Ressalte-se que ao teor do artigo 51 do Código do Consumidor, a nulidade de cláusulas desta natureza é passível de reconhecimento de ofício.
+
+No mais, vale destacar:
+
+ANATOCISMO:
+
+Quanto ao anatocismo, a Medida Provisória 1.963-17 de 31.03.2000, expressamente permitiu a capitalização inferior ao período anual.
+
+Com efeito, não obstante divergência inicial sobre o assunto o Superior Tribunal de Justiça se firmou na possibilidade de acatar a capitalização de juros nos contratos com vigência após a medida provisória, prevalecendo este entendimento, do qual também compartilhamos.
+
+Pondo pá de cal ao assunto, em recente julgamento do REsp 973.827/RS(2007/0179072-3, 2a Seção, processado no rito do art. 543-C, CPC (recurso repetitivo), o Superior Tribunal de Justiça sedimentou interpretação segundo a qual após a edição da Medida Provisória 1.963-17/2000 (reeditada sob no 2.170/36/2001) seria possível cômputo de juros capitalizados em contratos bancários nos quais houvesse previsão expressa nesse sentido. E esclareceu que, para configuração da contratação expressa de capitalização de juros, bastaria a previsão de taxa anual superior ao duodécuplo da mensal.
+
+Assim, não há falar-se em ilegalidade da capitalização de juros. Acrescente-se que, no caso específico, o período de revisão é posterior a 30.03.2000 (contrato possui data de 17 de julho de 2023).
+
+TAXAS DE JUROS:
+
+Improcede irresignação da autora quanto às taxas de juros praticadas na relação bancária em questão.
+
+O contrato realizado entre as partes sob a forma de Cédula de Crédito Bancário no 202307171028755 (fls. 106/117) prevê expressamente a taxa efetiva de juros remuneratórios de 1,72% ao mês e 22,71% ao ano (fl. 115). A operação teve como finalidade a portabilidade de empréstimo consignado com desconto em benefício previdenciário (fl. 106).
+
+No caso, sabe-se que, nessa espécie de negócio, em regra de longo prazo, natural a flutuação de juros ao longo da relação contratual até porque, em razão mesmo dessa relação mais longa, a fixação duma única taxa para período indeterminado poderia ocasionar prejuízos às partes, em razão das vicissitudes de mercado. Assim, nenhuma irregularidade existe caso o instrumento não preveja da taxa de juros ou que ela varie ao longo da relação contratual, desde que os encargos tenham sido devidamente informados ao contratante, para que, inclusive, exerça seu direito de aderir ou não aderir à operação de bancária.
+
+A respeito da taxa de juros, oportunas as considerações tecidas pelo desembargador Antônio Ribeiro, no julgamento da apelação no 9062173-34.2005, ressaltando a importância do conhecimento da taxa de juros pelo correntista:
+
+"Em contratação como a dos autos [cheque especial], a taxa de juros pode ser variável, e normalmente o cliente a conhece previamente, por meio dos extrato se outras formas de comunicação, e a ela adere, concordando com a taxa praticada pela instituição financeira, para o período seguinte. Se optou em não pagar a dívida ou não tinha condições por circunstâncias específicas, aceita a taxa informada e não cabe reconhecer desconhecimento ou fixação unilateral e abusiva. (...) Com isso, não se pode reconhecer como abusiva ou ilegal a taxa de juros remuneratórios praticada, ainda que com variação mensal, como é normal nesse tipo de contratação (cheque especial), vez que o cliente sabe antecipadamente qual a taxa a ser cobrada no mês seguinte e se assim mesmo opta por ficar no negativo, utilizando o crédito aberto, está aderindo (concordando) com a pactuação..."
+
+Como cediço, pelas regras de experiência comum inclusive (art. 375 do CPC), as instituições financeiras informam o valor dos juros em todos os extratos. Assim, não há motivo para alterar os percentuais praticados pelo Banco.
+
+Com efeito, no que toca à alegada ofensa à boa fé contratual, verifico que durante todos esses anos a autora utilizou-se do crédito do chamado "cheque especial" ou de abertura de crédito rotativo em conta corrente, com vários empréstimos, usufruindo a parte requerente do crédito fornecido pelo banco, anuindo a todas as operações de concessão. Não pode agora, depois de vários anos usufruindo da referida conta, com juros sabidamente em patamares elevados alegar suposto vício para dele se beneficiar.
+
+Quem é que não sabe das consequências de se utilizar de limite de cheque especial ou mesmo em se atrasar o pagamento de cartão de crédito ou então efetuar o pagamento mínimo da fatura e utilizar o limite fornecido pela instituição financeira, diante das altas taxas de juros praticadas pelo mercado financeiro. Isto aliás, vem sendo há muito tempo amplamente divulgado nos veículos de comunicação de massa.
+
+Ainda quanto aos requisitos da revisão, mesmo o Código de Defesa do Consumidor, frise-se, aplicável às instituições financeiras (Súmula 297 do STJ), não permite a ampla e irrestrita revisão de contratos. Em seu artigo 6o, inciso V, possibilita apenas a revisão judicial de contratos quando estabeleçam prestações desproporcionais ou tenha havido ocorrência de fatos supervenientes que torne a execução excessivamente onerosa ao consumidor.
+
+Sobre ainda os juros praticados a questão, entre outras, foi decidida pelo E. Superior Tribunal de Justiça, nos autos do Recurso Especial no 1.061.530- RS, em sede de recursos repetitivos, em que foi consolidada a orientação n. 1 que trata especificamente dos juros remuneratórios:
+
+ORIENTAÇÃO 1 - JUROS REMUNERATÓRIOS
+
+a) As instituições financeiras não se sujeitam à limitação dos juros remuneratórios estipulada na Lei de Usura (Decreto 22.626/33), Súmula 596/STF;
+
+b) A estipulação de juros remuneratórios superiores a 12% ao ano, por si só, não indica abusividade;
+
+c) São inaplicáveis aos juros remuneratórios dos contratos de mútuo bancário as disposições do art. 591 c/c o art. 406 do CC/02;
+
+d) É admitida a revisão das taxas de juros remuneratórios em situações excepcionais, desde que caracterizada a relação de consumo e que a abusividade (capaz de colocar o consumidor em desvantagem exagerada art. 51, §1o, do CDC) fique cabalmente demonstrada, ante às peculiaridades do julgamento em concreto.
+
+No caso concreto, conforme afirmação contida na própria inicial, as parte litigantes firmaram o contrato de empréstimo bancário, pactuando-se nestes instrumentos os juros remuneratórios, na ordem de 5,99% ao mês e 100,99% ao ano.
+
+Assim, não vislumbro pelas razões expostas qualquer onerosidade excessiva, muito menos modificação desses percentuais (admitidos na petição inicial) ou de ocorrências de fatos supervenientes a ponto de viabilizar a revisão das taxas de juros cobradas pela instituição financeira.
+
+Quanto aos exigidos fatores supervenientes, como visto, inclusive pelo Código de Defesa do Consumidor, oportuno consignar que a prática de altas taxas de juros, longe de ser considerada fator superveniente, neste país remonta várias décadas e oque a limitava, embora com certa controvérsia na doutrina e jurisprudência, era o art. 192 §3o da Constituição Federal, que acabou sendo revogado pela Emenda n. 40, de 29.5.2003.Vale lembrar que referente ainda à velha alegação do não cumprimento da limitação dos juros a 12% ao ano, é pacífico que aos bancos não se aplica a Lei de Usura, o que aliás é confirmado pelas Súmulas 294 e 296 do Superior Tribunal de Justiça, que permitem a cobrança de juros e comissão de permanência pela taxa média de mercado.
+
+Também não encontra amparo legal a tese de se limitar os juros a qualquer índice.
+
+Entre as diversas funções da boa-fé objetiva está a de controle, que impõe limites ao exercício de direitos.
+
+Infringem a boa-fé contratual, dentre as diversas categorias de exercício de direito, o venire contra factum próprio e a supressio. Pela primeira, não é permitido contradizendo comportamento anterior, de forma que a conduta antecedente gera legítimas expectativas em relação à parte contrariam, de modo a não se admitir a volta sobre os próprios passos, com quebra de lealdade e confiança (Menezes de Cordeiro, "Da Boa-Féno Direito Civil, Almedina, Coimbra, 1997, p. 742/752; Laerte Marrone de Castro Sampaio, A Boa-Fé Objetiva na Relação Contratual, Coleção Cadernos de Direito Privado da Escola Paulista de Magistratura, Editora Manuel, p. 78/79 apud Voto n. 707 do Relator Francisco Loureiro de 12.01.2006, em Embargos Infringentes n. 304.405.4/3-02 TJ-SP).
+
+Já na supressio, há situação de um direito que, por não ter sido exercido em certas circunstâncias, por um determinado lapso de tempo na relação contratual, não mais poderá sê-lo, sob pena da quebra da confiança gerada (Menezes de Cordeiro, ob. Cit. P.797/832).
+
+Não se olvida também da chamada função social do contrato fortalecida com o advento da Lei 10.406/02 (novo Código Civil). Torna-se oportuno consignar que tal função contratual está prevista no art. 421 do Código Civil, cuja disposição aliás, é tida por muitos como a pedra angular do direito contratual no país.
+
+Apesar, do declínio do princípio do "pacta sunt servanda", preciso deixar claro que o contrato permanece com a manifestação de vontade (poder dos contratantes), objetivando os resultados almejados pelas partes, daí sua função de vincular as partes da relação jurídica, em torno de determinado objetivo, inter partes.
+
+O acréscimo da expressão "social" significa que este objetivo, ultrapassa os interesses individuais dos contratantes, titulares do direito objeto do contrato, pois o objetivo, em razão da função social, passa a ser não só um poder de contratar em torno de interesses limitados à esfera privada dos contratantes, mas um poder-dever, porquanto também deve levar em conta o interesse coletivo, dos interesses maiores da sociedade, não se podendo olvidar que as relações privadas geram efeitos exteriores, os quais refogem da esfera de interesses dos contratantes, efeitos estes que podem ser perniciosos, causando prejuízos a terceiros e ao bem comum.
+
+Desta forma a função social não impede que as pessoas contra tem livremente em torno de seus interesses particulares, mas exige que a avença não cause prejuízos à coletividade.
+
+Não se pode olvidar ainda que a função primária e natural dos contratos, mormente os bancários, é a função econômica.
+
+Nesse raciocínio é que ao Poder Judiciário é permitido revisar ou analisar os contratos, pelo prisma da função social, somente quando a avença extrapola ilicitamente o objetivo contratual atinente ao interesse da coletividade causando prejuízo ao bem comum.
+
+Ora, o bem comum aqui não se limita à esfera do devedor contratual, mas na própria credibilidade e manutenção do sistema financeiro do país, que tem por função maior permitir a circulação de riquezas, a geração de créditos, celebrando-se operações que permitem a capitalização de empresas, contribuindo assim para o desenvolvimento social do país, na medida em que possibilitando o incremento dos investimentos, da poupança e do acesso ao crédito, desenvolve o setor agro-industrial, gerando empregos e consequentemente o bem da coletividade.
+
+Por esta razão entendemos que não cabe ao Judiciário liberar o devedor da obrigação contratada no que pertine às taxas de juros cobradas, ainda que parcialmente, sob o que seria pseudo-fundamento da aplicação da função social do contrato, uma vez que, pelo prisma do desenvolvimento social calcado na credibilidade do sistema financeiro, estaria o juiz, na verdade, desestabilizando todo o sistema gerador das riquezas e fomentando a insegurança jurídica nas relações contratuais e o que talvez seja ainda pior, causando, via de consequência, efeitos nefastos para a sociedade consumidora de crédito, com o aumento dos custos da operação e dos próprios juros aos demais clientes que cumprem os seus contratos. Assim, estaria em uma análise mais profunda, na verdade indo de encontro ao novo princípio da chamada "função social do contrato" e não ao seu encontro.
+
+Como se vê, o problema das altas taxas de juros, longe de ser resolvida pelo prisma estritamente jurídico, comporta solução de ordem econômico-político-financeira, já que nosso ordenamento legal não veda tais práticas pelas instituições financeiras. Embora a questão dos elevados juros bancários tenha incidência na esfera privada, no fundo, trata-sede uma questão econômica e de ordem pública, regida pelas regras de mercado. Não fosse,seria simples: bastaria o Ministério Público, tutelando o interesse público bater as portas do Supremo Tribunal Federal requerendo decisão desta Corte, com efeito "erga omnes" no sentido de baixar os juros do país a níveis toleráveis. Pronto. Tudo estaria resolvido. Mas infelizmente isto não acontece desta forma, porque, repita-se, trata-se de um problema sócio-econômico e não jurídico.
+
+Cabe ao Judiciário coibir eventuais excessos em razão de ilegalidade ou de cláusulas abusivas, mas não mudar as regras do contrato e do mercado financeiro no tocante às taxas de juros.
+
+Em outros termos, é uníssono e de conhecimento geral que os juros e as taxas por dívidas decorrentes de contratos bancários estão entre as mais elevadas do mercado. Isso ocorre em razão de ausência de garantia ao credor, como, por exemplo, em contratos de alienação fiduciária.
+
+Como não há garantia alguma de pagamento, o banco que concede o financiamento e a administradora estabelecem taxas de juros elevados, evitando o inadimplemento e buscando compelir o devedor a honrar com suas obrigações.
+
+Ademais, as ações não podem ser calcadas em alegações genéricas e desprovidas de qualquer fundamento. O consumidor não pode assinar contratos visando reiterada obtenção de crédito, deixando de honrar com o pagamento por meses e desejar pagar juros módicos e inexpressivos.
+
+Ainda, a título de mero esclarecimento, frise-se que, considerando todos os custos que incidem no financiamento, é obtido o valor denominado Custo Efetivo Total (CET), de modo que o valor de cada prestação é calculado tendo como base todos os custos envolvidos na operação que se refletem no percentual de CET, não somente os juros remuneratórios.
+
+Destaca-se que a taxa de juros compõe, com a tarifa dos demais encargos, o CET - Custo Efetivo Total, sendo que sua indicação é em percentual para poder ser avaliado pelo cliente. Nesse caso, não há desequilíbrio contratual ou cobrança de juros excessivos ou acima dos juros de mercado. Nesse contexto, vale destacar:
+
+Apelação Contrato de financiamento para aquisição de veículo Ação revisional Improcedência Código de Defesa do Consumidor Incidência Súmula n. 297 do E. Superior Tribunal de Justiça Encargos financeiros Alegação do autor de aplicação pela instituição financeira de taxa de juros mensal superior a que fora inicialmente contratada e prevista no contrato Inocorrência Taxa de juros mensal aplicada ao contrato que refere-se ao Custo Efetivo Total, que nada tem de ilegal ou abusivo, estando de conformidade com a Resolução no3.517,de 06 de dezembro de 2007, do Conselho Monetário Nacional Capitalização de juros É permitida a capitalização de juros com periodicidade inferior a um ano em contratos celebrados após 31.3.2000, data da publicação da Medida Provisória no1.963-17/2000 (em vigor como MP-2.170-36/2001), desde que expressamente pactuada Aprevisão no contrato bancário de taxa de juros anual superior ao duodécuplo da mensal é suficiente para permitir a cobrança da taxa efetiva anual contratada - Prevalecimento, no caso, da nova orientação acolhida pelo E. Superior Tribunal de Justiça no julgamento do Recurso Especial n. 973.827- RS, processado nos termos do art. 543-C do CPC Tarifas bancárias Tarifa de registro de contrato Cobrança cabível Serviço efetivamente prestado(Recurso Repetitivo REsp 1.578.553/SP) Tarifa de avaliação dobem Ausência de demonstração da efetiva prestação de serviço ao consumidor Abusividade configurada(Recurso Repetitivo REsp 1.578.553/SP) Devolução simples é medida de rigor Seguro prestamista Legalidade da contratação evidenciada Demandante que optou pela contratação do seguro (Recurso Repetitivo Resp 1.639.320/SP) Sentença reformada para julgara ação parcialmente procedente Recurso provido em parte. (TJSP; Apelação Cível1003005-65.2021.8.26.0070; Relator (a): Thiago de Siqueira; Órgão Julgador: 14a Câmarade Direito Privado; Foro de Batatais - 2a Vara Cível; Data do Julgamento: 14/12/2022; Data de Registro: 14/12/2022)
+
+APELAÇÃO "AÇÃO REVISIONAL DE CLÁUSULA DE CONTRATO C/C REPETIÇÃO DE INDÉBITO" Contrato de Crédito Bancário Financiamento para aquisição de veículo - Alegação de onerosidade excessiva com cobrança de juros remuneratórios abusivos - Descabimento - Incidência de correção monetária por indexador livremente pactuado e eleito pelas partes - Súmula 596, do STF - Legislação aplicável declarada constitucional pelo C. STF - Possibilidade de aplicação da tabela 'Price', no contrato em questão, e capitalização de juros com periodicidade inferior à anual Tarifas de avaliação do bem e registro de contrato - Validade da contratação, ressalvadas a abusividade da cobrança por serviço não efetivamente prestado; e a possibilidade de controle da onerosidade excessiva em cada caso concreto - Registro de contrato no órgão de trânsito que observou a Resolução do CONTRAN no 320/09 - Tarifas legítimas -Abusividade não configurada Tarifa de Cadastro - Possibilidade de cobrança (Recursos Especiais Repetitivos no 1.251.331/RS e 1.255.573/RS) - CET (Custo Efetivo Total) Valor global da negociação - Percentual que não está limitado à reprodução da taxa de juros remuneratórios - Seguro - Serviço contratado em instrumento separado do financiamento Admissibilidade da cobrança, nos termos decididos no Recurso Especial no 1.639.320-SP - Sentença de improcedência mantida - RECURSO DESPROVIDO. (TJSP; Apelação Cível 1000900-91.2022.8.26.0002; Relator (a): Ana Catarina Strauch; Órgão Julgador: 37a Câmara de Direito Privado; Foro Regional II - Santo Amaro - 2a Vara Cível; Data do Julgamento: 23/01/2023; Data de Registro: 23/01/2023).
+
+Ainda, no âmbito do ordenamento jurídico brasileiro, "[...] a Tabela Price é admitida pela jurisprudência do STJ (REsp 973.827/RS)[...]." (TJSP; Apelação Cível 1000634-48.2022.8.26.0150; Relator (a): Marcia Tessitore; Órgão Julgador: Núcleo 4.0-T. II (DP2); Foro de Cosmópolis - 1a Vara Judicial; Data do Julgamento: 23/02/2026; Data de Registro: 23/02/2026).
+
+Cabe ao Judiciário coibir eventuais excessos em razão de ilegalidade ou de cláusulas abusivas, mas não mudar as regras do contrato e do mercado financeiro no tocante às taxas de juros.
+
+São esses os fundamentos jurídicos e fáticos, concretamente aplicados no caso, suficientes ao julgamento da presente lide.
+
+Em que pese a aparente relevância dos demais argumentos deduzidos pelas partes no processo, referem-se a pontos irrelevantes ao deslinde da causa, incapazes de infirmarem a conclusão adotada na presente sentença.
+
+Ante o exposto JULGO IMPROCEDENTE a presente ação revisional de contrato, extinguindo-se o processo nos termos do art. 487, inciso I do CPC/2015.
+
+Condeno a parte autora, sucumbente, ao pagamento de custas e despesas processuais, bem como aos honorários advocatícios da parte contrária que fixo em 10% sobre o valor da causa (art. 85, § 2o do CPC/2015), exigíveis na forma do art. 98, §3o do CPC/2015, se beneficiário da assistência judiciária gratuita.
+
+Ficam as partes desde já advertidas que a oposição de embargos de declaração fora das hipóteses legais e/ou com postulação meramente de caráter infringente lhes sujeitará a imposição da multa prevista pelo artigo 1026, § 2o, do Código de Processo Civil.
+
+Na hipótese de interposição de recurso de apelação, por não haver mais juízo de admissibilidade a ser exercido pelo Juízo "a quo" (art. 1.010, CPC), sem nova conclusão, intime-se a parte contrária para oferecer resposta, no prazo de 15 dias.
+
+Em havendo recurso adesivo, também deve ser intimada a parte contrária para oferecer contrarrazões. Após, remetam-se os autos à Superior Instância, para apreciação do recurso de apelação. Transitada em julgado, não havendo outros requerimentos, arquivem-se os autos com as cautelas de praxe.
+
+Oportunamente, arquivem-se.
+
+P.I.C
+
+São José do Rio Preto, data na margem.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

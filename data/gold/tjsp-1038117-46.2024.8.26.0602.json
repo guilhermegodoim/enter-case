@@ -1,0 +1,213 @@
+{
+  "ruling_id": "tjsp-1038117-46.2024.8.26.0602",
+  "text_sha256": "af42a694a35938c165921374d6186440d4a2521939a908ae0d9f1f68b99a291e",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Inaplicabilidade do CDC ao caso por ausência de vulnerabilidade (teoria finalista)",
+      "resumo": "O juízo reconheceu a relação de consumo entre as partes e aplicou o CDC, destacando que o autor é destinatário final dos serviços e vulnerável perante a instituição. A atividade autônoma do autor não descaracteriza sua condição de consumidor, conforme arts. 2 e 3 do CDC e Súmula 297 do STJ.",
+      "tipo": "merito",
+      "tema": "aplicabilidade do CDC",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 2 do CDC",
+        "art. 3 do CDC",
+        "Súmula 297 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Inicialmente, cumpre firmar a aplicabilidade do Código de Defesa do Consumidor (CDC).",
+          "char_start": 4520,
+          "char_end": 4605,
+          "score": 100.0
+        },
+        {
+          "texto": "A relação jurídica materializada entre as partes ostenta indiscutível feição de consumo, figurando o autor como destinatário final fático e econômico dos serviços de gestão financeira e de custódia de pagamento fornecidos pela requerida no mercado, nos termos dos artigos 2o e 3o do Código de Defesa do Consumidor e segundo a inteligência da Súmula no 297 do Superior Tribunal de Justiça.",
+          "char_start": 4607,
+          "char_end": 4995,
+          "score": 100.0
+        },
+        {
+          "texto": "A atuação autônoma do autor como gesseiro aos finais de semana para complementação de sua renda não retira dele a condição técnica e fática de consumidor final, em evidente vulnerabilidade perante a instituição mantenedora da plataforma eletrônica.",
+          "char_start": 4997,
+          "char_end": 5245,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Inversão do ônus da prova em favor do consumidor",
+      "resumo": "Diante da hipossuficiência informacional do autor e para assegurar isonomia material, o juízo inverteu o ônus probatório com base no art. 6º, VIII, do CDC, sem afastar a regra do art. 373 do CPC.",
+      "tipo": "merito",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 373, I do CPC",
+        "art. 373, II do CPC",
+        "art. 6, VIII do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "No caso em tela, a hipossuficiência da parte autora se consubstancia na inacessibilidade aos dados e cadastros mantidos pela empresa-ré, o que torna pertinente, por si só, a inversão do ônus da prova.",
+          "char_start": 6209,
+          "char_end": 6409,
+          "score": 100.0
+        },
+        {
+          "texto": "Portanto, analisando o caso concreto, faz-se necessária a imposição da inversão do ônus da prova, de acordo com o art. 6o, inciso VIII do CDC, assim para garantir a isonomia material entre o autor e o réu.",
+          "char_start": 6411,
+          "char_end": 6616,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Bloqueio e retenção do saldo por análise de risco contratual seriam regulares",
+      "resumo": "A tese defensiva foi rejeitada. A ré não comprovou justa causa para o bloqueio e retenção; a medida, mantida por tempo indeterminado e sem fundamentação objetiva, configura abuso de direito e falha na prestação do serviço, impondo o desbloqueio da conta e a liberação dos R$ 400,00.",
+      "tipo": "merito",
+      "tema": "bloqueio indevido de conta",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 373, II do CPC",
+        "art. 14, §3 do CDC",
+        "art. 187 do CC",
+        "art. 39, V do CDC",
+        "art. 51, IV do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Cumpre consignar que, por força da sistemática de distribuição do ônus probatório conforme já fundamentado (artigo 373, inciso II, do Código de Processo Civil, c/c o artigo 14, parágrafo 3o, da Lei no 8.078/1990), incumbia exclusivamente à instituição financeira requerida comprovar a regularidade formal e a licitude do bloqueio procedido, trazendo aos autos prova concreta e cabal da existência de justa causa para a retenção do dinheiro.",
+          "char_start": 7070,
+          "char_end": 7510,
+          "score": 100.0
+        },
+        {
+          "texto": "Todavia, a ré não se desincumbiu minimamente do seu ônus.",
+          "char_start": 7512,
+          "char_end": 7569,
+          "score": 100.0
+        },
+        {
+          "texto": "A paralisação por tempo indeterminado e sem fundamentação objetiva, extrapolando o marco regulatório e impedindo o cliente de ter acesso ao seu patrimônio lícito, configura manifesto abuso de direito (artigo 187 do Código Civil) e prática vedada pelo ordenamento (artigos 39, inciso V, e 51, inciso IV, do Código de Defesa do Consumidor).",
+          "char_start": 9444,
+          "char_end": 9782,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Inexistência de dano moral indenizável",
+      "resumo": "O juízo reconheceu o dano moral in re ipsa decorrente da privação prolongada e imotivada de numerário de natureza alimentar, que ultrapassa mero dissabor, ensejando reparação.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "TJSP, Apelação 10108803720248260602"
+      ],
+      "citacoes": [
+        {
+          "texto": "O dano moral pretendido resta plenamente configurado.",
+          "char_start": 10126,
+          "char_end": 10179,
+          "score": 100.0
+        },
+        {
+          "texto": "A privação prolongada e imotivada de quantia remuneratória de trabalhador autônomo, destinada ao sustento familiar e à subsistência pessoal, não consubstancia mero dissabor cotidiano, transtorno ordinário ou mero inadimplemento contratual.",
+          "char_start": 10181,
+          "char_end": 10420,
+          "score": 100.0
+        },
+        {
+          "texto": "Cuida-se de hipótese de dano moral que decorre do próprio fato lesivo (in re ipsa), dispensando prova de dor física ou sofrimento anímico tangível.",
+          "char_start": 10812,
+          "char_end": 10959,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Fixação dos danos morais em R$ 10.000,00",
+      "resumo": "O pedido do autor de R$ 10.000,00 foi afastado; considerando proporcionalidade, razoabilidade, condições das partes, período de indisponibilidade e caráter pedagógico, o quantum foi fixado em R$ 5.000,00, alinhado a precedentes do TJSP.",
+      "tipo": "quantum",
+      "tema": "quantum do dano moral",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "TJSP, Apelação 10108803720248260602"
+      ],
+      "citacoes": [
+        {
+          "texto": "No que tange à fixação da indenização, observando-se os parâmetros balizados na proporcionalidade e razoabilidade, a capacidade socioeconômica das partes, o período de indisponibilidade dos recursos (iniciado em julho/2024), o valor originário do numerário retido (R$ 400,00), a reprovabilidade da conduta e o caráter punitivo-pedagógico da condenação, sem propiciar o enriquecimento indevido, fixa-se o quantum indenizatório em R$ 5.000,00 (cinco mil reais), montante que se mostra adequado às especificidades da demanda e alinhado aos precedentes deste E. Tribunal de Justiça de São Paulo em litígios congêneres.",
+          "char_start": 12077,
+          "char_end": 12691,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Correção monetária pelo IPCA-E e juros legais conforme Tema 1368/STJ e Lei 14.905/2024",
+      "resumo": "O juízo definiu, para a restituição dos R$ 400,00, atualização pelo IPCA-E desde o prejuízo (05/07/2024) e juros legais da citação; para os danos morais, IPCA-E desde a publicação da sentença e juros legais da citação, à luz do Tema 1368 do STJ e da Lei 14.905/2024.",
+      "tipo": "acessorio",
+      "tema": "correção monetária e juros",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Tema 1368 do STJ",
+        "Lei 14.905/2024",
+        "Súmula 43 do STJ",
+        "Súmula 362 do STJ",
+        "art. 389, parágrafo único, do CC",
+        "art. 397, parágrafo único, do CC",
+        "art. 405 do CC",
+        "art. 406 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Considerando o Tema 1368 do STJ e a Lei 14.905/2024, bem como o fato de que a taxa SELIC já engloba juros e correção monetária e de que os termos iniciais desses consectários legais podem ser distintos, o valor devido deverá ser atualizado pelo IPCA-E, a partir da data do efetivo prejuízo (05/07/2024, conforme Súmula 43 do STJ), conforme estabelecido no art. 389, parágrafo único do CC, e deverá ser acrescido de juros de mora, pela taxa legal, a partir da data da citação, na forma dos artigos 397, parágrafo único e 406 do CC.",
+          "char_start": 13228,
+          "char_end": 13758,
+          "score": 100.0
+        },
+        {
+          "texto": "Considerando o Tema 1368 do STJ e a Lei 14.905/2024, bem como o fato de que a taxa SELIC já engloba juros e correção monetária e de que os termos iniciais desses consectários legais são distintos, o valor devido deverá ser atualizado pelo IPCA-E, a partir da data de publicação desta sentença (Súmula 362 do STJ), conforme estabelecido no art. 389, parágrafo único do CC, e deverá ser acrescido de juros de mora, pela taxa legal, a partir da citação, na forma dos artigos 405 e 406 do CC.",
+          "char_start": 13872,
+          "char_end": 14360,
+          "score": 100.0
+        }
+      ],
+      "secao": "dispositivo"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 4789,
+    "output_tokens": 9325,
+    "cost_usd": 0.09923625,
+    "latency_ms": 76227,
+    "citacoes": 14,
+    "citacoes_ancoradas": 14
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

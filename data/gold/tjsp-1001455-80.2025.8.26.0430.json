@@ -1,0 +1,301 @@
+{
+  "ruling_id": "tjsp-1001455-80.2025.8.26.0430",
+  "text_sha256": "69a9bd9266119689fe951e6c009b108e38c519924959cb852ce82c8b09e11e20",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Aplicação dos efeitos materiais da revelia da SECON",
+      "resumo": "Reconhecida a revelia da SECON, o juiz afastou seus efeitos materiais porque há pluralidade de réus e o Banco Bradesco apresentou contestação, não havendo presunção de veracidade dos fatos. Reafirmou-se o ônus do autor pelos fatos constitutivos.",
+      "tipo": "preliminar",
+      "tema": "efeitos da revelia",
+      "suscitado_por": "juizo",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 345, I, do CPC",
+        "art. 355, II, do CPC",
+        "art. 373, I, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Sinalo que, no caso dos autos, há pluralidade de réus, tendo o outro demandado ofertado contestação, razão pela qual não incidem os efeitos materiais da revelia, consoante preconizado no art. 345, I, do CPC:",
+          "char_start": 9886,
+          "char_end": 10093,
+          "score": 100.0
+        },
+        {
+          "texto": "Como é sabido, é ônus da parte autora demonstrar os fatos constitutivos de seu direito, destinados à formação da convicção do julgador, a teor do disposto no art. 373, inciso I do Código de Processo Civil.",
+          "char_start": 10227,
+          "char_end": 10432,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "O Banco Bradesco é parte ilegítima para figurar no polo passivo",
+      "resumo": "Afastada a ilegitimidade: o banco, como depositário e operador dos descontos, integra a cadeia de fornecedores e responde solidariamente em relação de consumo; incide a teoria do risco do empreendimento e o dever de verificar a autorização para débitos.",
+      "tipo": "preliminar",
+      "tema": "ilegitimidade passiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 20 do CDC",
+        "art. 927, parágrafo único, do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "entendo que ambos são parte passiva legítima para a lide, pois integrantes da cadeia de fornecedores que, em tese, causaram danos ao consumidor.",
+          "char_start": 12168,
+          "char_end": 12312,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, considerando se tratar de relação de consumo, na forma do art. 20 do CDC a parte ré é solidariamente responsável pelos danos causados:",
+          "char_start": 12313,
+          "char_end": 12454,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Ausência de interesse de agir por falta de resistência e de prévio requerimento administrativo",
+      "resumo": "Rejeitada a preliminar: o autor comprovou tentativa extrajudicial e o esgotamento da via administrativa não é requisito em razão da inafastabilidade da jurisdição; a própria contestação evidencia a resistência.",
+      "tipo": "preliminar",
+      "tema": "interesse de agir",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 5º, XXXV, da CF",
+        "arts. 19 e 20 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Contudo, o requerente comprovou a tentativa de resolução extrajudicial consoante documentos encartados nas fls. 51-61.",
+          "char_start": 19329,
+          "char_end": 19447,
+          "score": 100.0
+        },
+        {
+          "texto": "Ademais, em observância ao princípio da inafastabilidade da jurisdição, não há condicionamento de esgotamento da via administrativa para se permitir a busca da proteção jurisdicional quando houver ameaça ou lesão a direito.",
+          "char_start": 18750,
+          "char_end": 18973,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Revogação da justiça gratuita do autor",
+      "resumo": "A impugnação foi rejeitada: não houve prova suficiente para afastar a presunção de hipossuficiência e a assistência por advogado particular não impede a concessão do benefício.",
+      "tipo": "acessorio",
+      "tema": "gratuidade da justiça",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 5º, LXXIV, da CF",
+        "art. 99, § 4º, do CPC",
+        "art. 373, II, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Nessa senda, melhor sorte não socorre ao impugnante, haja vista não ter colacionado aos autos nenhum adminículo de prova capaz de afastar a presunção de veracidade dos elementos comprobatórios colacionados pelo requerente nas fls. 22-50.",
+          "char_start": 22650,
+          "char_end": 22887,
+          "score": 100.0
+        },
+        {
+          "texto": "Portanto, de acordo com o contido nos autos, o réu não colacionou aos autos provas suficientes a afastar a presunção de incapacidade financeira da parte autora, ônus que lhe competia, a teor do que dispõe o art. 373, II, do CPC. Desta feita, rejeito a impugnação à gratuidade da justiça manejada pelo requerido.",
+          "char_start": 23033,
+          "char_end": 23344,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Aplicação do CDC à relação entre as partes",
+      "resumo": "Reconhecida a relação de consumo entre as partes, com enquadramento das rés como fornecedoras e do autor como consumidor, incidindo o CDC, inclusive conforme a Súmula 297 do STJ.",
+      "tipo": "merito",
+      "tema": "aplicabilidade do CDC",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "arts. 2º e 3º do CDC",
+        "Súmula 297 do STJ",
+        "REsp 1.195.642/RJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Prefacialmente, saliento que a relação entretida pelas partes caracteriza-se como de consumo.",
+          "char_start": 23375,
+          "char_end": 23468,
+          "score": 100.0
+        },
+        {
+          "texto": "Nessa senda, é o entendimento do Egrégio Superior Tribunal de Justiça, consolidado na Súmula n.o 297: \"O Código de Defesa do Consumidor é aplicável às instituições financeiras.\"",
+          "char_start": 25731,
+          "char_end": 25908,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Inversão do ônus da prova em favor do consumidor",
+      "resumo": "O pedido de inversão não foi acolhido: o magistrado afirmou ser do autor o ônus pelos fatos constitutivos e destacou que a ré trouxe o contrato, enquanto o autor perdeu a perícia por não comparecer.",
+      "tipo": "merito",
+      "tema": "ônus da prova/inversão",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 373, I, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Como é sabido, é ônus da parte autora demonstrar os fatos constitutivos de seu direito, destinados à formação da convicção do julgador, a teor do disposto no art. 373, inciso I do Código de Processo Civil.",
+          "char_start": 10227,
+          "char_end": 10432,
+          "score": 100.0
+        },
+        {
+          "texto": "Por sua vez o requerente, embora devidamente intimado para a comparecer para realização da prova pericial em duas ocasiões (fls. 196 e 200), não compareceu ao ato em ambas (fls. 199 e 203), ocasionando a perda da prova (fl. 204).",
+          "char_start": 32660,
+          "char_end": 32889,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Inexistência de contratação e ilicitude dos descontos",
+      "resumo": "A tese autoral foi afastada: a ré comprovou a contratação por termo de adesão e, diante do não comparecimento do autor à perícia, não há elementos que invalidem o negócio; os descontos são lícitos.",
+      "tipo": "merito",
+      "tema": "contratação válida",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 104 do CC",
+        "Resolução BACEN 51/2020, art. 11"
+      ],
+      "citacoes": [
+        {
+          "texto": "No presente caso, entendo que a parte ré se desincumbiu do ônus processual de comprovar a efetiva contratação do seguro mediante a juntada do respectivo contrato de adesão às fls. 154-155.",
+          "char_start": 32471,
+          "char_end": 32659,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim diante da ausência injustificada do requerente à perícia nas duas vezes que foi intimado, bem como da documentação apresentada pela parte ré, não há elementos suficientes para afastar a validade da contratação impugnada.",
+          "char_start": 32890,
+          "char_end": 33116,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Indenização por danos morais pelos descontos questionados",
+      "resumo": "Pedido rejeitado, pois reconhecida a validade da contratação e a licitude dos descontos, não se configurando ato ilícito gerador de abalo indenizável.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "não há elementos suficientes para afastar a validade da contratação impugnada.",
+          "char_start": 33038,
+          "char_end": 33116,
+          "score": 100.0
+        },
+        {
+          "texto": "Por essa razão, a improcedência da demanda é o caminho imperativo a ser trilhado.",
+          "char_start": 33117,
+          "char_end": 33198,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "Repetição em dobro dos valores descontados",
+      "resumo": "Pedido rejeitado, uma vez que os descontos decorreram de contratação válida; inexistente cobrança indevida.",
+      "tipo": "merito",
+      "tema": "repetição em dobro",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "não há elementos suficientes para afastar a validade da contratação impugnada.",
+          "char_start": 33038,
+          "char_end": 33116,
+          "score": 100.0
+        },
+        {
+          "texto": "Por essa razão, a improcedência da demanda é o caminho imperativo a ser trilhado.",
+          "char_start": 33117,
+          "char_end": 33198,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a10",
+      "titulo": "Reconhecimento da litigância de má-fé do autor",
+      "resumo": "O juiz reconheceu que o autor alterou a verdade dos fatos e usou o processo com objetivo indevido, condenando-o à multa de 9,99% do valor da causa, além de indenizar a parte contrária e arcar com despesas e honorários, nos termos do CPC.",
+      "tipo": "acessorio",
+      "tema": "litigância de má-fé",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 80, II e III, do CPC",
+        "art. 5º do CPC",
+        "art. 81 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Por outro lado, tenho que o agir do autor caracteriza a litigância de má-fé, por força do art. 80, incisos II e III, do CPC, para quem considera-se litigante de má-fé a parte que alterar a verdade dos fatos e se utilizar do processo para alcançar objetivo ilegal, vejamos:",
+          "char_start": 36947,
+          "char_end": 37219,
+          "score": 100.0
+        },
+        {
+          "texto": "Desse modo, cabível a condenação ao pagamento de multa no percentual de 09,99% (nove inteiros e noventa e nove centésimos por cento) do valor da ação, bem como, a indenizar a parte contrária pelos prejuízos que esta sofreu e a arcar com os honorários advocatícios e com todas as despesas que efetuou, mediante prévia comprovação em fase de cumprimento de sentença.",
+          "char_start": 39605,
+          "char_end": 39969,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 12433,
+    "output_tokens": 9648,
+    "cost_usd": 0.11202125,
+    "latency_ms": 79852,
+    "citacoes": 20,
+    "citacoes_ancoradas": 20
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

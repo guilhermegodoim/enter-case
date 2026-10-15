@@ -1,0 +1,17 @@
+{
+  "fonte": "TJSP - Consulta de Julgados de 1º Grau (CJPG), https://esaj.tjsp.jus.br/cjpg/",
+  "nota": "Janelas de data fixas no passado: a mesma lista de consultas devolve o mesmo conjunto de sentenças.",
+  "paginas_por_consulta": 3,
+  "consultas": [
+    {"id": "aereo-atraso", "dominio": "aereo", "termo": "atraso de voo dano moral", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "aereo-cancelamento", "dominio": "aereo", "termo": "cancelamento de voo dano moral", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "aereo-bagagem", "dominio": "aereo", "termo": "extravio de bagagem", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "banco-negativacao", "dominio": "bancario", "termo": "negativação indevida dano moral", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "banco-fraude", "dominio": "bancario", "termo": "fraude bancária golpe pix responsabilidade", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "banco-consignado", "dominio": "bancario", "termo": "empréstimo consignado não contratado", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "banco-revisional", "dominio": "bancario", "termo": "revisional juros abusivos capitalização", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "banco-superendividamento", "dominio": "bancario", "termo": "superendividamento repactuação", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "varejo-entrega", "dominio": "varejo_tech", "termo": "compra pela internet produto não entregue", "inicio": "2026-06-01", "fim": "2026-09-30"},
+    {"id": "tech-conta", "dominio": "varejo_tech", "termo": "conta bloqueada aplicativo plataforma dano moral", "inicio": "2026-06-01", "fim": "2026-09-30"}
+  ]
+}

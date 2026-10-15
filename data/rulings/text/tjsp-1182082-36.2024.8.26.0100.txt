@@ -1,0 +1,71 @@
+SENTENÇA
+
+Processo no: 1182082-36.2024.8.26.0100
+
+Classe - Assunto: Procedimento Comum Cível - Prestação de Contas
+
+Requerente: [AUTOR]
+
+Requerido: Facebook Serviços Online do Brasil Ltda.
+
+Juiz(a) de Direito: Dr(a). Luciana Novakoski Ferreira Alves de Oliveira
+
+Vistos.
+
+Trata-se de ação com pedido de obrigação de fazer proposta por [AUTOR] em face de FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA.
+
+Alega, em síntese, que a ex-esposa do seu atual marido lhe contou que passou a receber mensagens de um perfil falso criado na plataforma Instagram expondo a vida íntima sua e de seu marido. Narra que as mensagens ofendem a sua integridade, expõem situações falsas e que está sofrendo perseguição. Requer, em sede de tutela, que o réu seja compelido a fornecer o no de IP, endereço de e-mail, logs de acesso e demais dados eletrônicos do perfil do Instagram @sidneybraz40. Ao final, pugna pela procedência da ação para confirmar a tutela de urgência, condenando o réu a cumprir a obrigação de fazer, sob pena de multa, em caso de descumprimento.
+
+O pedido liminar é indeferido (fls. 36/37).
+
+O réu é citado e apresenta contestação. Alega, preliminarmente, que não tem legitimidade para pedidos envolvendo o Whatsapp. No mérito, bate-se pela necessidade de indicação da URL do material com juízo de valor e ordem judicial para que o Provedor de Aplicação seja compelido a indisponibilizá-lo, na forma do artigo 19 e § 1o, da Lei no 12.965/2014. De outro lado, defende que a obrigação de fornecer os dados limita-se a apresentar apenas os registros de acesso (IP, DATA E HORA) e não as demais informações pleiteadas pela autora, como as portas lógicas, uma vez que são fornecidas pelos provedores de conexão à internet e não pelos aplicadores de internet, além de inexistir lei que isso determine. Assevera que o pedido de exclusão da conta é desproporcional, tendo em vista que apenas a remoção do conteúdo já seria suficiente, pugnando pela incidência do princípio da razoabilidade. Impugna a inversão do ônus da prova.
+
+Sobrevém réplica, às fls. 92/95.
+
+Instadas a especificarem provas, as partes manifestam desinteresse na dilação probatória.
+
+É o relatório.
+
+Fundamento e decido.
+
+A lide comporta o julgamento antecipado, nos moldes preconizados pelo artigo 355, inciso I, do Código de Processo Civil, diante do desinteresse das partes na produção de outras provas, além da documental.
+
+A preliminar de ilegitimidade passiva não comporta acolhimento. A plataforma de comunicação WhatsApp integra o mesmo grupo econômico do réu, sendo o Facebook responsável, no país, para atuar como representante da empresa estrangeira. Nesse sentido, destaco entendimento deste Tribunal de Justiça:
+
+"AGRAVO DE INSTRUMENTO. Ação de obrigação de fazer cumulada com tutela de urgência para reativação de conta no Instagram/Facebook e "WhatsApp" cumulada com indenização por dano moral. Tutela de urgência. Indeferimento. Não conhecimento do recurso quanto às contas mantidas junto ao Instagram e Facebook porque da réplica apresentada nos autos principais extrai-se que o agravante recuperou tais contas. Alegação da agravada de ilegitimidade passiva quanto à conta mantida junto ao "WhatsApp". Inadmissibilidade. Empresas pertencentes ao mesmo grupo econômico. Legitimidade para representar o grupo empresarial no país. Precedentes. Agravada que se limitou a alegar genericamente que a conta mantida junto ao "WhatsApp" foi banida por violação aos Termos de Serviço da plataforma. Conta mantida junto ao "WhatsApp" que é utilizada como contato de trabalho, que fora bloqueada sem justificativa. Reforma da r. decisão para determinar à agravada que restabeleça a referida conta. Recurso provido na parte conhecida." (TJSP, Agravo de Instrumento no 2241183-64.2022.8.26.0000, 15a Câmara de Direito Privado, Rel. Des. Jairo Brazil, julgado em 13 de fevereiro de 2023).
+
+E, embora a empresa "Whatsapp LLC", responsável pelo aplicativo Whatsapp, tenha sua sua sede nos Estados Unidos, a prestação do serviço ocorreu no Brasil, atingindo consumidor brasileiro. Logo, há competência da justiça brasileira, conforme previsto no Marco Civil da Internet:
+
+Art. 11. Em qualquer operação de coleta, armazenamento, guarda e tratamento de registros, de dados pessoais ou de comunicações por provedores de conexão e de aplicações de internet em que pelo menos um desses atos ocorra em território nacional, deverão ser obrigatoriamente respeitados a legislação brasileira e os direitos à privacidade, à proteção dos dados pessoais e ao sigilo das comunicações privadas e dos registros.
+
+§ 1o O disposto no caput aplica-se aos dados coletados em território nacional e ao conteúdo das comunicações, desde que pelo menos um dos terminais esteja localizado no Brasil.
+
+§ 2o O disposto no caput aplica-se mesmo que as atividades sejam realizadas por pessoa jurídica sediada no exterior, desde que oferte serviço ao público brasileiro ou pelo menos uma integrante do mesmo grupo econômico possua estabelecimento no Brasil.
+
+§ 3o Os provedores de conexão e de aplicações de internet deverão prestar, na forma da regulamentação, informações que permitam a verificação quanto ao cumprimento da legislação brasileira referente à coleta, à guarda, ao armazenamento ou ao tratamento de dados, bem como quanto ao respeito à privacidade e ao sigilo de comunicações.
+
+No mérito, o pedido é improcedente.
+
+A autora alega que tomou conhecimento de que o seu nome e o de seu marido estavam envolvidos em conversas entre a ex-esposa de seu marido e o perfil @sidneybraz40., de modo a expor sua vida privada e a provocar abalo emocional.
+
+No entanto, não estão presentes os requisitos do parágrafo 1o, do artigo 22 da Lei no 12.965/2014 a autorizar o fornecimento dos dados solicitados perante a empresa demandada.
+
+Com efeito, dispõe o dispositivo citado que "A parte interessada poderá, com o propósito de formar conjunto probatório em processo judicial cível ou penal, em caráter incidental ou autônomo, requerer ao juiz que ordene ao responsável pela guarda o fornecimento de registros de conexão ou de registros de acesso a aplicações de internet."
+
+Para tanto, indispensável que o pedido apresente fundados indícios da ocorrência do ilícito, justificativa motivada da utilidade dos registros solicitados para fins de investigação ou instrução probatória; e o período ao qual se referem os registros.
+
+No caso, a prova documental não revela a prática de ilícito civil ou penal, se tratando, na realidade, de conversas sobre a vida alheia, popularmente chamadas de fofoca.
+
+Vale dizer que o simples desejo da autora de conhecer a autoria do responsável por fazer intriga sobre sua vida pessoal e matrimonial não permite a violação à lei de proteção de dados. Não há, aqui, indício de ilícito penal ou civil que justifique a concessão de ordem judicial para que a o réu forneça dados de seus usuários, na forma do Marco Civil da Internet.
+
+Ante o exposto, com fundamento no artigo 487, inciso I, do Código de Processo Civil, JULGO IMPROCEDENTE o pedido.
+
+Em razão da sucumbência, arcará a autora com o pagamento das custas e despesas processuais e de honorários advocatícios que fixo, por equidade, em R$ 1.200,00, na forma do art. 85, § 8o, do Código de Processo Civil.
+
+Com o trânsito em julgado, nada sendo requerido no prazo de cinco dias e tomadas as medidas pertinentes para a cobrança das eventuais custas em aberto, ao arquivo, observadas as cautelas legais.
+
+P.I.C.
+
+São Paulo, 27 de agosto de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

@@ -1,0 +1,254 @@
+{
+  "ruling_id": "tjsp-1006472-21.2025.8.26.0132",
+  "text_sha256": "e30a2eeb390def04d7d3e861a6c3ddb009d1600d65cb8a684a220669867ed604",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Cabe julgamento antecipado do mérito; inexiste cerceamento de defesa por inércia na especificação de provas",
+      "resumo": "O juiz julgou antecipadamente porque a prova documental era suficiente e as partes não requereram outras provas, havendo preclusão. Assim, não há cerceamento de defesa quando a parte é intimada a especificar provas e permanece inerte.",
+      "tipo": "preliminar",
+      "tema": "cerceamento de defesa",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 355, I, do CPC",
+        "Súmula 83 do STJ",
+        "Súmula 7 do STJ",
+        "REsp 1689923/STJ",
+        "RE 101171/STF"
+      ],
+      "citacoes": [
+        {
+          "texto": "O processo comporta julgamento antecipado, nos termos do artigo 355, inciso I, do Código de Processo Civil, uma vez que as questões de mérito são de direito e de fato passíveis de comprovação documental, não havendo necessidade de dilação probatória.",
+          "char_start": 8103,
+          "char_end": 8353,
+          "score": 100.0
+        },
+        {
+          "texto": "Inexiste cerceamento de defesa quando a parte for instada a especificar provas e quedar-se inerte, deixando ocorrer a preclusão.",
+          "char_start": 8472,
+          "char_end": 8600,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Aplica-se o CDC à relação com o banco, pela teoria finalista mitigada",
+      "resumo": "Reconheceu-se a vulnerabilidade técnica, fática e informacional dos autores e, portanto, a incidência do CDC na relação bancária, conforme orientação do STJ e Súmula 297.",
+      "tipo": "merito",
+      "tema": "aplicação do CDC",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2º do CDC",
+        "art. 3º, § 2º, do CDC",
+        "Súmula 297 do STJ",
+        "REsp 1195642/STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "No caso concreto, cabível a aplicação da teoria finalista mitigada, porquanto os autores possuem \"vulnerabilidade técnica (ausência de conhecimento específico acerca do produto ou serviço objeto de consumo)\"; \"fática (situações em que a insuficiência econômica, física ou até mesmo psicológica do consumidor o coloca em pé de desigualdade frente ao fornecedor)\" e \"informacional (dados insuficientes sobre o produto ou serviço capazes de influenciar no processo decisório de compra)\".",
+          "char_start": 13667,
+          "char_end": 14151,
+          "score": 100.0
+        },
+        {
+          "texto": "Atualmente já não se discute mais a possibilidade de aplicação da legislação consumerista nas relações entre bancos e seus clientes, na forma do artigo 3o, § 2o, do CDC, sendo a matéria pacificada no E. Superior Tribunal de Justiça, verbis: \"O Código de Defesa do Consumidor é aplicável às instituições financeiras\" (Súmula no 297).",
+          "char_start": 14293,
+          "char_end": 14625,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Não cabe inversão do ônus da prova do art. 6º, VIII, do CDC no caso concreto",
+      "resumo": "A inversão não é automática e exige verossimilhança ou hipossuficiência. O juiz entendeu inexistirem tais requisitos, mantendo o encargo probatório sem redistribuição.",
+      "tipo": "merito",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 6º, VIII, do CDC",
+        "art. 38 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "De acordo com o artigo 6o, inciso VIII, é possível a inversão do ônus da prova em favor da parte autora, a qual se insere entre os vários mecanismos que tem por finalidade facilitar a defesa dos direitos do consumidor em juízo, propiciando igualdade de condições das partes.",
+          "char_start": 14627,
+          "char_end": 14901,
+          "score": 100.0
+        },
+        {
+          "texto": "Todavia, essa inversão da prova não tem aplicação automática (art. 38 do CDC), devendo estar presentes os requisitos da verossimilhança das alegações do consumidor ou sua hipossuficiência.7",
+          "char_start": 14902,
+          "char_end": 15091,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso em tela, não se vislumbra verossimilhança nas alegações deduzidas na inicial, na forma como descritas.",
+          "char_start": 15093,
+          "char_end": 15203,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Houve falha de segurança do banco ao permitir as transferências fraudulentas",
+      "resumo": "O juiz concluiu que não houve defeito do serviço do banco: a fraude iniciou fora dos canais oficiais mediante engenharia social, não há prova de invasão, nem vazamento de dados, e as operações tinham aparência de regularidade por se destinarem a conta em nome do representante das empresas.",
+      "tipo": "merito",
+      "tema": "falha do serviço",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 14 do CDC",
+        "Súmula 479 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não há, de outro lado, demonstração de invasão dos sistemas internos da instituição financeira, comprometimento de seus canais oficiais de atendimento ou vazamento de dados decorrente de falha imputável ao réu, circunstâncias que, aliadas à interação da preposta das autoras com o ambiente eletrônico indicado pelos golpistas, enfraquecem a alegação de defeito na prestação do serviço.",
+          "char_start": 17348,
+          "char_end": 17733,
+          "score": 100.0
+        },
+        {
+          "texto": "Não há elementos que permitam concluir que o banco réu devesse, necessariamente, impedir a realização das operações impugnadas, sobretudo porque os valores individualmente considerados não destoavam do perfil de movimentação das empresas autoras.",
+          "char_start": 17735,
+          "char_end": 17981,
+          "score": 100.0
+        },
+        {
+          "texto": "O que se reconhece é que, nas circunstâncias específicas destes autos, o envio dos recursos para conta que aparentava pertencer ao próprio representante das empresas autoras não permitia ao réu identificar, de plano, a fraude.",
+          "char_start": 25037,
+          "char_end": 25263,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "O fortuito externo e a culpa exclusiva de terceiro/vítima rompem o nexo causal e afastam a responsabilidade do banco",
+      "resumo": "Caracterizada engenharia social fora dos canais oficiais, sem falha sistêmica do banco, o evento é fortuito externo e incide a excludente do art. 14, §3º, II, do CDC, rompendo o nexo causal e afastando o dever de indenizar.",
+      "tipo": "merito",
+      "tema": "fortuito externo",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 14, § 3º, II, do CDC",
+        "Súmula 479 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Nessas circunstâncias, o evento danoso deve ser qualificado como fortuito externo, pois foi produzido por terceiros mediante engenharia social desenvolvida fora do ambiente oficial da instituição financeira, com contribuição causal determinante dos próprios usuários das contas empresariais.",
+          "char_start": 31762,
+          "char_end": 32053,
+          "score": 100.0
+        },
+        {
+          "texto": "Dessa forma, encontram-se rompidos o nexo causal e a relação entre o risco próprio da atividade bancária e o prejuízo reclamado, incidindo a excludente prevista no artigo 14, § 3o, inciso II, do Código de Defesa do Consumidor.",
+          "char_start": 32055,
+          "char_end": 32281,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "O banco foi comunicado a tempo e tinha o dever de bloquear as operações e recuperar os valores (MED)",
+      "resumo": "A tese foi rejeitada porque não houve prova da comunicação tempestiva nem do acionamento do Mecanismo Especial de Devolução, inexistindo elementos objetivos sobre o horário e conteúdo do contato e providências solicitadas.",
+      "tipo": "merito",
+      "tema": "dever de bloqueio/MED",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Entretanto, não apresentaram gravação, protocolo de atendimento, mensagem eletrônica ou outro documento idôneo capaz de demonstrar o horário exato da comunicação, o conteúdo das providências solicitadas e, sobretudo, que a instituição financeira tenha recebido a notícia da fraude antes da conclusão das operações.",
+          "char_start": 27619,
+          "char_end": 27933,
+          "score": 100.0
+        },
+        {
+          "texto": "Demais disso, os autores não apresentaram documento comprobatório de que tenham acionado o Mecanismo Especial de Devolução (MED), nem trouxeram protocolo, decisão administrativa ou informação sobre eventual processamento do pedido.",
+          "char_start": 28738,
+          "char_end": 28969,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, a simples alegação de que houve contestação administrativa, desacompanhada de documento que demonstre o requerimento do MED e o momento em que foi formulado, não permite concluir pela omissão da instituição financeira nem lhe imputar a impossibilidade de recuperação dos valores.",
+          "char_start": 29327,
+          "char_end": 29613,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "É devido o ressarcimento material de R$ 222.000,00 pelas transferências impugnadas",
+      "resumo": "Indeferido o ressarcimento porque não reconhecida a responsabilidade do banco nem defeito do serviço, o que afasta a anulação das operações e a restituição dos valores.",
+      "tipo": "merito",
+      "tema": "dano material",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não sendo reconhecido defeito na prestação do serviço nem responsabilidade do banco réu pelas operações impugnadas, não há fundamento para anular as transferências ou determinar o ressarcimento dos valores debitados.",
+          "char_start": 32283,
+          "char_end": 32499,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Há dano moral indenizável decorrente do episódio",
+      "resumo": "Negada a indenização por dano moral porque não houve ato ilícito imputável ao banco, dado o rompimento do nexo causal e a inexistência de falha do serviço.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Pela mesma razão, não se encontra caracterizado ato ilícito imputável ao requerido que possa justificar compensação por danos morais.",
+          "char_start": 32501,
+          "char_end": 32634,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 9439,
+    "output_tokens": 7657,
+    "cost_usd": 0.08836875,
+    "latency_ms": 91685,
+    "citacoes": 17,
+    "citacoes_ancoradas": 17
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

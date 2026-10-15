@@ -1,0 +1,279 @@
+{
+  "ruling_id": "tjsp-1007253-31.2024.8.26.0309",
+  "text_sha256": "cef8610bff3e950d86d6429600a045b2450a8956d0b2d721cb83c40c2f61d379",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Ré: suspensão do processo pelo Tema 1.417/STF (sobrestamento)",
+      "resumo": "O juízo indeferiu o sobrestamento, por entender que a suspensão nacional do Tema 1.417/STF alcança apenas casos de fortuito externo/força maior do art. 256, § 3º, do CBA, enquanto o caso versa sobre falhas operacionais e extravio (fortuito interno). A ré sequer alegou fortuito externo ou força maior.",
+      "tipo": "preliminar",
+      "tema": "sobrestamento por repercussão geral (Tema 1417)",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "ARE 1.560.244 (Tema 1.417 STF)",
+        "art. 256, § 3º do CBA"
+      ],
+      "citacoes": [
+        {
+          "texto": "Oportuno consignar que o presente caso não se enquadra dentre as hipóteses abarcadas pelo Tema de Repercussão Geral 1.417 do E. Supremo Tribunal Federal.",
+          "char_start": 15914,
+          "char_end": 16067,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso concreto, a ré não alegou, em momento algum de sua peça defensiva, a ocorrência de caso fortuito externo ou força maior.",
+          "char_start": 17174,
+          "char_end": 17302,
+          "score": 100.0
+        },
+        {
+          "texto": "Destarte, descabe a suspensão do processo.",
+          "char_start": 17851,
+          "char_end": 17893,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Ré: ilegitimidade passiva ad causam (preliminar)",
+      "resumo": "A preliminar foi rejeitada por se confundir com o mérito, a ser analisado adiante.",
+      "tipo": "preliminar",
+      "tema": "ilegitimidade passiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Rejeito, outrossim, a preliminar de ilegitimidade passiva, que se confunde com o mérito e com ele será analisada.",
+          "char_start": 17895,
+          "char_end": 18008,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Ré: falta de interesse de agir por quitação/accordo com a Delta (aproveitamento integral)",
+      "resumo": "Rejeitada. A transação foi expressamente limitada à Delta, configurando renúncia parcial à solidariedade (art. 282 CC). Pagamento parcial por codevedor solidário só aproveita aos demais até a concorrência do valor pago (arts. 275 e 277 CC); subsiste o interesse processual quanto ao saldo.",
+      "tipo": "preliminar",
+      "tema": "falta de interesse de agir (acordo com codevedor solidário)",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 277 do CC",
+        "art. 275 do CC",
+        "art. 844, § 3º do CC",
+        "art. 282 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A tese da ré, de que a quitação outorgada à corré extinguiu integralmente a obrigação, não prospera.",
+          "char_start": 18182,
+          "char_end": 18282,
+          "score": 100.0
+        },
+        {
+          "texto": "Dispõe o art. 277 do Código Civil que o pagamento parcial de um dos devedores e a remissão por ele obtida não aproveitam aos outros devedores, senão até a concorrência da quantia paga ou relevada.",
+          "char_start": 18284,
+          "char_end": 18480,
+          "score": 100.0
+        },
+        {
+          "texto": "Cuida-se, pois, de renúncia parcial à solidariedade, expressamente autorizada pelo art. 282 do Código Civil, que exonera apenas o devedor beneficiado, subsistindo a dos demais pelo saldo remanescente.",
+          "char_start": 19353,
+          "char_end": 19553,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Autores: aplicação do CDC aos danos morais em transporte internacional (afastamento das Convenções para dano extrapatrimonial)",
+      "resumo": "Acolhida. Para danos morais decorrentes de transporte internacional, as Convenções de Varsóvia/Montreal não se aplicam (Tema 1.240/STF), incidindo o CDC e a responsabilidade objetiva do art. 14. Trata-se de demanda apenas por dano moral, sem pedido material.",
+      "tipo": "merito",
+      "tema": "regime jurídico aplicável (CDC x Convenções)",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "RE 636.331/RJ (Tema 210 STF)",
+        "RE 1.394.401/SP (Tema 1.240 STF)",
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Todavia, conforme tese fixada no julgamento do Recurso Extraordinário no 1.394.401/SP (Tema 1.240), \"não se aplicam as Convenções de Varsóvia e Montreal às hipóteses de danos extrapatrimoniais decorrentes de contrato de transporte aéreo internacional\".",
+          "char_start": 21032,
+          "char_end": 21284,
+          "score": 100.0
+        },
+        {
+          "texto": "Como a presente demanda veicula exclusivamente pretensão de reparação por danos morais, sem qualquer pedido de natureza patrimonial, a limitação tarifária das convenções internacionais é de todo impertinente, incidindo o Código de Defesa do Consumidor e, por consequência, a responsabilidade objetiva do fornecedor, na forma do art. 14 do referido diploma.",
+          "char_start": 21286,
+          "char_end": 21642,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Autores: legitimidade passiva da LATAM e responsabilidade solidária em codeshare; rejeição da culpa exclusiva de terceiro",
+      "resumo": "Acolhida. Documentos mostram emissão dos bilhetes pela LATAM, operação dos voos de longo curso e despacho das bagagens com etiquetas LA, além de alterações involuntárias imputadas a voos LA. Em cadeia de fornecimento (codeshare) há solidariedade (arts. 7º, par. ún., e 25, §1º, CDC) e o art. 41 da Convenção de Montreal reforça a responsabilização do transportador contratual. Afasta-se a tese de culpa exclusiva de terceiro.",
+      "tipo": "merito",
+      "tema": "legitimidade passiva e solidariedade (codeshare)",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 7º, parágrafo único, do CDC",
+        "art. 25, § 1º do CDC",
+        "art. 41 da Convenção de Montreal"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não prosperam, assim, a alegação de ilegitimidade passiva e de culpa exclusiva de terceiro.",
+          "char_start": 25434,
+          "char_end": 25525,
+          "score": 100.0
+        },
+        {
+          "texto": "Ainda que parte do trajeto tenha sido operada por parceira comercial em regime de codeshare, tal circunstância não rompe o nexo causal, evidenciando, ao contrário, cadeia de fornecimento em que todos os participantes respondem solidariamente perante o consumidor, nos termos dos arts. 7o, parágrafo único, e 25, § 1o, do Código de Defesa do Consumidor.",
+          "char_start": 25910,
+          "char_end": 26262,
+          "score": 100.0
+        },
+        {
+          "texto": "Ainda que assim não fosse, a invocação do art. 36, 2, da Convenção de Montreal em nada beneficiaria a ré, porquanto o art. 41 do mesmo diploma estabelece que as ações e omissões do transportador de fato e de seus prepostos se consideram, igualmente, como ações e omissões do transportador contratual, consagrando a responsabilidade solidária que a contestante pretende afastar.",
+          "char_start": 21644,
+          "char_end": 22021,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Autores: falha na prestação do serviço (alterações involuntárias, perda de voo, falta de assistência e extravio de bagagem)",
+      "resumo": "Acolhida. A prova documental da própria ré demonstra duas alterações involuntárias de malha, supressão de um dia da viagem, perda do voo de conexão, desmembramento da reserva familiar e extravio das bagagens despachadas sob etiquetas LA. Fatos relevantes não foram impugnados especificamente, atraindo a presunção do art. 341 do CPC.",
+      "tipo": "merito",
+      "tema": "falha na prestação do serviço",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 14 do CDC",
+        "art. 341 do CPC",
+        "art. 374, III, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Fixadas tais premissas, a falha na prestação do serviço é manifesta e, em boa medida, resulta de documentos emitidos pela própria requerida.",
+          "char_start": 22023,
+          "char_end": 22163,
+          "score": 100.0
+        },
+        {
+          "texto": "Está documentalmente comprovada, pois, a perda do voo contratado.",
+          "char_start": 23863,
+          "char_end": 23928,
+          "score": 100.0
+        },
+        {
+          "texto": "Incide, pois, o art. 341 do Código de Processo Civil, presumindo-se verdadeiros os fatos não impugnados, os quais independem de prova por força do art. 374, III, do mesmo diploma.",
+          "char_start": 27132,
+          "char_end": 27311,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Autores: dano moral configurado (inclusive sob a ótica do art. 251-A do CBA e em favor do menor)",
+      "resumo": "Acolhida. Mesmo à luz do art. 251-A do CBA, houve demonstração concreta do prejuízo e de sua extensão: sequência de falhas encadeadas, supressão de um dia de viagem, espera excessiva, perda de voo, desmembramento da família e extravio de bagagem, além de episódio discriminatório. Também o menor de 2 anos sofreu abalo, não afastado pela presença dos pais.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 251-A do CBA",
+        "TJSP Apelação 1010312-19.2022.8.26.0011"
+      ],
+      "citacoes": [
+        {
+          "texto": "No tocante ao dano moral, o pedido é procedente.",
+          "char_start": 27787,
+          "char_end": 27835,
+          "score": 100.0
+        },
+        {
+          "texto": "Sucede que, mesmo sob a régua mais rigorosa preconizada pela requerida que dispensa o recurso à figura do dano in re ipsa , a pretensão merece acolhida, pois a ocorrência do prejuízo e sua extensão estão concretamente demonstradas nos autos.",
+          "char_start": 28153,
+          "char_end": 28394,
+          "score": 100.0
+        },
+        {
+          "texto": "Quanto à tese de que o autor menor não teria experimentado abalo moral, em razão de sua tenra idade e da presença dos genitores, não merece acolhida.",
+          "char_start": 30980,
+          "char_end": 31129,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Autores: fixação do dano moral em R$ 10.000,00 por autor, com dedução do pago pela Delta (saldo de R$ 4.600,00 por autor)",
+      "resumo": "Acolhida. Consideradas a gravidade e a multiplicidade das falhas e seus efeitos, o quantum de R$ 10.000,00 por autor é adequado; contudo, impõe-se deduzir R$ 5.400,00 já pagos pela Delta, nos termos do art. 277 do CC, resultando em R$ 4.600,00 por autor.",
+      "tipo": "quantum",
+      "tema": "quantum do dano moral e dedução de pagamento parcial",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 277 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "No caso, considerada a pluralidade e a gravidade das falhas, sua sucessão encadeada ao longo de meses, a supressão de um dia de viagem, o extravio de bagagem, o desgaste imposto a família com criança de colo e a repercussão do episódio discriminatório, reputo adequada a fixação da indenização no valor de R$ 10.000,00 para cada autor, tal como postulado na inicial, montante que se revela razoável e proporcional à gravidade dos fatos.",
+          "char_start": 32154,
+          "char_end": 32590,
+          "score": 100.0
+        },
+        {
+          "texto": "Impõe-se, contudo, a dedução dos valores já recebidos por força da transação celebrada com a corré Delta Air Lines, na exata forma do art. 277 do Código Civil.",
+          "char_start": 32592,
+          "char_end": 32751,
+          "score": 100.0
+        },
+        {
+          "texto": "Com efeito, tendo cada autor recebido a quantia de R$ 5.400,00, e sendo devida a cada qual a indenização de R$ 10.000,00, remanesce em favor de cada um o saldo de R$ 4.600,00, a ser suportado pela ré TAM Linhas Aéreas S/A, perfazendo o total de R$ 13.800,00.",
+          "char_start": 32753,
+          "char_end": 33011,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 9841,
+    "output_tokens": 7758,
+    "cost_usd": 0.08988125,
+    "latency_ms": 92197,
+    "citacoes": 21,
+    "citacoes_ancoradas": 21
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

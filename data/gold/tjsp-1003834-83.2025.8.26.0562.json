@@ -1,0 +1,23 @@
+{
+  "ruling_id": "tjsp-1003834-83.2025.8.26.0562",
+  "text_sha256": "9d3ff8f11ea318065a9b586da34f8aea53b9fe9e1892eccfb344ee6572c74bfb",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "outro",
+  "argumentos": [],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 1197,
+    "output_tokens": 1777,
+    "cost_usd": 0.01926625,
+    "latency_ms": 19284,
+    "citacoes": 0,
+    "citacoes_ancoradas": 0
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

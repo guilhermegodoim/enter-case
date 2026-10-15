@@ -1,0 +1,359 @@
+{
+  "ruling_id": "tjsp-1002321-57.2025.8.26.0408",
+  "text_sha256": "135e17717b2a0a1880409198c34a69e9dbfbc4b90e50d6fc010aa22ca98c9bb4",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Aplicam-se os efeitos da revelia, com presunção apenas relativa dos fatos",
+      "resumo": "O juiz declarou a revelia da ré por ausência de contestação, mas assentou que seus efeitos são relativos e não implicam procedência automática, devendo os fatos alegados ser cotejados com a prova documental dos autos.",
+      "tipo": "preliminar",
+      "tema": "revelia e efeitos",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 344 do CPC",
+        "REsp 47.107-MT"
+      ],
+      "citacoes": [
+        {
+          "texto": "diante disto, declaro a sua revelia, nos termos do artigo 344, do Código de Processo Civil.",
+          "char_start": 1322,
+          "char_end": 1413,
+          "score": 100.0
+        },
+        {
+          "texto": "Quanto aos efeitos da revelia, a falta de contestação não conduz a que se tenham como verdadeiros os fatos alegados pela Autora, quando contrariados pelos próprios documentos juntados com a inicial.",
+          "char_start": 1536,
+          "char_end": 1734,
+          "score": 100.0
+        },
+        {
+          "texto": "\"A presunção de veracidade dos fatos alegados pelo autor em face à revelia do réu é relativa, podendo ceder a outras circunstâncias constantes dos autos, de acordo com o princípio do livre convencimento do juiz\". (STJ 4a Turma, Resp 47.107-MT, rel. Min. César Rocha).",
+          "char_start": 1750,
+          "char_end": 2017,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Desnecessidade de outras provas e cabimento do julgamento antecipado do mérito",
+      "resumo": "Entendeu o juiz que o conjunto probatório já era suficiente, dispensando a produção de outras provas e autorizando o julgamento antecipado do mérito, nos termos do art. 355, I e II, do CPC.",
+      "tipo": "preliminar",
+      "tema": "julgamento antecipado",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 355, I e II, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "As provas produzidas nos autos são suficientes para julgamento do mérito, sendo desnecessária a produção de outras.",
+          "char_start": 1082,
+          "char_end": 1197,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, de rigor o julgamento antecipado do mérito, nos termos do art. 355, incisos I e II, do Código de Processo Civil.",
+          "char_start": 1415,
+          "char_end": 1534,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Aplicação do CDC aos contratos bancários do caso",
+      "resumo": "O magistrado aplicou o CDC à relação, reconhecendo a natureza consumerista do contrato e a possibilidade de revisão de cláusulas abusivas, com base na Súmula 297 do STJ e na ADI 2.591 do STF.",
+      "tipo": "merito",
+      "tema": "aplicabilidade do CDC",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Súmula 297 do STJ",
+        "art. 3º, § 2º do CDC",
+        "ADI 2.591 STF",
+        "art. 6º, V do CDC",
+        "art. 51, IV do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Consigna-se, de início, para dirimir a controvérsia, que aplicam-se na espécie as normas do Código de Defesa do Consumidor, consoante verbera a Súmula 297 do Superior Tribunal de Justiça.",
+          "char_start": 3683,
+          "char_end": 3870,
+          "score": 100.0
+        },
+        {
+          "texto": "A relação jurídica envolvendo a Autora e a instituição financeira é de cunho nitidamente consumerista sendo o Réu prestador de serviços, como fornecedor de produtos bancários, e a Autora consumidora.",
+          "char_start": 3872,
+          "char_end": 4071,
+          "score": 100.0
+        },
+        {
+          "texto": "Portanto, perfeitamente possível, ao menos em tese, a modificação das cláusulas contratuais que estabeleçam prestações desproporcionais ou a sua revisão em razão de fatos supervenientes que as tornem excessivamente onerosas, conforme disposição expressa do artigo 6o, V, da Lei no 8.078/90 e, ainda, o reconhecimento da nulidade das mesmas por infração da norma cogente do artigo 51, IV, da aludida Lei.",
+          "char_start": 4424,
+          "char_end": 4827,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Nulidade geral da avença por abusividades contratuais",
+      "resumo": "O juiz afastou a alegação de nulidade do contrato por vício insanável, reconhecendo que a avença foi livremente firmada e, em regra, deve ser cumprida, restringindo a revisão a eventuais cobranças específicas indevidas.",
+      "tipo": "merito",
+      "tema": "validade do contrato",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Não há, destarte, a esta altura, qualquer nulidade a proclamar vez que a avença pactuada entre as partes, e reproduzida em cédula de crédito bancário, na modalidade de crédito direto ao consumidor (CDC), foi livremente firmada e nenhuma irregularidade, em relação a ela, restou constatada a ponto de inquiná-la de vício insanável.",
+          "char_start": 7858,
+          "char_end": 8188,
+          "score": 100.0
+        },
+        {
+          "texto": "Impõe-se, apenas, dirimir, nos limites estreitos da convenção, se sobreveio, ou não, imposição de cobrança de tarifas indevidas, em desfavor do Autor.",
+          "char_start": 8190,
+          "char_end": 8340,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Afastamento da capitalização e limitação dos juros remuneratórios",
+      "resumo": "Rejeitou-se a tese de abusividade dos juros e da capitalização. Admitiu-se a capitalização mensal desde que expressamente pactuada e afastou-se a limitação a 12% ao ano, à luz da jurisprudência do STF e do STJ e da Lei 4.595/64.",
+      "tipo": "merito",
+      "tema": "capitalização de juros e juros remuneratórios",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "MP 2.170-36/2001",
+        "REsp 603.643/RS",
+        "Súmula 596 do STF",
+        "Súmula 382 do STJ",
+        "Lei 4.595/1964",
+        "RE 286.963 STF"
+      ],
+      "citacoes": [
+        {
+          "texto": "No que tange aos juros praticados pela Ré, verifica-se que irregularidade alguma foi cometida.",
+          "char_start": 11416,
+          "char_end": 11510,
+          "score": 100.0
+        },
+        {
+          "texto": "\"As disposições do Decreto no 22.626/33 não se aplicam às taxas de juros e aos outros encargos cobrados nas operações realizadas por instituições públicas ou privadas que integram o sistema financeiro nacional.\"",
+          "char_start": 12156,
+          "char_end": 12367,
+          "score": 100.0
+        },
+        {
+          "texto": "\"A estipulação de juros remuneratórios superiores a 12% ao ano, por si só, não indica abusividade.\"",
+          "char_start": 12369,
+          "char_end": 12468,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Substituição da Tabela Price pelo método Gauss",
+      "resumo": "O pedido foi rejeitado. A Tabela Price é lícita, não se confunde com anatocismo, e o autor não comprovou ilegalidade contratual, atraindo o ônus do art. 373, I, do CPC; além disso, havia ciência das taxas e parcelas.",
+      "tipo": "merito",
+      "tema": "tabela price",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 373, I, do CPC",
+        "REsp 973.827/RS"
+      ],
+      "citacoes": [
+        {
+          "texto": "O fato de ter adotado a Tabela Price não induz à conclusão de incidência de encargos ilegais e abusivos, porquanto o contrato acostado aos autos e assinado pelo Autor (fls. 54/62), há a indicação das taxas cobradas, das parcelas e seu respectivo valor mensal.",
+          "char_start": 14208,
+          "char_end": 14467,
+          "score": 100.0
+        },
+        {
+          "texto": "Descurou o Autor, no que tange ao ônus da prova, da observância do disposto no artigo 373, inciso I, do Código de Processo Civil.",
+          "char_start": 14849,
+          "char_end": 14978,
+          "score": 100.0
+        },
+        {
+          "texto": "Dessa forma, a utilização da Tabela Price não caracteriza qualquer ilegalidade.",
+          "char_start": 15341,
+          "char_end": 15420,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Abusividade da tarifa de avaliação do bem com restituição simples",
+      "resumo": "Reconheceu-se abusiva a cobrança da tarifa de avaliação do bem, por repassar ao consumidor custo inerente à atividade do fornecedor, à luz do art. 51, IV e XII, do CDC; determinada a restituição simples.",
+      "tipo": "merito",
+      "tema": "tarifa de avaliação do bem",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 51, IV do CDC",
+        "art. 51, XII do CDC",
+        "Resolução CMN 3.517/2007",
+        "REsp 1.578.553/SP (repetitivo)"
+      ],
+      "citacoes": [
+        {
+          "texto": "Segundo, no que tange a cobrança da tarifa referente a avaliação do bem, embora previstas no instrumento contratual e não proibidas pelo Bacen, entendo ser ilegal a prática de cobrar do cliente os custos inerentes à própria atividade do fornecedor, nos termos do artigo 51, incisos IV e XII, do Código de Defesa do Consumidor.",
+          "char_start": 16797,
+          "char_end": 17123,
+          "score": 100.0
+        },
+        {
+          "texto": "Consequentemente, é abusiva a despesa com a tarifa de avaliação de bem, porquanto ilegal a prática de cobrar do cliente os custos inerentes à própria atividade do fornecedor.",
+          "char_start": 17575,
+          "char_end": 17749,
+          "score": 100.0
+        },
+        {
+          "texto": "Em suma, devida a restituição da tarifa de avaliação do bem.",
+          "char_start": 27744,
+          "char_end": 27804,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Legalidade da tarifa de cadastro cobrada no início do relacionamento",
+      "resumo": "A cobrança da tarifa de cadastro foi tida por válida, nos termos do REsp 1.251.331/RS e da Súmula 566 do STJ, inexistindo prova de relacionamento anterior que a invalidasse; negada a restituição.",
+      "tipo": "merito",
+      "tema": "tarifa de cadastro",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "REsp 1.251.331/RS (repetitivo)",
+        "Súmula 566 do STJ",
+        "Resolução CMN 3.919/2010"
+      ],
+      "citacoes": [
+        {
+          "texto": "Todavia, permanece válida a Tarifa de Cadastro a qual remunera o serviço de \"realização de pesquisa em serviços de proteção ao crédito, base de dados e informações cadastrais, e tratamento de dados e informações necessários ao inicio de relacionamento decorrente da abertura de conta de depósito à vista ou de poupança ou contratação de operação de crédito ou de arrendamento mercantil, não podendo ser cobrada cumulativamente\" (Tabela anexa à vigente Resolução CMN 3.919/2010, com a redação dada pela Resolução 4.021/2011).",
+          "char_start": 28704,
+          "char_end": 29228,
+          "score": 100.0
+        },
+        {
+          "texto": "Por essa razão, a Súmula no 566 do Superior Tribunal de Justiça, então, sobreveio com a seguinte redação: \"Nos contratos bancários posteriores ao início da vigência da Resolução-CMNn. 3.518/2007, em 30/4/2008, pode ser cobrada a tarifa de cadastro no início do relacionamento entre o consumidor e a instituição financeira\".",
+          "char_start": 29230,
+          "char_end": 29553,
+          "score": 100.0
+        },
+        {
+          "texto": "Na hipótese dos autos, o contrato entre as partes foi celebrado em 07/06/2022 (fls. 54), inexistindo a comprovação de que o negócio jurídico e/ou o relacionamento com o Réu não tenha se iniciado como contrato objeto da ação.",
+          "char_start": 29555,
+          "char_end": 29779,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "Abusividade da tarifa de registro de contrato com restituição simples",
+      "resumo": "Foi reputada indevida a tarifa de registro do contrato por ausência de suporte em normas do BACEN (Res. 3.518/07), por se tratar de custo ínsito à operação, impondo a restituição simples ao autor.",
+      "tipo": "merito",
+      "tema": "tarifa de registro de contrato",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Resolução CMN 3.518/2007"
+      ],
+      "citacoes": [
+        {
+          "texto": "Ainda que expressamente convencionada no contrato firmado entre as partes, que é o caso dos autos, a cobrança da tarifa de registro do contrato não é permitida por absoluta ausência de suporte nas normas do Banco Central do Brasil, mais especificamente, a Resolução no 3.518/07, vigente na época da assinatura do contrato.",
+          "char_start": 30772,
+          "char_end": 31094,
+          "score": 100.0
+        },
+        {
+          "texto": "A tarifa de registro do contrato deve ser restituída ao consumidor que não está obrigado a suportar os custos da sua realização, pois destina-se ao custeio de serviços ínsitos à operação bancária e deve, portanto, ser suportada pela instituição financeira.",
+          "char_start": 31096,
+          "char_end": 31352,
+          "score": 100.0
+        },
+        {
+          "texto": "Destarte, pelas razões retro aduzidas, indevida a tarifa de registro do contrato, motivo pelo qual deve ser restituída ao Autor.",
+          "char_start": 37635,
+          "char_end": 37763,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a10",
+      "titulo": "Repetição do indébito em dobro",
+      "resumo": "A devolução foi fixada na forma simples, pois não demonstrada a má-fé da instituição financeira; a mera discussão contratual não autoriza a repetição em dobro, conforme entendimento do STJ.",
+      "tipo": "merito",
+      "tema": "repetição do indébito em dobro",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 42, parágrafo único, do CDC",
+        "art. 940 do CC",
+        "Súmula 322 do STJ",
+        "REsp 756.973/RS"
+      ],
+      "citacoes": [
+        {
+          "texto": "A restituição será devida de forma simples vez que a mera discussão de cláusulas contratuais não gera direito à repetição, matéria também já apreciada pelo Superior Tribunal de Justiça no bojo do Resp. 756.973/RS.",
+          "char_start": 37799,
+          "char_end": 38012,
+          "score": 100.0
+        },
+        {
+          "texto": "Os valores cobrados indevidamente deverão ser restituídos na forma simples e não em dobro, porque não houve demonstração inequívoca de má-fé da instituição financeira.",
+          "char_start": 38032,
+          "char_end": 38199,
+          "score": 100.0
+        },
+        {
+          "texto": "Quanto à repetição do indébito, embora cabível, nos termos do artigo 876 do Código Civil, pois todo aquele que recebe o que não é devido fica obrigado a restituir, não há se cogitar de devolução em dobro.",
+          "char_start": 40478,
+          "char_end": 40682,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 12281,
+    "output_tokens": 9938,
+    "cost_usd": 0.11473125,
+    "latency_ms": 79539,
+    "citacoes": 28,
+    "citacoes_ancoradas": 28
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

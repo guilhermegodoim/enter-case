@@ -1,0 +1,332 @@
+{
+  "ruling_id": "tjsp-1042278-07.2021.8.26.0602",
+  "text_sha256": "947f5e606805137d0ece5a557edbfcf8334ca9f2ca7b3f28c441d18fd3ecdb1b",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Ibazar/Mercado Livre é parte ilegítima por ser mera intermediadora do marketplace",
+      "resumo": "O Juízo manteve o afastamento da preliminar já decidido no saneador, reputando preclusa a discussão. Entendeu que a plataforma integra a cadeia de consumo e aufere lucro com a intermediação, respondendo solidariamente nos termos do CDC.",
+      "tipo": "preliminar",
+      "tema": "ilegitimidade passiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 7o, parágrafo único, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A preliminar de ilegitimidade passiva da corré Ibazar.com Atividades de Internet Ltda. (Mercado Livre) já foi expressamente afastada na decisão de saneamento e organização do processo (p. 174 a 176), com fundamento na integração da plataforma na cadeia de fornecedores e no auferimento de lucro sobre os negócios realizados, nos termos do art. 7o, parágrafo único, do Código de Defesa do Consumidor.",
+          "char_start": 9626,
+          "char_end": 10025,
+          "score": 100.0
+        },
+        {
+          "texto": "Trata-se de decisão preclusa, não impugnada por recurso, que deve ser mantida por seus próprios e jurídicos fundamentos.",
+          "char_start": 10026,
+          "char_end": 10146,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Inversão do ônus da prova é inaplicável por ausência de hipossuficiência/verossimilhança",
+      "resumo": "A tese foi rejeitada. O juiz reafirmou a inversão do ônus da prova, deferida no saneador, com base no art. 6o, VIII, do CDC, diante da verossimilhança e da hipossuficiência técnica do consumidor.",
+      "tipo": "preliminar",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 6o, VIII, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A inversão do ônus da prova foi regularmente deferida na decisão saneadora (p. 174 a 176), com fundamento no artigo 6o, inciso VIII, do Código de Defesa do Consumidor, diante da verossimilhança das alegações autorais e da hipossuficiência técnica dos consumidores em relação às fornecedoras.",
+          "char_start": 15992,
+          "char_end": 16283,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Marketplace integra a cadeia de consumo e responde solidariamente pelos danos",
+      "resumo": "Reconhecida a responsabilidade solidária do Mercado Livre/IBazar, que veicula anúncios, gerencia pagamentos e logística, aufere proveito econômico e atrai a confiança do consumidor, incidindo a teoria do risco-proveito e os arts. 7o, parágrafo único, 12, 14 e 18 do CDC.",
+      "tipo": "merito",
+      "tema": "responsabilidade solidária (marketplace)",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 7o, parágrafo único, do CDC",
+        "art. 12 do CDC",
+        "art. 14 do CDC",
+        "art. 18 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A plataforma digital de intermediação (marketplace) que veicula o anúncio, faz a gestão do pagamento e organiza a cadeia de fornecimento no comércio eletrônico responde solidariamente pelos danos do acidente de consumo provocado por defeito intrínseco de fabricação da mercadoria vendida pelo parceiro comercial, por força da teoria do risco-proveito e da integração na cadeia de consumo prevista nos arts. 7o, parágrafo único, 12, 14 e 18 do Código de Defesa do Consumidor.",
+          "char_start": 10148,
+          "char_end": 10622,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso em exame, a corré Ibazar.com/Mercado Livre veiculou o anúncio da sela de montaria, intermediou o pagamento realizado pelo coautor [PESSOA_2], organizou a logística de entrega por meio do serviço Mercado Envios e auferiu proveito econômico direto sobre a transação comercial, conforme demonstrado na nota fiscal de p. 19.",
+          "char_start": 19421,
+          "char_end": 19749,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Quebra do estribo por vício de fabricação causou o acidente e impõe responsabilidade objetiva",
+      "resumo": "A perícia confirmou grave falha de injeção polimérica no estribo, em produto com aspecto de novo, estabelecendo o nexo causal com a queda e a fratura da menor. As excludentes do art. 12, § 3o, do CDC não foram provadas pelas rés.",
+      "tipo": "merito",
+      "tema": "fato do produto",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 12 do CDC",
+        "art. 12, § 3o, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O laudo técnico atestou peremptoriamente que o estribo direito da sela nova rompeu-se em decorrência direta de grave falha no processo de injeção polimérica de PVC.",
+          "char_start": 6460,
+          "char_end": 6624,
+          "score": 100.0
+        },
+        {
+          "texto": "O nexo de causalidade entre o defeito do produto e o acidente de consumo restou inequivocamente demonstrado.",
+          "char_start": 21400,
+          "char_end": 21508,
+          "score": 100.0
+        },
+        {
+          "texto": "As excludentes de responsabilidade previstas no art. 12, § 3o, do Código de Defesa do Consumidor não se configuraram no caso em exame.",
+          "char_start": 21954,
+          "char_end": 22088,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Deve haver restituição integral do preço pago pela sela defeituosa",
+      "resumo": "Diante do vício insuperável e da impropriedade do produto, foi reconhecido o direito à rescisão com restituição de R$ 550,00 ao adquirente [PESSOA_2], com correção desde o desembolso e juros da citação.",
+      "tipo": "merito",
+      "tema": "restituição do preço",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 18, § 1o, II, do CDC",
+        "art. 405 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O dano material consubstanciado na restituição da quantia paga pelo produto defeituoso está expressamente previsto no artigo 18, § 1o, inciso II, do Código de Defesa do Consumidor, que assegura ao consumidor o direito à 'restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos' quando o vício do produto não é sanado no prazo legal.",
+          "char_start": 24036,
+          "char_end": 24418,
+          "score": 99.5
+        },
+        {
+          "texto": "O pedido de restituição da quantia de R$ 550,00 (quinhentos e cinquenta reais) desembolsada pela compra da sela deve ser acolhido em favor do coautor [PESSOA_2], que figura como adquirente e destinatário na nota fiscal DANFE no 000.001.648 de p. 19.",
+          "char_start": 24869,
+          "char_end": 25118,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Acidente com fratura gera dano moral indenizável in re ipsa",
+      "resumo": "O dano moral foi reconhecido pela gravidade do evento e das lesões, dispensando prova específica do abalo, em razão da fratura com cirurgia e internação da menor.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "TJSP, Apelação 1027141-65.2023.8.26.0003"
+      ],
+      "citacoes": [
+        {
+          "texto": "O dano moral decorrente do acidente de consumo com lesão à integridade física da menor M.C.F. configura-se in re ipsa, ou seja, decorre da própria gravidade do fato, dispensando demonstração autônoma do sofrimento íntimo da vítima.",
+          "char_start": 25696,
+          "char_end": 25927,
+          "score": 100.0
+        },
+        {
+          "texto": "A menor sofreu fratura óssea cominutiva em três partes no antebraço direito, submeteu-se a procedimento cirúrgico emergencial com fixação de pinos ortopédicos, permaneceu internada em ambiente hospitalar por vários dias e enfrentou período de recuperação doloroso e limitante.",
+          "char_start": 25928,
+          "char_end": 26204,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Quantum dos danos morais deve observar o método bifásico e fixar R$ 5.000,00",
+      "resumo": "Aplicando o método bifásico do STJ e considerando gravidade, idade da vítima, condições econômicas das rés e funções compensatória e pedagógica, o juiz arbitrou R$ 5.000,00.",
+      "tipo": "quantum",
+      "tema": "quantum do dano moral",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "REsp 1.152.541/STJ",
+        "REsp 1.473.393/STJ",
+        "art. 884 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O arbitramento do quantum indenizatório deve observar os critérios do método bifásico consolidado pelo Superior Tribunal de Justiça (REsp 1.152.541 e REsp 1.473.393), que considera: (i) o valor-base por interesse jurídico lesado, extraído de precedentes análogos; e (ii) o ajuste pelas circunstâncias concretas do caso, incluindo a gravidade da conduta, a extensão do dano, o grau de culpa, a capacidade econômica do ofensor, a condição do ofendido, a concorrência de culpa, a razoabilidade, a proporcionalidade, a função pedagógica e a vedação ao enriquecimento sem causa.",
+          "char_start": 28184,
+          "char_end": 28757,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso em exame, considerando a gravidade da lesão corporal (fratura cominutiva em três partes com cirurgia e implante metálico), a idade da vítima (menor impúbere), o trauma físico e psíquico suportado, a capacidade econômica das rés (empresa de grande porte no caso do marketplace e microempreendedor individual no caso da vendedora), e as funções compensatória e pedagógica da indenização, fixo o valor de R$ 5.000,00 (cinco mil reais) a título de indenização por danos morais em favor da autora M.C.F.",
+          "char_start": 29176,
+          "char_end": 29682,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Correção e juros nos danos morais: correção do arbitramento e juros da citação diante de incerteza da data do evento",
+      "resumo": "Embora a regra seja juros desde o evento danoso, o juiz fixou os juros a partir da citação por não ser possível precisar a data exata do acidente, e a correção monetária pelo IPCA-E desde o arbitramento, conforme Súmula 362 do STJ.",
+      "tipo": "acessorio",
+      "tema": "juros e correção (dano moral)",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Súmula 362 do STJ",
+        "art. 398 do CC",
+        "Súmula 54 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "A correção monetária do valor da indenização por dano moral deve incidir desde a data do arbitramento, nos termos da Súmula 362 do Superior Tribunal de Justiça: 'A correção monetária do valor da indenização do dano moral incide desde a data do arbitramento'.",
+          "char_start": 30122,
+          "char_end": 30380,
+          "score": 99.2
+        },
+        {
+          "texto": "Contudo, diante da dificuldade de precisar a data exata do evento danoso (apenas sabe-se que ocorreu na primeira quinzena de novembro de 2021, poucos dias após a aquisição em 03/11/2021), e considerando que a citação das rés ocorreu em momento posterior, fixo os juros moratórios legais a partir da citação válida, assegurando-se a atualização monetária pelo IPCA-E desde a data desta sentença (arbitramento).",
+          "char_start": 30602,
+          "char_end": 31011,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "Coautor [PESSOA_2] faz jus à justiça gratuita como pessoa natural com declaração de hipossuficiência",
+      "resumo": "O benefício foi deferido ao coautor com base na presunção relativa do art. 99, § 3o, do CPC, diante da declaração de pobreza juntada aos autos.",
+      "tipo": "acessorio",
+      "tema": "gratuidade da justiça",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 98 do CPC",
+        "art. 99, § 3o, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O coautor [PESSOA_2], regularmente incluído no polo ativo por determinação judicial (p. 347), juntou declaração de pobreza (p. 353) e requer expressamente o benefício da assistência judiciária gratuita.",
+          "char_start": 10962,
+          "char_end": 11164,
+          "score": 100.0
+        },
+        {
+          "texto": "Tratando-se de pessoa natural, aplica-se a presunção relativa de veracidade prevista no art. 99, § 3o, do Código de Processo Civil, razão pela qual defiro a gratuidade da justiça ao coautor [PESSOA_2], nos termos dos arts. 98 e 99 do CPC.",
+          "char_start": 11165,
+          "char_end": 11403,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a10",
+      "titulo": "Pessoa jurídica MEI faz jus à gratuidade da justiça por dificuldades financeiras",
+      "resumo": "O pedido foi indeferido porque pessoa jurídica precisa comprovar efetiva impossibilidade de arcar com as despesas. A ré não apresentou documentação contábil idônea, aplicando-se a Súmula 481 e o Tema 1.424 do STJ.",
+      "tipo": "acessorio",
+      "tema": "gratuidade da justiça (pessoa jurídica)",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 481 do STJ",
+        "Tema 1.424 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Ocorre que, tratando-se de pessoa jurídica, ainda que microempreendedor individual, a concessão do benefício da justiça gratuita exige demonstração efetiva da impossibilidade de arcar com os encargos processuais, nos termos da Súmula 481 do Superior Tribunal de Justiça: \"Faz jus aos benefícios da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua impossibilidade de arcar com os encargos processuais\".",
+          "char_start": 11670,
+          "char_end": 12103,
+          "score": 100.0
+        },
+        {
+          "texto": "Diante da ausência de demonstração contábil e documental idônea da hipossuficiência financeira da pessoa jurídica, indefiro o pedido de gratuidade da justiça formulado pela corré [PESSOA_3] ME (Selaria Campos).",
+          "char_start": 12934,
+          "char_end": 13144,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a11",
+      "titulo": "Autores agiram de má-fé e devem ser condenados",
+      "resumo": "O juiz rejeitou o pedido de litigância de má-fé, por ausência de dolo processual e porque a pretensão estava amparada em prova técnica e documental idônea, não se enquadrando nas hipóteses do art. 80 do CPC.",
+      "tipo": "acessorio",
+      "tema": "litigância de má-fé",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 80 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A corré Selaria Campos formulou pedido de condenação da parte autora por litigância de má-fé (p. 105 a 107), alegando que a inicial conter citação destinada a inibir o requerido de apresentar sua defesa, advertindo-o de possível consequência sobre litigância de má-fé, e que o genitor da parte autora teria proferido ameaças de processo.",
+          "char_start": 13146,
+          "char_end": 13483,
+          "score": 100.0
+        },
+        {
+          "texto": "Diante da ausência de dolo processual e da inexistência de qualquer das hipóteses legais de litigância de má-fé, rejeito o pedido de condenação dos autores por litigância de má-fé formulado pela corré Selaria Campos.",
+          "char_start": 15172,
+          "char_end": 15388,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 9260,
+    "output_tokens": 12316,
+    "cost_usd": 0.134735,
+    "latency_ms": 103455,
+    "citacoes": 22,
+    "citacoes_ancoradas": 22
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

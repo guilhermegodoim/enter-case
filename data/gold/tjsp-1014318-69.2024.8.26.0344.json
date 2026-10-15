@@ -1,0 +1,525 @@
+{
+  "ruling_id": "tjsp-1014318-69.2024.8.26.0344",
+  "text_sha256": "7e24159a7a147afb9b0fd7163810d9531d6a75efd09a3797d450990428ef4eac",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Há cerceamento de defesa; é necessário produzir outras provas antes da sentença",
+      "resumo": "O juízo entendeu estarem os autos suficientemente instruídos com prova documental, autorizando o julgamento antecipado do mérito sem violar o contraditório. Destacou ser o magistrado o destinatário da prova (art. 370 do CPC) e que não configurado prejuízo, não há cerceamento.",
+      "tipo": "preliminar",
+      "tema": "julgamento antecipado",
+      "suscitado_por": "juizo",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 355, I, do CPC",
+        "art. 370 do CPC",
+        "RTJ 115/789 (STF)"
+      ],
+      "citacoes": [
+        {
+          "texto": "O feito reclama julgamento antecipado, na forma do art. 355, I, do Código de Processo Civil, porquanto a prova documental produzida nos autos é suficiente para conhecer diretamente do pedido, com análise segura do mérito, sendo desnecessária a produção de outras provas, inclusive de ordem técnica.",
+          "char_start": 2860,
+          "char_end": 3158,
+          "score": 100.0
+        },
+        {
+          "texto": "Entendendo que as provas constantes dos autos são suficientes para a formação de seu convencimento para o deslinde da questão, não se configura cerceamento de defesa.",
+          "char_start": 3451,
+          "char_end": 3617,
+          "score": 100.0
+        },
+        {
+          "texto": "Nesse sentido, prevê o art. 370 do CPC: \"Caberá ao Juiz, de ofício ou a requerimento da parte, determinar as provas necessárias ao julgamento do mérito\".",
+          "char_start": 3619,
+          "char_end": 3772,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "A inicial é inepta por pedidos genéricos",
+      "resumo": "O juiz afastou a inépcia, porque a petição inicial atendeu ao art. 330, § 2º, do CPC, delimitando as obrigações controvertidas, indicando os valores e formulando pedidos certos e determinados.",
+      "tipo": "preliminar",
+      "tema": "inépcia da inicial",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 330, §2º, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "As preliminares arguidas devem ser afastadas.",
+          "char_start": 4151,
+          "char_end": 4196,
+          "score": 100.0
+        },
+        {
+          "texto": "Afasto a alegação de inépcia da petição inicial e carência de ação, uma vez que a exordial preenche os requisitos do art. 330, § 2o, do Código de Processo Civil, tendo a autora delimitado as obrigações controvertidas, indicado o valor das parcelas que entende devido e deduzido pedidos certos e determinados.",
+          "char_start": 4198,
+          "char_end": 4506,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Falta interesse de agir para a revisão contratual",
+      "resumo": "O magistrado reconheceu a presença de interesse processual, pois há necessidade de intervenção jurisdicional e adequação da via eleita para a revisão do contrato.",
+      "tipo": "preliminar",
+      "tema": "interesse de agir",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Presente, ademais, o interesse processual pela necessidade de intervenção jurisdicional e adequação da via eleita para revisão contratual.",
+          "char_start": 4507,
+          "char_end": 4645,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Há vício de representação da parte autora",
+      "resumo": "O juízo reconheceu a regularidade da representação, pois a autora cumpriu a ordem de juntar procuração específica com firma reconhecida, afastando qualquer vício.",
+      "tipo": "preliminar",
+      "tema": "regularidade da representação",
+      "suscitado_por": "juizo",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Por fim, não há vício de representação processual, uma vez a parte autora deu tempestivo e regular cumprimento à determinação judicial de pág. 318, acostando procuração específica atualizada com firma reconhecida por semelhança (págs. 321/322).",
+          "char_start": 4647,
+          "char_end": 4891,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "A gratuidade da justiça concedida ao autor deve ser revogada",
+      "resumo": "O juiz já havia rejeitado a impugnação à justiça gratuita em decisão anterior, mantendo o benefício.",
+      "tipo": "acessorio",
+      "tema": "gratuidade da justiça",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A impugnação à justiça gratuita foi rejeitada por decisão de págs. 306/307.",
+          "char_start": 2562,
+          "char_end": 2637,
+          "score": 100.0
+        }
+      ],
+      "secao": "relatorio"
+    },
+    {
+      "id": "a06",
+      "titulo": "O CDC não se aplica às instituições financeiras",
+      "resumo": "O juízo afirmou a incidência do CDC às operações bancárias, conforme a Súmula 297 do STJ, mas ressaltou que a aplicação do CDC não implica acolhimento automático dos pedidos.",
+      "tipo": "merito",
+      "tema": "aplicabilidade do CDC",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 297 do STJ",
+        "Lei 8.078/90"
+      ],
+      "citacoes": [
+        {
+          "texto": "De início, vale pontuar que a instituição financeira ré, na condição de fornecedora de serviços de natureza bancária, está sujeita à Lei no 8.078/90 (Código de Defesa do Consumidor).",
+          "char_start": 4941,
+          "char_end": 5123,
+          "score": 100.0
+        },
+        {
+          "texto": "Neste sentido, é o entendimento predominante do Colendo Superior Tribunal de Justiça, consubstanciado na súmula no 297, que dispõe: \"o Código de Defesa do Consumidor é aplicável às instituições financeiras\".",
+          "char_start": 5125,
+          "char_end": 5332,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Os juros remuneratórios pactuados são abusivos e devem ser limitados",
+      "resumo": "O juiz manteve a taxa de 2,82% a.m. e 39,56% a.a., por estar em patamar compatível e não superar 1,5 vez a média de mercado; a taxa média do Bacen é apenas referencial e não limite absoluto.",
+      "tipo": "merito",
+      "tema": "juros remuneratórios",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula Vinculante 7 do STF",
+        "AgInt no AREsp 1.230.673/MS"
+      ],
+      "citacoes": [
+        {
+          "texto": "No caso concreto, verifica-se que a taxa de juros remuneratórios pactuada foi de 2,82% ao mês e 39,56% ao ano, conforme se extrai do contrato celebrado entre as partes.",
+          "char_start": 7398,
+          "char_end": 7566,
+          "score": 100.0
+        },
+        {
+          "texto": "Acresça-se, além disso, que a taxa de juros remuneratórios cobrada pela instituição bancária ré sequer ultrapassa uma vez e meia a taxa média de mercado, razão pela qual não há que ser considerada abusiva.",
+          "char_start": 8513,
+          "char_end": 8718,
+          "score": 100.0
+        },
+        {
+          "texto": "E mesmo considerando que aludida taxa estivesse um pouco além da média de mercado para época em que as partes firmaram o contrato, temos que \"a taxa média de mercado apurada pelo Banco Central para operações similares, na mesma época do empréstimo, pode ser usada como referência no exame da abusividade dos juros remuneratórios, mas não constitui valor absoluto a ser adotado em todos os casos.",
+          "char_start": 7894,
+          "char_end": 8289,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "A taxa de juros efetiva cobrada é superior à contratada por inclusão de tarifas (CET), configurando aumento disfarçado",
+      "resumo": "A tese foi afastada: a prestação resulta da aplicação da taxa contratada sobre o montante financiado, e o percentual maior apontado decorre do CET, que inclui tarifas e seguros regularmente discriminados, não sendo comparável à taxa média de juros.",
+      "tipo": "merito",
+      "tema": "CET x taxa de juros",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Ademais, não prospera a alegação da parte autora de que as taxas reais de juros aplicadas seriam diversas das contratadas.",
+          "char_start": 11313,
+          "char_end": 11435,
+          "score": 100.0
+        },
+        {
+          "texto": "Como as despesas e encargos foram discriminados e integraram o montante financiado total (R$ 45.040,01), a incidência da taxa contratual de 2,82% a.m. resulta na parcela contratada de R$ 1.722,46, correspondendo o percentual de 3,29% a.m. apontado pela autora à variação reflexa do financiamento das tarifas ou ao Custo Efetivo Total (CET de 3,42% a.m. e 50,51% a.a.), devidamente informado no instrumento (págs. 36 e 51/52), o que afasta a alegação de fraude ou de cobrança clandestina de juros diversos dos ajustados.",
+          "char_start": 11677,
+          "char_end": 12196,
+          "score": 100.0
+        },
+        {
+          "texto": "Com efeito, não é possível comparar o custo efetivo total do financiamento com a taxa média de juros para se concluir pela existência do descompasso que autoriza a revisão, uma vez que se tratam de taxas distintas: a taxa de juros é a remuneração do capital incidente sobre o valor financiado, enquanto o custo efetivo total corresponde ao valor do financiamento, acrescido de outras despesas que se somam à quantia financiada, ou seja, as tarifas de serviços diversos (avaliação, registro de contrato, cadastro etc.), aos tributos e ao seguro, quando o caso.",
+          "char_start": 12198,
+          "char_end": 12757,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "A capitalização mensal de juros é ilícita",
+      "resumo": "O juízo reconheceu a validade da capitalização mensal, pois expressamente pactuada e amparada pelo art. 28, §1º, da Lei 10.931/2004 e pelas Súmulas 539 e 541 do STJ.",
+      "tipo": "merito",
+      "tema": "capitalização mensal de juros",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 28, §1º, I, da Lei 10.931/2004",
+        "Súmula 539 do STJ",
+        "Súmula 541 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Por sua vez, a capitalização de juros encontra amplo amparo jurisprudencial e, inclusive, vem disciplinada no art. 28, §1o, da Lei 10.931/2004, que dispõe: \"na Cédula de Crédito Bancário poderão ser pactuados: I - os juros sobre a dívida, capitalizados ou não, os critérios de sua incidência e, se for o caso, a periodicidade de sua capitalização, bem como as despesas e os demais encargos decorrentes da obrigação\".",
+          "char_start": 12759,
+          "char_end": 13175,
+          "score": 100.0
+        },
+        {
+          "texto": "Súmula 539: \"É permitida a capitalização de juros com periodicidade inferior à anual em contratos celebrados com instituições integrantes do Sistema Financeiro Nacional a partir de 31/3/2000 (MP n. 1.963-17/2000, reeditada como MP n. 2.170-36/2001), desde que expressamente pactuada\".",
+          "char_start": 13367,
+          "char_end": 13651,
+          "score": 100.0
+        },
+        {
+          "texto": "No presente caso, extrai-se do contrato celebrado entre as partes que há clara distinção entre a taxa de juros mensal e a taxa anual, sendo esta superior ao duodécuplo daquela, o que, nos termos da Súmula 541 do STJ, é suficiente para caracterizar a pactuação da capitalização de juros.",
+          "char_start": 13828,
+          "char_end": 14114,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a10",
+      "titulo": "A tarifa de cadastro é abusiva e deve ser excluída",
+      "resumo": "O juiz manteve a cobrança da tarifa de cadastro, pois prevista no início da relação e admitida pelo STJ no Tema 566, não havendo prova de relação anterior nem valor excessivo.",
+      "tipo": "merito",
+      "tema": "tarifa de cadastro",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Tema 566 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Em relação à tarifa de cadastro (R$ 850,00), o Superior Tribunal de Justiça firmou entendimento no julgamento dos Recursos Especiais Repetitivos no 1.251.331/RS e 1.255.573/RS (Tema 566) no sentido de que: \"Permanece válida a Tarifa de Cadastro expressamente tipificada em ato normativo padronizador da autoridade monetária, a qual somente pode ser cobrada no início do relacionamento entre o consumidor e a instituição financeira\".",
+          "char_start": 14479,
+          "char_end": 14911,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso sob exame, a tarifa foi expressamente prevista na Cédula de Crédito Bancário (págs. 36) e inexiste nos autos comprovação de que a demandante já mantinha relação jurídica anterior com a instituição ré, não havendo demonstração de excesso desarrazoado no valor estipulado, razão pela qual deve ser preservada a legitimidade de sua exigência.",
+          "char_start": 14913,
+          "char_end": 15260,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a11",
+      "titulo": "A despesa de registro do contrato é indevida e deve ser devolvida",
+      "resumo": "A cobrança foi tida por válida: houve efetivo registro do gravame no DETRAN, o valor não é excessivo e o STJ (Tema 958) admite o repasse, ressalvadas hipóteses não verificadas no caso.",
+      "tipo": "merito",
+      "tema": "registro do contrato",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Resolução BACEN 3.517/2007, art. 1º, §§1º e 2º",
+        "Lei 11.882/2008, art. 6º",
+        "Resolução CONTRAN 807/2020",
+        "Tema 958 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "No caso em análise, houve a efetiva prestação do serviço, haja vista o registro do gravame fiduciário perante o órgão de trânsito competente (DETRAN), conforme se infere do CRLV digital acostado aos autos (pág. 171).",
+          "char_start": 18033,
+          "char_end": 18249,
+          "score": 100.0
+        },
+        {
+          "texto": "Além disso, não se vislumbra onerosidade ou abusividade quanto ao valor exigido pela instituição bancária relativo ao Registro de Contrato (R$ 302,89), o que, igualmente, invabiliza sua restituição à parte autora.",
+          "char_start": 18251,
+          "char_end": 18464,
+          "score": 100.0
+        },
+        {
+          "texto": "por ocasião do julgamento do REsp no 1.578.533/SP (Tema 958), o Superior Tribunal de Justiça, dentre outras teses, firmou o seguinte entendimento: \"2.3 Validade da tarifa de avaliação do bem dado em garantia, bem como da cláusula que prevê o ressarcimento de despesa com o registro do contrato, ressalvadas a: 2.3.1. abusividade da cobrança por serviço não efetivamente prestado; e a 2.3.2. possibilidade de controle da onerosidade excessiva, em cada caso concreto\".",
+          "char_start": 17565,
+          "char_end": 18031,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a12",
+      "titulo": "A tarifa de avaliação do bem é devida",
+      "resumo": "O juízo reconheceu a abusividade da tarifa por ausência de prova da efetiva prestação do serviço técnico; o “Termo de Avaliação” é apócrifo e genérico. Determinou a inexigibilidade e restituição simples.",
+      "tipo": "merito",
+      "tema": "tarifa de avaliação do bem",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Resolução BACEN 3.919/2010, art. 5º, V",
+        "Tema 958 do STJ",
+        "art. 39, I, do CDC",
+        "art. 51, IV, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não obstante, infere-se do documento de págs. 304/305 (\"Termo de Avaliação de Veículo\") que se trata de mera ficha padronizada/checklist emitida eletronicamente com fotos do veículo, desprovida de qualquer assinatura, indicação ou identificação de vistoriador habilitado ou perito técnico responsável.",
+          "char_start": 19241,
+          "char_end": 19542,
+          "score": 100.0
+        },
+        {
+          "texto": "Com efeito, a ausência de identificação do profissional técnico avaliador e de elementos concretos que atestem vistoria técnica real retira a idoneidade probatória do documento, equiparando-se à ausência de prestação efetiva do serviço.",
+          "char_start": 19544,
+          "char_end": 19780,
+          "score": 100.0
+        },
+        {
+          "texto": "Portanto, diante da ausência de demonstração da efetiva prestação do serviço técnico de avaliação, a cobrança da referida tarifa de R$ 650,00 constitui prática abusiva nos termos do art. 39, I, e art. 51, IV, do CDC, ensejando a declaração de sua inexigibilidade e a correspondente restituição de forma simples, autorizada a compensação com o saldo devedor.",
+          "char_start": 22089,
+          "char_end": 22446,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a13",
+      "titulo": "Deve haver inversão do ônus da prova em favor do consumidor",
+      "resumo": "O juiz aplicou o art. 6º, VIII, do CDC, invertendo o ônus probatório diante da hipossuficiência técnica e econômica da autora, notadamente para a questão dos seguros.",
+      "tipo": "merito",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 6º, VIII, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Em razão da hipossuficiência técnica e econômica da parte autora, mostra-se imperiosa a aplicação do disposto no artigo 6o, inciso VIII, do CDC, com a consequente inversão do ônus probatório.",
+          "char_start": 22741,
+          "char_end": 22932,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a14",
+      "titulo": "Os seguros prestamista e auto assist foram livremente contratados; não há abusividade",
+      "resumo": "A tese foi afastada. O réu não provou liberdade de escolha da seguradora, os prêmios foram embutidos e financiados, caracterizando venda casada vedada pelo art. 39, I, do CDC. Determinada a restituição simples dos valores.",
+      "tipo": "merito",
+      "tema": "seguro prestamista (venda casada)",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 6º, VIII, do CDC",
+        "art. 39, I, do CDC",
+        "Tema 972 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Ocorre, porém, que a parte ré não se desincumbiu do ônus probatório que lhe competia, já que não restou demonstrada nos autos a liberdade efetiva de escolha da consumidora quanto à contratação e à seguradora (Too Seguros S.A., empresa coligada ao banco credor).",
+          "char_start": 23093,
+          "char_end": 23354,
+          "score": 100.0
+        },
+        {
+          "texto": "Ressalte-se que referidas contratações foram embutidas na operação de crédito (pág. 36) e seus prêmios integralmente financiados com a incidência dos juros remuneratórios da cédula, o que evidencia típica venda casada, vedada pelo art. 39, I, do CDC.",
+          "char_start": 23615,
+          "char_end": 23865,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, faz jus a parte autora à restituição, de forma simples, da quantia de R$ 1.970,00 (sendo R$ 1.600,00 referente ao seguro prestamista e R$ 370,00 ao seguro auto assist).",
+          "char_start": 24473,
+          "char_end": 24648,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a15",
+      "titulo": "O indébito deve ser restituído em dobro",
+      "resumo": "O magistrado afastou a devolução em dobro por ausência de má-fé do banco e por existir divergência jurisprudencial sobre o tema, limitando a restituição à forma simples.",
+      "tipo": "merito",
+      "tema": "repetição do indébito em dobro",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 42, parágrafo único, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Afasta-se a repetição em dobro prevista no art. 42, parágrafo único, do CDC, ante a ausência de má-fé da instituição financeira e a existência de divergência jurisprudencial sobre o tema.",
+          "char_start": 24649,
+          "char_end": 24836,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a16",
+      "titulo": "Não cabe recálculo das parcelas do contrato",
+      "resumo": "Determinou-se o recálculo das parcelas apenas para excluir a tarifa de avaliação do bem e os seguros, mantendo-se inalteradas as demais bases e taxas contratuais, com compensação de diferenças com o saldo devedor.",
+      "tipo": "merito",
+      "tema": "recálculo contratual",
+      "suscitado_por": "autor",
+      "decisao": "parcial",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Por conseguinte, com a exclusão da tarifa de avaliação do bem e dos seguros do saldo financiado, impõe-se o recálculo do valor das prestações contratuais, mantendo-se inalteradas as demais bases e taxas contratadas, operando-se a compensação de eventuais diferenças com o débito remanescente da autora.",
+          "char_start": 24838,
+          "char_end": 25140,
+          "score": 100.0
+        },
+        {
+          "texto": "b) determinar o recálculo das parcelas do contrato a partir da exclusão de tais montantes do valor financiado;",
+          "char_start": 25843,
+          "char_end": 25953,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a17",
+      "titulo": "O reconhecimento de encargos abusivos descaracteriza a mora",
+      "resumo": "O juiz assentou que a abusividade de encargos meramente acessórios não afasta nem descaracteriza a mora da devedora fiduciária, conforme entendimento do STJ.",
+      "tipo": "merito",
+      "tema": "mora do devedor",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Tema 972 do STJ",
+        "REsp 1.061.530/RS (Orientação 2)"
+      ],
+      "citacoes": [
+        {
+          "texto": "Por fim, cumpre destacar que o reconhecimento da abusividade de encargos meramente acessórios não possui o condão de afastar ou descaracterizar a mora da devedora fiduciária, a teor do entendimento sedimentado pelo STJ (Tema 972 e Orientação 2 do REsp 1.061.530/RS).",
+          "char_start": 25142,
+          "char_end": 25408,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a18",
+      "titulo": "Valores eventualmente indevidos não podem ser compensados com o saldo devedor",
+      "resumo": "O juízo autorizou a compensação dos valores restituíveis com o saldo devedor do contrato de financiamento, a pedido subsidiário do réu.",
+      "tipo": "merito",
+      "tema": "compensação",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "ensejando a declaração de sua inexigibilidade e a correspondente restituição de forma simples, autorizada a compensação com o saldo devedor.",
+          "char_start": 22306,
+          "char_end": 22446,
+          "score": 100.0
+        },
+        {
+          "texto": "operando-se a compensação de eventuais diferenças com o débito remanescente da autora.",
+          "char_start": 25054,
+          "char_end": 25140,
+          "score": 100.0
+        },
+        {
+          "texto": "c) condenar a parte ré a restituir à parte autora, de forma simples, os valores indevidamente exigidos a esses títulos, com correção monetária a partir de cada desembolso e juros de mora a contar da citação, autorizada a compensação de valores com o saldo devedor do contrato de financiamento.",
+          "char_start": 25956,
+          "char_end": 26249,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 8092,
+    "output_tokens": 12509,
+    "cost_usd": 0.135205,
+    "latency_ms": 108877,
+    "citacoes": 38,
+    "citacoes_ancoradas": 38
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

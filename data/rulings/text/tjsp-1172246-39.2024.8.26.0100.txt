@@ -1,0 +1,89 @@
+SENTENÇA
+
+Processo Digital no: 1172246-39.2024.8.26.0100
+
+Classe - Assunto Procedimento Comum Cível - Práticas Abusivas
+
+Requerente: [AUTOR]
+
+Requerido: Ifood Comércio Agência de Restaurantes On-line S/A
+
+Justiça Gratuita
+
+Juiz(a) de Direito: Dr(a). VANESSA SFEIR
+
+Vistos.
+
+Trata-se de ação de ordinária movida por [AUTOR] em face de Ifood.com Agência de Restaurantes On-line S.A alegando que trabalha como entregador do aplicativo requerido e teve sua conta bloqueada em outubro de 2024, sob acusação de descumprir os termos e condições de uso do aplicativo por conta de um dispositivo suspeito. Assevera que não cometeu qualquer ilícito ou infração e que a desativação decorreu de sistema automatizado. Requer seja imediatamente reintegrado ao aplicativo e a condenação do réu ao pagamento de danos morais no importe de R$ 15.000,00.
+
+Deferida justiça gratuita (fl. 87).
+
+Em contestação (fls. 259/267) a requerida aduz, preliminarmente, ausência de prova do fato constitutivo do direito do autor, uma vez que não é responsável pelo repasse das entregas ao operador logístico. No mérito entende que o autor deixou de comprovar o cumprimento dos termos e condições para uso da plataforma, bem como deixou de comprovar ato ilícito cometido pelo iFood. Pugna pela improcedência da demanda.
+
+Houve réplica às fls. 335/339.
+
+Em especificação de provas (fl. 340), ambas as partes não se opuseram ao julgamento antecipado da lide, e o requerido afirmou a possibilidade de criação de nova conta em vista da exclusão, pelo autor, da anterior (fls. 343/349).
+
+É o relatório.
+
+Fundamento e decido.
+
+Conheço diretamente do pedido e pela convicção de não haver necessidade de produção de outras provas, passo à seguinte fase conforme o artigo 355, I, do CPC, uma vez que o deslinde da controvérsia está a depender exclusivamente das provas documentais acostadas.
+
+A alegada ausência de provas mínimas se confunde com o mérito, que passo a analisar.
+
+De início, assiste razão à parte ré quanto à inaplicabilidade do Código de Defesa do Consumidor, visto que não se trata a presente relação de consumo, mas evidente relação fundada no Código Civil.
+
+O autor não é consumidor em relação à parte ré, pois utiliza o aplicativo para o desenvolvimento de sua atividade econômica. Decerto que o aplicativo é utilizado pelo entregador parceiro a fim de incrementar sua atividade econômica, realizando a intermediação com os restaurantes, de modo que o autor não se adequa ao conceito de consumidor, definido pelo artigo 2o do Código de Defesa do Consumidor.
+
+Cinge-se a controvérsia em verificar a legalidade da conduta do requerido ao rescindir unilateralmente o contrato, bem como acerca do dever de indenizar.
+
+O autor afirmou, em sua inicial, ter sido descredenciado de maneira imotivada da plataforma do aplicativo iFood, visto não ter cometido qualquer irregularidade. Neste sentido, apontou que a conduta da ré se mostrou arbitrária e contrária aos termos do usuário, de maneira que foi capaz de causar-lhe diversos prejuízos.
+
+A parte ré, em contestação, sustentou que o autor descumpriu as normas de conduta do aplicativo e informou que o próprio autor se excluiu da plataforma.
+
+Pois bem.
+
+No caso dos autos, a ré não logrou êxito em comprovar a violação dos termos de uso do aplicativo.
+
+Da análise dos documentos juntados, extrai-se que o autor provou o fato constitutivo de seu direito ao ter a conta desativada sem qualquer justificativa plausível (fl. 03) ou que tenha violado aos termos do uso.
+
+Nesse panorama, o requerido não se desincumbiu de seu ônus probatório, nos termos do art. 373, inciso II do Código de Processo Civil.
+
+Frise-se que vige no nosso sistema jurídico o princípio da liberdade contratual e da liberdade de contratar, podendo a empresa ré escolher o conteúdo do contrato e a pessoa com quem queira contratar. No entanto, referido princípio não pode ser aplicado de forma irrestrita.
+
+Segundo o artigo 421 do Código Civil, a liberdade contratual será exercida nos limites da função social do contrato. Já o art. e 422 do mesmo diploma legal estabelece que os contratantes são obrigados a guardar, assim na conclusão do contrato, como em sua execução, os princípios de probidade e boa-fé. Entre os deveres anexos da boa-fé objetiva está o da confiança recíproca, vale dizer, a expectativa da parte de que o contrato será cumprido nos moldes pactuados.
+
+O contrato estabeleceu que (fl. 324) a requerida poderá desativar definitivamente ou inativar temporariamente o acesso do entregador à plataforma, conforme o caso, sem notificação prévia, quando o entregador: (i) fizer mau uso, uso indevido ou abusivo da Plataforma; (ii) descumprir o Código de Ética e Conduta do Ifood.Com; (iii) causar danos e/ou prejuízos, diretos ou indiretos, a terceiros ou ao próprio iFood, devido a atos ou omissões na utilização da Plataforma ou na realização das Entregas; (iv) em função de ordem judicial ou requisição legal por autoridade pública competente; (v) por modificação da Plataforma, do cadastro do Entregador ou do modal utilizado por ele que implique em impossibilidade das realização das Entregas pelo Entregador; (vi) por caso fortuito, força maior ou questões de segurança; e (vii) pela suposta prática de qualquer infração de trânsito ou conduta que implique em risco de segurança do trânsito.
+
+No caso dos autos, o requerido atribuiu ao autor, de forma genérica, o descumprimento dos termos e condições para uso da plataforma. Entretanto, não logrou êxito em comprovar suas alegações, conforme acima relatado.
+
+Assim, com fundamento nos princípios da boa-fé e da função social do contrato, é inadmissível o descredenciamento do motorista parceiro sem uma justificativa plausível, devendo, portanto, ser reintegrado na plataforma digital.
+
+Por fim, no que tange ao pedido de indenização por danos morais, atualmente prevalece o entendimento de que: "O simples descumprimento contratual, por si, não é capaz de gerar danos morais, sendo necessária a existência de um plus, uma consequência fática capaz, essa sim, de acarretar dor e sofrimento indenizável pela sua gravidade (STJ REsp no 656.932/SP, Rel. Min. ANTONIO CARLOS FERREIRA, 4a T., j. 24/02/2014).
+
+Contudo, no presente caso não houve simples descumprimento contratual, porquanto, inegável que de uma hora para outra, o autor se viu sem emprego, e mais, sem acesso ao seu histórico, para conferência dos valores a serem recebidos e justificativa do seu bloqueio.
+
+A ruptura que afeta a renda impacta diretamente na situação financeira do funcionário, sendo potencial, portanto, para causar o abalo psicológico indenizável.
+
+Comprovada a violação de um direito subjetivo, é o quanto basta para que se conclua pela existência do dano.
+
+Ao mesmo tempo, o valor da indenização deve se ater aos critérios da razoabilidade e da proporcionalidade de modo a evitar o enriquecimento sem causa da parte autora. A fixação do "quantum" deve considerar um critério justo, não podendo se revelar quantia irrisória, nem tampouco exagerada, devendo ser proporcional à gravidade do dano.
+
+Portanto, a fixação no valor de R$ 3.000,00 para o autor é quantia suficiente para indenizar os prejuízos morais sofridos.
+
+Ante o exposto e por tudo mais que dos autos consta, nos termos do art. 487, inciso I, do CPC, JULGO PARCIALMENTE PROCEDENTE o pedido para determinar o requerido na obrigação de fazer consistente em recadastrar o autor em sua plataforma digital para que possa voltar a prestar serviços como entregador, o que deverá fazer no prazo de 15 (quinze) dias, sob pena de multa diária de R$ 500,00, limitada a R$ 5.000,00, condenar o requerido a pagar ao autor, a título de danos morais, o importe de R$ 3.000,00 (três mil reais), com correção monetária a partir dessa sentença e acrescido de juros de mora também a contar deste ato, o qual ensejou a fixação da expressão patrimonial do prejuízo sofrido, não obstante tratar-se de responsabilidade contratual.
+
+A correção monetária e os juros de mora terão incidência nos termos do art. 389 e do art. 406, ambos do Código Civil, com a observância das alterações efetivadas pela Lei n° 14.905/2024, bem como pelos critérios ditados pelo direito intertemporal, da seguinte forma:
+
+i) até agosto de 2024, a correção monetária será calculada pelo INPC-IBGE (Tabela Prática do E. Tribunal de Justiça do Estado de São Paulo) e os juros de mora serão de 1% ao mês;
+
+ii) a partir de setembro de 2024, o índice a ser utilizado será: a) o IPCA-IBGE, quando incidir apenas correção monetária; b) a taxa SELIC, deduzida do IPCA-IBGE, quando incidir apenas juros de mora; c) a taxa SELIC, quando incidir conjuntamente correção monetária e juros de mora.
+
+Nos termos da Súmula n. 326 do STJ ("Na ação de indenização por dano moral, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca"), condeno a parte requerida ao pagamento das despesas processuais e dos honorários advocatícios, os quais fixo em conformidade ao artigo 85, §2o, do CPC, em 10% sobre o valor da condenação, atenta ao tempo decorrido, ao grau de complexidade da demanda e ao correspondente trabalho realizado pelos patronos.
+
+P.I.C.
+
+São Paulo, data da assinatura digital.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

@@ -1,0 +1,266 @@
+{
+  "ruling_id": "tjsp-1015788-76.2024.8.26.0008",
+  "text_sha256": "42e9c0b4c7fb635e2e8b3b541f6554d8a0b1c53551b64096a4a277d87750da75",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Autor: inversão do ônus da prova deve ser aplicada",
+      "resumo": "O juiz negou a inversão do ônus da prova por ausência de verossimilhança e de hipossuficiência técnica da autora. A controvérsia é documental e jurídica e será decidida pela regra geral de distribuição do art. 373 do CPC.",
+      "tipo": "merito",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 373 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Quanto à inversão do ônus da prova, requerida na inicial, tal providência não é automática e depende de verossimilhança das alegações ou de hipossuficiência técnica, o que não se verifica no caso, em que a controvérsia é de natureza documental e jurídica, decidida com base na regra geral do art. 373 do Código de Processo Civil.",
+          "char_start": 4107,
+          "char_end": 4436,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Autor: réu deve ser compelido a exibir o contrato",
+      "resumo": "O pedido de exibição foi tido por desnecessário, pois o banco já juntou aos autos os dados da contratação, não impugnados, que suprem a finalidade do requerimento.",
+      "tipo": "merito",
+      "tema": "exibição de documentos",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Ademais, o réu trouxe aos autos os dados da contratação eletrônica do empréstimo, dos quais constam o valor contratado, o valor do IOF, as taxas de juros mensal e anual e o número e o valor das parcelas (fls. 249), documento não impugnado pela autora, que deixou de apresentar réplica (fls. 334).",
+          "char_start": 4438,
+          "char_end": 4734,
+          "score": 100.0
+        },
+        {
+          "texto": "Tais elementos suprem a finalidade do pedido de exibição formulado na inicial, porquanto revelam as condições pactuadas objeto da controvérsia.",
+          "char_start": 4735,
+          "char_end": 4878,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Autor: juros remuneratórios são abusivos e devem ser reduzidos à média de mercado",
+      "resumo": "O magistrado rejeitou a abusividade. A limitação de 12% a.a. não se aplica às instituições financeiras e a taxa contratada (4,0150% a.m.; 60,38% a.a.) é inferior à média do Bacen para crédito pessoal não consignado no período (5,58% a.m.; 91,76% a.a.), além de a média ser apenas referência e não teto legal.",
+      "tipo": "merito",
+      "tema": "juros remuneratórios abusivos",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 596 do STF",
+        "Súmula 382 do STJ",
+        "Decreto 22.626/33"
+      ],
+      "citacoes": [
+        {
+          "texto": "Primeiramente, encontra-se superada a limitação dos juros remuneratórios ao patamar de 12% ao ano, por força do previsto no Decreto n.o 22.626/33.",
+          "char_start": 7115,
+          "char_end": 7261,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso dos autos, a comparação proposta pela autora parte de premissa equivocada.",
+          "char_start": 10126,
+          "char_end": 10208,
+          "score": 100.0
+        },
+        {
+          "texto": "Para o período da contratação, a taxa média de mercado divulgada pelo Banco Central para as operações de crédito pessoal não consignado foi de 5,58% ao mês e de 91,76% ao ano (fls. 203, 327 e 329), patamares superiores aos juros pactuados, de 4,0150400% ao mês e 60,3812836% ao ano (fls. 249).",
+          "char_start": 10502,
+          "char_end": 10795,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Autor: banco cobrou taxa efetiva superior à pactuada (4,27% a.m. em vez de 4,01% a.m.)",
+      "resumo": "A tese foi rejeitada. A suposta divergência decorre de cálculo da autora que desconsiderou o IOF financiado na base de capital, não havendo cobrança em desconformidade com o pactuado.",
+      "tipo": "merito",
+      "tema": "cobrança em desconformidade com o contrato",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Tampouco prospera a alegação de que a taxa efetivamente cobrada seria de 4,27% ao mês.",
+          "char_start": 10993,
+          "char_end": 11079,
+          "score": 100.0
+        },
+        {
+          "texto": "A divergência, portanto, decorre da base de cálculo adotada pela autora, e não de cobrança em desconformidade com o pactuado.",
+          "char_start": 11314,
+          "char_end": 11439,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Autor: aplicar Súmula 530/STJ para substituir juros pela taxa média do Bacen",
+      "resumo": "O juiz afastou a incidência da Súmula 530/STJ porque a taxa contratada foi comprovada documentalmente, inclusive admitida pela própria autora, não havendo ausência de pactuação ou falta do instrumento.",
+      "tipo": "merito",
+      "tema": "aplicação da Súmula 530/STJ",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 530 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Resta afastada, igualmente, a incidência da Súmula 530 do Superior Tribunal de Justiça (\"Nos contratos bancários, na impossibilidade de comprovar a taxa de juros efetivamente contratada - por ausência de pactuação ou pela falta de juntada do instrumento aos autos -, aplica-se a taxa média de mercado, divulgada pelo Bacen, praticada nas operações da mesma espécie, salvo se a taxa cobrada for mais vantajosa para o devedor\"), que pressupõe a impossibilidade de comprovação da taxa efetivamente contratada, o que não é o caso dos autos, uma vez que a taxa pactuada consta dos dados da contratação (fls. 249) e é afirmada pela própria autora (fls. 5 e 8).",
+          "char_start": 11483,
+          "char_end": 12137,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Autor: cobrança de IOF é ilegal e/ou já estaria embutida nos juros",
+      "resumo": "O pedido foi julgado improcedente. O IOF é tributo federal devido pelo tomador, destacado no documento contratual, e sua cobrança e até financiamento acessório no mútuo são lícitos segundo o STJ (Tema 621).",
+      "tipo": "merito",
+      "tema": "IOF em contrato de empréstimo",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 153, V, CF",
+        "REsp 1.251.331/RS (Tema 621/STJ)"
+      ],
+      "citacoes": [
+        {
+          "texto": "Trata-se de tributo de competência da União (art. 153, inciso V, da Constituição Federal), devido pelo tomador do crédito, cabendo à instituição financeira apenas a sua cobrança e o seu recolhimento.",
+          "char_start": 12311,
+          "char_end": 12510,
+          "score": 100.0
+        },
+        {
+          "texto": "O Superior Tribunal de Justiça, no julgamento do REsp no 1.251.331/RS, submetido ao rito dos recursos repetitivos (Tema no 621), firmou a tese de que \"Podem as partes convencionar o pagamento do Imposto sobre Operações Financeiras e de Crédito (IOF) por meio de financiamento acessório ao mútuo principal, sujeitando-o aos mesmos encargos contratuais\". Improcede, assim, o pedido de declaração de ilegalidade da cobrança do IOF.",
+          "char_start": 12755,
+          "char_end": 13183,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Autor: capitalização mensal de juros é indevida por ausência de pactuação expressa",
+      "resumo": "O juiz reconheceu a possibilidade de capitalização mensal: a MP 2.170-36/2001 é vigente e constitucional, e no caso a taxa anual supera o duodécuplo da mensal, atendendo às Súmulas 539 e 541 do STJ.",
+      "tipo": "merito",
+      "tema": "capitalização de juros",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 4 do Decreto 22.626/33",
+        "art. 591 do CC",
+        "MP 2.170-36/2001 art. 5",
+        "RE 592.377/RS (Tema 33 STF)",
+        "ADI 2.316/DF",
+        "Súmula 539 do STJ",
+        "Súmula 541 do STJ",
+        "REsp 1.061.530/RS",
+        "REsp 1.987.016/RS"
+      ],
+      "citacoes": [
+        {
+          "texto": "Tratando-se de capitalização de juros em periodicidades inferiores à anual, entretanto, tem-se que são, como regra, vedadas pelo dispositivo em epígrafe, excepcionando-se as instituições integrantes do Sistema Financeiro Nacional, em relação às quais, por força do art. 5.o da MP n.o 1.963-17/2000, posteriormente MP n.o 2.170-36/2001, \"é admissível a capitalização de juros com periodicidade inferior a um ano\", reeditada sucessivamente desde então até a Emenda Constitucional n.o 32/2001, pela qual dispensável a reedição das medidas provisórias pretéritas até revogação explícita ou deliberação definitiva do Poder Legislativo, ausentes no caso.",
+          "char_start": 14641,
+          "char_end": 15289,
+          "score": 100.0
+        },
+        {
+          "texto": "Trata-se, portanto, de dispositivo vigente, cuja constitucionalidade foi reconhecida pelo Supremo Tribunal Federal no julgamento do RE 592.377/RS (Tema 33 da repercussão geral) e da ADI 2.316/DF (Rel. Min. Nunes Marques, julgada em 28/06/2024)",
+          "char_start": 15291,
+          "char_end": 15534,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso dos autos, o contrato foi firmado com instituição integrante do Sistema Financeiro Nacional, é posterior a 31/3/2000 e a taxa de juros anual pactuada, de 60,3812836%, é superior ao duodécuplo da mensal, de 4,0150400% (fls. 249), o que atende às exigências jurisprudenciais, ausente, portanto, abusividade a esse respeito.",
+          "char_start": 20542,
+          "char_end": 20871,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Autor: repetição do indébito (simples ou em dobro) pelos valores pagos a maior",
+      "resumo": "Rejeitado. Como não foi reconhecida nenhuma abusividade ou cobrança indevida, não há valores a restituir, o que prejudica a repetição, seja simples, seja em dobro.",
+      "tipo": "merito",
+      "tema": "repetição do indébito",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Afastadas as alegadas abusividades, não há valores a restituir, o que prejudica o pedido de repetição do indébito, simples ou em dobro.",
+          "char_start": 20873,
+          "char_end": 21008,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "Autor: danos morais pela cobrança de encargos indevidos",
+      "resumo": "Improcedente. A cobrança de encargos contratados regularmente configura exercício regular de direito e não ato ilícito, inexistindo notícia de outra consequência lesiva.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 188, I, do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Pela mesma razão, improcede o pedido de indenização por danos morais.",
+          "char_start": 21010,
+          "char_end": 21079,
+          "score": 100.0
+        },
+        {
+          "texto": "A cobrança de encargos regularmente pactuados configura exercício regular de direito (art. 188, inciso I, do Código Civil) e não constitui ato ilícito apto a ensejar reparação, inexistindo, ademais, notícia de qualquer outra consequência lesiva decorrente da conduta do réu.",
+          "char_start": 21080,
+          "char_end": 21354,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 6560,
+    "output_tokens": 9532,
+    "cost_usd": 0.10352,
+    "latency_ms": 101471,
+    "citacoes": 17,
+    "citacoes_ancoradas": 17
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

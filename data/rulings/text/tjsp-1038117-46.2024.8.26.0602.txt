@@ -1,0 +1,115 @@
+SENTENÇA
+
+Processo Digital no: 1038117-46.2024.8.26.0602
+
+Classe - Assunto Procedimento Comum Cível - Bancários
+
+Requerente: [AUTOR]
+
+Requerido: Pagseguro Internet Instituicao de Pagamento S.a.
+
+Justiça Gratuita
+
+Juiz(a) de Direito: Dr(a). Marina Figueiredo Coelho
+
+[AUTOR] ajuizou a presente ação de restituição de valores cumulada com indenização por danos morais e pedido de tutela de urgência em face de PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.. Aduziu o autor, em síntese, que exerce a atividade profissional de vendedor e realiza trabalhos autônomos como gesseiro aos finais de semana. Relatou que, ao prestar serviços a terceiro, recebeu o pagamento da quantia de R$ 400,00, mediante transferência bancária realizada via Pix em 05/07/2024, diretamente em sua conta de pagamento mantida junto à instituição ré. Afirmou que, ao tentar movimentar a referida quantia, foi surpreendido com o bloqueio integral de sua conta digital. Sustentou ter contatado o serviço de atendimento ao cliente, sendo informado genericamente sobre a existência de apuração de irregularidades, sem qualquer esclarecimento objetivo ou formalização prévia. Apontou violação aos deveres de informação e boa-fé objetiva, bem como destacou a natureza alimentar da verba retida. Pugnou pela concessão de tutela de urgência para determinar a desobstrução da conta com a liberação dos recursos e, ao final, pela confirmação da medida, com a declaração de ilegalidade do bloqueio, restituição do montante e condenação da ré ao pagamento de indenização por danos morais no montante de R$ 10.000,00, além dos consectários de sucumbência.
+
+A petição inicial (fls. 01/08) veio instruída com documentos (fls. 09/88).
+
+Foram concedidos os benefícios da justiça gratuita ao autor e a análise da tutela provisória de urgência restou postergada para momento posterior à angularização da relação processual (fl. 89).
+
+Regularmente citada, a parte ré apresentou contestação (fls. 95/101). Sustentou a inaplicabilidade do Código de Defesa do Consumidor perante a teoria finalista, afirmando ausência de vulnerabilidade do autor. Alegou a ausência de prova mínima dos fatos constitutivos do direito invocado. No mérito, sustentou o regular exercício de direito com esteio em cláusulas do contrato de adesão, afirmando que o bloqueio se deu por procedimentos internos de análise de risco decorrentes de relato de infração em transações via Pix. Rebateu a configuração de ato ilícito e defendeu a inexistência de danos morais indenizáveis, pugnando pela total improcedência dos pedidos. Juntou documentos (fls. 102/144).
+
+A parte autora apresentou réplica a fls. 148/150, reiterando que a conta e os recursos continuavam indisponíveis, rebatendo a alegação de desbloqueio e ressaltando que a ré não exibiu comprovação das supostas irregularidades alegadas. Em aditamento, coligiu às fls. 151/152 novas capturas de tela do aplicativo demonstrando a persistência do bloqueio operacional.
+
+Instadas as partes a especificarem as provas que pretendiam produzir, a instituição financeira requerida manifestou-se às fls. 156/157 reiterando as razões de contestação e cláusulas contratuais, afirmando que o valor teria sido bloqueado e desbloqueado, deixando de requerer a produção de novas provas.
+
+A parte autora, por sua vez, peticionou às fls. 158/159 requerendo a designação de audiência de instrução para que pudesse demonstrar em juízo o acesso frustrado ao aplicativo diante das partes.
+
+Por meio da decisão interlocutória de fl. 161, este Juízo indeferiu a prova oral postulada pelo autor em razão de sua manifesta desnecessidade frente ao conjunto documental carreado, declarou encerrada a fase instrutória e assinalou prazo comum para oferecimento de memoriais escritos.
+
+A parte requerente apresentou alegações finais às fls. 164/166, ressaltando a incontrovérsia quanto à indisponibilidade da conta, a falta de prova técnica sobre ilícitos transacionais e a configuração de dano moral.
+
+A parte demandada acostou alegações finais às fls. 167/168, insistindo na ausência de falha do serviço e aduzindo que a conta fora bloqueada por segurança e posteriormente encerrada por desinteresse comercial, inexistindo dano anímico suscetível de reparação.
+
+É O RELATÓRIO.
+
+FUNDAMENTO E DECIDO.
+
+Encerrada regularmente a fase probatória mediante decisão saneadora de fl. 161, o processo encontra-se em ordem e apto para julgamento definitivo de mérito, exaurindo-se a instrução com os elementos de convicção amealhados aos autos.
+
+Passo à análise do mérito.
+
+Inicialmente, cumpre firmar a aplicabilidade do Código de Defesa do Consumidor (CDC).
+
+A relação jurídica materializada entre as partes ostenta indiscutível feição de consumo, figurando o autor como destinatário final fático e econômico dos serviços de gestão financeira e de custódia de pagamento fornecidos pela requerida no mercado, nos termos dos artigos 2o e 3o do Código de Defesa do Consumidor e segundo a inteligência da Súmula no 297 do Superior Tribunal de Justiça.
+
+A atuação autônoma do autor como gesseiro aos finais de semana para complementação de sua renda não retira dele a condição técnica e fática de consumidor final, em evidente vulnerabilidade perante a instituição mantenedora da plataforma eletrônica. Ademais, a conta em apreço fora vinculada a seu cadastro de pessoa física, não havendo qualquer demonstração de insumo empresarial desproporcional que desvirtue a vulnerabilidade legalmente tutelada.
+
+Na sistemática delineada pelo processo civil pátrio para a produção de provas, impõe-se ao autor, na fase instrutória, o ônus de provar os fatos constitutivos de seu direito, bem como, ao réu, a prova quanto à existência de fato impeditivo, modificativo ou extintivo do direito do demandante, conforme preleciona o art. 373, incisos I e II do Código de Processo Civil. Todavia, para a facilitação da defesa do direito do consumidor em Juízo, e de modo a compensar as desigualdades organizacionais verificadas no plano fático, o Código de Defesa do Consumidor permite ao julgador atribuir o encargo probatório ao fornecedor, quando, a critério do juiz e segundo as regras ordinárias de experiência, for verossímil a alegação ou for hipossuficiente o consumidor.
+
+No caso em tela, a hipossuficiência da parte autora se consubstancia na inacessibilidade aos dados e cadastros mantidos pela empresa-ré, o que torna pertinente, por si só, a inversão do ônus da prova.
+
+Portanto, analisando o caso concreto, faz-se necessária a imposição da inversão do ônus da prova, de acordo com o art. 6o, inciso VIII do CDC, assim para garantir a isonomia material entre o autor e o réu.
+
+Assim, passamos ao mérito propriamente dito.
+
+A ação é procedente.
+
+É incontroversa a relação jurídica existente entre as partes e o bloqueio ocorrido na conta corrente do autor.
+
+A controvérsia repousa na legalidade da retenção do saldo no importe de R$ 400,00 e no bloqueio operacional de acesso à conta de pagamento titularizada pelo requerente, consumado a partir de julho/2024 (uma vez que a ré alega que houve posterior desbloqueio).
+
+Pois bem.
+
+Cumpre consignar que, por força da sistemática de distribuição do ônus probatório conforme já fundamentado (artigo 373, inciso II, do Código de Processo Civil, c/c o artigo 14, parágrafo 3o, da Lei no 8.078/1990), incumbia exclusivamente à instituição financeira requerida comprovar a regularidade formal e a licitude do bloqueio procedido, trazendo aos autos prova concreta e cabal da existência de justa causa para a retenção do dinheiro.
+
+Todavia, a ré não se desincumbiu minimamente do seu ônus.
+
+A demandada se limitou a elencar considerações abstratas a respeito de suas diretrizes internas de segurança e análise de risco transacional, reproduzindo cláusulas de seu contrato padrão e deduzindo, de forma vaga, a existência de movimentação atípica e relato de infração via Pix. Contudo, não juntou nenhum documento idôneo para demonstrar a efetiva materialidade dessas asserções.
+
+Inexistem nos autos relatórios de inteligência antifraude, comprovação de abertura e conclusão do Mecanismo Especial de Devolução (MED) instituído pelo Banco Central do Brasil, notificações formais de infração registradas no Diretório de Identificadores de Contas Transacionais (DICT), boletim de ocorrência lavrado pela fonte remetente ou registros formais de comunicações prévias e fundamentadas direcionadas ao autor para solicitar esclarecimentos.
+
+Ressalta-se a postura contraditória assumida pela demandada ao longo da marcha processual.
+
+Em sua peça contestatória, sustentou simultaneamente que os valores foram liberados após conferências de rotina e, no parágrafo imediato, asseverou que o bloqueio permaneceu mantido por suspeita de fraude (fls. 97/98). Mais adiante, em manifestação de provas, repetiu que a quantia havia sido desbloqueada (fls. 156/157), para, em derradeiras alegações finais, mudar o foco da tese defensiva e passar a aduzir que a conta fora encerrada por desinteresse comercial (fls. 167/168).
+
+Nenhuma dessas alegações, porém, veio lastreada em prova documental.
+
+Embora não se desconheça a prerrogativa e o dever das instituições financeiras e arranjos de pagamento em adotar práticas preventivas de bloqueio cautelar para salvaguardar a higidez do sistema bancário (especialmente à luz das Resoluções do Banco Central), tais medidas ostentam caráter estritamente transitório e precário, adstritas às regras e prazos reduzidos para análise das questões. A paralisação por tempo indeterminado e sem fundamentação objetiva, extrapolando o marco regulatório e impedindo o cliente de ter acesso ao seu patrimônio lícito, configura manifesto abuso de direito (artigo 187 do Código Civil) e prática vedada pelo ordenamento (artigos 39, inciso V, e 51, inciso IV, do Código de Defesa do Consumidor).
+
+Destarte, reconhecida a falha na prestação dos serviços da ré, impõe-se a declaração de ilegalidade do bloqueio perpetrado, determinando-se que a requerida proceda ao desbloqueio definitivo da conta de pagamento de titularidade do autor e promova a liberação do saldo retido na quantia de R$ 400,00, sob pena de conversão em perdas e danos.
+
+O dano moral pretendido resta plenamente configurado.
+
+A privação prolongada e imotivada de quantia remuneratória de trabalhador autônomo, destinada ao sustento familiar e à subsistência pessoal, não consubstancia mero dissabor cotidiano, transtorno ordinário ou mero inadimplemento contratual.
+
+A conduta desidiosa da requerida ao reter o numerário por meses a fio, aliada à inércia do atendimento ao consumidor (que se viu obrigado a ajuizar ação judicial e formular sucessivos requerimentos perante o Judiciário para reaver quantia módica), importa em vulneração à integridade psíquica, à tranquilidade e à dignidade da pessoa humana, afetando a subsistência material do requerente. Cuida-se de hipótese de dano moral que decorre do próprio fato lesivo (in re ipsa), dispensando prova de dor física ou sofrimento anímico tangível.
+
+Em caso análogo já decidiu este E. TJSP:
+
+APELAÇÃO. Obrigação de Fazer c/c Indenização por Danos Morais. Gestão de pagamentos. PagSeguro . Bloqueio indevido da conta digital de titularidade da autora, impedindo-a de acessar os valores nela depositados. Falha na prestação de serviços caracterizada. Supostas irregularidades em transações não comprovadas. Responsabilidade da PagSeguro, por risco inerente ao próprio negócio . Precedentes deste Tribunal. Dano moral configurado e fixado em R$ 5.000,00. Quantum indenizatório mantido . Sentença confirmada por seus próprios fundamentos, nos termos do art. 252, do RITJSP. Multa diária. Fixação de astreinte no valor de R$ 500,00 para a garantia do cumprimento da decisão judicial que determinou o desbloqueio da conta . Limite máximo não arbitrado em primeira instância. Fixação em R$ 10.000,00 (oito mil reais). Recurso parcialmente provido no ponto . Recurso parcialmente provido. (TJ-SP - Apelação Cível: 10108803720248260602 Sorocaba, Relator.: Flávio Cunha da Silva, Data de Julgamento: 06/11/2024, 38a Câmara de Direito Privado, Data de Publicação: 06/11/2024)
+
+No que tange à fixação da indenização, observando-se os parâmetros balizados na proporcionalidade e razoabilidade, a capacidade socioeconômica das partes, o período de indisponibilidade dos recursos (iniciado em julho/2024), o valor originário do numerário retido (R$ 400,00), a reprovabilidade da conduta e o caráter punitivo-pedagógico da condenação, sem propiciar o enriquecimento indevido, fixa-se o quantum indenizatório em R$ 5.000,00 (cinco mil reais), montante que se mostra adequado às especificidades da demanda e alinhado aos precedentes deste E. Tribunal de Justiça de São Paulo em litígios congêneres.
+
+Ante o exposto, com fundamento no artigo 487, inciso I, do Código de Processo Civil, JULGO PROCEDENTES os pedidos formulados na petição inicial e extingo o feito, o que faço para:
+
+a) DEFERIR a tutela de urgência pretendida e, em análise final, DETERMINAR à requerida que efetue o desbloqueio definitivo da conta de pagamento de titularidade do autor e disponibilize o saldo retido de R$ 400,00 (quatrocentos reais), no prazo de 05 (cinco) dias, sob pena de incidência de multa diária no valor de R$ 100,00, limitada a 100 (cem) dias. Considerando o Tema 1368 do STJ e a Lei 14.905/2024, bem como o fato de que a taxa SELIC já engloba juros e correção monetária e de que os termos iniciais desses consectários legais podem ser distintos, o valor devido deverá ser atualizado pelo IPCA-E, a partir da data do efetivo prejuízo (05/07/2024, conforme Súmula 43 do STJ), conforme estabelecido no art. 389, parágrafo único do CC, e deverá ser acrescido de juros de mora, pela taxa legal, a partir da data da citação, na forma dos artigos 397, parágrafo único e 406 do CC.
+
+b) CONDENAR a requerida ao pagamento de indenização por danos morais no valor de R$ 5.000,00 (cinco mil reais). Considerando o Tema 1368 do STJ e a Lei 14.905/2024, bem como o fato de que a taxa SELIC já engloba juros e correção monetária e de que os termos iniciais desses consectários legais são distintos, o valor devido deverá ser atualizado pelo IPCA-E, a partir da data de publicação desta sentença (Súmula 362 do STJ), conforme estabelecido no art. 389, parágrafo único do CC, e deverá ser acrescido de juros de mora, pela taxa legal, a partir da citação, na forma dos artigos 405 e 406 do CC.
+
+Em razão da sucumbência integral da parte requerida, nos termos da Súmula no 326 do STJ, condeno-a ao pagamento das custas e despesas processuais, bem como dos honorários advocatícios sucumbenciais em favor do patrono do autor, que fixo, equitativamente, em R$ 1.000,00, nos termos do artigo 85, § 8o, do Código de Processo Civil.
+
+Por fim, de modo a evitar o ajuizamento de embargos de declaração, registre-se que ficam preteridas as demais alegações, por incompatíveis com a linha de raciocínio adotada, observando que o pedido foi apreciado nos limites em que foi formulado.
+
+Por corolário, ficam as partes advertidas, desde logo, que a oposição de embargos de declaração fora das hipóteses legais e/ou com postulação meramente infringente lhes sujeitará a imposição da multa prevista pelo artigo 1.026, §2o, do Código de Processo Civil.
+
+Com o trânsito em julgado, tendo em conta o Provimento CG n. 16/2016 e Comunicado n. 438/2016, a parte credora deverá dar início à execução da sentença (cumprimento da sentença), no prazo de 30 (trinta) dias.
+
+Certificado o trânsito em julgado, nada sendo requerido pelos litigantes, com os registros devidos, independentemente de nova conclusão, arquivem-se os autos, com as cautelas legais, observadas as NSCGJ/SP.
+
+P. I. C.
+
+Sorocaba, 23 de setembro de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

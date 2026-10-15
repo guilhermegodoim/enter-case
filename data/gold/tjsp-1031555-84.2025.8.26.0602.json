@@ -1,0 +1,376 @@
+{
+  "ruling_id": "tjsp-1031555-84.2025.8.26.0602",
+  "text_sha256": "f7777db28aab9f1bb75a4b8e07ef732ab161bda5c0dfb4e2cf9caf30386d1f07",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Não conhecimento de novos pedidos formulados em réplica/impugnação por aditamento sem anuência do réu",
+      "resumo": "O juiz não conheceu dos pedidos novos (conversão do cartão em empréstimo pessoal, nulidade/inexistência das contratações e indenização) porque foram acrescidos após o comparecimento espontâneo do réu, sem consentimento para a ampliação objetiva da lide, em afronta ao art. 329, II, do CPC.",
+      "tipo": "preliminar",
+      "tema": "aditamento da inicial sem consentimento",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 239 § 1 do CPC",
+        "art. 329 II do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Prefacialmente, não conheço dos pedidos de conversão da operação de cartão em empréstimo pessoal, declaração de inexistência ou nulidade das contratações e, por fim, do pedido de indenização, formulados pelo autor em réplica (fls. 126/129) e em impugnação às fls. 151/156, na medida em que o aditamento à inicial ocorreu após o comparecimento espontâneo do requerido, que supriu a citação (art. 239, § 1o, do CPC), sem que o demandado tenha anuído à ampliação objetiva da lide, como determina o art. 329, II, do CPC.",
+          "char_start": 4844,
+          "char_end": 5360,
+          "score": 100.0
+        },
+        {
+          "texto": "Não conheço dos pedidos deduzidos após a estabilização da demanda, quais sejam a conversão da operação de cartão em empréstimo pessoal (fl. 129) e a declaração de inexistência ou nulidade das contratações e a indenização por danos (fl. 155), por ausência de consentimento do requerido (artigo 329, inciso II, do Código de Processo Civil).",
+          "char_start": 26261,
+          "char_end": 26599,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Ilegitimidade passiva do banco pelos descontos consignados",
+      "resumo": "A preliminar já havia sido rejeitada em decisão anterior e, como não houve recurso, operou-se a preclusão, não cabendo novo exame na sentença.",
+      "tipo": "preliminar",
+      "tema": "ilegitimidade passiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A preliminar de ilegitimidade passiva já foi rejeitada pela decisão de fl. 130, sem recurso, operando-se a preclusão.",
+          "char_start": 5661,
+          "char_end": 5778,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Aplicação da cominação de admissão de fatos por não juntada integral de documentos contratuais do cartão",
+      "resumo": "O juiz reconheceu, em parte, o descumprimento da ordem de exibição quanto ao contrato do cartão e declarou aplicável a cominação de admissão de fatos, mas considerou que a presunção é relativa e foi infirmada por documento juntado pelo próprio autor, o que esvaziou sua eficácia prática.",
+      "tipo": "preliminar",
+      "tema": "não exibição de documentos e cominação",
+      "suscitado_por": "autor",
+      "decisao": "parcial",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A cominação de fl. 140 admissão como verdadeiros dos fatos alegados na emenda deve, portanto, incidir quanto a essa operação.",
+          "char_start": 6196,
+          "char_end": 6321,
+          "score": 100.0
+        },
+        {
+          "texto": "A presunção decorrente da cominação, que é relativa, encontra-se infirmada por documento produzido pelo próprio interessado, o que esvazia sua eficácia prática no ponto.",
+          "char_start": 6697,
+          "char_end": 6866,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Aplicação do CDC às operações bancárias discutidas",
+      "resumo": "Foi reconhecida a relação de consumo entre as partes, aplicando-se o CDC às instituições financeiras, com incidência dos deveres de boa-fé, transparência e proteção contra cláusulas abusivas.",
+      "tipo": "merito",
+      "tema": "aplicação do CDC",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2 do CDC",
+        "art. 3 § 2 do CDC",
+        "art. 6 III do CDC",
+        "art. 39 V do CDC",
+        "art. 51 IV do CDC",
+        "Súmula 297 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "As operações celebradas entre as partes configuram relação de consumo, figurando o autor como destinatário final do crédito (artigo 2o da Lei no 8.078/1990) e a ré como fornecedora de serviços bancários (artigo 3o, § 2o, da mesma lei).",
+          "char_start": 7116,
+          "char_end": 7351,
+          "score": 100.0
+        },
+        {
+          "texto": "A aplicação do Código de Defesa do Consumidor às instituições financeiras é matéria sumulada (Súmula 297 do Superior Tribunal de Justiça).",
+          "char_start": 7352,
+          "char_end": 7490,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Reconhecimento do superendividamento e repactuação global das dívidas",
+      "resumo": "O pedido foi rejeitado porque a ação é revisional e não segue o procedimento do art. 104-A do CDC, que exige plano de pagamento e a presença de todos os credores; decisão anterior já havia afastado tal rito e não foi impugnada.",
+      "tipo": "merito",
+      "tema": "superendividamento (art. 104-A do CDC)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 104-A do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Por essa razão, não prospera o pedido de reconhecimento do superendividamento e de repactuação global das dívidas: a decisão de fl. 130, não impugnada, afastou o procedimento do artigo 104-A do Código de Defesa do Consumidor, que pressupõe plano de pagamento e a presença de todos os credores.",
+          "char_start": 8070,
+          "char_end": 8363,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Extrapolação da margem consignável e limitação a 30% dos descontos em folha (contrato 808617430)",
+      "resumo": "O juiz constatou, com base nos extratos e no art. 6º, §5º, da Lei 10.820/2003, que os descontos consignados respeitam os subtetos e o teto global, e que pensão alimentícia não integra a base de cálculo da margem; portanto, não houve extrapolação.",
+      "tipo": "merito",
+      "tema": "margem consignável (Lei 10.820/2003)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 6 § 5 da Lei 10.820/2003",
+        "art. 5 XXXVI da CF"
+      ],
+      "citacoes": [
+        {
+          "texto": "Confrontados os valores com os subtetos legais, não há extrapolação.",
+          "char_start": 10418,
+          "char_end": 10486,
+          "score": 100.0
+        },
+        {
+          "texto": "Não há, pois, extrapolação da margem legal quanto ao contrato no 808617430, inexistindo ilicitude no valor da prestação consignada.",
+          "char_start": 11852,
+          "char_end": 11983,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Limitação a 30% dos descontos de empréstimos com débito em conta corrente (contratos 950001311419 e 5046085-18233530)",
+      "resumo": "Foi rejeitada a limitação, pois o STJ, no Tema 1085, assentou a licitude dos descontos em conta corrente previamente autorizados, não se aplicando por analogia a margem da Lei 10.820/2003; além disso, impedir o débito após o recebimento do capital violaria a boa-fé objetiva.",
+      "tipo": "merito",
+      "tema": "limitação de descontos em conta corrente (Tema 1085)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Tema 1085 do STJ",
+        "REsp 1.863.973/SP",
+        "REsp 1.872.441/SP",
+        "art. 422 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "São lícitos os descontos de parcelas de empréstimos bancários comuns em conta-corrente, ainda que utilizada para recebimento de salários, desde que previamente autorizados pelo mutuário e enquanto esta autorização perdurar, não sendo aplicável, por analogia, a limitação prevista no § 1o do art. 1o da Lei n. 10.820/2003, que disciplina os empréstimos consignados em folha de pagamento.",
+          "char_start": 12571,
+          "char_end": 12957,
+          "score": 100.0
+        },
+        {
+          "texto": "Improcedem, portanto, os pedidos de suspensão e de limitação genérica a 30% dos descontos decorrentes dos contratos com débito autorizado em conta corrente.",
+          "char_start": 15995,
+          "char_end": 16151,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Redução dos juros remuneratórios à taxa média de mercado do Banco Central",
+      "resumo": "A revisão foi negada porque o autor não demonstrou discrepância significativa em relação à taxa média de mercado; cabe ao autor o ônus da prova, não suprido pela planilha que apenas indica 12% sem fonte.",
+      "tipo": "merito",
+      "tema": "juros remuneratórios – abusividade não comprovada",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 596 do STF",
+        "Súmula 382 do STJ",
+        "REsp 1.061.530/RS (Temas 24 a 27)",
+        "art. 373 I do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Todavia, o autor limitou-se a alegar a abusividade dos juros, sem demonstrá-la.",
+          "char_start": 19159,
+          "char_end": 19238,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, o autor não comprovou o fato constitutivo de seu direito, ônus que lhe incumbia (artigo 373, inciso I, do Código de Processo Civil).",
+          "char_start": 19482,
+          "char_end": 19621,
+          "score": 100.0
+        },
+        {
+          "texto": "Rejeito, por conseguinte, a pretensão de redução das taxas de juros remuneratórios em todas as quatro operações.",
+          "char_start": 20392,
+          "char_end": 20504,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "Vedação da capitalização mensal e expurgo do anatocismo",
+      "resumo": "O pedido foi rejeitado porque os contratos, celebrados após a MP 1.963-17/2000 (reeditada como MP 2.170-36/2001), preveem expressamente capitalização mensal e a taxa anual supera o duodécuplo da mensal, atendendo às Súmulas 539 e 541 do STJ.",
+      "tipo": "merito",
+      "tema": "capitalização mensal de juros",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "MP 2.170-36/2001",
+        "Súmula 539 do STJ",
+        "Súmula 541 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Quanto à capitalização de juros, os contratos foram celebrados após a edição da Medida Provisória no 1.963-17/2000, reeditada sob o no 2.170-36/2001, contêm cláusula expressa de capitalização mensal pela metodologia Price e estipulam taxa anual superior ao duodécuplo da mensal (fls. 18, 21, 120/121, 124/125 e 144/145).",
+          "char_start": 20506,
+          "char_end": 20826,
+          "score": 100.0
+        },
+        {
+          "texto": "Estão satisfeitos, assim, os requisitos das Súmulas 539 e 541 do Superior Tribunal de Justiça, sendo lícita a cobrança.",
+          "char_start": 20828,
+          "char_end": 20947,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a10",
+      "titulo": "Inversão do ônus da prova em favor do consumidor",
+      "resumo": "O pedido de inversão foi indeferido por ausência de hipossuficiência probatória, pois a taxa média do Bacen é dado público e não depende de prova técnica.",
+      "tipo": "merito",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 6 VIII do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Pela mesma razão, não há hipossuficiência probatória que justifique a inversão do ônus da prova requerida às fls. 137/138 e 154/155 (artigo 6o, inciso VIII, do Código de Defesa do Consumidor), que fica indeferida.",
+          "char_start": 20177,
+          "char_end": 20390,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a11",
+      "titulo": "Necessidade de perícia contábil e técnica",
+      "resumo": "Foi afastada a necessidade de perícia e determinado o julgamento antecipado, por se tratar de matéria predominantemente de direito e por ser a taxa média do Bacen dado público acessível, nos termos do CPC.",
+      "tipo": "merito",
+      "tema": "prova pericial desnecessária",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 355 I do CPC",
+        "art. 464 § 1 I do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O processo comporta julgamento antecipado do mérito, nos termos do artigo 355, I, do Código de Processo Civil, sendo desnecessária dilação probatória, uma vez que a matéria é eminentemente de direito e as questões fáticas estão suficientemente comprovadas pela prova documental carreada aos autos.",
+          "char_start": 5362,
+          "char_end": 5659,
+          "score": 100.0
+        },
+        {
+          "texto": "Tampouco a prova pericial se prestaria a esse fim, pois a taxa média de mercado é dado público, divulgado pelo Banco Central do Brasil por modalidade e período, cuja obtenção não depende de conhecimento técnico especializado (artigo 464, § 1o, inciso I, do Código de Processo Civil).",
+          "char_start": 19893,
+          "char_end": 20176,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a12",
+      "titulo": "Ilícita a retenção integral do 13º salário e nulidade de cláusula que autoriza débito do saldo devedor na data do abono (contrato 910002028656)",
+      "resumo": "O juiz declarou nula a cláusula que autorizava o débito do saldo devedor no pagamento do 13º e limitou os débitos ao valor da parcela na data do vencimento, por violar a natureza alimentar e a impenhorabilidade da gratificação natalina e colocar o consumidor em desvantagem exagerada.",
+      "tipo": "merito",
+      "tema": "retenção do 13º salário – cláusula abusiva",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 7 X da CF",
+        "art. 833 IV do CPC",
+        "art. 51 IV e § 1 do CDC",
+        "Tema 1085 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "A cláusula não autoriza o débito da prestação ajustada, mas do saldo devedor, sem teto percentual, na data do pagamento da gratificação natalina, em mútuo de R$ 713,00 estruturado para ser liquidado por duas retenções de R$ 1.406,32 sobre o abono anual, cujo valor bruto corresponde a uma renda mensal de R$ 4.875,61, já onerada pela pensão alimentícia e pelas consignações.",
+          "char_start": 21876,
+          "char_end": 22250,
+          "score": 100.0
+        },
+        {
+          "texto": "A gratificação natalina tem natureza salarial e alimentar, protegida pela impenhorabilidade (artigo 7o, inciso X, da Constituição Federal; artigo 833, inciso IV, do Código de Processo Civil), e sua apropriação integral coloca o consumidor em desvantagem exagerada (artigo 51, inciso IV e § 1o, do Código de Defesa do Consumidor).",
+          "char_start": 22748,
+          "char_end": 23077,
+          "score": 100.0
+        },
+        {
+          "texto": "Declaro a nulidade da cláusula que autoriza o débito do saldo devedor e sua antecipação ou postecipação para a data do pagamento da gratificação natalina e limito cada débito decorrente do contrato no 910002028656 ao valor da parcela contratada (R$ 1.406,32), na respectiva data de vencimento, em consonância com o precedente transcrito.",
+          "char_start": 24759,
+          "char_end": 25096,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a13",
+      "titulo": "Abstenção de negativação em cadastros de proteção ao crédito",
+      "resumo": "O pedido foi rejeitado por ausência de prova de inscrição do nome do autor em cadastros restritivos nos autos.",
+      "tipo": "merito",
+      "tema": "abstenção de negativação",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Não procede o pedido, pois não há notícia de negativação nos autos.",
+          "char_start": 25140,
+          "char_end": 25207,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 8211,
+    "output_tokens": 8780,
+    "cost_usd": 0.09806375,
+    "latency_ms": 77979,
+    "citacoes": 24,
+    "citacoes_ancoradas": 24
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

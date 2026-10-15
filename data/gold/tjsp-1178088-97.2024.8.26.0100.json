@@ -1,0 +1,215 @@
+{
+  "ruling_id": "tjsp-1178088-97.2024.8.26.0100",
+  "text_sha256": "5a1ba106ce09737d4cc027dfc0d2d0558a6e9ca0960d6ea98b66e0acf891216b",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Ilegitimidade passiva do Facebook Brasil em rela\u0000e7\u0000e3o ao WhatsApp LLC",
+      "resumo": "O juiz rejeitou a preliminar porque o WhatsApp integra o mesmo grupo econ\u0000f4mico do r\u0000e9u e este atua como seu representante no pa\u0000eds. Aplicou-se o Marco Civil da Internet, que imp\u0000f5e a observa\u0000e7\u0000e3o da legisla\u0000e7\u0000e3o brasileira mesmo quando a empresa est\u0000e1 sediada no exterior, e citou precedente do TJSP reconhecendo a legitimidade.",
+      "tipo": "preliminar",
+      "tema": "ilegitimidade passiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 11 do Marco Civil da Internet",
+        "TJSP AI 2241183-64.2022.8.26.0000, 15\u00170 CDP, 13/02/2023"
+      ],
+      "citacoes": [
+        {
+          "texto": "A preliminar de ilegitimidade passiva n\u0000e3o comporta acolhimento.",
+          "char_start": 2449,
+          "char_end": 2513,
+          "score": 96.9
+        },
+        {
+          "texto": "A plataforma de comunica\u0000e7\u0000e3o WhatsApp integra o mesmo grupo econ\u0000f4mico do r\u0000e9u, sendo o Facebook respons\u0000e1vel, no pa\u0000eds, para atuar como representante da empresa estrangeira.",
+          "char_start": 2508,
+          "char_end": 2683,
+          "score": 93.7
+        },
+        {
+          "texto": "\u0000a7 2o O disposto no caput aplica-se mesmo que as atividades sejam realizadas por pessoa jur\u0000eddica sediada no exterior, desde que oferte servi\u0000e7o ao p\u0000fablico brasileiro ou pelo menos uma integrante do mesmo grupo econ\u0000f4mico possua estabelecimento no Brasil.",
+          "char_start": 4788,
+          "char_end": 5046,
+          "score": 96.1
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Perda superveniente do objeto pela suposta reativa\u0000e7\u0000e3o da conta",
+      "resumo": "A tese foi rejeitada porque a r\u0000e9 n\u0000e3o comprovou que a conta estava dispon\u0000edvel ao uso da autora, sequer de forma m\u0000ednima.",
+      "tipo": "preliminar",
+      "tema": "perda superveniente do objeto",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "De outro lado, n\u0000e3o \u0000e9 o caso de se reconhecer a perda superveniente do objeto da a\u0000e7\u0000e3o, uma vez que a parte r\u0000e9 sequer comprovou, ainda que minimamente, estar a conta da conta da autora dispon\u0000edvel para o seu uso.",
+          "char_start": 5373,
+          "char_end": 5589,
+          "score": 95.3
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Aplica\u0000e7\u0000e3o do CDC e invers\u0000e3o do \u0000f4nus da prova contra a r\u0000e9",
+      "resumo": "Reconhecida a rela\u0000e7\u0000e3o de consumo e aplicada a regra do art. 6\u0000ba, VIII, do CDC, impondo \u0000e0 r\u0000e9 o \u0000f4nus de demonstrar a alegada viola\u0000e7\u0000e3o dos termos, o que n\u0000e3o ocorreu.",
+      "tipo": "merito",
+      "tema": "\u0000f4nus da prova (CDC)",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 6\u0000ba, VIII, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Ora, h\u0000e1 evidente rela\u0000e7\u0000e3o de consumo entre as partes.",
+          "char_start": null,
+          "char_end": null,
+          "score": 0.0
+        },
+        {
+          "texto": "Aqui, no entanto, a r\u0000e9 n\u0000e3o logrou comprovar qualquer conduta da autora violadora das normas contratuais das partes ou internas da plataforma, \u0000f4nus que lhe incumbia, na forma do art. 6o, inciso VIII, do C\u0000f3digo de Defesa do Consumidor.",
+          "char_start": 6297,
+          "char_end": 6536,
+          "score": 97.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Banimento sem justificativa configura falha do servi\u0000e7o e imp\u0000f5e o restabelecimento da conta",
+      "resumo": "O magistrado reconheceu falha na presta\u0000e7\u0000e3o do servi\u0000e7o porque a r\u0000e9 aplicou san\u0000e7\u0000f5es sem indicar o trecho violado dos termos, afrontando o dever de informa\u0000e7\u0000e3o (CDC). Determinou o restabelecimento da conta.",
+      "tipo": "merito",
+      "tema": "falha do servi\u0000e7o",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 6\u0000ba, III, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Ao contr\u0000e1rio, houve falha dos servi\u0000e7os da r\u0000e9 ao aplicar san\u0000e7\u0000f5es \u0000e0 conta da autora, sem especificar qual seria o trecho dos termos de uso supostamente infringido.",
+          "char_start": 6530,
+          "char_end": 6698,
+          "score": 93.4
+        },
+        {
+          "texto": "A alega\u0000e7\u0000e3o meramente gen\u0000e9rica de viola\u0000e7\u0000e3o aos Termos de Uso fere o dever de informa\u0000e7\u0000e3o, previsto no artigo 6o inciso III, do CDC, al\u0000e9m de violar o direito de defesa do usu\u0000e1rio.",
+          "char_start": 6695,
+          "char_end": 6881,
+          "score": 91.4
+        },
+        {
+          "texto": "Portanto, tendo a r\u0000e9 agido ilicitamente na condu\u0000e7\u0000e3o da conta da autora, deve ela ser obrigada a restabelec\u0000ea-la, como requerido na inicial.",
+          "char_start": 8175,
+          "char_end": 8318,
+          "score": 95.8
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Danos morais decorrentes do bloqueio injustificado da conta",
+      "resumo": "Configurado o dano moral pela frustra\u0000e7\u0000e3o decorrente da falha do servi\u0000e7o e pela impossibilidade de a autora avisar seus clientes, superando o mero aborrecimento.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A autora tamb\u0000e9m faz jus ao recebimento de indeniza\u0000e7\u0000e3o por danos morais.",
+          "char_start": 8315,
+          "char_end": 8389,
+          "score": 93.2
+        },
+        {
+          "texto": "A frustra\u0000e7\u0000e3o da expectativa gerada pela falha na presta\u0000e7\u0000e3o do servi\u0000e7o, somada \u0000e0s circunst\u0000e2ncias do caso, configuram mais do que mero aborrecimento.",
+          "char_start": 8380,
+          "char_end": 8534,
+          "score": 90.9
+        },
+        {
+          "texto": "A autora teve sua conta suspensa sem a possibilidade de aviso aos seus clientes.",
+          "char_start": 8535,
+          "char_end": 8615,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Fixar os danos morais em R$ 3.000,00",
+      "resumo": "O valor foi arbitrado em R$ 3.000,00 por ser suficiente para reparar o abalo sem causar enriquecimento sem causa.",
+      "tipo": "quantum",
+      "tema": "quantum dano moral",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Para repara\u0000e7\u0000e3o do abalo \u0000e0 sua honra e imagem, mostra-se razo\u0000e1vel o valor de R$ 3.000,00, suficiente para reparar o abalo moral suportado, sem lhe causar, por outro lado, enriquecimento sem causa.",
+          "char_start": 8614,
+          "char_end": 8814,
+          "score": 96.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Impossibilidade t\u0000e9cnica de restaurar hist\u0000f3rico de mensagens do WhatsApp",
+      "resumo": "Acolhida a alega\u0000e7\u0000e3o de impossibilidade de restitui\u0000e7\u0000e3o do hist\u0000f3rico por causa da criptografia ponta a ponta, o que impede o acesso do pr\u0000f3prio provedor ao conte\u0000fado, com apoio em precedentes do TJSP.",
+      "tipo": "merito",
+      "tema": "impossibilidade t\u0000e9cnica",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "TJSP Apela\u0000e7\u0000e3o 1018972-89.2023.8.26.0003, 36\u00170 CDP, 28/11/2024",
+        "TJSP Agravo de Instrumento 2256892-71.2024.8.26.0000, 24\u00170 CDP, 18/10/2024"
+      ],
+      "citacoes": [
+        {
+          "texto": "Contudo, em rela\u0000e7\u0000e3o ao pedido de restaura\u0000e7\u0000e3o do conte\u0000fado de conversas e dados da autora, \u0000e9 sabido que as mensagens trocadas no aplicativo WhatsApp s\u0000e3o criptografadas de ponta a ponta e n\u0000e3o podem ser acessadas pelo provedor.",
+          "char_start": 8808,
+          "char_end": 9040,
+          "score": 93.5
+        },
+        {
+          "texto": "Por isso, acolhe-se a alega\u0000e7\u0000e3o de impossibilidade de cumprimento da obriga\u0000e7\u0000e3o de determinar a restitui\u0000e7\u0000e3o das mensagens e documentos.",
+          "char_start": 9032,
+          "char_end": 9171,
+          "score": 91.4
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 4140,
+    "output_tokens": 8047,
+    "cost_usd": 0.085645,
+    "latency_ms": 67354,
+    "citacoes": 15,
+    "citacoes_ancoradas": 14
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

@@ -1,0 +1,232 @@
+{
+  "ruling_id": "tjsp-1017343-08.2025.8.26.0554",
+  "text_sha256": "4a69420963d659fa2a88b4cf5d369adebca476231aa0841f2e6771152280ca85",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Ré: impugnação à gratuidade da justiça dos autores",
+      "resumo": "O juiz rejeitou a impugnação por falta de utilidade prática, pois os autores não requereram gratuidade e recolheram as custas. Assim, não havia benefício a ser revogado.",
+      "tipo": "preliminar",
+      "tema": "gratuidade da justiça",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A preliminar de impugnação à assistência judiciária gratuita arguida pela ré em contestação não merece acolhimento, carecendo de utilidade prática.",
+          "char_start": 4100,
+          "char_end": 4247,
+          "score": 100.0
+        },
+        {
+          "texto": "Isto porque verifica-se dos autos que os autores não postularam a benesse, tendo recolhido as custas.",
+          "char_start": 4248,
+          "char_end": 4349,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Ré: sobrestamento do processo pelo Tema 1.417 da Repercussão Geral do STF",
+      "resumo": "O pedido de suspensão foi indeferido. O Juízo entendeu que o caso não trata de fortuito externo, mas de fortuito interno (ausência de tripulação), o que afasta a abrangência da ordem de suspensão do Tema 1.417.",
+      "tipo": "preliminar",
+      "tema": "sobrestamento Tema 1.417 STF",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Tema 1.417 STF",
+        "art. 256, § 3º do CBA",
+        "art. 1.037, § 9º do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não comporta acolhimento o pedido de sobrestamento deduzido pela transportadora ré com fundamento no Tema no 1.417 da Repercussão Geral do Supremo Tribunal Federal (ARE 1.560.244/RJ).",
+          "char_start": 4351,
+          "char_end": 4534,
+          "score": 100.0
+        },
+        {
+          "texto": "Na hipótese em apreço, o cancelamento do primeiro voo (LA 3240) não decorreu de imposição exterior inafastável, mas sim de ausência de tripulação técnica, conforme expressamente atestado na Declaração de Contingência emitida pela própria companhia aérea requerida.",
+          "char_start": 4924,
+          "char_end": 5188,
+          "score": 100.0
+        },
+        {
+          "texto": "Portanto, INDEFIRO o pedido de sobrestamento do feito.",
+          "char_start": 6538,
+          "char_end": 6592,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Autor: aplicação do CDC e responsabilidade objetiva do transportador aéreo",
+      "resumo": "Reconhecida a relação de consumo e aplicada a responsabilidade objetiva do art. 14 do CDC ao contrato de transporte, impondo ao transportador obrigação de resultado quanto à pontualidade e segurança.",
+      "tipo": "merito",
+      "tema": "incidência do CDC",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2º do CDC",
+        "art. 3º do CDC",
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A relação jurídica entabulada entre os litigantes qualifica-se como evidente relação de consumo, submetendo-se aos ditames protetivos da Lei Federal no 8.078/1990 (Código de Defesa do Consumidor), na medida em que os autores figuram como destinatários finais dos serviços de transporte aéreo explorados no mercado com habitualidade e remuneração pela empresa requerida (artigos 2o e 3o do CDC).",
+          "char_start": 6633,
+          "char_end": 7027,
+          "score": 100.0
+        },
+        {
+          "texto": "O contrato de transporte gera para o transportador uma obrigação de resultado, sendo dever indeclinável conduzir os passageiros incólumes e pontualmente aos seus destinos, segundo os itinerários e horários previamente acordados.",
+          "char_start": 7029,
+          "char_end": 7257,
+          "score": 100.0
+        },
+        {
+          "texto": "A responsabilidade do fornecedor de serviços é de índole objetiva, dispensando a perquirição de elemento subjetivo de culpa, nos exatos termos do artigo 14, caput, da Lei no 8.078/1990:",
+          "char_start": 7258,
+          "char_end": 7443,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Ré: excludente de responsabilidade por fortuito externo/força maior (CBA)",
+      "resumo": "A tese foi rejeitada. O cancelamento decorreu de ausência de tripulação (fortuito interno) e não houve prova de impossibilidade operacional por clima no segundo voo; a ré não se desincumbiu do seu ônus probatório.",
+      "tipo": "merito",
+      "tema": "fortuito externo",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 14, § 3º do CDC",
+        "art. 373, II do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Em contrapartida, cabia à ré desincumbir-se do ônus de comprovar a existência de circunstância excludente de nexo de causalidade apta a afastar sua responsabilidade (artigo 14, § 3o, do Código de Defesa do Consumidor e artigo 373, inciso II, do Código de Processo Civil). Contudo, essa prova não foi produzida.",
+          "char_start": 8387,
+          "char_end": 8697,
+          "score": 100.0
+        },
+        {
+          "texto": "A falta de prepostos habilitados e a desarticulação de escalas de voo traduzem típico fortuito interno, incapaz de exonerar o transportador de responder perante o consumidor lesionado.",
+          "char_start": 8997,
+          "char_end": 9181,
+          "score": 100.0
+        },
+        {
+          "texto": "A simples juntada de relatórios METAR, desconexos com o exato momento operacional e sem demonstrar veto categórico de pouso por controle aéreo, não supre a cabal ausência de prova sobre o rompimento do nexo causal.",
+          "char_start": 10222,
+          "char_end": 10436,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Autor: falha na prestação do serviço e violação aos deveres de assistência da ANAC 400",
+      "resumo": "Ficou caracterizado defeito do serviço pela longa demora, reacomodação ineficaz e descumprimento dos deveres de assistência material e informação previstos na Resolução ANAC 400/2016.",
+      "tipo": "merito",
+      "tema": "falha do serviço",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Resolução ANAC 400/2016, art. 21",
+        "Resolução ANAC 400/2016, art. 26",
+        "Resolução ANAC 400/2016, art. 27"
+      ],
+      "citacoes": [
+        {
+          "texto": "Ademais, resta patente o descumprimento dos deveres anexos de assistência material e informacional estabelecidos pela Resolução ANAC no 400/2016 (artigos 21, 26 e 27), visto que os consumidores não receberam suporte alimentar e hoteleiro proporcional à longa permanência nos terminais aeroportuários, vindo a custear do próprio bolso necessidades urgentes.",
+          "char_start": 10438,
+          "char_end": 10794,
+          "score": 100.0
+        },
+        {
+          "texto": "Caracterizado, portanto, o defeito na prestação de serviços.",
+          "char_start": 10795,
+          "char_end": 10855,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Autor: ocorrência de dano moral indenizável",
+      "resumo": "O Juízo reconheceu dano moral diante do atraso total de 31h30, sucessivos insucessos operacionais e a presença de criança de 6 anos, situação que extrapola meros aborrecimentos.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "No tocante ao pedido de indenização por danos morais, na esteira da jurisprudência do C. Superior Tribunal de Justiça, o atraso ou cancelamento de voo não opera dano moral de maneira automática (in re ipsa), cabendo a averiguação da lesão extrapatrimonial concreta sofrida pelo passageiro.",
+          "char_start": 10857,
+          "char_end": 11146,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso em julgamento, a violação aos direitos da personalidade dos requerentes restou evidenciada com vigor.",
+          "char_start": 11148,
+          "char_end": 11257,
+          "score": 100.0
+        },
+        {
+          "texto": "Tal contexto transcende com folga o campo dos aborrecimentos ordinários do cotidiano, ingressando na esfera da lesão anímica passível de justa reparação pecuniária.",
+          "char_start": 11925,
+          "char_end": 12089,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Autor: fixação de R$ 10.000,00 por pessoa a título de dano moral",
+      "resumo": "O juiz fixou o quantum por proporcionalidade e razoabilidade em R$ 4.000,00 para cada genitor e R$ 6.000,00 para a menor, atendendo aos critérios de reparação, punição, desestímulo e capacidade econômica da ré.",
+      "tipo": "quantum",
+      "tema": "quantum do dano moral",
+      "suscitado_por": "autor",
+      "decisao": "parcial",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Nesse cerne, tem-se que o valor dos danos morais deve ser fixado com base no princípio da proporcionalidade e razoabilidade, sendo que a pretensão indenizatória contida nesta demanda deve atender aos seguintes critérios: (i) reparação do dano suportado pelo ofendido; (ii) punição do ofensor; (iii) desestímulo a condutas idênticas ou assemelhadas; e (iv) capacidade econômica da requerida; razão pela qual arbitro a indenização pelo dano moral em R$ 4.000,00 para cada um dos genitores e R$ 6.000,00 para a criança.",
+          "char_start": 12091,
+          "char_end": 12607,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 4531,
+    "output_tokens": 8525,
+    "cost_usd": 0.09091375,
+    "latency_ms": 87008,
+    "citacoes": 17,
+    "citacoes_ancoradas": 17
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

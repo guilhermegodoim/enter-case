@@ -1,0 +1,239 @@
+{
+  "ruling_id": "tjsp-1016609-61.2025.8.26.0003",
+  "text_sha256": "eaebbcaa6033b1df3ea4c7313af3f90ebfc4f31227abeadd21d26aef207c9fae",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Qatar é parte ilegítima para figurar no polo passivo.",
+      "resumo": "O juiz rejeitou a ilegitimidade passiva por se tratar de relação de consumo, na qual todos os integrantes da cadeia de fornecimento respondem solidariamente pelos danos ao consumidor.",
+      "tipo": "preliminar",
+      "tema": "ilegitimidade passiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Rejeito as preliminares de ilegitimidade passiva e de inexistência de solidariedade.",
+          "char_start": 3055,
+          "char_end": 3139,
+          "score": 100.0
+        },
+        {
+          "texto": "A relação jurídica discutida nos autos é tipicamente de consumo, incidindo as normas cogentes do CDC, de modo que todos os integrantes da cadeia de fornecimento de serviços respondem solidariamente pela reparação dos danos suportados pelos consumidores.",
+          "char_start": 3141,
+          "char_end": 3394,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Inexistência de solidariedade entre companhia aérea e agência de viagens.",
+      "resumo": "A preliminar foi rejeitada porque, em relações de consumo, a cadeia de fornecimento responde solidariamente; pactos internos entre transportadora e agência não afastam a solidariedade legal.",
+      "tipo": "preliminar",
+      "tema": "solidariedade na cadeia de consumo",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Rejeito as preliminares de ilegitimidade passiva e de inexistência de solidariedade.",
+          "char_start": 3055,
+          "char_end": 3139,
+          "score": 100.0
+        },
+        {
+          "texto": "Arranjos contratuais internos de comissão mercantil mantidos entre a transportadora aérea e a agência de viagens operam efeitos unicamente inter partes, não tendo eficácia para afastar a solidariedade legal protetiva do consumidor.",
+          "char_start": 3396,
+          "char_end": 3627,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Acordo com a Wefly extingue a obrigação da Qatar e o processo contra ela.",
+      "resumo": "O magistrado afirmou que a transação parcial com a corré Wefly não impede o prosseguimento contra a Qatar, pois não houve quitação integral nem abrangência de todos os pedidos, permanecendo o interesse de agir contra a devedora solidária.",
+      "tipo": "preliminar",
+      "tema": "transação com litisconsorte solidário",
+      "suscitado_por": "juizo",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 844, § 2º do CC",
+        "art. 25, § 1º do CDC",
+        "art. 277 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Consigne-se, em primeiro lugar, que a parte autora firmou acordo com a corré Wefly e concordou em receber R$ 3.500,00.",
+          "char_start": 3629,
+          "char_end": 3747,
+          "score": 100.0
+        },
+        {
+          "texto": "Preservado entendimento contrário, o acordo não impede o prosseguimento do feito contra a corré Qatar Airways Group, ainda que haja solidariedade passiva (art. 844, § 2o do CC e art. 25, § 1o do CDC), uma vez que não alcançou a totalidade dos pedidos formulados na inicial (art. 277 do CC), remanescendo ainda o interesse de agir em face da corré que não participou da transação.",
+          "char_start": 3749,
+          "char_end": 4128,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, prossegue o feito em relação à corré Qatar Airways Group.",
+          "char_start": 4866,
+          "char_end": 4930,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Cláusula de não reembolso e retenção integral são válidas apesar de doença do passageiro.",
+      "resumo": "A tese foi rejeitada. O juiz reconheceu caso fortuito/força maior por grave problema de saúde comunicado com antecedência e considerou abusiva a retenção integral baseada em diretriz interna que exigia óbito ou doença terminal, determinando o reembolso total.",
+      "tipo": "merito",
+      "tema": "cláusula de não reembolso",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 51, II do CDC",
+        "art. 51, IV do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Cuida-se de legítima hipótese de força maior e caso fortuito, consubstanciada em evento de saúde imprevisível, involuntário e grave, o qual impediu o aproveitamento das passagens contratadas.",
+          "char_start": 5653,
+          "char_end": 5844,
+          "score": 100.0
+        },
+        {
+          "texto": "O cancelamento foi comunicado com antecedência em relação ao horário de decolagem, permitindo à transportadora a recolocação dos assentos.",
+          "char_start": 5846,
+          "char_end": 5984,
+          "score": 100.0
+        },
+        {
+          "texto": "Nesse panorama, a conduta da companhia aérea em reter a integralidade dos valores pagos, respaldando-se em diretriz interna que somente admitiria isenção ou reembolso em hipótese de falecimento ou doença terminal, afigura-se abusiva e ilícita, por afronta ao art. 51, II e IV, do CDC, na medida em que subtrai dos consumidores a devolução da quantia desembolsada e impõe desvantagem exagerada frente a evento fortuito de saúde.",
+          "char_start": 5986,
+          "char_end": 6413,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Inexistem danos morais, pois há mero inadimplemento contratual.",
+      "resumo": "O juiz reconheceu dano moral, por entender que a recusa intransigente de reembolso diante de quadro de saúde grave extrapola o mero aborrecimento e causa angústia e desgaste psicológico.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "O dano moral está configurado, uma vez que o caso em apreço desborda do campo do mero aborrecimento ou dissabor contratual.",
+          "char_start": 6534,
+          "char_end": 6657,
+          "score": 100.0
+        },
+        {
+          "texto": "Submeter passageiro idoso, recém-submetido a intervenção médica invasiva em vias biliares e pâncreas, à recusa intransigente de devolução sob a exigência despropositada de apresentação de atestado de óbito ou laudo de doença terminal gera profunda angústia, aflição e desgaste psicológico injustificável no momento em que se encontrava em recuperação, além do evidente desvio produtivo.",
+          "char_start": 6658,
+          "char_end": 7044,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Indenização por dano moral deve ser fixada em R$ 4.000,00 para cada autor.",
+      "resumo": "Com base na razoabilidade, proporcionalidade, capacidade econômica das partes e caráter pedagógico, o juiz fixou o dano moral em R$ 4.000,00 por autor (total R$ 8.000,00).",
+      "tipo": "quantum",
+      "tema": "quantum dano moral",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Sopesados os princípios da razoabilidade e proporcionalidade, a capacidade econômica das partes e o propósito punitivo-pedagógico da indenização, afigura-se razaoável a fixação de R$ 4.000,00 para cada autor, totalizando R$ 8.000,00.",
+          "char_start": 7046,
+          "char_end": 7279,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Juros de mora devem correr apenas a partir do arbitramento do dano moral.",
+      "resumo": "O pedido subsidiário da ré foi rejeitado. O magistrado fixou juros de mora pela taxa SELIC a partir da citação, nos termos do art. 406, § 1º do CC, tanto para danos materiais quanto morais.",
+      "tipo": "acessorio",
+      "tema": "juros moratórios termo inicial",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 406, § 1º do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "R$ 33.490,13, a título de danos materiais, corrigido a partir do desembolso pelo IPCA e acrescido de juros de mora contados da citação pela taxa legal (SELIC), deduzido o índice de atualização monetária, nos termos do art. 406, § 1o, do Código Civil;",
+          "char_start": 7382,
+          "char_end": 7632,
+          "score": 100.0
+        },
+        {
+          "texto": "R$ 8.000,00, por dano moral, corrigido a partir desta data pelo IPCA e acrescido de juros de mora contados da citação pela taxa legal (SELIC), deduzido o índice de atualização monetária, nos termos do art. 406, § 1o, do Código Civil.",
+          "char_start": 7636,
+          "char_end": 7869,
+          "score": 100.0
+        }
+      ],
+      "secao": "dispositivo"
+    },
+    {
+      "id": "a08",
+      "titulo": "Redução do valor do dano moral implica sucumbência recíproca.",
+      "resumo": "O juiz afastou a sucumbência recíproca com base na Súmula 326 do STJ e condenou a ré integralmente em custas e honorários.",
+      "tipo": "acessorio",
+      "tema": "sucumbência recíproca",
+      "suscitado_por": "juizo",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 326 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Considerando que \"na ação de indenização por dano moral, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca\" (Súmula 326 do STJ), condeno a parte ré ao pagamento das custas, despesas processuais e honorários advocatícios fixados em 10% do valor atualizado da condenação, ante a singeleza da lide e do julgamento antecipado.",
+          "char_start": 7871,
+          "char_end": 8235,
+          "score": 100.0
+        }
+      ],
+      "secao": "dispositivo"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 3101,
+    "output_tokens": 8934,
+    "cost_usd": 0.09321625,
+    "latency_ms": 97667,
+    "citacoes": 16,
+    "citacoes_ancoradas": 16
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}
