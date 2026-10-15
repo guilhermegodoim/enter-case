@@ -26,6 +26,11 @@ uv run enter mask arq.txt  # normaliza e mascara entidades de um texto
 uv run q1 build            # monta o dataset sintético da Q1 (determinístico, sem LLM)
 uv run q1 bench            # benchmark Q1: calibra no dev, mede no test, grava results/<run_id>/
 uv run q1 gen-templates    # (já executado) gera os templates via LLM; só refaz o que falta
+uv run q2 scrape           # coleta sentenças públicas do TJSP CJPG (cache local, 1 req/2 s)
+uv run q2 build            # seleciona e anonimiza o corpus da Q2 em data/rulings
+uv run q2 draft-gold       # rascunhos do gold da Q2 via LLM (nunca sobrescreve revisados)
+uv run q2 review           # editor do gold (Streamlit): corrigir, aprovar, ancorar citações
+uv run q2 gold-status      # quantas sentenças revisadas, citações ancoradas
 uv run ruff check .
 ```
 
@@ -39,7 +44,9 @@ uv run ruff check .
 | `common/pricing.py` | Tabela de preços por modelo para custo por documento |
 | `q1_similarity/` | Dataset sintético, pipeline de similaridade (hash → MinHash → alinhamento → juiz LLM) e benchmark |
 | `data/synthetic/q1/` | Casos, documentos e pares rotulados da Q1 ([README](data/synthetic/q1/README.md), [estatísticas](data/synthetic/q1/STATS.md)) |
-| `q2_arguments/` | *(fase 3-5)* coleta de sentenças, extração, ancoragem, revisão |
+| `q2_arguments/` | Coleta TJSP, corpus anonimizado, schema, ancoragem de citações, gold + editor *(extração e benchmark: fase 4-5)* |
+| `data/rulings/` | Corpus da Q2: 30 sentenças públicas anonimizadas ([README](data/rulings/README.md), [estatísticas](data/rulings/STATS.md)) |
+| `data/gold/` | Gold da Q2: argumentos por sentença, rascunho LLM corrigido por humano ([guia](data/gold/GUIDE.md)) |
 | `docs/` | *(fase 6)* respostas escritas |
 
 ## Reprodutibilidade

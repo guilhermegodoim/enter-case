@@ -1,0 +1,233 @@
+{
+  "ruling_id": "tjsp-1088178-25.2025.8.26.0100",
+  "text_sha256": "2e06c61725925c894b77918e708bfc3482478141668a8dd35d494b8821f47600",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Aplica-se o CDC à relação entre as partes",
+      "resumo": "O juiz reconheceu que a relação é de consumo, pois o autor é destinatário final e a ré fornece serviços de intermediação de passagens aéreas no mercado, havendo vulnerabilidade do consumidor. Assim, incide o microssistema do CDC.",
+      "tipo": "merito",
+      "tema": "aplicabilidade do CDC",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2 do CDC",
+        "art. 3 do CDC",
+        "art. 4 do CDC",
+        "art. 5, XXXII, CF"
+      ],
+      "citacoes": [
+        {
+          "texto": "A relação entre as partes caracteriza-se como de consumo.",
+          "char_start": 4863,
+          "char_end": 4920,
+          "score": 100.0
+        },
+        {
+          "texto": "O autor, pessoa física, valeu-se das passagens aéreas para fins familiares, enquanto destinatário final (artigo 2o do Código de Defesa do Consumidor).",
+          "char_start": 4922,
+          "char_end": 5072,
+          "score": 100.0
+        },
+        {
+          "texto": "Já a requerida, pessoa jurídica especializada em, entre outras atividades principais, intermediar a compra de passagens aéreas para os usuários de sua conta digital, disponibiliza seus préstimos no mercado de consumo, com expertise técnica, intuito de lucro e domínio da informação jurídica, contábil e técnica sobre as especificidades das atividades exploradas (artigo 3o do Código de Defesa do Consumidor).",
+          "char_start": 5074,
+          "char_end": 5482,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Nubank não tem legitimidade passiva pela compra via Nu Viagens",
+      "resumo": "A preliminar foi rejeitada. O juiz afirmou que todos os participantes da cadeia de fornecimento respondem solidariamente perante o consumidor, sendo irrelevante a alegação de que a Nu Viagens seria mera ferramenta de terceiros.",
+      "tipo": "preliminar",
+      "tema": "ilegitimidade passiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 3 do CDC",
+        "art. 7 do CDC",
+        "arts. 14 a 18 do CDC",
+        "art. 25 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Vale ressaltar que é absolutamente irrelevante a argumentação da requerida no sentido de que a Nu Viagens seria apenas uma ferramenta por meio da qual os clientes acessariam ofertas de serviços fornecidos diretamente por terceiros, como, por exemplo, passagens aéreas.",
+          "char_start": 15873,
+          "char_end": 16141,
+          "score": 100.0
+        },
+        {
+          "texto": "Pelo sistema do CDC (arts. 3o, 7, 14 a 18 e 25), todos aqueles que, de alguma forma, participam da cadeia de intermediação do serviço oferecido ao destinatário final são fornecedores aos olhos do consumidor.",
+          "char_start": 16143,
+          "char_end": 16350,
+          "score": 100.0
+        },
+        {
+          "texto": "Trata-se de verdadeira responsabilidade solidária por previsão expressa do microssistema de defesa do consumidor.",
+          "char_start": 16351,
+          "char_end": 16464,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Inverter o ônus da prova em favor do consumidor pela verossimilhança dos fatos",
+      "resumo": "Diante da verossimilhança dos documentos juntados, o juiz aplicou a inversão do ônus da prova ope judice, incumbindo à ré demonstrar a inexistência do defeito, o que não ocorreu.",
+      "tipo": "merito",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 6, VIII, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Nesse sentido, a inversão do ônus da prova ope judice (CDC, art. 6o, VIII) é uma das ferramentas legais que permite a equiparação das partes litigantes no processo judicial e viabiliza a defesa judicial do hipervulnerável.",
+          "char_start": 12056,
+          "char_end": 12278,
+          "score": 100.0
+        },
+        {
+          "texto": "In casu, os documentos apresentados às fls. 36/39 tornam a versão defendida pela parte autora verossímil e autorizam a inversão do ônus da prova em seu favor.",
+          "char_start": 12564,
+          "char_end": 12722,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Houve falha do serviço da ré na intermediação de passagens, com responsabilidade objetiva pelos danos",
+      "resumo": "Restou demonstrado que a ré não corrigiu ou alertou sobre o erro de grafia no bilhete, assumindo o risco do empreendimento. A falha é fortuito interno e a ré não provou excludentes do art. 14, §3º, do CDC, devendo responder objetivamente.",
+      "tipo": "merito",
+      "tema": "falha do serviço",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 14 do CDC",
+        "art. 14, §3º, do CDC",
+        "art. 5, XXXII, CF"
+      ],
+      "citacoes": [
+        {
+          "texto": "Em outras palavras: a partir do momento em que a ré escolheu intermediar a venda de passagens aéreas a seus clientes, assumiu o risco de arcar com eventuais falhas sistêmicas relacionadas aos voos ou ao próprio ato de compra dos bilhetes.",
+          "char_start": 13914,
+          "char_end": 14152,
+          "score": 100.0
+        },
+        {
+          "texto": "In casu, a falha na prestação de serviços está suficientemente demonstrada nos autos (fl. 46) e a defesa da requerida não comprovou a inexistência do defeito, tanto que preposto da requerida esclareceu ao consumidor que: \"[AUTOR], eu falei com a Turkish Airlines, peço desculpas pela situação. O nome inserido em nosso app foi inserido de maneira incorreta, e em nosso app o seu nome está como [AUTOR], sem o DE (que atendesse o sobrenome [AUTOR]). Por conta dessa situação, o seu nome estando incompleto, a correção do nome deveria ter sido solicitada antes do dia da viagem\".",
+          "char_start": 14154,
+          "char_end": 14731,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Reembolso dos gastos com novas passagens em razão da negativa de embarque",
+      "resumo": "Comprovados os prejuízos de R$ 11.660,76 pela documentação, a ré deve ressarcir integralmente o autor.",
+      "tipo": "merito",
+      "tema": "dano material",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Para mais, a prova dos prejuízos materiais foi apresentada nos autos (fls. 54/58: R$ 11.660,76, valor que deve ser ressarcido integralmente ao autor).",
+          "char_start": 17705,
+          "char_end": 17855,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Indenização por dano moral pela recusa de embarque e ausência de reembolso tempestivo",
+      "resumo": "Embora o dano moral não seja presumido, as circunstâncias concretas — impedimento de embarque em conexão internacional, frustração da viagem, dispêndio imediato elevado e falta de reembolso em 30 dias — configuraram abalo à tranquilidade e dignidade do autor.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "REsp 1.796.716/MG (STJ)"
+      ],
+      "citacoes": [
+        {
+          "texto": "No caso apresentado, é inequívoca a exposição à sofrimento psíquico pelo qual foi submetido o autor.",
+          "char_start": 24314,
+          "char_end": 24414,
+          "score": 100.0
+        },
+        {
+          "texto": "Por isso, uma viagem de férias, em que descanso e tranquilidade são os objetivos esperados, foi abalada por episódio dramático, afinal absolutamente ninguém consideraria ordinário e indiferente descobrir, no portão de entrada do aeroporto de Istambul que não poderia embarcar para Tailândia, enquanto seu colega de viagem seguiria sua jornada.",
+          "char_start": 24878,
+          "char_end": 25221,
+          "score": 100.0
+        },
+        {
+          "texto": "Daí porque a postura da requerida, negligente com a experiência enfrentada pela parte autora ao não providenciar o reembolso dos valores pagos em até 30 dias, foi suficiente a ofender lhe a tranquilidade e a dignidade.",
+          "char_start": 25483,
+          "char_end": 25701,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Fixação do dano moral em R$ 12.000,00 segundo critérios de proporcionalidade e art. 944 do CC",
+      "resumo": "O quantum foi arbitrado em R$ 12.000,00 considerando gravidade, consequências, intensidade do sofrimento e condições econômicas das partes, observando o art. 944 do CC e evitando enriquecimento sem causa.",
+      "tipo": "quantum",
+      "tema": "quantum dano moral",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 944 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Na fixação do quantum da reparação, ante à falta de regulamentação específica, fica ao prudente arbítrio do juiz a decisão.",
+          "char_start": 25746,
+          "char_end": 25869,
+          "score": 100.0
+        },
+        {
+          "texto": "Desta forma, utilizando os critérios propostos pela jurisprudência e pelo novo Código Civil, a partir de seu art. 944, considerando a gravidade da lesão (impedimento do embarque na conexão feita em Istambul), as consequências decorrentes (necessidade de compra imediata de nova passagem aérea e o desgaste que a confusa situação provocou nos turistas), a intensidade e a gravidade do sofrimento, as condições econômicas dos ofendidos e da ofensora, fixo a indenização em R$ 12.000,00 (doze mil reais).",
+          "char_start": 26358,
+          "char_end": 26859,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 7864,
+    "output_tokens": 8735,
+    "cost_usd": 0.09718,
+    "latency_ms": 69927,
+    "citacoes": 16,
+    "citacoes_ancoradas": 16
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

@@ -1,0 +1,108 @@
+{
+  "ruling_id": "tjsp-1182082-36.2024.8.26.0100",
+  "text_sha256": "61f83231263f0cd1bfcfe4ae118638e25ce8e60df75365ef5233b533405d1456",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Facebook Brasil é parte ilegítima para pedidos relativos ao WhatsApp",
+      "resumo": "O juiz rejeitou a preliminar. Entendeu que o WhatsApp integra o mesmo grupo econômico do réu e que o Facebook representa a empresa estrangeira no Brasil, reconhecendo sua legitimidade para responder por demandas relacionadas ao aplicativo, com apoio em precedente do TJSP.",
+      "tipo": "preliminar",
+      "tema": "ilegitimidade passiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "TJSP, AI 2241183-64.2022.8.26.0000"
+      ],
+      "citacoes": [
+        {
+          "texto": "A preliminar de ilegitimidade passiva não comporta acolhimento.",
+          "char_start": 2385,
+          "char_end": 2448,
+          "score": 100.0
+        },
+        {
+          "texto": "A plataforma de comunicação WhatsApp integra o mesmo grupo econômico do réu, sendo o Facebook responsável, no país, para atuar como representante da empresa estrangeira.",
+          "char_start": 2449,
+          "char_end": 2618,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Há competência da Justiça brasileira para alcançar provedores/aplicativos do mesmo grupo econômico sediado no exterior",
+      "resumo": "O juiz afirmou a competência da Justiça brasileira, aplicando o art. 11 do Marco Civil da Internet, pois o serviço é ofertado ao público brasileiro e ao menos uma integrante do grupo econômico tem estabelecimento no país.",
+      "tipo": "preliminar",
+      "tema": "competência internacional",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 11 da Lei 12.965/2014",
+        "art. 11, § 1º da Lei 12.965/2014",
+        "art. 11, § 2º da Lei 12.965/2014",
+        "art. 11, § 3º da Lei 12.965/2014"
+      ],
+      "citacoes": [
+        {
+          "texto": "Logo, há competência da justiça brasileira, conforme previsto no Marco Civil da Internet:",
+          "char_start": 4037,
+          "char_end": 4126,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Devem ser fornecidos pelo réu IP, e-mail, logs e demais dados do perfil @sidneybraz40 para identificação do autor das mensagens",
+      "resumo": "O pedido foi julgado improcedente. O juiz entendeu que não se cumpriram os requisitos do art. 22, § 1º, do Marco Civil da Internet, pois não há indícios de ilícito civil ou penal nem justificativa suficiente para violar a proteção de dados; tratam-se de conversas sobre a vida alheia.",
+      "tipo": "merito",
+      "tema": "fornecimento de dados (art. 22 do MCI)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 22, § 1º da Lei 12.965/2014"
+      ],
+      "citacoes": [
+        {
+          "texto": "No entanto, não estão presentes os requisitos do parágrafo 1o, do artigo 22 da Lei no 12.965/2014 a autorizar o fornecimento dos dados solicitados perante a empresa demandada.",
+          "char_start": 5585,
+          "char_end": 5760,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso, a prova documental não revela a prática de ilícito civil ou penal, se tratando, na realidade, de conversas sobre a vida alheia, popularmente chamadas de fofoca.",
+          "char_start": 6353,
+          "char_end": 6522,
+          "score": 100.0
+        },
+        {
+          "texto": "Vale dizer que o simples desejo da autora de conhecer a autoria do responsável por fazer intriga sobre sua vida pessoal e matrimonial não permite a violação à lei de proteção de dados.",
+          "char_start": 6524,
+          "char_end": 6708,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 2702,
+    "output_tokens": 3667,
+    "cost_usd": 0.0400475,
+    "latency_ms": 33315,
+    "citacoes": 6,
+    "citacoes_ancoradas": 6
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

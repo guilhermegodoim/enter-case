@@ -188,3 +188,14 @@ def mask_entities(text: str, *, numbers: bool = True) -> Masked:
 def skeleton(raw: str) -> str:
     """Forma canônica para detectar cópias: normaliza, mascara entidades, minúsculas sem acento."""
     return fold(mask_entities(normalize(raw)).text)
+
+
+def fold_keep_offsets(text: str) -> str:
+    """Como `fold`, mas com 1 caractere de saída por caractere de entrada (offsets preservados)."""
+    out = []
+    for c in text:
+        f = "".join(
+            x for x in unicodedata.normalize("NFD", c.lower()) if not unicodedata.combining(x)
+        )
+        out.append(f[0] if len(f) == 1 else c.lower() if len(c.lower()) == 1 else c)
+    return "".join(out)

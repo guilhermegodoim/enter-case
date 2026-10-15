@@ -1,0 +1,105 @@
+SENTENÇA
+
+Processo Digital no: 1017343-08.2025.8.26.0554
+
+Classe - Assunto Procedimento Comum Cível - Indenização por Dano Moral
+
+Requerente: [AUTOR] e outros
+
+Requerido: TAM LINHAS AEREAS S/A (LATAM AIRLINES BRASIL)
+
+Juiz(a) de Direito: Dr(a). MARIANA SILVA RODRIGUES DIAS TOYAMA STEINER
+
+Vistos.
+
+Trata-se de ação de indenização por danos morais ajuizada por [AUTOR], [PESSOA_1] e pela menor L. C. P., representada por sua genitora, em face de TAM LINHAS AÉREAS S/A (LATAM AIRLINES BRASIL), todos qualificados nos autos (fls. 1).
+
+Alegam os autores, em síntese, que contrataram serviços de transporte aéreo junto à requerida para a data de 25 de junho de 2025, trecho compreendido entre o Aeroporto de Guarulhos (GRU) e o Aeroporto de Porto Seguro (BPS), no voo LA 3240, com decolagem programada para as 08h00 e pouso às 09h50. Sustentam que, comparecendo tempestivamente para a realização do embarque na companhia da filha comum de 6 anos, foram surpreendidos pelo cancelamento abrupto da decolagem, justificado administrativamente por ausência de tripulação. Relatam que foram reacomodados para voo que decolaria do Aeroporto de Congonhas (CGH) às 17h30 (voo LA 4704), contudo, após o embarque, a referida aeronave não pousou em Porto Seguro, vindo a desviar para Salvador e, posteriormente, retornou a São Paulo. Aduzem que somente conseguiram embarcar rumo ao destino final no dia seguinte (26/06/2025, voo LA 3244), alcançando Porto Seguro com atraso total de 31 horas e 30 minutos em relação ao planejamento original. Argumentam que a assistência material ofertada foi insuficiente, ocasionando a perda de reservas e severos abalos morais. Pugnam pela condenação da transportadora ao pagamento de R$ 30.000,00 a título de indenização por danos morais, correspondendo a R$ 10.000,00 para cada demandante, acrescido dos consectários legais.
+
+Citada, a ré ofereceu contestação às fls. 62/88. Impugnou a gratuidade judiciária concedida aos autores. No mérito, defendeu a prevalência das regras do Código Brasileiro de Aeronáutica sobre o Código de Defesa do Consumidor, com aplicação da excludente de responsabilidade fundada em caso fortuito e força maior (artigo 256 do CBA), asseverando que o cancelamento inicial decorreu de problemas de infraestrutura aeroportuária em Guarulhos e a alteração de rota se deu em razão de condições climáticas adversas em Porto Seguro. Afirmou que prestou suporte cabível e que os acontecimentos configuram meros aborrecimentos da vida moderna, inexistindo dano moral presumido nos moldes do artigo 251-A do CBA (fls. 18/24). Subsidiariamente, defendeu a redução da indenização e a retenção da cota da menor até sua maioridade (fls. 24/26). Requereu a improcedência.
+
+Posteriormente, a demandada postulou o sobrestamento do feito com amparo no Tema no 1.417 da Repercussão Geral do C. Supremo Tribunal Federal (fls. 1/2).
+
+Houve réplica, refutando a preliminar e o pedido de suspensão, reforçando a natureza de fortuito interno e requerendo o julgamento antecipado (fls. 1/9).
+
+O Ministério Público ofertou parecer opinando pelo indeferimento do pedido de sobrestamento do feito pelo Tema 1.417 do STF, assinalando a ocorrência de fortuito interno consubstanciado na falta de tripulação (fls. 1/2).
+
+É o relatório. FUNDAMENTO e DECIDO.
+
+O processo comporta julgamento antecipado do mérito, com esteio no artigo 355, inciso I, do Código de Processo Civil, porquanto a matéria fática controvertida encontra-se devidamente esclarecida pelo acervo documental colacionado aos autos, remanescendo unicamente questões de direito.
+
+Destarte, perfeitamente cabível que se julgue antecipadamente o mérito, sem olvidar que, nos termos do artigo 125, inciso I, do Código de Processo Civil, compete ao magistrado velar pela rápida solução do litígio, privilegiando a efetividade do processo, quando prescindível a instrução processual (cf. José Roberto dos Santos Bedaque, Efetividade do Processo e Técnica Processual, 2a ed., Malheiros, p. 32/34), e atendendo a garantia constitucional de razoável duração do processo (artigo 5o, inciso LXXVII, da Constituição Federal).
+
+A preliminar de impugnação à assistência judiciária gratuita arguida pela ré em contestação não merece acolhimento, carecendo de utilidade prática. Isto porque verifica-se dos autos que os autores não postularam a benesse, tendo recolhido as custas.
+
+Não comporta acolhimento o pedido de sobrestamento deduzido pela transportadora ré com fundamento no Tema no 1.417 da Repercussão Geral do Supremo Tribunal Federal (ARE 1.560.244/RJ).
+
+A ordem de suspensão nacional exarada pelo Pretório Excelso versa estritamente sobre a aplicabilidade do Código de Defesa do Consumidor ou do Código Brasileiro de Aeronáutica nos casos de responsabilidade civil decorrentes de hipóteses genuínas de caso fortuito externo e força maior, com balizamento nas excludentes tipificadas no artigo 256, § 3o, do Código Brasileiro de Aeronáutica.
+
+Na hipótese em apreço, o cancelamento do primeiro voo (LA 3240) não decorreu de imposição exterior inafastável, mas sim de ausência de tripulação técnica, conforme expressamente atestado na Declaração de Contingência emitida pela própria companhia aérea requerida. Tal circunstância constitui falha de planejamento de escala e organização empresarial, enquadrando-se conceitualmente como fortuito interno, inerente ao risco da própria atividade econômica desempenhada pela transportadora.
+
+Com efeito, tratando-se de pretensão indenizatória lastreada em falha operacional subjetiva de tripulação e ausência de assistência satisfatória, resta configurada a distinção fática (distinguishing), não se aplicando a determinação de sobrestamento do Tema 1.417 do C. Supremo Tribunal Federal, conforme entendimento do E. Tribunal de Justiça de São Paulo:
+
+"Agravo de instrumento. Ação de indenização. Transporte aéreo. Insurgência contra decisão que determinou a suspensão do feito em razão do Tema no 1.417 da Repercussão Geral do STF. Controvérsia restrita às hipóteses de responsabilidade civil por fortuito externo. Caso concreto fundado em alegada falha operacional relacionada à tripulação técnica. Fortuito interno. Inaplicabilidade do Tema no 1.417. Distinguishing (art. 1.037, § 9o, do CPC). Indevido sobrestamento do processo. Levantamento da suspensão. Decisão reformada. Recurso provido." (Agravo de Instrumento 2041267-10.2026.8.26.0000; Relator (a): Pedro Kodama; Órgão Julgador: 37a Câmara de Direito Privado; Foro Regional III - Jabaquara - 5a Vara Cível; Data do Julgamento: 06/06/2026) (grifos nossos)
+
+Portanto, INDEFIRO o pedido de sobrestamento do feito.
+
+Dito isso, passo à análise do mérito.
+
+A relação jurídica entabulada entre os litigantes qualifica-se como evidente relação de consumo, submetendo-se aos ditames protetivos da Lei Federal no 8.078/1990 (Código de Defesa do Consumidor), na medida em que os autores figuram como destinatários finais dos serviços de transporte aéreo explorados no mercado com habitualidade e remuneração pela empresa requerida (artigos 2o e 3o do CDC).
+
+O contrato de transporte gera para o transportador uma obrigação de resultado, sendo dever indeclinável conduzir os passageiros incólumes e pontualmente aos seus destinos, segundo os itinerários e horários previamente acordados. A responsabilidade do fornecedor de serviços é de índole objetiva, dispensando a perquirição de elemento subjetivo de culpa, nos exatos termos do artigo 14, caput, da Lei no 8.078/1990:
+
+"Art. 14. O fornecedor de serviços responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos.
+
+§ 1° O serviço é defeituoso quando não fornece a segurança que o consumidor dele pode esperar, levando-se em consideração as circunstâncias relevantes, entre as quais:
+
+I - o modo de seu fornecimento;
+
+II - o resultado e os riscos que razoavelmente dele se esperam;
+
+III - a época em que foi fornecido.
+
+§ 2o O serviço não é considerado defeituoso pela adoção de novas técnicas.
+
+§ 3° O fornecedor de serviços só não será responsabilizado quando provar:
+
+I - que, tendo prestado o serviço, o defeito inexiste;
+
+II - a culpa exclusiva do consumidor ou de terceiro.
+
+§ 4° A responsabilidade pessoal dos profissionais liberais será apurada mediante a verificação de culpa."
+
+Em contrapartida, cabia à ré desincumbir-se do ônus de comprovar a existência de circunstância excludente de nexo de causalidade apta a afastar sua responsabilidade (artigo 14, § 3o, do Código de Defesa do Consumidor e artigo 373, inciso II, do Código de Processo Civil). Contudo, essa prova não foi produzida.
+
+Com efeito, a tentativa da contestante de atribuir o cancelamento do primeiro voo a problemas de infraestrutura aeroportuária sucumbe diante do documento por ela própria confeccionado no balcão de atendimento, onde atestou expressamente a ausência de tripulação como motivação para o cancelamento. A falta de prepostos habilitados e a desarticulação de escalas de voo traduzem típico fortuito interno, incapaz de exonerar o transportador de responder perante o consumidor lesionado.
+
+Nessa mesma diretriz, é o entendimento do E. Tribunal de Justiça de São Paulo:
+
+"TRANSPORTE AÉREO RESPONSABILIDADE CIVIL INDENIZAÇÃO POR DANO MORAL E MATERIAL CANCELAMENTO/ATRASO DE VOO Problemas operacionais/ausência de tripulação disponível Fato que caracteriza fortuito interno Reponsabilidade objetiva da ré, nos termos do artigo 14 do Código do Consumidor, ínsita ao contrato de transporte aéreo Indenizações devidas, com valores mantidos Recurso desprovido." (Apelação Cível 1018924-33.2018.8.26.0577; Relator (a): Vicentini Barroso; Órgão Julgador: 15a Câmara de Direito Privado; Foro de São José dos Campos - 5a Vara Cível; Data do Julgamento: 23/06/2020)
+
+Ademais, no tocante ao segundo voo de reacomodação (LA 4704), a ré sequer demonstrou fechamento de pista ou impossibilidade absoluta de operação em Salvador ou de encaminhamento terrestre de passageiros, operando o retorno da aeronave para São Paulo e impondo aos autores uma penosa jornada que se estendeu até o dia seguinte, gerando atraso final de 31 horas e 30 minutos. A simples juntada de relatórios METAR, desconexos com o exato momento operacional e sem demonstrar veto categórico de pouso por controle aéreo, não supre a cabal ausência de prova sobre o rompimento do nexo causal.
+
+Ademais, resta patente o descumprimento dos deveres anexos de assistência material e informacional estabelecidos pela Resolução ANAC no 400/2016 (artigos 21, 26 e 27), visto que os consumidores não receberam suporte alimentar e hoteleiro proporcional à longa permanência nos terminais aeroportuários, vindo a custear do próprio bolso necessidades urgentes. Caracterizado, portanto, o defeito na prestação de serviços.
+
+No tocante ao pedido de indenização por danos morais, na esteira da jurisprudência do C. Superior Tribunal de Justiça, o atraso ou cancelamento de voo não opera dano moral de maneira automática (in re ipsa), cabendo a averiguação da lesão extrapatrimonial concreta sofrida pelo passageiro.
+
+No caso em julgamento, a violação aos direitos da personalidade dos requerentes restou evidenciada com vigor. Os autores foram submetidos a uma demora excessiva e desarrazoada de 31 horas e 30 minutos para alcançarem a cidade de Porto Seguro, após sofrerem o cancelamento do voo inicial, transferirem-se de aeródromo da capital e suportarem voo frustrado que não pousou no destino, com retorno ao ponto de origem.
+
+Soma-se a essa sucessão desastrosa de falhas operacionais a circunstância de que os autores viajavam acompanhados de sua filha menor de apenas 6 anos de idade, exposta a desgastes físicos, noites mal dormidas em salas de embarque e extrema tensão emocional decorrente da indefinição da viagem, além da perda irreparável de diária em hotel e passeios turísticos. Tal contexto transcende com folga o campo dos aborrecimentos ordinários do cotidiano, ingressando na esfera da lesão anímica passível de justa reparação pecuniária.
+
+Nesse cerne, tem-se que o valor dos danos morais deve ser fixado com base no princípio da proporcionalidade e razoabilidade, sendo que a pretensão indenizatória contida nesta demanda deve atender aos seguintes critérios: (i) reparação do dano suportado pelo ofendido; (ii) punição do ofensor; (iii) desestímulo a condutas idênticas ou assemelhadas; e (iv) capacidade econômica da requerida; razão pela qual arbitro a indenização pelo dano moral em R$ 4.000,00 para cada um dos genitores e R$ 6.000,00 para a criança.
+
+Em que pese o pedido na exordial pretender a reparação dos danos morais em quantia superior, não há falar em êxito parcial ou sucumbência recíproca, eis que o objeto da demanda é a condenação por dano moral, sendo o valor pleiteado pela autora meramente estimativo. Destarte, na ação de indenização por dano moral, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca, a teor da Súmula 326 do E. Superior Tribunal de Justiça.
+
+Ante o exposto, JULGO PROCEDENTE o pedido deduzido na petição inicial, com resolução do mérito, nos termos do artigo 487, inciso I, do Código de Processo Civil, para CONDENAR a ré ao pagamento do valor de R$ 4.000,00 (quatro mil reais) para cada um dos autores maiores e R$ 6.000,00 (seis mil reais) para a autora menor, a título de indenização pelos danos morais sofridos, com correção monetária pela Tabela Prática do E. Tribunal de Justiça de São Paulo a partir desta sentença (Súmula 362, C. STJ) e juros de mora a partir da citação pela Taxa Selic, diminuindo-se desta o valor do IPCA e desconsiderando-se eventuais juros negativos (quando a taxa será zero para efeito do cálculo dos juros no período de referência artigo 406, § 3o, do Código Civil), conforme artigos 389, caput e parágrafo único e 406, do Código Civil, com redação dada pela Lei 14.905/2024.
+
+Sucumbente, arcará a ré com as custas e despesas processuais, bem como honorários advocatícios em favor do patrono dos autores, ora arbitrados em 10% sobre o valor da condenação, nos termos do artigo 85, § 8o, do Código de Processo Civil.
+
+Com o trânsito em julgado, arquivem-se os autos com as cautelas de praxe.
+
+P. I.
+
+Santo André, 25 de setembro de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

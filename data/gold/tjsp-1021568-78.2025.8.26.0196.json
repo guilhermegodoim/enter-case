@@ -1,0 +1,239 @@
+{
+  "ruling_id": "tjsp-1021568-78.2025.8.26.0196",
+  "text_sha256": "20cc85da6f64691b939df804df5ddb71cfbb61dd315b2a1d9da8e525cdbf7d3c",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Há conexão com outras demandas, impondo reunião de ações",
+      "resumo": "O juiz rejeitou a conexão porque não há identidade de pedidos ou causas de pedir entre esta ação e as outras demandas indicadas, que tratam de contratos autônomos; além disso, os outros processos já estavam julgados.",
+      "tipo": "preliminar",
+      "tema": "conexão",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A preliminar de conexão suscitada pela instituição financeira não se sustenta, conforme já fundamentado nos autos quando da redistribuição livre (fls. 44), porquanto inexiste identidade de pedido ou causa de pedir com outras demandas que tratam de contratos autônomos.",
+          "char_start": 3340,
+          "char_end": 3608,
+          "score": 100.0
+        },
+        {
+          "texto": "Ainda, e sem prejuízo disso, ambos os processos indicados pelo réu já foram julgados (pesquisa via SAJ).",
+          "char_start": 3610,
+          "char_end": 3714,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Houve prática de advocacia predatória pela parte autora",
+      "resumo": "O magistrado rechaçou a alegação de advocacia predatória, não identificando elementos que a comprovassem.",
+      "tipo": "preliminar",
+      "tema": "advocacia predatória",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Rejeito igualmente a alegação preliminar de advocacia predatória ou carência da ação por irregularidade formal.",
+          "char_start": 3716,
+          "char_end": 3827,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Há carência da ação por irregularidade formal na representação (procuração eletrônica sem ICP-Brasil)",
+      "resumo": "A preliminar foi rejeitada porque o vício de representação foi sanado tempestivamente com a juntada de procuração assinada de próprio punho, restando hígida a capacidade postulatória.",
+      "tipo": "preliminar",
+      "tema": "irregularidade formal (mandato)",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Rejeito igualmente a alegação preliminar de advocacia predatória ou carência da ação por irregularidade formal.",
+          "char_start": 3716,
+          "char_end": 3827,
+          "score": 100.0
+        },
+        {
+          "texto": "Conquanto este Juízo tenha determinado a regularização do instrumento de mandato em razão da juntada inicial de procuração assinada por plataforma eletrônica desprovida de certificado ICP-Brasil, a parte autora supriu o vício tempestivamente ao colacionar procuração assinada de próprio punho com indicação expressa do objeto do patrocínio (fls. 150/151), restando hígida a capacidade postulatória e demonstrada a manifestação de vontade para a propositura da ação.",
+          "char_start": 3828,
+          "char_end": 4293,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Aplica-se o Código de Defesa do Consumidor às instituições financeiras no caso concreto",
+      "resumo": "O juiz reconheceu a incidência do CDC à relação contratual bancária, conforme a Súmula 297 do STJ.",
+      "tipo": "merito",
+      "tema": "CDC aplicável",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Súmula 297 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Aplicável o Código de Defesa do Consumidor ao caso, o que já está consolidado ante a Súmula 297 do Superior Tribunal de Justiça:",
+          "char_start": 4661,
+          "char_end": 4789,
+          "score": 100.0
+        },
+        {
+          "texto": "\"O Código de Defesa do Consumidor é aplicável às instituições financeiras\"",
+          "char_start": 4791,
+          "char_end": 4865,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Juros remuneratórios são abusivos e devem ser limitados à taxa média de mercado",
+      "resumo": "A tese foi rejeitada. O juiz entendeu que a mera comparação com a taxa média do BACEN não comprova abusividade; é necessária demonstração cabal considerando peculiaridades do caso (risco, modalidade não consignada, ausência de garantias, refinanciamento e débito em conta). Aplicou a orientação do STJ (Tema 27) e precedentes correlatos, além da Súmula 596 do STF e SV 7.",
+      "tipo": "merito",
+      "tema": "juros remuneratórios (abusividade)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "REsp 1.061.530/RS (Tema 27/STJ)",
+        "REsp 2.009.614/SC",
+        "REsp 2.173.316/MG",
+        "AgInt no AREsp 2.159.094/RS",
+        "REsp 1.821.182/RS",
+        "AgRg no AgRg no AREsp 602.850/MS",
+        "Súmula 596 do STF",
+        "SV 7 do STF",
+        "art. 51, §1º do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Conclusão única de que inviável a consideração de abusividade dos juros remuneratórios contratualmente pactuados exclusivamente em comparação com a taxa média de mercado, sem considerar as peculiaridades de cada operação de crédito efetuada.",
+          "char_start": 10977,
+          "char_end": 11218,
+          "score": 100.0
+        },
+        {
+          "texto": "Contudo, como já explicitado, isso não basta, pois, a apuração de eventual abusividade deve se pautar pelo conjunto das peculiaridades de cada caso concreto, cada operação de crédito, não se restringindo à análise da taxa média de juros divulgada pelo Banco Central do Brasil.",
+          "char_start": 13221,
+          "char_end": 13497,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, a taxa média divulgada pelo Banco Central do Brasil não é um teto para as instituições financeiras, que poderão cobrar taxas superiores ou inferiores, cediço que inaplicáveis as disposições do Código Civil e da Lei de Usura às operações realizadas pelas instituições públicas ou privadas integrantes do Sistema Financeiro Nacional, regidas por ordenamento jurídico especial, nos termos da Súmula 596 do Supremo Tribunal Federal.",
+          "char_start": 15247,
+          "char_end": 15682,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Há valores pagos a maior a serem repetidos ou abatidos do saldo devedor",
+      "resumo": "O pedido foi rejeitado porque não se comprovou abusividade ou ilicitude na fixação dos juros, o que prejudica a repetição do indébito.",
+      "tipo": "merito",
+      "tema": "repetição do indébito",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Ausente a comprovação de ilicitude ou abusividade na estipulação dos juros, prejudicada a pretensão de repetição do indébito e de descaracterização da mora, bem como o pedido de indenização por danos morais, porquanto inexistente ato ilícito praticado pela instituição ré apto a violar direitos de personalidade.",
+          "char_start": 18626,
+          "char_end": 18938,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "A mora deve ser afastada em razão da abusividade",
+      "resumo": "O afastamento da mora foi rechaçado como consequência da inexistência de abusividade dos juros, restando o pleito prejudicado.",
+      "tipo": "merito",
+      "tema": "descaracterização da mora",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Ausente a comprovação de ilicitude ou abusividade na estipulação dos juros, prejudicada a pretensão de repetição do indébito e de descaracterização da mora, bem como o pedido de indenização por danos morais, porquanto inexistente ato ilícito praticado pela instituição ré apto a violar direitos de personalidade.",
+          "char_start": 18626,
+          "char_end": 18938,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "A cobrança de juros abusivos gerou dano moral indenizável",
+      "resumo": "O pleito indenizatório foi negado, pois não houve ato ilícito da instituição financeira apto a atingir direitos de personalidade.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Ausente a comprovação de ilicitude ou abusividade na estipulação dos juros, prejudicada a pretensão de repetição do indébito e de descaracterização da mora, bem como o pedido de indenização por danos morais, porquanto inexistente ato ilícito praticado pela instituição ré apto a violar direitos de personalidade.",
+          "char_start": 18626,
+          "char_end": 18938,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "A autora deve ser condenada por litigância de má-fé",
+      "resumo": "O juiz afastou a condenação por má-fé, entendendo que a autora exerceu regularmente o direito de ação e não praticou conduta dolosa tipificada no art. 80 do CPC.",
+      "tipo": "merito",
+      "tema": "litigância de má-fé",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 80 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Pela mesma razão, inexiste fundamento para a condenação da autora por litigância de má-fé, porquanto o ajuizamento da presente demanda decorre do exercício regular do direito de ação e de acesso à Justiça, garantidos constitucionalmente, sem que se vislumbre conduta dolosa enquadrada no rol do artigo 80 do Código de Processo Civil.",
+          "char_start": 4295,
+          "char_end": 4628,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 6121,
+    "output_tokens": 7023,
+    "cost_usd": 0.07788125,
+    "latency_ms": 70308,
+    "citacoes": 14,
+    "citacoes_ancoradas": 14
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

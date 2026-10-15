@@ -1,0 +1,183 @@
+SENTENÇA
+
+Processo Digital no: 1088178-25.2025.8.26.0100
+
+Classe - Assunto Procedimento Comum Cível - Transporte Aéreo
+
+Requerente: [AUTOR]
+
+Requerido: Nu Pagamentos S.A. - Instituição de Pagamento
+
+Juiz(a) de Direito: Dr(a). MARIA FERNANDA SANDOVAL EUGENIO BARREIROS TAMAOKI
+
+Vistos.
+
+Trata-se de ação judicial proposta por [AUTOR] contra NUBANK PAGAMENTOS S/A.
+
+Em apertada síntese, o autor conta que, em janeiro de 2025, adquiriu passagens aéreas para ir de Manchester (Inglaterra) até Bangkok (Tailândia), com escala em Istambul (Turquia). Na sequência, adquiriu novos bilhetes aéreos, para fazer trajetos internos, entre Bangkok Chiang Mai e Phuket. Ressalta que, por ser cliente Nubank Ultravioleta, seus dados pessoais foram preenchidos automaticamente nos bilhetes aéreos, tendo apenas que inserir manualmente os dados do segundo passageiro que viajava consigo.
+
+Prossegue ao aduzir que a incorreção do preenchimento automático de seu nome pelo sistema da requerida causou a recusa a seu embarque pela Turkish Airlines no dia 1o de maio de 2025, motivo pelo qual precisou adquirir novos bilhetes aéreos por R$ 11.660,77 para completar seu trajeto. Durante a estadia no país asiático, em contato constante com a requerida, conseguiu que corrigissem a grafia de seu nome ([AUTOR]), que, adequada ao que constava em seu passaporte, permitiu-lhe seguir viagem. Não obstante, a requerida negou reembolsar-lhe pelos custos havidos.
+
+São as razões pelas quais pede: a condenação da requerida a compensar-lhe pelos danos morais havidos e a ressarcir-lhe pelos custos relativos à compra de nova passagem.
+
+A petição inicial (fls. 01/18), que atribuiu à causa o valor de R$ 21.660,77, veio acompanhada por procuração e documentos (fls. 19/138), por meio dos quais a parte autora almeja fundamentar sua pretensão.
+
+Regularmente citada, a requerida apresentou oportuna contestação (fls. 144/159), no bojo da qual, explicou quais são os serviços prestados pelo Nubank S/A (plataforma tecnológica de intermediação de serviços de pagamento, viabilizando transações entre consumidores e estabelecimentos de e-commerce)
+
+É O RELATÓRIO.
+
+FUNDAMENTO E DECIDO.
+
+Conheço diretamente da demanda, nos termos do artigo 355, inciso I, do Código de Processo Civil. Como ensina Cândido Rangel Dinamarco sobre dispositivo lavrado com idêntico conteúdo pelo Código anterior, "a razão pela qual se permite a antecipação do julgamento do mérito é invariavelmente a desnecessidade de produzir provas. Os dois incisos do art. 330 desmembram essa causa única em várias hipóteses, mediante uma redação cuja leitura deve ser feita com a consciência de que só será lícito privar as partes de provar quando as provas não forem necessárias ao julgamento" (Instituições de direito processual civil, v. III. 2. ed. São Paulo: Malheiros, p. 555).
+
+Na lição de Marcelo José Magalhães Bonicio, "a fase instrutória do processo costuma ser mais longa do que o necessário, servindo muito mais aos propósitos protelatórios das partes do que ao descobrimento da verdade. A excessiva complacência dos juízes, temerosos em indeferir o requerimento de produção de provas, contribui sensivelmente para agravar esta situação (...). Exatamente neste ponto encontra-se a primeira possibilidade de utilização do princípio da proporcionalidade no campo das provas" (Proporcionalidade e processo: a garantia constitucional da proporcionalidade, a legitimação do processo civil e o controle das decisões judiciais. São Paulo: Atlas, 2006, p. 80).
+
+Conforme já decidiu, na mesma linha, o Excelso Supremo Tribunal Federal, "a necessidade de produção de prova há de ficar evidenciada para que o julgamento antecipado da lide implique em cerceamento de defesa. A antecipação é legítima se os aspectos decisivos estão suficientemente líquidos para embasar o convencimento do Magistrado" (RE 101171, Relator Min. FRANCISCO REZEK, SEGUNDA TURMA, julgado em 05/10/1984, DJ 07-12-1984 p. 20990).
+
+É o caso dos autos, vez que desnecessária dilação probatória, porquanto as alegações controvertidas encontram-se elucidadas pela prova documental e são incontroversas (a falha na grafia do nome da parte autora no bilhete aéreo emitido que, quando do embarque, ante a divergência com o nome que constava do passaporte, provocou a negativa de ingresso do autor no avião). O caso concreto envolve, a partir de então, tese estritamente jurídica.
+
+Destarte, perfeitamente cabível que se julgue antecipadamente o mérito, sem olvidar que, nos termos do artigo 5o, inciso LXXVIII, da Constituição Federal e do artigo 139, inciso II, do Código de Processo Civil, compete ao magistrado velar pela razoável duração do processo, privilegiando a efetividade do processo, quando prescindível a instrução processual (cf. BEDAQUE, José Roberto dos Santos. Efetividade do processo e técnica processual. 2. ed. São Paulo: Malheiros, p. 32/34).
+
+A relação entre as partes caracteriza-se como de consumo.
+
+O autor, pessoa física, valeu-se das passagens aéreas para fins familiares, enquanto destinatário final (artigo 2o do Código de Defesa do Consumidor).
+
+Já a requerida, pessoa jurídica especializada em, entre outras atividades principais, intermediar a compra de passagens aéreas para os usuários de sua conta digital, disponibiliza seus préstimos no mercado de consumo, com expertise técnica, intuito de lucro e domínio da informação jurídica, contábil e técnica sobre as especificidades das atividades exploradas (artigo 3o do Código de Defesa do Consumidor).
+
+A desigualdade material entre as partes é notória e, por expressa opção legislativa (art. 4o do CDC e art. 5o, inc. XXXII da CF), a parte autora é presumida vulnerável de maneira absoluta.
+
+In casu, o que define a natureza jurídica de consumo entre os polos opostos de uma relação jurídica é a especial vulnerabilidade de um dos sujeitos (CDC, art. 3o) e a oferta de serviços remunerados a destinatários finais pela outra parte, que, por sua vez, detém conhecimentos específicos a respeito do que vende, o monopólio das informações a respeito da atividade-fim que oferece e formata contratos padronizados, ditos de adesão, com pouco espaço para a discussão prévia das cláusulas e a adequação personalizada dos serviços pelo interessado (CDC, art. 2o).
+
+Nesse sentido:
+
+"Ensina AMARAL JR..: 'o consumidor é vulnerável porque não dispõe dos conhecimentos técnicos necessários para a elaboração dos produtos ou para a prestação dos serviços no mercado. Por essa razão, o consumidor não está em condições de avaliar, corretamente, o grau de perfeição dos produtos e serviços' (A boa-fé e o controle das cláusulas contratuais abusivas nas relações de consumo. Revista de Direito do Consumidor, v.6, p.28). Por sua vez, MORAES identifica a vulnerabilidade técnica, jurídica, política ou legislativa, a biológica ou psicológica, a econômica ou social e a ambiental; assim como várias situações ou formas de tornar 'o consumidor vulnerável'. Lista as seguintes 'formas de tornar o consumidor vulnerável': a) tecnicismo dos contratos; b) complexidade e extensão contratual; c) predisposição; d) generalidade dos contratos; e) estado de necessidade; f) dimensão dos caracteres dos contratos; g) cláusulas de exclusão da oferta; h) remissão a documentos não entregues; i) utilização de conceitos vagos e indeterminados; j) regime de monopólio; k) complexidade de inéditos produtos e serviços (internet, telesserviços etc.) (O Código de Defesa do Consumidor, p. 115 e ss.)'." (BENJAMIN, Antônio Herman V., MARQUES, Cláudia Lima e BESSA, Leonardo Roscoe, em Manual de Direito do Consumidor, 6a edição revista, atualizada e ampliada, 2014, Editora Revista dos Tribunais LTDA, p. 105).
+
+Portanto, o regime jurídico aplicável à relação mantida entre as partes é o especial de consumo.
+
+A preliminar a respeito da ilegitimidade passiva da requerida se confunde com o mérito, âmbito onde será analisada.
+
+Avanço.
+
+Em se tratando de relação consumerista, o artigo da Lei no 8.078/1990 assim dispõe (destaquei):
+
+Art. 14. O fornecedor de serviços responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos.
+
+§ 1° O serviço é defeituoso quando não fornece a segurança que o consumidor dele pode esperar, levando-se em consideração as circunstâncias relevantes, entre as quais: I - o modo de seu fornecimento; II - o resultado e os riscos que razoavelmente dele se esperam; III - a época em que foi fornecido.
+
+§ 2o O serviço não é considerado defeituoso pela adoção de novas técnicas.
+
+§ 3° O fornecedor de serviços só não será responsabilizado quando provar:
+
+I - que, tendo prestado o serviço, o defeito inexiste;
+
+II - a culpa exclusiva do consumidor ou de terceiro.
+
+§ 4° A responsabilidade pessoal dos profissionais liberais será apurada mediante a verificação de culpa.
+
+Como se infere, portanto, o Código de Defesa do Consumidor estabelece que o fornecedor responde, independentemente de culpa, pela reparação dos danos causados aos consumidores por falhas relativas aos serviços prestados (artigo 14, do CDC).
+
+Em síntese, como a Constituição da República determina, em norma de direito fundamental e eficácia contida, que o Estado promova a defesa do consumidor (art. 5o, inc. XXXII), o legislador faz uma escolha, que, a rigor, era a única realmente possível. É dizer: em episódios de fortuitos internos, quando a deficiência prejudicial ao consumidor ocorra durante a realização do serviço adquirido e que esteja intrinsicamente ligada à natureza daquela própria atividade, quem assume os riscos do prejuízo, independentemente do elemento anímico que motivou sua conduta (dolo ou culpa), é o fornecedor.
+
+Nessa linha de intelecção, em situações como a enfrentada pela parte autora (preenchimento automático incorreto do bilhete aéreo pelo sistema operacional da ré em janeiro de 2025 e, na sequência, em março de 2025, mesmo depois de constatada a incorreção da grafia do nome do passageiro, a requerida não providenciou a correção automática a tempo de evitar os transtornos enfrentados e não alertou o consumidor sobre os riscos de não conseguir embarcar fls. 36/39), a responsabilidade objetiva vem estabelecida pelo sistema legal em razão da teoria do risco do negócio, que segundo dispõe Sérgio Cavalieri Filho, decorre, automaticamente, do próprio exercício de sua atividade-fim:
+
+"Pela teoria do risco do empreendimento, todo aquele que se disponha a exercer alguma atividade no mercado de consumo tem o dever de responder pelos eventuais vícios ou defeitos dos bens e serviços fornecidos, independentemente da culpa. Este dever é imanente ao dever de obediência às normas técnicas e de segurança, bem como aos critérios de lealdade, quer perante os bens e serviços ofertados, quer perante os destinatários dessas ofertas. A responsabilidade decorre do simples fato de dispor-se alguém a realizar atividade de produzir, estocar, distribuir e comercializar produtos ou executar determinados serviços. O fornecedor passa a ser o garante dos produtos e serviços que oferece no mercado de consumo, respondendo pela qualidade e segurança dos mesmos." (Cavalieri Filho, Sergio Programa de responsabilidade civil / Sergio Cavalieri Filho. 11. Ed. São Paulo: Atlas, 2014 p.544).
+
+Assim, o legislador, ao sopesar os riscos da atividade econômica, nos termos do §3o, do CDC, apontou como excludente da responsabilidade do fornecedor tão somente a prova no sentido de que o defeito na prestação de serviço não existiu ou, que, ao revés, teria havido culpa exclusiva do consumidor ou de terceiro.
+
+Dito de modo simples: a Constituição brasileira protege o consumidor (art. 5o, XXXI), por entender que sua hipossuficiência o posiciona em nítida desvantagem quando comparado com gigantes e poderosos fornecedores que, além de poderio financeiro, prestam os serviços de consumo em regime de quase monopólio, com domínio da informação técnica, jurídica e contábil a respeito de sua atividade-fim e de forma massiva.
+
+Nesse sentido, a inversão do ônus da prova ope judice (CDC, art. 6o, VIII) é uma das ferramentas legais que permite a equiparação das partes litigantes no processo judicial e viabiliza a defesa judicial do hipervulnerável. Basta que suas declarações a respeito dos fatos sejam verossímeis para que incumba ao fornecedor o dever de PROVAR, sem sombra de dúvidas, que o defeito mencionado nunca existiu. Caso não o prove, a distribuição dinâmica do ônus da prova obriga o Juízo a acolher a pretensão inicial.
+
+In casu, os documentos apresentados às fls. 36/39 tornam a versão defendida pela parte autora verossímil e autorizam a inversão do ônus da prova em seu favor.
+
+Basicamente, a incorreção na grafia do nome da parte autora, provavelmente, foi provocada pelo preenchimento manual incorreto feito pelo usuário (ou por seu aparelho celular automaticamente) quando se cadastrou no sistema da requerida. No entanto, tendo sido constatado o erro pelo próprio consumidor ainda em março de 2025 (fls. 36/39), cabia à requerida alertá-lo sobre as consequências da falha (impossibilidade de embarque internacional por divergência entre o nome no passaporte e o nome no bilhete aéreo) e, como ainda havia tempo para isso, providenciar a correção, o que evitaria os prejuízos sofridos.
+
+No entanto, a requerida não só não identificou o erro, como, de maneira leviana, disse que "deve ser algum erro da companhia, mas na reserva tem os dois passageiros". Ora, não cabia ao consumidor adivinhar as regras necessárias para o embarque internacional de passageiros em Istambul e pela companhia aérea Turkish Airlines, mas competia à requerida, que escolhe os serviços correlatos aos bancários que oferece a quem possui seu cartão de crédito e seleciona suas parceiras comerciais, alertar o consumidor sobre a necessidade de retificação da grafia do nome do passageiro.
+
+Em outras palavras: a partir do momento em que a ré escolheu intermediar a venda de passagens aéreas a seus clientes, assumiu o risco de arcar com eventuais falhas sistêmicas relacionadas aos voos ou ao próprio ato de compra dos bilhetes.
+
+In casu, a falha na prestação de serviços está suficientemente demonstrada nos autos (fl. 46) e a defesa da requerida não comprovou a inexistência do defeito, tanto que preposto da requerida esclareceu ao consumidor que: "[AUTOR], eu falei com a Turkish Airlines, peço desculpas pela situação. O nome inserido em nosso app foi inserido de maneira incorreta, e em nosso app o seu nome está como [AUTOR], sem o DE (que atendesse o sobrenome [AUTOR]). Por conta dessa situação, o seu nome estando incompleto, a correção do nome deveria ter sido solicitada antes do dia da viagem".
+
+Outrossim, independentemente do fato de que "o nome do passageiro enviado para a companhia aérea ser aquele grafado exatamente como o consumidor cadastrou no portal da Nu Viagens" (fl. 80), a questão é que, em 29 de março de 2025, o autor teve dificuldades em localizar sua reserva no site da Turkish Airlines e solicitou auxílio por parte da equipe da companhia de viagens da requerida - Nu Viagens.
+
+Esse episódio, por si só, foi um sinal de alerta suficientemente vermelho a ponto de despertar na requerida, ramo próprio especializado em oferecer passagens aéreas a destinatários finais, o dever de providenciar a correção do nome do turista antes da data do embarque (fl.96). E essa responsabilidade é atribuída à ré apenas e tão somente porque ela se apresenta no mercado de consumo como operadora especializada em serviços de compra de passagens aéreas quando permite que seus consumidores adquiram os bilhetes aéreos em seu aplicativo e, como tal, garante ao comprador possuir experiência com o tratamento do tema. O consumidor, nesse diapasão, contrata as passagens aéreas através da ré por confiar na excelência de seus serviços.
+
+Vale ressaltar que é absolutamente irrelevante a argumentação da requerida no sentido de que a Nu Viagens seria apenas uma ferramenta por meio da qual os clientes acessariam ofertas de serviços fornecidos diretamente por terceiros, como, por exemplo, passagens aéreas.
+
+Pelo sistema do CDC (arts. 3o, 7, 14 a 18 e 25), todos aqueles que, de alguma forma, participam da cadeia de intermediação do serviço oferecido ao destinatário final são fornecedores aos olhos do consumidor. Trata-se de verdadeira responsabilidade solidária por previsão expressa do microssistema de defesa do consumidor.
+
+A ideia principiológica por trás da regra é evitar a privatização de lucros e a socialização de prejuízos, o que, fatalmente aconteceria se ausente essa previsão normativa. É dizer, o fornecedor intermediaria a compra de passagens aéreas através de sua plataforma bancária virtual, viabilizaria o ato de consumo por impulso e inconsequente formalizado com terceiros (seus parceiros comerciais, ressalte-se!), e, no momento da responsabilização por eventual falha, conseguiria sua isenção ancorando-se em escusas burocráticas (não sou agente de viagens, não sou a companhia aérea).
+
+No entanto, se o capitalismo realista (Mark Fischer) em que estamos inseridos viabiliza que grandes fornecedores especializados em serviços bancários e simultaneamente tecnológicos ampliem consideravelmente seu mercado de consumo através do oferecimento de serviços conexos variados a seus clientes, o sistema de defesa do consumidor previsto na Constituição da República Federativa do Brasil defende expressamente o hipervulnerável.
+
+O que significa, em termos simples, que quando a falha na prestação de serviços é diagnosticada, é dever do fornecedor assumir os prejuízos sofridos por seu "cliente".
+
+São as razões pelas quais a pretensão é PROCEDENTE.
+
+Para mais, a prova dos prejuízos materiais foi apresentada nos autos (fls. 54/58: R$ 11.660,76, valor que deve ser ressarcido integralmente ao autor).
+
+No mais, pondero que danos morais por falhas na prestação de serviços de transporte não são mais presumidos (in re ipsa), segundo a mais moderna jurisprudência brasileira, que passo a transcrever:
+
+DIREITO DO CONSUMIDOR E CIVIL. RECURSO ESPECIAL. AÇÃO DE COMPENSAÇÃO DE DANOS MORAIS. CANCELAMENTO DE VOO DOMÉSTICO. DANO MORAL NÃO CONFIGURADO.
+
+1. Ação de compensação de danos morais, tendo em vista falha na prestação de serviços aéreos, decorrentes de cancelamento de voo doméstico.
+
+2. Ação ajuizada em 03/12/2015. Recurso especial concluso ao gabinete em 17/07/2018. Julgamento: CPC/2015.
+
+3. O propósito recursal é definir se a companhia aérea recorrida deve ser condenada a compensar os danos morais supostamente sofridos pelo recorrente, em razão de cancelamento de voo doméstico.
+
+4. Na específica hipótese de atraso ou cancelamento de voo operado por companhia aérea, não se vislumbra que o dano moral possa ser presumido em decorrência da mera demora e eventual desconforto, aflição e transtornos suportados pelo passageiro. Isso porque vários outros fatores devem ser considerados a fim de que se possa investigar acerca da real ocorrência do dano moral, exigindo-se, por conseguinte, a prova, por parte do passageiro, da lesão extrapatrimonial sofrida.
+
+5. Sem dúvida, as circunstâncias que envolvem o caso concreto servirão de baliza para a possível comprovação e a consequente constatação da ocorrência do dano moral. A exemplo, pode-se citar particularidades a serem observadas: i) a averiguação acerca do tempo que se levou para a solução do problema, isto é, a real duração do atraso; ii) se a companhia aérea ofertou alternativas para melhor atender aos passageiros; iii) se foram prestadas a tempo e modo informações claras e precisas por parte da companhia aérea a fim de amenizar os desconfortos inerentes à ocasião; iv) se foi oferecido suporte material (alimentação, hospedagem, etc.) quando o atraso for considerável; v) se o passageiro, devido ao atraso da aeronave, acabou por perder compromisso inadiável no destino, dentre outros.
+
+6. Na hipótese, não foi invocado nenhum fato extraordinário que tenha ofendido o âmago da personalidade do recorrente. Via de consequência, não há como se falar em abalo moral indenizável.
+
+7. Recurso especial conhecido e não provido, com majoração de honorários. (Recurso Especial no 1.796.716/MG, julgado pela 3a Turma do Superior Tribunal de Justiça, Relatado pela Ministra Nancy Andrighi, publicado no DJe em 29 de agosto de 2019).
+
+Sobre o conceito da figura conhecida como dano moral, Antônio Jeová Santos discorre sobre a dificuldade de rotular categoricamente o que seria esta abstração jurídica: "Não é mais aceitável a proposição de que dano moral é a lesão não patrimonial. Nada de substancial é afirmado nessa frase".
+
+Em seguida, traz robustas definições feitas por autores estrangeiros e, dentre eles, sintaticamente e nos estreitos limites deste pronunciamento judicial fico com o trazido por Wilson de Melo da Silva (O Dano Moral e sua Reparação, p. 13): "Logo na abertura de sua famosa obra, Wilson de Melo da Silva, com clareza e vigor na ênfase, articula que 'danos morais são lesões sofridas pelo sujeito físico ou pessoa natural de direito em seu patrimônio ideal, em contraposição a patrimônio material, o conjunto de tudo aquilo que não seja suscetível de valor econômico. [...] O jurista peruano Fernando Sessarego (El dano à pessoa, p. 61) caracteriza o dano à pessoa nos seguintes termos: 'Em sua mais funda acepção, é aquele que tem como consequência a frustação do projeto de vida da pessoa. Vale dizer, trata-se de um fato de tal magnitude, que truncaria a realização da pessoa humana de acordo com sua mais recôndita e intransferível vocação'. [...] O que caracteriza o dano moral é a consequência de algum ato que cause dor, angústia, aflição física ou espiritual ou qualquer padecimento infligido à vítima em razão de algum evento danoso. É o menoscabo a qualquer direito inerente à pessoa, como a vida, a integridade física, a liberdade, a honra, a vida privada e a vida de relação. [...] A entidade dano moral, porém, não pode ficar circunscrita à vulneração de sentimentos, sob pena de o Direito placitar comportamentos que prejudicam, mas que não serão abarcados por indenização. A extensão do dano moral, desde que afastados atos que causem simples abespinhamento e que não cheguem a caracterizar o autêntico dano moral, tem de ocorrer para além do afetivo e da lesão a sentimentos, do pretium doloris. É certo que as alterações do espírito, como a tristeza, a angústia e a vergonha são as formas mais comuns e constantes de ampla manifestação do dano moral. Não são as únicas, todavia, nem o dano moral deve ficar enclausurado na aflição às modificações passionais do ânimo. A dimensão espiritual de uma pessoa, começa por explicar Zavala de Gonzales (Resarcimiento del Danos, vol. 2a, pp. 66-67), não se reduzi à órbita afetiva ou de sua sensibilidade (aptidão de sentir), pois compreende também uma intelectual (aptidão de entender) e outra volitiva (aptidão de querer). Quando o ato ilícito afeta ou compromete o desenvolvimento de qualquer destas capacidades de um modo negativo ou prejudicial, configurado estará o dano moral " (SANTOS, Antônio Jeová. Dano moral indenizável/ Antônio Jeová dos Santos. 6 ed. Ver. Atual. E ampl. Salvador: Ed. JusPodium, 2016, p. 64 e 77/76).
+
+Ou seja, danos morais existem quando a conduta do infrator ofende direitos da personalidade da pessoa humana ou atingem, com virulência, a imagem, a honra, o bom nome e a reputação da pessoa jurídica. Tratam-se, em síntese, de figura abstrata caracterizada, simultaneamente, por uma tentativa de punir e desestimular o ofensor e funcionar como um lenitivo ao ofendido em situações em que a dignidade de alguém é aviltada (caráter dissuasório-lenitivo). Sua régua de aplicação não é medida por sentimentos como dor, angústia, aflição ou tristeza, que são variáveis conforme o grau de sensibilidade de cada um, tampouco com as consequências patrimoniais repercutidas a partir da violação.
+
+A ofensa, por si só, a direitos fundamentais do sujeito deve ser o parâmetro pelo qual o jurista analisa a existência ou a ausência dos danos extrapatrimoniais. Em geral, a conduta censurável pela compensação por danos morais representa a frustação a um projeto de vida do cidadão e, para sociedades empresárias, representam o achincalhe de sua imagem e a vulneração de sua honra objetiva.
+
+No caso apresentado, é inequívoca a exposição à sofrimento psíquico pelo qual foi submetido o autor.
+
+Explico-me.
+
+A requerida, desde março de 2025, sabia que existia uma falha no preenchimento do nome do autor no bilhete aéreo emitido. E por oferecer-lhe a compra de passagens aéreas através de seu aplicativo (mediante parceria comercial com a companhia aérea), era seu dever, à época da primeira reclamação administrativa feita pelo autor, providenciar a correção do erro ou orientar o consumidor a respeito da necessidade de retificação, o que não foi feito.
+
+Por isso, uma viagem de férias, em que descanso e tranquilidade são os objetivos esperados, foi abalada por episódio dramático, afinal absolutamente ninguém consideraria ordinário e indiferente descobrir, no portão de entrada do aeroporto de Istambul que não poderia embarcar para Tailândia, enquanto seu colega de viagem seguiria sua jornada.
+
+Além disso, a tranquilidade do requerente foi abalada de forma inequívoca, porque precisou gastar mais de R$ 11.000,00 à vista para adquirir novos bilhetes aéreos, valor bancado em seu cartão de crédito e que não sabia como conseguiria pagar no mês seguinte.
+
+Daí porque a postura da requerida, negligente com a experiência enfrentada pela parte autora ao não providenciar o reembolso dos valores pagos em até 30 dias, foi suficiente a ofender lhe a tranquilidade e a dignidade.
+
+Falta arbitrar o montante da indenização.
+
+Na fixação do quantum da reparação, ante à falta de regulamentação específica, fica ao prudente arbítrio do juiz a decisão. Alguns critérios têm sido formulados pela jurisprudência consideradas as condições sociais e econômicas do ofendido e do ofensor; a gravidade, a extensão e a repercussão do dano; o grau de culpa, a fama e a notoriedade do lesado, bem como a intensidade do sofrimento acarretado à vítima, entre outros.
+
+Por outro lado, necessário que se ressalte que a compensação por danos morais não deve ser causa de enriquecimento sem causa, mas deve ser fixada com responsabilidade pelo magistrado.
+
+Desta forma, utilizando os critérios propostos pela jurisprudência e pelo novo Código Civil, a partir de seu art. 944, considerando a gravidade da lesão (impedimento do embarque na conexão feita em Istambul), as consequências decorrentes (necessidade de compra imediata de nova passagem aérea e o desgaste que a confusa situação provocou nos turistas), a intensidade e a gravidade do sofrimento, as condições econômicas dos ofendidos e da ofensora, fixo a indenização em R$ 12.000,00 (doze mil reais).
+
+Ante o exposto, com supedâneo no artigo 487, inciso I, do Código de Processo Civil, julgo PROCEDENTE a pretensão formulada por [AUTOR] contra NUBANK PAGAMENTOS S/A.
+
+a) CONDENAR a requerida a pagar ao requerente a quantia de R$ R$ 11.660,76. em consonância com as alterações do Código Civil (art. 389, parágrafo único e art. 406, §1o): correção monetária pelo IPCA e juros de mora de acordo com a taxa legal (diferença entre taxa SELIC e IPCA, calculada mensalmente pelo Banco Central, conforme Resolução no 5.171/2024), ambas a partir da data do evento danoso (19/05/2025, fls. 54/58: art. 398 do CC e Súmula 54 do STJ).
+
+b) CONDENAR a requerida a compensar ao requerente pelos danos morais sofridos, que arbitro em R$ 12.000,00, em consonância com as alterações do Código Civil (art. 389, parágrafo único e art. 406, §1o): correção monetária pelo IPCA desde a data do arbitramento (súmula 362 do STJ) e juros de mora de acordo com a taxa legal (diferença entre taxa SELIC e IPCA, calculada mensalmente pelo Banco Central, conforme Resolução no 5.171/2024), desde 01 de maio de 2025 (data do evento danoso: súmula 54 do STJ e art. 398 do CC).
+
+Sucumbente, CONDENO a requerida ao pagamento dos ônus da sucumbência: despesas e custas processuais, além de honorários advocatícios em favor do advogado do autor, que, nos termos do art. 85, §2o, do CPC, arbitro em 10% do valor atualizado da condenação.
+
+Ficam as partes cientes, desde logo, que os embargos de declaração são recurso dotado de fundamentação vinculada e só devem ser manejados quando constatados vícios passíveis de verificação ictu oculi - omissão, contradição ou obscuridade constatáveis de plano e que comprometam a lógica interna do pronunciamento judicial ou a eficácia da sentença.
+
+O Poder Judiciário interpreta os fatos a partir da instrução processual realizada pelos sujeitos processuais e de suas versões fáticas, não tendo o dever de rechaçar ou acolher argumento por argumento, bastando, para validamente decidir, fundamentar de forma exauriente as pretensões deduzidas.
+
+Portanto, caso os embargos sejam apresentados de forma nitidamente infringente, apenas em tentativa de alterar as razões de decidir ou as conclusões do Juízo, serão considerados MANIFESTAMENTE protelatórios e sujeitarão o embargante ao pagamento de multa de 2% (dois por cento) sobre o valor da causa em favor da parte contrária.
+
+P. I. C.
+
+São Paulo, 27 de setembro de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

@@ -1,0 +1,17 @@
+{
+  "corpus_version": "q2-tjsp-v1",
+  "pool": 300,
+  "pool_unique": 268,
+  "candidatos": 222,
+  "selecionadas": 30,
+  "quotas": {
+    "curto": 6,
+    "medio": 10,
+    "longo": 8,
+    "muito_longo": 4
+  },
+  "sem_merito": 2,
+  "names_model": "gpt-4.1",
+  "names_prompt_version": "q2-pii-names-v2",
+  "queries_sha256": "e79fb05074fa"
+}

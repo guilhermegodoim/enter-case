@@ -1,0 +1,351 @@
+{
+  "ruling_id": "tjsp-1003201-32.2020.8.26.0244",
+  "text_sha256": "f865a36cae0250bede2014e37438ae17ee8043e7bdbf195cab7179bcc893d28a",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Inexistência de pretensão resistida por falta de tentativa administrativa prévia",
+      "resumo": "O juiz rejeitou a preliminar do banco, afirmando que o acesso à Justiça não depende de esgotamento da via administrativa e que, no caso, houve contatos e protocolos, além de cobranças e negativação, evidenciando a resistência do réu.",
+      "tipo": "preliminar",
+      "tema": "interesse processual",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A preliminar de ausência de interesse processual não prospera.",
+          "char_start": 4296,
+          "char_end": 4358,
+          "score": 100.0
+        },
+        {
+          "texto": "O acesso à jurisdição não se condiciona, como regra, ao prévio esgotamento de mecanismos administrativos.",
+          "char_start": 4359,
+          "char_end": 4464,
+          "score": 100.0
+        },
+        {
+          "texto": "Não há, portanto, dúvida acerca da existência de pretensão resistida.",
+          "char_start": 4785,
+          "char_end": 4854,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Existência de litispendência/coisa julgada pela ação anterior no Juizado Especial",
+      "resumo": "O juiz afastou litispendência e coisa julgada, porque a ação anterior no Juizado foi extinta sem resolução do mérito em razão da necessidade de prova pericial, não havendo julgamento material da controvérsia.",
+      "tipo": "preliminar",
+      "tema": "litispendencia/coisa julgada",
+      "suscitado_por": "juizo",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Tampouco subsiste questão relacionada a litispendência ou coisa julgada decorrente da ação anteriormente processada perante o Juizado Especial.",
+          "char_start": 4856,
+          "char_end": 4999,
+          "score": 100.0
+        },
+        {
+          "texto": "O feito precedente foi extinto sem resolução do mérito em razão da necessidade de prova pericial incompatível com aquele procedimento.",
+          "char_start": 5000,
+          "char_end": 5134,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Aplica-se o CDC à relação entre consumidor e instituição financeira",
+      "resumo": "O juiz reconheceu a natureza consumerista da relação, aplicando os arts. 2, 3, 6 e 14 do CDC ao caso.",
+      "tipo": "merito",
+      "tema": "relação de consumo",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2 do CDC",
+        "art. 3 do CDC",
+        "art. 6 do CDC",
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A relação estabelecida é de consumo, incidindo os artigos 2o, 3o, 6o e 14 do Código de Defesa do Consumidor.",
+          "char_start": 5339,
+          "char_end": 5447,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Ônus de provar a autenticidade das assinaturas impugnadas cabe ao banco",
+      "resumo": "Diante da impugnação específica do autor, o juiz atribuiu ao banco o encargo de provar a autenticidade das assinaturas, conforme art. 429, II, do CPC e Tema 1.061 do STJ.",
+      "tipo": "merito",
+      "tema": "ônus da prova (autenticidade de assinatura)",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 429, II, do CPC",
+        "Tema 1.061 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Uma vez especificamente impugnada a assinatura constante de documento produzido pela instituição financeira, compete à parte que o apresentou demonstrar sua autenticidade, conforme regra expressa do artigo 429, inciso II, do Código de Processo Civil.",
+          "char_start": 5448,
+          "char_end": 5698,
+          "score": 100.0
+        },
+        {
+          "texto": "No curso da instrução, reconheceu-se a incidência das normas consumeristas e atribuiu-se à instituição financeira o ônus de demonstrar a autenticidade dos instrumentos impugnados, em consonância com o artigo 429, inciso II, do Código de Processo Civil e com a orientação firmada pelo Superior Tribunal de Justiça no Tema 1.061.",
+          "char_start": 3173,
+          "char_end": 3500,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Inexistência de contratação válida por falsidade de assinaturas e insuficiência de prova do suposto telesaque",
+      "resumo": "Com base na perícia grafotécnica e na ausência de prova técnica idônea da gravação, o juiz concluiu que as assinaturas não partiram do autor e que a movimentação bancária não supre a falta de manifestação válida de vontade, declarando inválidas as contratações.",
+      "tipo": "merito",
+      "tema": "inexistência de contratação",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 429, II, do CPC",
+        "art. 371 do CPC",
+        "art. 479 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Após expor os critérios grafoscópicos empregados e as divergências encontradas, a perita concluiu que as assinaturas constantes dos documentos questionados não foram produzidas pelo punho escritor de [AUTOR].",
+          "char_start": 6152,
+          "char_end": 6360,
+          "score": 100.0
+        },
+        {
+          "texto": "Não foi produzida prova técnica da integridade, continuidade ou contexto da gravação capaz de afastar a impugnação, tampouco documentação autônoma que demonstrasse, de maneira inequívoca, consentimento livre e informado para o saque complementar.",
+          "char_start": 7945,
+          "char_end": 8191,
+          "score": 100.0
+        },
+        {
+          "texto": "O simples recebimento material do numerário, contudo, não substitui a indispensável demonstração da manifestação de vontade para contratar, especialmente diante da falsidade das assinaturas utilizadas na relação contratual originária e da insuficiência da prova produzida quanto ao denominado saque complementar.",
+          "char_start": 8631,
+          "char_end": 8943,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Responsabilidade objetiva do banco por falha do serviço e fraudes como fortuito interno",
+      "resumo": "O juiz reconheceu falha do serviço e aplicou a responsabilidade objetiva do fornecedor, entendendo que fraudes de correspondentes e terceiros integram o risco da atividade bancária (fortuito interno).",
+      "tipo": "merito",
+      "tema": "fortuito interno",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 14 do CDC",
+        "Súmula 479 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Está caracterizada falha na prestação do serviço.",
+          "char_start": 9233,
+          "char_end": 9282,
+          "score": 100.0
+        },
+        {
+          "texto": "Aplicam-se o artigo 14 do Código de Defesa do Consumidor e a orientação consolidada na Súmula 479 do Superior Tribunal de Justiça.",
+          "char_start": 9609,
+          "char_end": 9739,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Responsabilidade solidária da correspondente VM Callcenter na cadeia de consumo",
+      "resumo": "O juiz afirmou a solidariedade da VM Callcenter por integrar a cadeia de fornecimento, nos termos dos arts. 7º, parágrafo único, 25, §1º, e 34 do CDC.",
+      "tipo": "merito",
+      "tema": "responsabilidade solidária na cadeia de consumo",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 7, par. ún., do CDC",
+        "art. 25, §1º, do CDC",
+        "art. 34 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A VM Callcenter figura, nos próprios documentos produzidos pelo Banco Pan, como correspondente relacionado à operação de saque complementar.",
+          "char_start": 9741,
+          "char_end": 9881,
+          "score": 100.0
+        },
+        {
+          "texto": "Sua participação na cadeia de fornecimento atrai a responsabilidade solidária prevista nos artigos 7o, parágrafo único, 25, § 1o, e 34 do Código de Defesa do Consumidor.",
+          "char_start": 9882,
+          "char_end": 10051,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Inscrição em cadastro restritivo decorrente do débito inexigível é indevida",
+      "resumo": "Comprovada a negativação atrelada ao débito declarado inexigível, o juiz a reputou indevida.",
+      "tipo": "merito",
+      "tema": "negativação indevida",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A negativação também está comprovada.",
+          "char_start": 10053,
+          "char_end": 10090,
+          "score": 100.0
+        },
+        {
+          "texto": "Reconhecida a inexistência de contratação válida e, por consequência, a inexigibilidade do débito que ensejou o apontamento, a inscrição é indevida.",
+          "char_start": 10231,
+          "char_end": 10379,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "Dano moral configurado pela inscrição indevida do nome do autor",
+      "resumo": "O juiz reconheceu dano moral in re ipsa pela negativação indevida, por ultrapassar meros aborrecimentos e atingir objetivamente a esfera jurídica do consumidor.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Nessas circunstâncias, o dano moral ultrapassa o mero dissabor cotidiano.",
+          "char_start": 10381,
+          "char_end": 10454,
+          "score": 100.0
+        },
+        {
+          "texto": "A inclusão indevida do nome do consumidor em cadastro restritivo, decorrente de obrigação que não contratou, atinge objetivamente sua esfera jurídica e dispensa demonstração específica do prejuízo extrapatrimonial.",
+          "char_start": 10455,
+          "char_end": 10669,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a10",
+      "titulo": "Fixação do valor da indenização por dano moral em R$ 10.000,00",
+      "resumo": "Considerando gravidade, duração, funções compensatória e preventiva e vedação ao enriquecimento sem causa, o juiz fixou o dano moral em R$ 10.000,00.",
+      "tipo": "quantum",
+      "tema": "quantum dano moral",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Consideradas a gravidade da falha, a duração da controvérsia, a função compensatória e preventiva da indenização e a vedação ao enriquecimento sem causa, reputo adequado fixar a reparação em R$ 10.000,00.",
+          "char_start": 10670,
+          "char_end": 10874,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a11",
+      "titulo": "Na invalidação do negócio, deve haver recomposição do estado anterior com compensação; sem indenização material além do efetivo prejuízo",
+      "resumo": "O juiz determinou a restitutio in integrum: devolução do capital líquido efetivamente recebido e não restituído, sem encargos contratuais, compensada com todos os descontos e pagamentos feitos pelo autor, rejeitando pretensão de indenização material superior por ausência de prejuízo autônomo.",
+      "tipo": "merito",
+      "tema": "recomposição do estado anterior",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 182 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Quanto ao dano material, a declaração de invalidade do negócio exige recomposição do estado anterior, nos termos do artigo 182 do Código Civil.",
+          "char_start": 10876,
+          "char_end": 11019,
+          "score": 100.0
+        },
+        {
+          "texto": "Em relação aos R$ 3.770,00 creditados posteriormente, deverá haver restituição do capital efetivamente recebido e não devolvido, sem juros remuneratórios, tarifas, encargos contratuais ou quaisquer acréscimos próprios do negócio invalidado, compensando-se, por outro lado, todos os valores que tenham sido descontados do benefício, pagos por meio de fatura ou de qualquer outra forma pelo autor em razão das operações aqui reconhecidas como inválidas.",
+          "char_start": 11278,
+          "char_end": 11729,
+          "score": 100.0
+        },
+        {
+          "texto": "Rejeito o pedido de indenização material em extensão superior à efetiva recomposição patrimonial, por ausência de demonstração de prejuízo autônomo.",
+          "char_start": 14362,
+          "char_end": 14510,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a12",
+      "titulo": "Indeferimento do pedido de instauração de investigação criminal pela FEBRABAN; remessa de peças ao Ministério Público",
+      "resumo": "O juiz negou pedido de determinação à FEBRABAN por ser estranho às suas atribuições e à finalidade da demanda, mas determinou remessa de peças ao Ministério Público para ciência e eventuais providências.",
+      "tipo": "merito",
+      "tema": "expedição de ofícios/investigação",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Não há fundamento para determinar à FEBRABAN a instauração de investigação criminal, providência estranha às suas atribuições e à finalidade desta demanda.",
+          "char_start": 12085,
+          "char_end": 12240,
+          "score": 100.0
+        },
+        {
+          "texto": "A conclusão pericial, todavia, revela elementos que justificam a remessa de peças ao Ministério Público para ciência e eventual adoção das providências que reputar cabíveis, sem qualquer antecipação de juízo sobre responsabilidade penal.",
+          "char_start": 12241,
+          "char_end": 12478,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 4386,
+    "output_tokens": 9140,
+    "cost_usd": 0.0968825,
+    "latency_ms": 104698,
+    "citacoes": 25,
+    "citacoes_ancoradas": 25
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

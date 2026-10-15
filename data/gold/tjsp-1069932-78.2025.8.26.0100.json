@@ -1,0 +1,194 @@
+{
+  "ruling_id": "tjsp-1069932-78.2025.8.26.0100",
+  "text_sha256": "9a28e36d8a54a6975eb780efe42101ac5186be176370a8cc87b4f0334558b199",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "O direito estaria decaído por falta de carta protesto tempestiva.",
+      "resumo": "O juiz rejeitou a decadência porque se trata de ação regressiva proposta por seguradora sub-rogada, à qual não se aplicam os prazos do art. 754 do CC e do art. 31 da Convenção de Montreal, voltados à relação destinatário-transportador. Assentou ainda que a ré tinha ciência inequívoca do extravio e que a demanda foi proposta dentro do prazo bienal do art. 35 da Convenção de Montreal.",
+      "tipo": "prejudicial",
+      "tema": "decadência",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 754 do CC",
+        "art. 31 da Convenção de Montreal",
+        "art. 786 do CC",
+        "art. 35 da Convenção de Montreal"
+      ],
+      "citacoes": [
+        {
+          "texto": "De início, rejeito a prejudicial de decadência.",
+          "char_start": 2882,
+          "char_end": 2929,
+          "score": 100.0
+        },
+        {
+          "texto": "Os prazos previstos no art. 754, parágrafo único, do Código Civil e no art. 31 da Convenção de Montreal destinam-se à reclamação formulada pelo destinatário perante o transportador, com a finalidade de afastar a presunção de regularidade da entrega da carga.",
+          "char_start": 3345,
+          "char_end": 3603,
+          "score": 100.0
+        },
+        {
+          "texto": "Na espécie, infere-se dos autos que a indenização securitária foi paga em 11/06/2024 e a presente ação foi ajuizada em 23/05/2025, dentro do prazo bienal previsto pelo art. 35 da Convenção de Montreal para as ações indenizatórias decorrentes de transporte aéreo internacional.",
+          "char_start": 10471,
+          "char_end": 10747,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "A transportadora é responsável pelo extravio e deve ressarcir os prejuízos.",
+      "resumo": "O juiz reconheceu o extravio da carga durante o transporte e a obrigação de resultado da transportadora, concluindo pela responsabilidade objetiva da ré, ausentes excludentes. Constatou também o pagamento da indenização securitária e a sub-rogação da autora para pleitear o ressarcimento.",
+      "tipo": "merito",
+      "tema": "responsabilidade pelo extravio",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 786 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "É incontroverso nos autos que a carga, composta por equipamento eletrônico descrito na documentação comercial acostada aos autos (fls. 67/72), foi recebida para transporte internacional entre os Estados Unidos e o Brasil, não tendo sido entregue no destino contratado em razão de seu extravio durante a execução do contrato de transporte aéreo, conforme demonstra a correspondência eletrônica de fls. 83.",
+          "char_start": 10805,
+          "char_end": 11209,
+          "score": 100.0
+        },
+        {
+          "texto": "Também restou comprovado o pagamento, pela autora, da indenização securitária à empresa beneficiária da apólice, no valor de R$ 197.408,45 (fls. 88/89), circunstância que autoriza a sub-rogação prevista no art. 786 do Código Civil.",
+          "char_start": 11210,
+          "char_end": 11441,
+          "score": 100.0
+        },
+        {
+          "texto": "Nos contratos de transporte de carga, a obrigação assumida pelo transportador é de resultado, incumbindo-lhe entregar a mercadoria no destino ajustado nas mesmas condições em que recebida.",
+          "char_start": 11443,
+          "char_end": 11631,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "A indenização deve ser tarifada pela Convenção de Montreal por ausência de declaração especial de valor.",
+      "resumo": "Aplicou-se a Convenção de Montreal, com prevalência assegurada pelo art. 178 da CF, também às ações regressivas. O juiz afirmou que invoice/packing list não substituem a declaração especial de valor perante o transportador nem houve pagamento de taxa suplementar, inexistindo ainda prova de dolo ou temeridade, razão pela qual incide a limitação convencional.",
+      "tipo": "merito",
+      "tema": "limitação indenizatória (Convenção de Montreal)",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 22, item 3, da Convenção de Montreal",
+        "art. 22, alínea 5, da Convenção de Montreal",
+        "art. 178 da CF",
+        "ARE 1372360 ED-AgR-EDv-AgR (STF)",
+        "EREsp 1.289.629/SP (STJ)"
+      ],
+      "citacoes": [
+        {
+          "texto": "O transporte discutido nos autos possui natureza internacional, atraindo a incidência da Convenção de Montreal, promulgada pelo Decreto no 5.910/2006, cuja prevalência decorre do art. 178 da Constituição Federal.",
+          "char_start": 12000,
+          "char_end": 12212,
+          "score": 100.0
+        },
+        {
+          "texto": "Todavia, a declaração especial de valor exigida pelo referido dispositivo normativo não se confunde com a mera indicação do valor da mercadoria em documentos comerciais ou aduaneiros.",
+          "char_start": 16254,
+          "char_end": 16437,
+          "score": 100.0
+        },
+        {
+          "texto": "No presente caso, não há prova de que a expedidora tenha realizado declaração especial de valor nos moldes exigidos pelo art. 22, item 3, da Convenção de Montreal, tampouco demonstração do pagamento de valor adicional destinado à ampliação da cobertura da responsabilidade da transportadora.",
+          "char_start": 20304,
+          "char_end": 20595,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "O ressarcimento deve ser integral pelo valor desembolsado (R$ 197.408,45), sem limitação por DES.",
+      "resumo": "O juiz rejeitou o pagamento integral pleiteado e fixou o cálculo pela limitação convencional de 26 DES/kg (revisão ICAO de 28/12/2024), com apuração em cumprimento de sentença e conversão nos termos do art. 23 da Convenção de Montreal, limitada ao efetivo desembolso da seguradora por força da sub-rogação.",
+      "tipo": "quantum",
+      "tema": "quantum indenizatório (DES/kg e conversão)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 22, alínea 3, da Convenção de Montreal",
+        "art. 23 da Convenção de Montreal"
+      ],
+      "citacoes": [
+        {
+          "texto": "Consequentemente, a indenização deve observar o limite previsto no art. 22, alínea 3, da Convenção de Montreal, considerando o valor atualmente vigente após a revisão promovida pela International Civil Aviation Organization (ICAO) em 28/12/2024, correspondente a 26 Direitos Especiais de Saque (DES) por quilograma de carga.",
+          "char_start": 20843,
+          "char_end": 21167,
+          "score": 100.0
+        },
+        {
+          "texto": "O montante deverá ser apurado em cumprimento de sentença mediante a multiplicação de 26 DES pelo peso bruto da carga extraviada constante do conhecimento de transporte, procedendo-se posteriormente à conversão para moeda nacional nos termos do art. 23 da Convenção de Montreal.",
+          "char_start": 23318,
+          "char_end": 23595,
+          "score": 100.0
+        },
+        {
+          "texto": "Caso o resultado obtido seja superior ao valor efetivamente desembolsado pela seguradora, a condenação ficará limitada ao valor do prejuízo comprovadamente suportado pela autora, por força do instituto da sub-rogação.",
+          "char_start": 23596,
+          "char_end": 23813,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Juros e correção desde o desembolso da indenização pela seguradora.",
+      "resumo": "Determinou-se que, por se tratar de ação regressiva, correção monetária e juros moratórios incidam desde o desembolso da indenização securitária, observando-se a taxa SELIC nos termos do REsp 2.199.164/PR e os arts. 389, parágrafo único, e 406 do CC, na redação da Lei 14.905/2024.",
+      "tipo": "acessorio",
+      "tema": "termo inicial de juros e correção",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 389, parágrafo único, do CC",
+        "art. 406 do CC",
+        "REsp 2.199.164/PR",
+        "Lei 14.905/2024"
+      ],
+      "citacoes": [
+        {
+          "texto": "Quanto aos consectários legais, tratando-se de ação regressiva de seguradora, a correção monetária e os juros moratórios devem incidir desde a data do desembolso da indenização securitária, momento em que surgiu o efetivo prejuízo patrimonial da autora.",
+          "char_start": 23815,
+          "char_end": 24068,
+          "score": 100.0
+        },
+        {
+          "texto": "Sobre o valor apurado incidirão correção monetária e juros de mora a partir da data do desembolso da indenização securitária efetuada pela autora, observando-se a Tabela Prática do E. TJSP e a taxa legal dos juros de mora (SELIC, conforme tese firmada no julgamento do REsp no 2.199.164/PR), deduzido o índice de atualização aplicado, de acordo com os arts. 389, parágrafo único, e 406, do Código Civil, com a redação dada pela Lei no 14.905/2024.",
+          "char_start": 27008,
+          "char_end": 27455,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 8149,
+    "output_tokens": 8925,
+    "cost_usd": 0.09943625,
+    "latency_ms": 75294,
+    "citacoes": 14,
+    "citacoes_ancoradas": 14
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

@@ -1,0 +1,268 @@
+{
+  "ruling_id": "tjsp-1021627-10.2024.8.26.0032",
+  "text_sha256": "e5b9a7d3d2665d063155720b14cb26ab914ee4055b8f383f6ac9b9852a9f4760",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Aplica-se o CDC e a responsabilidade objetiva ao transporte aéreo internacional",
+      "resumo": "O juízo reconheceu a relação de consumo entre as partes e aplicou a responsabilidade objetiva do art. 14 do CDC, pois o autor é destinatário final e a ré presta serviço de transporte aéreo.",
+      "tipo": "merito",
+      "tema": "relação de consumo",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2 do CDC",
+        "art. 3 do CDC",
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A relação jurídica litigiosa submete-se aos ditames do Código de Defesa do Consumidor, na esteira do artigo 2o da Lei no 8.078/1990 e de seu artigo 3o.",
+          "char_start": 4156,
+          "char_end": 4307,
+          "score": 100.0
+        },
+        {
+          "texto": "A responsabilidade civil da companhia aérea é de índole objetiva, nos termos do artigo 14 do Código de Defesa do Consumidor.",
+          "char_start": 4471,
+          "char_end": 4595,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Convenções de Varsóvia e Montreal regem a tarifação dos danos patrimoniais, com prevalência do CDC para aspectos morais e procedimentais",
+      "resumo": "O juízo assentou que, em transporte aéreo internacional, as Convenções de Varsóvia e Montreal se aplicam integrativamente à tarifação dos danos patrimoniais, enquanto o CDC rege os aspectos morais e procedimentais.",
+      "tipo": "merito",
+      "tema": "convenções internacionais",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Convenção de Varsóvia",
+        "Convenção de Montreal"
+      ],
+      "citacoes": [
+        {
+          "texto": "Em contratos de transporte aéreo internacional, aplicam-se integrativamente as Convenções Internacionais de Varsóvia e Montreal quanto à tarifação de indenizações patrimoniais, prevalecendo a legislação consumerista no que tange aos aspectos morais e procedimentais da reparação.",
+          "char_start": 4772,
+          "char_end": 5051,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Greve/manifestações no aeroporto constituem fortuito interno e não afastam a responsabilidade da transportadora",
+      "resumo": "A excludente de responsabilidade alegada pela ré, baseada em manifestação sindical na origem, foi rejeitada por falta de comprovação idônea e por se tratar de fortuito interno inerente ao risco do empreendimento.",
+      "tipo": "merito",
+      "tema": "fortuito externo",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A ré busca eximir-se de responsabilidade atribuindo a delonga a restrições operacionais decorrentes de manifestação sindical de trabalhadores no aeroporto de Buenos Aires (fl. 71).",
+          "char_start": 5361,
+          "char_end": 5541,
+          "score": 100.0
+        },
+        {
+          "texto": "Mesmo se houvesse comprovação documental, greves e manifestações de trabalhadores do setor aéreo e aeroportuário não configuram fortuito externo.",
+          "char_start": 5752,
+          "char_end": 5897,
+          "score": 100.0
+        },
+        {
+          "texto": "Ao explorar o transporte aéreo comercial, a empresa assume os riscos inerentes à operação de sua malha e à gestão de mão de obra.",
+          "char_start": 6052,
+          "char_end": 6181,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Descumprimento do dever de assistência material e de informação (Resolução 400/ANAC) caracterizou falha na prestação do serviço",
+      "resumo": "O juízo reconheceu que a ré não prestou a assistência material e informação previstas na Resolução 400/ANAC durante o atraso e confinamento, configurando defeito do serviço e reforçando a responsabilidade objetiva.",
+      "tipo": "merito",
+      "tema": "assistência material",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Resolução 400 da ANAC",
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Além da inexecução no horário ajustado, a transportadora descurou dos deveres mandamentais de informação clara e assistência material fixados na Resolução no 400 da ANAC.",
+          "char_start": 6311,
+          "char_end": 6481,
+          "score": 100.0
+        },
+        {
+          "texto": "O passageiro permaneceu retido por horas na sala de embarque sem alimentação ou facilidades de comunicação, e suportou confinamento prolongado na aeronave em solo.",
+          "char_start": 6482,
+          "char_end": 6645,
+          "score": 100.0
+        },
+        {
+          "texto": "A inércia no fornecimento do suporte regulamentar confirma o defeito na prestação do serviço (artigo 14 do Código de Defesa do Consumidor).",
+          "char_start": 6647,
+          "char_end": 6786,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Indenização por avaria da mala despachada é devida",
+      "resumo": "Comprovada por RIB e incontroversa, a avaria da mala impõe o dever de indenizar pelo valor de substituição, em razão da obrigação de resultado do transportador.",
+      "tipo": "merito",
+      "tema": "dano material - bagagem avariada",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A avaria estrutural da mala despachada está cabalmente demonstrada pelo Relatório de Irregularidade de Bagagem no GRUG322552, formalizado no desembarque perante a própria ré (fl. 37).",
+          "char_start": 7076,
+          "char_end": 7259,
+          "score": 100.0
+        },
+        {
+          "texto": "A obrigação de resultado do transportador impõe a entrega da bagagem em perfeito estado de incolumidade.",
+          "char_start": 7425,
+          "char_end": 7529,
+          "score": 100.0
+        },
+        {
+          "texto": "Restando incontroversa a inutilização do fecho e do segredo da mala, impõe-se a reparação pelo valor comercial de substituição do bem orçado em R$ 349,99 (fl. 38).",
+          "char_start": 7530,
+          "char_end": 7693,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Indenização por suposta subtração de itens da bagagem deve ser negada por falta de prova e ausência de declaração especial de valor",
+      "resumo": "O pedido pelos itens de vestuário e calçado foi rejeitado porque o RIB não registrou pertences faltantes, não houve declaração especial de valor e as notas fiscais não provaram a presença dos bens na mala.",
+      "tipo": "merito",
+      "tema": "furto de bens na bagagem",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 734, parágrafo único, do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O documento de registro emitido no aeroporto limitou-se a qualificar a ocorrência como \"relatório de bagagem danificada\", sem qualquer anotação contemporânea de pertences faltantes (fl. 37).",
+          "char_start": 7836,
+          "char_end": 8026,
+          "score": 100.0
+        },
+        {
+          "texto": "O artigo 734, parágrafo único, do Código Civil faculta ao transportador exigir a declaração especial de valor da bagagem despachada.",
+          "char_start": 8028,
+          "char_end": 8160,
+          "score": 100.0
+        },
+        {
+          "texto": "A mera apresentação de notas fiscais de compras realizadas dias antes da viagem não comprova que as mercadorias estavam efetivamente acondicionadas no volume despachado.",
+          "char_start": 8344,
+          "char_end": 8513,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Atraso de quase nove horas e confinamento em aeronave configuram dano moral indenizável, embora não seja presumido",
+      "resumo": "Apesar de o dano moral não ser presumido em atraso de voo, as circunstâncias do caso — atraso expressivo e confinamento por cerca de duas horas sem assistência — ultrapassaram o mero aborrecimento e violaram direitos da personalidade.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 14 do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A jurisprudência pacífica do Superior Tribunal de Justiça estabelece que o atraso de transporte aéreo não acarreta dano moral presumido, demandando a demonstração de lesão extrapatrimonial concreta que supere o mero dissabor cotidiano.",
+          "char_start": 8756,
+          "char_end": 8991,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso em julgamento, as circunstâncias fáticas demonstradas ultrapassam os limites dos transtornos ordinários da vida em sociedade.",
+          "char_start": 8993,
+          "char_end": 9126,
+          "score": 100.0
+        },
+        {
+          "texto": "O confinamento forçado na aeronave fechada sob calor excessivo e sede, sem o fornecimento tempestivo de alimentação, hidratação ou comunicação por mais de duas horas após o embarque, consubstanciou violação efetiva à integridade psicofísica e aos direitos da personalidade do autor.",
+          "char_start": 9470,
+          "char_end": 9752,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Quantum dos danos morais fixado em R$ 3.000,00, segundo a extensão do dano e critérios de razoabilidade",
+      "resumo": "Com base no art. 944 do CC, o montante foi arbitrado em R$ 3.000,00, considerado o longo atraso e o confinamento em solo, para atender à função compensatória e pedagógica sem enriquecimento indevido.",
+      "tipo": "quantum",
+      "tema": "quantum dano moral",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 944 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Na fixação do montante reparatório, cumpre observar a diretriz do artigo 944 do Código Civil, que determina a medição da indenização pela extensão do dano.",
+          "char_start": 10051,
+          "char_end": 10206,
+          "score": 100.0
+        },
+        {
+          "texto": "Considerando o longo período de atraso e o confinamento penoso na aeronave em solo, fixo a indenização em R$ 3.000,00.",
+          "char_start": 10355,
+          "char_end": 10473,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 4486,
+    "output_tokens": 8194,
+    "cost_usd": 0.0875475,
+    "latency_ms": 76552,
+    "citacoes": 20,
+    "citacoes_ancoradas": 20
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

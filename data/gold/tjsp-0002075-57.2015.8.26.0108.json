@@ -1,0 +1,197 @@
+{
+  "ruling_id": "tjsp-0002075-57.2015.8.26.0108",
+  "text_sha256": "7dc8b086a01894f753cffbcba2b74c8d9343e06b69d287211ebf65829f258a7f",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Aplica-se o CDC à relação entre passageiro e companhia aérea",
+      "resumo": "O juiz reconheceu que a relação jurídica é de consumo e, portanto, rege-se pelo CDC. Identificou autor como consumidor e ré como fornecedora de serviços aéreos.",
+      "tipo": "merito",
+      "tema": "relação de consumo",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2o do CDC",
+        "art. 3o do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "No mérito, encontram-se presentes os elementos componentes da relação jurídica de consumo de serviços, consoante os arts. 2o, caput e 3o, caput e § 2o, todos do CDC.",
+          "char_start": 1832,
+          "char_end": 1997,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Houve falha na prestação do serviço com extravio de bagagem, gerando dever de indenizar",
+      "resumo": "O magistrado concluiu que a ré não comprovou a devolução da bagagem nem qualquer reparação, e que é dever da transportadora devolver a bagagem sob sua guarda, configurando falha do serviço e responsabilidade pelos prejuízos.",
+      "tipo": "merito",
+      "tema": "falha do serviço",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Na hipótese, o autor relata ter tido sua bagagem extraviada em voo realizado pela requerida, apresentando documentos que demonstram haver diligenciado perante a companhia, bem como realizado gastos com a compra de itens para suprir aqueles perdidos.",
+          "char_start": 1999,
+          "char_end": 2248,
+          "score": 100.0
+        },
+        {
+          "texto": "Por seu turno, a requerida, além de não demonstrar a devolução da bagagem ao autor, não apresenta qualquer indício de haver reparado os dados decorrentes do extravio.",
+          "char_start": 2250,
+          "char_end": 2416,
+          "score": 100.0
+        },
+        {
+          "texto": "Nesse passo, registre-se que é dever da fornecedora do serviço aéreo promover a devolução adequada da bagagem despachada, haja vista que esta fica sob seus cuidados durante a viagem, integrando o serviço de transporte para o qual contratada.",
+          "char_start": 2418,
+          "char_end": 2659,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "O extravio decorreu de itens inadequados na bagagem despachada, afastando responsabilidade da ré",
+      "resumo": "A alegação defensiva foi rechaçada: a fiscalização do conteúdo é responsabilidade da companhia no embarque, não podendo depois invocar o transporte de itens inadequados para se eximir do dever de indenizar.",
+      "tipo": "merito",
+      "tema": "culpa exclusiva do consumidor",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Ademais, a fiscalização da bagagem deve ser realizada pela requerida, proibindo, no momento oportuno, o transporte de produtos inadequados, não podendo, posteriormente, buscar se isentar do dever de reparação alegando que os itens não deveriam ser transportados em bagagem despachada.",
+          "char_start": 2661,
+          "char_end": 2945,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Autor não comprovou os itens e o despacho da bagagem",
+      "resumo": "O juiz considerou plausíveis e compatíveis os itens listados pelo autor e destacou que a ré nada trouxe para infirmá-los, afastando a tese de ausência de comprovação.",
+      "tipo": "merito",
+      "tema": "prova do dano material",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Outrossim, verifica-se que os itens indicados pelo requerente (fl. 13) se adéquam àqueles, ordinariamente, levados em bagagens maiores, sobretudo considerando as comemorações referidas na inicial, ao passo que a demandada nada apresentou a infirmar os itens descritos.",
+          "char_start": 2947,
+          "char_end": 3215,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Indenização pelos itens extraviados",
+      "resumo": "Reconhecida a falha do serviço e os prejuízos econômicos decorrentes, a ré foi condenada a indenizar os danos materiais correspondentes aos bens extraviados no valor de R$ 1.861,00.",
+      "tipo": "merito",
+      "tema": "dano material",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Nessa esteira, diante da falha no serviço oferecido pela requerida, a qual causou prejuízos de ordem econômica ao autor, faz-se de rigor a indenização por danos materiais, no importe de R$ 1.861,00 (mil, oitocentos e sessenta e um reais).",
+          "char_start": 3217,
+          "char_end": 3455,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Ressarcimento dos gastos emergenciais com novas roupas e higiene",
+      "resumo": "O pedido de reembolso dos produtos adquiridos após o extravio foi negado porque tais bens passaram a integrar o patrimônio do autor e substituíram os extraviados, de modo que sua cumulação caracterizaria enriquecimento sem causa.",
+      "tipo": "merito",
+      "tema": "enriquecimento sem causa",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Lado outro, quanto ao valor gasto na compra de outros produtos, anote-se que estes passaram a integrar o patrimônio do requerente, bem como substituíram àqueles extraviados, não havendo se falar em condenação da demandada em indenizá-los, visto que isto se caracterizaria enriquecimento sem causa do demandante, haja vista que será ressarcido pelos itens perdidos.",
+          "char_start": 3457,
+          "char_end": 3821,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Configuração de dano moral pelo extravio de bagagem em viagem de lazer",
+      "resumo": "O juiz entendeu que o extravio, com estresse e perda de tempo útil em viagem de lazer, ultrapassa mero dissabor e configura dano moral indenizável.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Nesse passo, como se disse, a conduta da ré, que, pela desídia de seus prepostos, deu causa ao extravio das bagagens do autor, gerando estresse e perda de tempo útil em viagem destinada ao lazer, é apta a gerar dano não patrimonial indenizável.",
+          "char_start": 6982,
+          "char_end": 7226,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Fixação do valor do dano moral em R$ 5.000,00",
+      "resumo": "Com base em critérios de suficiência punitivo-pedagógica, intensidade da lesão e capacidade econômica das partes, o quantum foi arbitrado em R$ 5.000,00.",
+      "tipo": "quantum",
+      "tema": "quantum dano moral",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Com a promulgação da Constituição Federal de 1988 rompeu-se o paradigma de indenização tarifada, substituindo-o pelo paradigma da livre indenização do dano moral com o estabelecimento de critérios orientadores ao julgador, dentre os quais figuram a suficiência da indenização para a reprovabilidade da conduta, a intensidade da lesão sofrida, a capacidade econômica do ofensor e do ofendido.",
+          "char_start": 7341,
+          "char_end": 7732,
+          "score": 100.0
+        },
+        {
+          "texto": "Daí, tomando em conta tais circunstâncias, a fixação da indenização em R$ 5.000,00 é apta a compor o dano moral havido.",
+          "char_start": 7734,
+          "char_end": 7853,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 3260,
+    "output_tokens": 7153,
+    "cost_usd": 0.075605,
+    "latency_ms": 57156,
+    "citacoes": 11,
+    "citacoes_ancoradas": 11
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

@@ -1,0 +1,167 @@
+{
+  "ruling_id": "tjsp-1001675-34.2024.8.26.0650",
+  "text_sha256": "f8e87952fced9702b6423cecc04c69433f51a76c7e3bf92562f079cf8957ba8f",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "A inicial é inepta por não atender aos requisitos do art. 319 do CPC",
+      "resumo": "O juízo entendeu que a petição inicial expôs de forma clara a causa de pedir e os pedidos, permitindo o contraditório e ampla defesa. Por isso, rejeitou a preliminar de inépcia.",
+      "tipo": "preliminar",
+      "tema": "inépcia da inicial",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 319 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "No mais, a petição inicial atende satisfatoriamente aos requisitos do artigo 319 do Código de Processo Civil, na medida em que expõe, de forma clara e precisa, a causa de pedir e o pedido, viabilizando o pleno exercício do contraditório e da ampla defesa.",
+          "char_start": 2037,
+          "char_end": 2292,
+          "score": 100.0
+        },
+        {
+          "texto": "Rejeito, por conseguinte, a preliminar de inépcia.",
+          "char_start": 2293,
+          "char_end": 2343,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Falta interesse de agir por ausência de prévio requerimento administrativo",
+      "resumo": "O magistrado afirmou que o esgotamento da via administrativa não é condição para o acesso ao Judiciário, rejeitando a preliminar de ausência de interesse de agir.",
+      "tipo": "preliminar",
+      "tema": "interesse de agir",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "De igual modo, rejeito a alegação de ausência de interesse de agir, porquanto o prévio esgotamento da via administrativa não constitui condição para o exercício da pretensão jurisdicional.",
+          "char_start": 2345,
+          "char_end": 2533,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Revogação da gratuidade de justiça por capacidade financeira da autora",
+      "resumo": "Os réus não comprovaram que a autora possui condições de arcar com as despesas sem comprometer seu sustento. A impugnação foi rejeitada e o benefício mantido.",
+      "tipo": "acessorio",
+      "tema": "gratuidade de justiça",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Quanto à impugnação à gratuidade de justiça, observo que os réus não se desincumbiram do ônus de comprovar que a autora dispõe de recursos suficientes para custear as despesas processuais e os honorários advocatícios sem comprometimento de seu sustento.",
+          "char_start": 2535,
+          "char_end": 2788,
+          "score": 100.0
+        },
+        {
+          "texto": "Rejeito, portanto, a impugnação e mantenho o benefício da gratuidade de justiça deferido.",
+          "char_start": 2789,
+          "char_end": 2878,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "O valor da causa deve ser retificado para corresponder ao proveito econômico em 12 meses",
+      "resumo": "O juiz acolheu a impugnação para fixar o valor da causa com base na diferença mensal entre o cobrado e o reputado devido, multiplicada por doze, nos termos do art. 292, II e § 2º do CPC, chegando a R$ 16.931,28.",
+      "tipo": "acessorio",
+      "tema": "valor da causa",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 292, II e § 2º do CPC",
+        "TJSP AI 2331886-70.2024.8.26.0000"
+      ],
+      "citacoes": [
+        {
+          "texto": "Impõe-se, contudo, retificar o valor atribuído à causa.",
+          "char_start": 2880,
+          "char_end": 2935,
+          "score": 100.0
+        },
+        {
+          "texto": "Nas ações de repactuação de dívidas fundadas na Lei do Superendividamento, o valor da causa deve corresponder ao proveito econômico perseguido pela parte autora, isto é, a diferença entre o montante atualmente cobrado (R$ 2.178,05) e aquele reputado devido (R$ 767,11), multiplicado por doze meses, nos termos do artigo 292, inciso II e § 2o, do Código de Processo Civil, por se tratar de prestação de natureza continuada.",
+          "char_start": 2937,
+          "char_end": 3359,
+          "score": 100.0
+        },
+        {
+          "texto": "Acolho, assim, a impugnação para fixar o valor da causa em R$ 16.931,28 (dezesseis mil novecentos e trinta e um reais e vinte e oito centavos), na linha do entendimento consolidado pelo Tribunal de Justiça de São Paulo:",
+          "char_start": 3361,
+          "char_end": 3580,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Inexistem requisitos do superendividamento, ante exclusão do consignado do mínimo existencial e renda remanescente superior a R$ 600",
+      "resumo": "Com base no CDC e nos Decretos 11.150/2022 e 11.567/2023, o juiz afastou da aferição do mínimo existencial as parcelas de crédito consignado e constatou que a autora mantém cerca de R$ 2.000,00 líquidos, valor acima do mínimo normativo (R$ 600,00). Assim, não se caracterizou o superendividamento e o pedido foi julgado improcedente.",
+      "tipo": "merito",
+      "tema": "superendividamento - mínimo existencial e consignado",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Lei 14.181/2021",
+        "art. 54-A, § 1º do CDC",
+        "Decreto 11.150/2022",
+        "Decreto 11.567/2023",
+        "art. 3º do Decreto 11.150/2022",
+        "art. 4º, parágrafo único, I, h, do Decreto 11.150/2022"
+      ],
+      "citacoes": [
+        {
+          "texto": "Merece destaque, ainda, o artigo 4o, parágrafo único, inciso I, alínea \"h\", do referido decreto, que expressamente exclui da aferição do mínimo existencial as parcelas de dívidas decorrentes de operações de crédito consignado regidas por lei específica.",
+          "char_start": 6427,
+          "char_end": 6680,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, procedendo-se à exclusão dos valores relativos ao crédito consignado, na forma determinada pela legislação de regência, verifica-se que a autora não se enquadra na situação de superendividamento, uma vez que sua renda remanescente é consideravelmente superior ao mínimo existencial legalmente estabelecido de R$ 600,00 (seiscentos reais).",
+          "char_start": 7213,
+          "char_end": 7558,
+          "score": 100.0
+        },
+        {
+          "texto": "Com efeito, mesmo após os descontos obrigatórios e as parcelas consignadas regulares em folha de pagamento, a autora retém mensalmente quantia de aproximadamente R$ 2.000,00 (dois mil reais) líquidos, montante que supera o patamar do mínimo existencial normativo.",
+          "char_start": 7560,
+          "char_end": 7823,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 3197,
+    "output_tokens": 5934,
+    "cost_usd": 0.06333625,
+    "latency_ms": 45588,
+    "citacoes": 11,
+    "citacoes_ancoradas": 11
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

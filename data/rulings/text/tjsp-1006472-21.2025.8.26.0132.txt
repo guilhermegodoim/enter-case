@@ -1,0 +1,185 @@
+SENTENÇA
+
+Processo no: 1006472-21.2025.8.26.0132 - Processo Digital
+
+Classe - Assunto Procedimento Comum Cível - Defeito, nulidade ou anulação
+
+Requerente: [AUTOR] e outros
+
+Requerido: Banco Bradesco S.A.
+
+Vistos.
+
+Trata-se de "ação de anulação de ato jurídico c/c indenização por danos materiais e morais" movida por [AUTOR], BRASIL VEDAÇÕES SÃO PAULO COMÉRCIO DE VEDAÇÃO LTDA. e BRASIL SP VEDAÇÕES INDÚSTRIA COMÉRCIO IMPORTAÇÃO E EXPORTAÇÃO DE ARTEFATOS DE VEDAÇÕES LTDA. EPP em face de BANCO BRADESCO S.A.
+
+Alegam os autores que, nos dias 26 e 27 de junho de 2025, terceiros, fazendo-se passar por representante do banco réu, ligaram na empresa coautora informando a mudança do gerente responsável pela conta e indicaram uma plataforma eletrônica (www.bradesco.pj.chat) para contato com a gerência. Narram que a funcionária [PESSOA_1], do financeiro das empresas requerentes, acessou a plataforma, verificou que o logotipo do banco estava meio embaçado e percebeu que existia fraude na situação. Então, [PESSOA_1] imediatamente contatou a gerente [PESSOA_2], da agência do réu, a qual informou que o gerente das contas das empresas autoras ainda era o mesmo (ele apenas estava em férias). Aduzem que, no momento em que [PESSOA_1] e [PESSOA_2] conversavam, os criminosos, que haviam aberto uma conta em nome do coautor [AUTOR] (pessoa física) em uma fintech chamada Soffy Soluções de Pagamentos (empresa "bloqueada" judicialmente em razão do desvio de R$ 270.000.000,00), fizeram 5 (cinco) transferências das contas das empresas autoras para essa conta fraudulenta. Apontam que tais transferências foram realizadas em 27/06/2025, via PIX, nos seguintes valores e horários: i) R$ 80.000,00 às 14h34min50s (conta 45910-0, da agência 0296, de titularidade de Brasil SP Vedações ICIEAV Ltda.); ii) R$ 30.000,00 às 14h37min00s (conta 45910-0, da agência 0296, de titularidade de Brasil SP Vedações ICIEAV Ltda.); iii) R$ 50.000,00 às 14h43min58s (conta 49599-9, da agência 0296, de titularidade de Brasil Vedações São Paulo C V Ltda.); iv) R$ 42.000,00 às 14h46min22s (conta 49599-9, da agência 0296, de titularidade de Brasil Vedações São Paulo C V Ltda.) e v) R$ 20.000,00 às 15h02min09s (conta 45910-0, da agência 0296, de titularidade de Brasil SP Vedações ICIEAV Ltda.); totalizando R$ 222.000,00. Aduzem que, durante a realização das transferências, a funcionária solicitou o bloqueio das contas e dos acessos bancários, bem como registrou "contestação" no banco, porém não foi impedida a efetivação das operações fraudulentas, o que alegam configurar falha do réu. Acrescentam que as transações foram feitas por meio de um laptop, sem que eles (autores) tivessem fornecido senha ou outros dados. Negam qualquer relação com a empresa Soffy Soluções de Pagamentos Ltda. Destacam que o réu se negou a ressarci-los dos prejuízos sofridos, mesmo diante de reclamações administrativas no PROCON (2025.07/00011400015) e no BACEN (2025/664830). Defendem que a responsabilidade do réu é objetiva (art. 14, caput, do CDC) e que o serviço prestado foi defeituoso, pois não lhes foi fornecida a segurança que eles poderiam esperar (§1o do mesmo artigo). Evocam a súmula 479 do STJ. Asseveram terem sofrido danos morais, em razão da situação constrangedora e grave pela qual estão passando. Ao final, requerem a anulação das transações fraudulentas impugnadas, assim como a condenação do réu ao ressarcimento dos danos materiais no valor de R$ 222.000,00 e ao pagamento de indenização por danos morais fixada em R$ 50.000,00. Deram à causa o valor de R$ 272.000,00. Juntaram procurações (fls. 19/20) e documentos (fls. 21/60).
+
+Taxa judiciária inicial recolhida às fls. 65/66.
+
+Citado (fl. 76), o réu apresentou contestação, sustentando, inicialmente, o descabimento da inversão do ônus da prova prevista no art. 6o, VIII, do CDC, por ausência de verossimilhança das alegações e de hipossuficiência da parte autora. Aduz que investigou os fatos narrados pelos autores e não apurou qualquer falha em sua prestação de serviço. Acrescenta que a petição inicial expõe que os fatos foram cometidos pela própria parte autora, sem qualquer intervenção de funcionário ou preposto do banco rrequerido. Destaca que a parte autora seguiu cegamente as orientações do golpista, clicando em link que a direcionou para um site falso feito em nome do banco e, embora tenha negado o fato, é certo que fez login, digitou senha (que é pessoal e intransferível) e chave de segurança, proporcionando ao fraudador amplo acesso à respectiva conta bancária. Acrescenta, ainda, que as transações impugnadas foram realizadas para conta de titularidade da própria parte autora em outra instituição financeira, inexistindo indícios que permitissem ao banco identificar irregularidade. Sustenta que não houve falha de segurança ou violação de dados, afirmando que as transações foram realizadas mediante uso das credenciais do usuário [AUTOR], incluindo senha e dispositivo de segurança M-Token cadastrado em 13/04/2023. Alega que a efetivação das operações dependia de duplo fator de autenticação, consistente na utilização de senha de 4 dígitos, senha PIN e M-Token. Ressalta que as operações não destoam do perfil de movimentação da empresa autora, que já realizava transações de elevado valor, conforme mostra o extrato bancário colacionado a fl. 80. Alega que a parte autora afirma ter observado as transações sendo realizadas através do aplicativo instalado (de terceiro) e sem o seu consentimento, durante várias horas, e não efetuou comunicação ao banco. Diz que a parte autora foi vítima do "golpe da falsa central", amplamente divulgado, após receber telefonema de um número desconhecido (não oficial do banco), tendo o interlocutor confirmado dados como CPF, nome e data nascimento. Diz que disponibiliza inúmeros comunicados em todos os seus canais de atendimento a respeito da ocorrência de golpes. Ressalta que o valor foi transferido via PIX, cuja operação é efetivada instantaneamente, de modo que eventual comunicação para bloqueio do valor não obsta a conclusão da operação. Aduz a ocorrência de culpa exclusiva da vítima, que teria fragilizado o sigilo de seus dados sensíveis, ou, subsidiariamente, culpa exclusiva de terceiro (os fraudadores), o que rompe o nexo causal necessário à sua responsabilização (do réu). Também menciona a Súmula 479 do STJ. Defende a ausência de nexo causal entre os alegados danos e sua conduta, bem como de abalo moral. Diz que a pessoa jurídica possui tão somente honra objetiva, cuja ofensa não restou demonstrada. Impugna o quantum indenizatório pleiteado a título de dano moral, por reputá-lo excessivo. Alega ausência de comprovação dos danos materiais. Ao final, pugna pela improcedência dos pedidos (fls. 77/111). Juntou documentos (fls. 112/971), dentre eles procuração (fls. 131/142) e substabelecimento (fls. 143).
+
+Em réplica, os autores asseveram que a simples atitude do réu de não acionar seu sistema de segurança para impedir as transações suspeitas/fraudulentas, por si só, já gerou responsabilidade do banco. Ressaltam que o próprio réu confessa que a parte autora foi vítima de fraude bancária quando explica o "golpe da falsa central" a fl. 83. Sustentam que os extratos bancários e informativos apresentados pelo réu não trazem nada substancial ao caso concreto. Asseveram ser claro o dano moral suportado e que os prejuízos materiais estão demonstrados pelos comprovantes de fls. 52/56 (fls. 976/984).
+
+Os autores juntaram cópia de matéria jornalística, visando corroborar a tese de responsabilidade da instituição financeira por fraudes praticadas mediante movimentações bancárias suspeitas (fls. 986/993).
+
+Instadas as partes a se manifestarem acerca do interesse na realização de audiência de conciliação e a especificarem, de forma fundamentada, as provas que pretendiam produzir (fls. 994/995), os autores informaram não possuir interesse na realização de audiência de conciliação e manifestaram desinteresse na produção de novas provas, requerendo o julgamento antecipado do feito (fls. 997/998). Já o réu quedou-se inerte.
+
+É o relatório.
+
+Fundamento e decido.
+
+O processo comporta julgamento antecipado, nos termos do artigo 355, inciso I, do Código de Processo Civil, uma vez que as questões de mérito são de direito e de fato passíveis de comprovação documental, não havendo necessidade de dilação probatória. Ademais, ambas as partes demonstraram desinteresse na produção de outras provas, operando-se, portanto, a preclusão.
+
+Inexiste cerceamento de defesa quando a parte for instada a especificar provas e quedar-se inerte, deixando ocorrer a preclusão.
+
+Esse é o posicionamento emanado pelo Colendo Superior Tribunal de Justiça:
+
+PRODUÇÃO DE PROVAS. ESPECIFICAÇÃO DAS PROVAS A SEREM PRODUZIDAS. INTIMAÇÃO. INÉRCIA DA PARTE. PRECLUSÃO. CERCEAMENTO DE DEFESA. INOCORRÊNCIA. SÚMULA 83/STJ. REEXAME DE MATÉRIA FÁTICO-PROBATÓRIA. IMPOSSIBILIDADE. SÚMULA 7/STJ. 1. Não há cerceamento de defesa, quando, intimada a parte para especificar provas, esta se mantém silente, ocorrendo a preclusão. Assim sendo, não obstante o requerimento tenha-se dado por ocasião da petição inicial, entende-se precluso o direito à prova, na hipótese de a parte omitir-se, quando intimada para a sua especificação. Precedentes: STJ, AgRg no REsp 1.376.551/RS, Rel. Ministro Humberto Martins, Segunda Turma, DJe 28/06/2013; STJ, AgRg nos EDcl no REsp 1.176.094/RS, Rel. Ministro Luis Felipe Salomão, Quarta Turma, DJe de 15/06/2012; STJ, AgRg no Ag 1.014.951/SP, Rel. Ministro Arnaldo Esteves Lima, Quinta Turma, DJe de 04/08/2008. Dessa forma, a harmonia entre o acórdão impugnado e a jurisprudência do STJ atrai a aplicação da Súmula 83 do STJ. (...). 4. Recurso Especial não conhecido. (STJ - REsp: 1689923 RS 2017/0171647-3, Relator: Ministro HERMAN BENJAMIN, Data de Julgamento: 03/10/2017, T2 - SEGUNDA TURMA, Data de Publicação: DJe 19/12/2017) (grifo nosso)
+
+Nesse mesmo sentido vem decidindo o E. Tribunal de Justiça de São Paulo:
+
+CERCEAMENTO DE DEFESA Concessão, pelo magistrado, de oportunidade para especificarem provas Autor que se mantém silente Preclusão - Alegação de cerceamento de defesa Acolhimento Impossibilidade: Não cabe o acolhimento de cerceamento de defesa, quando o autor se mantém silente diante do despacho do magistrado que determinava a especificação das provas que pretendiam produzir, ficando a prova preclusa. RECURSO NÃO PROVIDO. (AC: 10022235120178260441 SP 1002223-51.2017.8.26.0441, Rel. Des. Nelson Jorge Júnior, data de julgamento: 10/01/2021, 13a Câmara de Direito Privado, data de publicação: 10/01/2021);
+
+APELAÇÃO. SEGURO OBRIGATÓRIO (DPVAT). AÇÃO DE COBRANÇA. PETIÇÃO INICIAL. FATO CONSTITUTIVO DO DIREITO ALEGADO. INVALIDEZ PERMANENTE. PERÍCIA MÉDICA OFICIAL. ÔNUS DA PROVA DO AUTOR. ESPECIFICAÇÃO DE PROVAS. INTIMAÇÃO DA QUAL O AUTOR MANTEVE-SE INERTE. PRECLUSÃO DO DIREITO DE PROVA. SENTENÇA DE IMPROCEDÊNCIA MANTIDA. RECURSO IMPROVIDO. No caso em julgamento, regularmente intimada as partes litigantes neste processo no ato de especificação das provas que pretendiam produzir, o autor não indicou o meio de prova indispensável para comprovar o fato constitutivo do direito alegado, deixando fluir integralmente o prazo legal para esse cumprimento, o que acarretou a preclusão do direito a produção probatória. (AC: 10022731820208260168 SP 1002273-18.2020.8.26.0168, Rel. Des. Adilson de Araujo, data de julgamento: 26/04/2021, 31a Câmara de Direito Privado, Data de Publicação: 26/04/2021).
+
+Sobre o tema, confira-se a lição de Arruda Alvim, Araken de Assis e Eduardo Arruda Alvim: "uma vez ocorrida a preclusão, no processo, os respectivos efeitos são aí inelimináveis (dentro do âmbito da preclusão)", acrescentando que "é um fato processual que não pode ser desconhecido e, necessariamente, se refletirá na sentença, possivelmente de forma negativa e em desfavor daquele em relação a quem se operou a preclusão" (Comentários ao Código de Processo Civil. 2a edição. São Paulo: Editora Revista dos Tribunais, 2012. Página 939).
+
+Como ensina Cândido Rangel Dinamarco, "a razão pela qual se permite a antecipação do julgamento do mérito é invariavelmente a desnecessidade de produzir provas. Os dois incisos do art. 330 desmembram essa causa única em várias hipóteses, mediante uma redação cuja leitura deve ser feita com a consciência de que só será lícito privar as partes de provar quando as provas não forem necessárias ao julgamento" (Instituições de Direito Processual Civil, v. III, 2a ed., Malheiros, p. 555).
+
+Na mesma linha, já decidiu o Excelso Supremo Tribunal Federal:
+
+A necessidade de produção de prova há de ficar evidenciada para que o julgamento antecipado da lide implique em cerceamento de defesa. A antecipação é legítima se os aspectos decisivos estão suficientemente líquidos para embasar o convencimento do Magistrado. (RE 101171, Relator Min. FRANCISCO REZEK, SEGUNDA TURMA, julgado em 05/10/1984, DJ 07-12-1984 p. 20990).
+
+No mérito, respeitada a situação vivenciada pelo representante legal das pessoas jurídicas autoras e a convicção de seu digno advogado, os pedidos deduzidos na inicial são improcedentes.
+
+Quanto à aplicação do Código de Defesa do Consumidor, não se desconhece que, pela teoria finalista, somente considera-se consumidora a pessoa, física ou jurídica, que utiliza do serviço ou produto como destinatária final (art. 2o da Lei 8.078/90).
+
+Ocorre que a jurisprudência tem admitido a mitigação dessa teoria, utilizando um critério mais subjetivo, considerando como consumidor também a pessoa física ou jurídica que se mostra hipossuficiente em relação ao fornecedor de determinado produto ou serviço, ainda que o empregue em sua atividade empresarial.
+
+No caso concreto, cabível a aplicação da teoria finalista mitigada, porquanto os autores possuem "vulnerabilidade técnica (ausência de conhecimento específico acerca do produto ou serviço objeto de consumo)"; "fática (situações em que a insuficiência econômica, física ou até mesmo psicológica do consumidor o coloca em pé de desigualdade frente ao fornecedor)" e "informacional (dados insuficientes sobre o produto ou serviço capazes de influenciar no processo decisório de compra)". (STJ - REsp: 1195642 RJ 2010/0094391-6, Relator: Ministra NANCY ANDRIGHI, Data de Julgamento: 13/11/2012, T3 TERCEIRA TURMA) (grifo nosso).
+
+Atualmente já não se discute mais a possibilidade de aplicação da legislação consumerista nas relações entre bancos e seus clientes, na forma do artigo 3o, § 2o, do CDC, sendo a matéria pacificada no E. Superior Tribunal de Justiça, verbis: "O Código de Defesa do Consumidor é aplicável às instituições financeiras" (Súmula no 297).
+
+De acordo com o artigo 6o, inciso VIII, é possível a inversão do ônus da prova em favor da parte autora, a qual se insere entre os vários mecanismos que tem por finalidade facilitar a defesa dos direitos do consumidor em juízo, propiciando igualdade de condições das partes. Todavia, essa inversão da prova não tem aplicação automática (art. 38 do CDC), devendo estar presentes os requisitos da verossimilhança das alegações do consumidor ou sua hipossuficiência.7
+
+No caso em tela, não se vislumbra verossimilhança nas alegações deduzidas na inicial, na forma como descritas. Além disso, não se verifica situação que justifique a redistribuição do encargo probatório.
+
+É incontroverso que os autores foram vítimas de fraude conhecida como "golpe da falsa central de atendimento".
+
+Também é incontroverso que, em 27/06/2025, foram realizadas cinco transferências via PIX, em sequência, em um intervalo de aproximadamente 28 minutos às 14h34min50s (R$ 80.000,00), 14h37min00s (R$ 30.000,00), 14h43min58s (R$ 50.000,00), 14h46min22s (R$ 42.000,00) e 15h02min09s (R$ 20.000,00) , somando R$ 222.000,00 (fls. 52/57).
+
+As operações foram realizadas a partir das contas bancárias das empresas autoras e tiveram como destino conta aberta na instituição de pagamento Soffy Soluções de Pagamentos em nome do coautor [AUTOR], representante das pessoas jurídicas requerentes (fl. 57).
+
+A controvérsia reside em definir se o prejuízo suportado pelos autores decorreu de defeito na prestação dos serviços do banco réu ou de evento externo provocado pela atuação de terceiros, viabilizada pela interação dos próprios usuários com ambiente eletrônico fraudulento.
+
+Pois bem.
+
+Segundo a narrativa da petição inicial, terceiros entraram em contato com a preposta da empresa autora, apresentaram-se como representantes da instituição financeira e indicaram a plataforma eletrônica denominada "www.bradesco.pj.chat", sob o pretexto de estabelecer comunicação com a gerência responsável pelas contas bancárias.
+
+A funcionária [PESSOA_1], integrante do setor financeiro das empresas requerentes, clicou no link encaminhado pelos falsários e acessou a plataforma por eles indicada. A circunstância foi relatada no boletim de ocorrência (fls. 35/37) e na reclamação apresentada ao PROCON (fls. 59/60).
+
+Como se vê, a fraude teve início fora dos canais oficiais da instituição financeira, mediante típica técnica de engenharia social, somente se viabilizando após a interação da preposta das autoras com o ambiente eletrônico indicado pelos criminosos.
+
+Embora os autores neguem o fornecimento de senhas ou outros dados sigilosos, é certo que o acesso à plataforma fraudulenta constituiu fato determinante para o êxito da empreitada criminosa.
+
+Não há, de outro lado, demonstração de invasão dos sistemas internos da instituição financeira, comprometimento de seus canais oficiais de atendimento ou vazamento de dados decorrente de falha imputável ao réu, circunstâncias que, aliadas à interação da preposta das autoras com o ambiente eletrônico indicado pelos golpistas, enfraquecem a alegação de defeito na prestação do serviço.
+
+Não há elementos que permitam concluir que o banco réu devesse, necessariamente, impedir a realização das operações impugnadas, sobretudo porque os valores individualmente considerados não destoavam do perfil de movimentação das empresas autoras.
+
+É verdade que foram efetuadas cinco transferências em curto espaço de tempo, envolvendo quantia global expressiva. Essa circunstância, isoladamente considerada, poderia suscitar questionamento acerca da atipicidade das movimentações.
+
+Ocorre que existe, no caso concreto, peculiaridade relevante: todas as transferências foram destinadas à conta bancária aberta em nome do próprio coautor [AUTOR], representante das empresas autoras, mantida em outra instituição financeira, conforme comprovantes de fls. 52/57.
+
+Sob a perspectiva do banco de origem, a coincidência entre o titular da conta destinatária e o representante autorizado das pessoas jurídicas remetentes conferia aparência de legitimidade às operações. Não havia como o réu, apenas com os dados disponíveis no momento da execução dos Pix, saber que a conta mantida perante a instituição destinatária teria sido aberta fraudulentamente por terceiros.
+
+Embora sustentem que a conta destinatária tenha sido aberta fraudulentamente em nome do coautor [AUTOR], os autores não trouxeram aos autos elementos objetivos aptos a demonstrar tal circunstância, subsistindo, para a instituição financeira de origem, a aparência de legitimidade das informações cadastrais disponíveis quando da realização das transferências.
+
+Com efeito, a verificação da regularidade da abertura e manutenção da conta destinatária, inclusive quanto à autenticidade dos documentos apresentados e à efetiva manifestação de vontade do titular aparente, encontrava-se no âmbito de atuação da instituição na qual essa conta foi constituída, e não do banco de origem.
+
+Não seria razoável exigir que o réu recusasse, de plano, ordens de transferência autenticadas e dirigidas a conta que, segundo as informações apresentadas pelo sistema, pertencia ao próprio representante das sociedades remetentes. Para o banco réu, as operações não tinham como beneficiário ostensivo terceiro desconhecido, mas pessoa diretamente vinculada às empresas titulares das contas de origem.
+
+Em caso parecido, embora envolvendo hipótese de identidade plena de titularidade entre remetente e destinatário, o E. Tribunal de Justiça de São Paulo reconheceu que transferências destinadas a contas mantidas em nome do próprio correntista, em outras instituições financeiras, apresentam regularidade no plano das aparências. O fundamento adotado mostra-se aplicável à hipótese em exame, porquanto a aparência de legitimidade decorreu, em ambos os casos, do vínculo formal existente entre o destinatário dos recursos e a origem da movimentação financeira.
+
+Apelação Serviços bancários Ação declaratória c.c. indenizatória Fraude bancária 'Golpe da falsa central de atendimento' Sentença de acolhimento parcial dos pedidos em face dos corréus Everson e Alessandra, e de improcedência em relação ao banco réu Irresignação improcedente. 1. Regularidade na abertura da conta destinatária dos valores demonstrada. Ausência de defeito no serviço. 2. Impossibilidade, ainda, de responsabilização do réu pelas transferências realizadas da conta do autor. Operações efetuadas para contas de titularidade do próprio autor, mantidas em outros bancos, regulares no plano das aparências. Elementos dos autos não evidenciando fato imputável ao réu no episódio de que foi vítima o autor, só o que ensejaria o reconhecimento da respectiva responsabilidade a partir da teoria do risco da atividade. Aplicação da excludente de responsabilidade civil, nos termos do art. 14, § 3o, II, do CDC. 3. Sentença mantida. Negaram provimento à apelação. (TJSP; Apelação Cível no 1014012-46.2022.8.26.0223; Relator: Ricardo Pessoa de Mello Belli; 19a Câmara de Direito Privado; Foro de Guarujá, 1a Vara Cível; julgamento em 03/03/2026; registro em 03/03/2026).
+
+Na mesma linha:
+
+DIREITO DO CONSUMIDOR. APELAÇÃO CÍVEL. RESPONSABILIDADE CIVIL BANCÁRIA. GOLPE DA FALSA CENTRAL TELEFÔNICA. TRANSFERÊNCIA REALIZADA PELA PRÓPRIA CORRENTISTA PARA CONTA DE MESMA TITULARIDADE. RECURSO DESPROVIDO. I. Caso em Exame: Recurso de apelação interposto pela parte autora contra sentença que julgou improcedente o pedido de indenização por danos materiais e morais decorrentes de fraude perpetrada por terceiros (golpe da falsa central de atendimento), em que a demandante realizou voluntariamente a transferência de R$ 100.000,00. II. Questão em Discussão: 2. A questão em discussão consiste em (i) verificar se houve falha na segurança ou na prestação dos serviços por parte da instituição financeira, inclusive quanto a suposto vazamento de dados cadastrais e dever de monitoramento de transações atípicas; (ii) analisar a regularidade da atuação pós-fraude pelo Mecanismo Especial de Devolução (MED); e (iii) determinar a existência de responsabilidade civil e dever de indenizar por danos materiais e morais. III. Razões de Decidir: 3. O Código de Defesa do Consumidor aplica-se ao caso, entretanto, a excludente de responsabilidade do fato exclusivo de terceiro e da culpa exclusiva da vítima afasta o dever de indenizar, conforme o artigo 14, § 3o, inciso II, do CDC. 4. A transferência foi efetuada a partir do dispositivo móvel habitual da autora, mediante uso de suas credenciais regulares e validação de token, sem indícios de invasão sistêmica ou comprometimento dos canais oficiais da ré. 5. O direcionamento do numerário para conta de mesma titularidade da autora em outra instituição financeira impede o acionamento de bloqueios preventivos automáticos, visto que operações entre contas de igual titularidade não indicam, de plano, atipicidade ou intuito de fraude. 6. Inexistência de nexo de causalidade apto a atrair a incidência da Súmula 479 do STJ, por se tratar de fortuito externo decorrente de engenharia social. IV. Dispositivo e Tese: 7. Recurso desprovido. Tese de julgamento: 1. A instituição financeira não responde por prejuízos decorrentes do golpe da falsa central telefônica quando a operação é validada e realizada pelo próprio correntista, de seu aparelho habitual, direcionada para conta de sua própria titularidade em outro banco. 2. A utilização de técnicas de engenharia social por terceiros caracteriza fortuito externo, a afastar a aplicação da Súmula 479 do STJ na ausência de falha de segurança interna na plataforma bancária."
+
+(TJSP; Apelação Cível no 1021099-53.2025.8.26.0577; Relator: Regis de Castilho Barbosa Filho; Núcleo 4.0, Turma VI, Direito Privado 2; Foro de São José dos Campos, 3a Vara Cível; julgamento em 20/08/2026; registro em 14/09/2026).
+
+Desse modo, ainda que a realização de múltiplas transferências sucessivas de elevado valor em curto espaço de tempo pudesse ser considerada incomum, a destinação dos recursos à conta aparentemente pertencente ao representante legal das empresas remetentes constituía elemento objetivo apto a reduzir a suspeita de irregularidade das operações perante o banco de origem.
+
+Não se trata de afirmar que toda operação autenticada exime automaticamente a instituição financeira de responsabilidade, nem que o banco esteja dispensado de monitorar movimentações incompatíveis com o perfil de seus clientes. O que se reconhece é que, nas circunstâncias específicas destes autos, o envio dos recursos para conta que aparentava pertencer ao próprio representante das empresas autoras não permitia ao réu identificar, de plano, a fraude.
+
+Também não ficou demonstrado que os valores transferidos tenham ultrapassado os limites previamente estabelecidos para as contas empresariais. Ao contrário, os extratos de fls. 44/51 e 167/971 evidenciam a realização de movimentações de valores expressivos, circunstância que igualmente enfraquece a tese de que as operações, consideradas exclusivamente em seu aspecto quantitativo, deveriam ter sido necessariamente recusadas.
+
+Nesse sentido:
+
+AÇÃO DE INDENIZAÇÃO POR DANOS MORAIS E MATERIAIS Pagamento de boleto bancário e transação via PIX Autor que alega ter sido vítima de golpe por telefone, em razão do que realizou duas transferências via PIX, nos valores de R$ 4.880,00 e R$ 2.690,00, e pagou um boleto no valor de R$ 6.500,00 Pretensão de condenação da instituição financeira, na qual mantém conta corrente, a restituir os valores transferidos e a pagar indenização por dano moral Sentença de procedência Insurgência do réu Cabimento Embora a responsabilidade da instituição financeira seja objetiva, é imprescindível a demonstração do nexo de causalidade entre a conduta do banco e o dano experimentado pelo autor Hipótese em que o requerente admite ter sido ludibriado, o que culminou na efetivação de duas transferências por meio da ferramenta PIX para conta bancária de terceiro, mantida em outra instituição financeira, além do pagamento de um boleto bancário Ação de terceiros pouco engenhosa e em evidente intuito de fraude Ausência de ato ilícito por parte do réu, que apenas cumpriu as ordens de pagamento enviadas pelo autor Outrossim, não foi demonstrado qualquer vazamento de dados relacionados ao requerente Ausência, ainda, de demonstração de que as transferências excederam o limite fixado para tanto ou destoaram do perfil do autor Sentença reformada RECURSO PROVIDO. (TJSP; Apelação Cível no 1001269-80.2023.8.26.0445; Relator: Renato Rangel Desinano; 11a Câmara de Direito Privado; Foro de Pindamonhangaba, 2a Vara Cível; julgamento em 14/12/2023; registro em 15/12/2023).
+
+A pretensão também não prospera sob o fundamento de que o réu teria sido comunicado durante a realização das operações e, mesmo assim, deixado de bloqueá-las.
+
+Os autores afirmam que, enquanto as transferências eram efetuadas, a funcionária [PESSOA_1] manteve contato com a gerente [PESSOA_2] e solicitou o bloqueio das contas e dos acessos bancários. Entretanto, não apresentaram gravação, protocolo de atendimento, mensagem eletrônica ou outro documento idôneo capaz de demonstrar o horário exato da comunicação, o conteúdo das providências solicitadas e, sobretudo, que a instituição financeira tenha recebido a notícia da fraude antes da conclusão das operações.
+
+O boletim de ocorrência de fls. 35/37 e a reclamação apresentada ao Procon às fls. 59/60 reproduzem, nesse ponto, declarações prestadas pelos próprios interessados. Embora sejam aptos a demonstrar que os fatos foram posteriormente noticiados, não comprovam, por si sós, o momento exato em que o banco foi cientificado, nem que teria havido tempo útil para impedir a liquidação das transferências realizadas por meio do sistema Pix.
+
+Cumpre observar que a primeira transferência ocorreu às 14h34min50s e a última às 15h02min09s. Cabia aos autores, por se tratar de fato constitutivo de seu direito e de prova que lhes era acessível, apresentar algum elemento objetivo que permitisse estabelecer em qual momento desse intervalo o banco foi comunicado e quais providências foram efetivamente solicitadas.
+
+Demais disso, os autores não apresentaram documento comprobatório de que tenham acionado o Mecanismo Especial de Devolução (MED), nem trouxeram protocolo, decisão administrativa ou informação sobre eventual processamento do pedido.
+
+O Mecanismo Especial de Devolução constitui procedimento próprio destinado à tentativa de recuperação de valores transferidos via Pix em situações de suspeita de fraude. A restituição não é automática e depende da instauração do procedimento, da análise das instituições envolvidas e da existência de recursos passíveis de bloqueio na conta destinatária.
+
+Assim, a simples alegação de que houve contestação administrativa, desacompanhada de documento que demonstre o requerimento do MED e o momento em que foi formulado, não permite concluir pela omissão da instituição financeira nem lhe imputar a impossibilidade de recuperação dos valores.
+
+A ausência dessa prova assume especial relevância porque os recursos foram transferidos instantaneamente para uma conta mantida em outra instituição. Sem comprovação da comunicação tempestiva e da solicitação do procedimento específico de devolução, não se pode presumir que o réu tinha condições materiais de bloquear ou recuperar numerário que já havia sido creditado fora de sua esfera direta de disponibilidade.
+
+Não se ignora que a responsabilidade das instituições financeiras é objetiva, nos termos do artigo 14 do Código de Defesa do Consumidor.
+
+Tampouco se desconhece o entendimento consolidado pelo Superior Tribunal de Justiça por meio da Súmula no 479: "As instituições financeiras respondem objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias."
+
+A responsabilidade objetiva, contudo, não elimina a necessidade de demonstração do defeito do serviço e do nexo causal entre esse defeito e o prejuízo experimentado pelo consumidor. Também não impede o reconhecimento das excludentes previstas no artigo 14, § 3o, inciso II, do Código de Defesa do Consumidor:
+
+Art. 14. O fornecedor de serviços responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos.
+
+(...)
+
+§ 3o O fornecedor de serviços só não será responsabilizado quando provar:
+
+(...)
+
+II a culpa exclusiva do consumidor ou de terceiro.
+
+Acontece que, no caso concreto, não houve demonstração de invasão do sistema interno do banco, comprometimento de seus canais oficiais, vazamento de credenciais a ele imputável ou inobservância de limite previamente estabelecido.
+
+A fraude teve início com contato realizado por terceiros fora dos canais oficiais, desenvolveu-se mediante o acesso da funcionária das empresas autoras a endereço eletrônico malicioso e culminou em operações destinadas a conta que, perante o sistema bancário, encontrava-se registrada em nome do próprio representante das sociedades remetentes.
+
+Nessas circunstâncias, o evento danoso deve ser qualificado como fortuito externo, pois foi produzido por terceiros mediante engenharia social desenvolvida fora do ambiente oficial da instituição financeira, com contribuição causal determinante dos próprios usuários das contas empresariais.
+
+Dessa forma, encontram-se rompidos o nexo causal e a relação entre o risco próprio da atividade bancária e o prejuízo reclamado, incidindo a excludente prevista no artigo 14, § 3o, inciso II, do Código de Defesa do Consumidor.
+
+Não sendo reconhecido defeito na prestação do serviço nem responsabilidade do banco réu pelas operações impugnadas, não há fundamento para anular as transferências ou determinar o ressarcimento dos valores debitados.
+
+Pela mesma razão, não se encontra caracterizado ato ilícito imputável ao requerido que possa justificar compensação por danos morais.
+
+Diante desse quadro, a improcedência do pedidos formulados na inicial é medida que se impõe.
+
+Por fim, reputa-se que a matéria submetida a julgamento foi devidamente apreciada, valendo frisar que o julgador não está obrigado a rebater, ponto a ponto, todos os argumentos apresentados pelas partes, bastando que exponha de forma clara os fundamentos que embasam sua decisão, em conformidade com o art. 93, inciso IX, da Constituição Federal e com a ordem legal vigente.
+
+Ainda, em atenção ao disposto no art. 489, § 1o, inciso IV, do Código de Processo Civil, registra-se que os demais argumentos apontados pelas partes não são capazes de infirmar a conclusão ora firmada.
+
+Ante o exposto, nos termos do art. 487, inciso I, do Código de Processo Civil, JULGO IMPROCEDENTES os pedidos formulados na presente ação movida por [AUTOR], BRASIL VEDAÇÕES SÃO PAULO COMÉRCIO DE VEDAÇÃO LTDA e BRASIL SP VEDAÇÕES INDÚSTRIA COMÉRCIO IMPORTAÇÃO E EXPORTAÇÃO DE ARTEFATOS DE VEDAÇÕES LTDA EPP em face de BANCO BRADESCO SA.
+
+Em razão da sucumbência, condeno os autores ao pagamento das custas e das despesas processuais, bem como dos honorários advocatícios aos patronos da parte ré, estes arbitrados em 10% (dez por cento) do valor atualizado da causa, nos termos do art. 85, § 2o, do CPC.
+
+Desde já, ficam as partes advertidas de que a oposição de embargos de declaração fora das hipóteses legalmente previstas, ou com finalidade meramente infringente ou protelatória, poderá ensejar a aplicação da penalidade prevista no artigo 1.026, § 2o, do Código de Processo Civil, uma vez que o ordenamento processual dispõe de recurso próprio para veicular o mero inconformismo com a sentença ora proferida.
+
+Após o trânsito em julgado, com as cautelas de praxe (inclusive no que tange à verificação de despesas/custas/taxas pendentes, nos termos do Comunicado Conjunto 862/2023 - DJE de 08/05/2024, p.06), arquivem-se os autos (código SAJ 61615).
+
+Publique-se. Intimem-se.
+
+Catanduva, 19 de setembro de 2026.
+
+Juiz de Direito: MARIO YAMADA FILHO
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

@@ -1,0 +1,522 @@
+{
+  "ruling_id": "tjsp-1029464-21.2025.8.26.0602",
+  "text_sha256": "d4a7635fcd1d1ac8c60aec35aa72d3b8af9a36026afade095ce40083cfe7d95b",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Não houve cerceamento de defesa nem necessidade de prova pericial/oral",
+      "resumo": "O juiz entendeu que a controvérsia era de direito e de prova documental e que eventual perícia contábil seria inútil, pois o cálculo dependeria de prévia afirmação de abusividade. Assim, julgou no estado, sem nulidade por cerceamento.",
+      "tipo": "preliminar",
+      "tema": "cerceamento de defesa",
+      "suscitado_por": "juizo",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 355, I, do CPC",
+        "art. 370, parágrafo único, do CPC",
+        "art. 464, § 1º, I e II, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A prova pericial contábil, a seu turno, mostrar-se-ia inútil, porque o cálculo de eventual diferença pressupõe a prévia afirmação judicial da abusividade, questão de direito e de valoração das circunstâncias do caso, que independe de conhecimento técnico (arts. 370, parágrafo único, e 464, § 1o, I e II, do CPC).",
+          "char_start": 5999,
+          "char_end": 6312,
+          "score": 100.0
+        },
+        {
+          "texto": "Não há, portanto, cerceamento de defesa.",
+          "char_start": 6313,
+          "char_end": 6353,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Nulidade por descompasso procedimental inexistente",
+      "resumo": "O equívoco de rito foi saneado, com devolução de oportunidades para ataque e defesa, réplica e especificação de provas, não havendo prejuízo. Assim, não há nulidade a reconhecer.",
+      "tipo": "preliminar",
+      "tema": "nulidade processual",
+      "suscitado_por": "juizo",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 9º do CPC",
+        "art. 10 do CPC",
+        "art. 282, § 1º, do CPC",
+        "art. 283, parágrafo único, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O equívoco procedimental inicial, por sua vez, foi integralmente saneado pela decisão de p. 136, que devolveu às partes a oportunidade de deduzir, sob o rito comum, toda a matéria de ataque e de defesa, o que efetivamente ocorreu (p. 137/162 e 166/203), com réplica (p. 427/429) e oportunidade de especificação de provas (p. 430/434).",
+          "char_start": 6355,
+          "char_end": 6689,
+          "score": 100.0
+        },
+        {
+          "texto": "Assegurados o contraditório substancial e a ampla defesa, inexiste nulidade a ser proclamada, sobretudo à míngua de prejuízo (arts. 9o, 10, 282, § 1o, e 283, parágrafo único, do CPC).",
+          "char_start": 6690,
+          "char_end": 6873,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Impugnação ao valor da causa deve ser rejeitada",
+      "resumo": "A ré não indicou qual seria o valor correto nem demonstrou excesso. O valor de R$ 5.021,60 corresponde ao indébito que a autora declarou incontroverso, inexistindo elemento para redução.",
+      "tipo": "preliminar",
+      "tema": "valor da causa",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 292 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A impugnação ao valor da causa não prospera.",
+          "char_start": 6875,
+          "char_end": 6919,
+          "score": 100.0
+        },
+        {
+          "texto": "O montante de R$ 5.021,60 corresponde exatamente ao indébito que a autora quantificou como incontroverso (p. 48 e 55), não havendo, nos autos, elemento algum que autorize a sua redução (art. 292 do CPC).",
+          "char_start": 7091,
+          "char_end": 7294,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Alegação de litigância abusiva/má-fé e pedidos correlatos (Tema 1.198/STJ) devem ser rejeitados",
+      "resumo": "Não há indícios concretos de abuso ou de inautenticidade da postulação. A relação jurídica é incontroversa e a instrução documental é suficiente. Improcedência não implica má-fé.",
+      "tipo": "preliminar",
+      "tema": "litigância abusiva",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Tema 1.198 do STJ",
+        "art. 80 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A respeito da alegada litigância abusiva (Tema 1.198 do STJ), há de pontuar alguns aspectos.",
+          "char_start": 7296,
+          "char_end": 7388,
+          "score": 100.0
+        },
+        {
+          "texto": "Rejeito, por isso, os pedidos de extinção, de designação de audiência preliminar e de expedição de ofícios à Ordem dos Advogados do Brasil e à autoridade policial.",
+          "char_start": 8158,
+          "char_end": 8321,
+          "score": 100.0
+        },
+        {
+          "texto": "Pelas mesmas razões, não reconheço litigância de má-fé, pois a improcedência, por si só, não induz a presença de qualquer das hipóteses do art. 80 do CPC, a despeito das graves inconsistências do cálculo apresentado, adiante examinadas.",
+          "char_start": 8322,
+          "char_end": 8558,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Inadequação da via eleita deixou de existir após a conversão em ação revisional",
+      "resumo": "Com a conversão para o rito comum revisional, a preliminar de inadequação da via perdeu objeto.",
+      "tipo": "preliminar",
+      "tema": "inadequação da via eleita",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A preliminar de inadequação da via, deduzida na primeira contestação, perdeu objeto com a conversão da demanda em ação revisional de rito comum (p. 136/162).",
+          "char_start": 8560,
+          "char_end": 8717,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Há interesse processual na ação revisional",
+      "resumo": "A pretensão revisional é prevista no ordenamento e há resistência da ré, de modo que se verifica o binômio necessidade-adequação.",
+      "tipo": "preliminar",
+      "tema": "interesse de agir",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 6º, V, do CDC",
+        "Súmula 297 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "O interesse processual, por sua vez, está presente no binômio necessidadeadequação: a pretensão revisional é abstratamente admitida pelo ordenamento (art. 6o, V, do CDC; Súmula 297 do STJ), e a resistência da ré está estampada na contestação de mérito.",
+          "char_start": 8718,
+          "char_end": 8970,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Inépcia da inicial não configurada",
+      "resumo": "A autora indicou as obrigações controvertidas e quantificou valor incontroverso; ademais, aplica-se a primazia do julgamento de mérito, sendo o mérito favorável à parte que invocou a preliminar.",
+      "tipo": "preliminar",
+      "tema": "inépcia da inicial",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 4º do CPC",
+        "art. 488 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A ventilação de inépcia da inicial não comporta acolhida.",
+          "char_start": 9063,
+          "char_end": 9120,
+          "score": 100.0
+        },
+        {
+          "texto": "A autora discriminou as obrigações que pretende controverter (juros remuneratórios, tarifas de cadastro e encargos moratórios) e quantificou o valor que reputa incontroverso (p. 48).",
+          "char_start": 9121,
+          "char_end": 9303,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Impugnação da gratuidade da justiça rejeitada",
+      "resumo": "Mantida a gratuidade concedida, pois a impugnação foi genérica e sem elementos que infirmassem a hipossuficiência demonstrada.",
+      "tipo": "acessorio",
+      "tema": "gratuidade da justiça",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 100 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Mantenho o benefício concedido a p. 76, após exame da documentação exigida por este Juízo (p. 24/25 e 64/75).",
+          "char_start": 9852,
+          "char_end": 9961,
+          "score": 100.0
+        },
+        {
+          "texto": "A impugnação genérica da ré não veio acompanhada de qualquer elemento concreto capaz de infirmar a hipossuficiência reconhecida (art. 100 do CPC).",
+          "char_start": 9962,
+          "char_end": 10108,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "Inversão do ônus da prova (art. 6º, VIII, do CDC) não se aplica ao caso",
+      "resumo": "A inversão não é automática e exige verossimilhança das alegações ou hipossuficiência técnica, o que não se verificou; as partes atuaram sob a regra do art. 373 do CPC durante toda a instrução.",
+      "tipo": "merito",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 6º, VIII, do CDC",
+        "art. 373 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "À autora não aproveita a requestada inversão prevista no art. 6o, VIII, do CDC, que, aliás, não é automática; opera ope judicis e pressupõe verossimilhança das alegações ou hipossuficiência técnica do consumidor em relação ao fato a ser provado.",
+          "char_start": 10110,
+          "char_end": 10355,
+          "score": 100.0
+        },
+        {
+          "texto": "Nenhum dos requisitos está presente.",
+          "char_start": 10356,
+          "char_end": 10392,
+          "score": 100.0
+        },
+        {
+          "texto": "Registre-se que, jamais tendo havido decisão de inversão, as partes atuaram, durante toda a instrução, sob a regra ordinária do art. 373 do CPC, inexistindo qualquer surpresa.",
+          "char_start": 10852,
+          "char_end": 11027,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a10",
+      "titulo": "Prescrição decenal aplicável, com extinção de 11 contratos e prosseguimento quanto a 3",
+      "resumo": "Aplicou-se o prazo decenal do art. 205 do CC às pretensões revisionais, afastando-se o prazo quinquenal do art. 27 do CDC. Contando-se do último desconto, 11 contratos estavam prescritos ao ajuizamento; 3 não prescreveram. A notificação extrajudicial não interrompe a prescrição.",
+      "tipo": "prejudicial",
+      "tema": "prescrição",
+      "suscitado_por": "reu",
+      "decisao": "parcial",
+      "fundamento_legal": [
+        "art. 205 do CC",
+        "art. 202, I, do CC",
+        "art. 202, VI, do CC",
+        "art. 240, § 1º, do CPC",
+        "AREsp 3.035.759/PB (STJ)",
+        "AgInt no AREsp 1.234.635/SP (STJ)",
+        "AgInt no AREsp 2.152.726/SP (STJ)",
+        "Súmula 286 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "A pretensão de revisão de cláusulas de contrato bancário, ainda que cumulada com repetição de indébito, tem natureza pessoal e fundamento em relação contratual, submetendo-se ao prazo geral decenal do art. 205 do Código Civil.",
+          "char_start": 11131,
+          "char_end": 11357,
+          "score": 100.0
+        },
+        {
+          "texto": "Afasta-se, desde logo, a tese da ré de incidência do prazo quinquenal do art. 27 do CDC, que se restringe à pretensão de reparação de danos causados por fato do produto ou do serviço (acidente de consumo), hipótese estranha à revisão de cláusulas contratuais.",
+          "char_start": 11358,
+          "char_end": 11617,
+          "score": 100.0
+        },
+        {
+          "texto": "Confrontadas as datas com o marco interruptivo de 14 de agosto de 2025, verifica-se que, em relação a onze contratos, o prazo decenal escoou integralmente antes do ajuizamento:",
+          "char_start": 15213,
+          "char_end": 15389,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a11",
+      "titulo": "Exibição de documentos é inútil ou sem utilidade prática nas circunstâncias do processo",
+      "resumo": "Quanto aos 11 contratos prescritos, a exibição perdeu utilidade porque não influiria no julgamento; em relação aos contratos remanescentes, a exibição é inútil ao desate e a presunção do art. 400 do CPC seria inócua.",
+      "tipo": "merito",
+      "tema": "exibição de documentos",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 370, parágrafo único, do CPC",
+        "art. 400 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Em consequência, perde utilidade o pedido incidental de exibição desses instrumentos, cujo conteúdo não mais poderia influir no julgamento (art. 370, parágrafo único, do CPC).",
+          "char_start": 17832,
+          "char_end": 18007,
+          "score": 100.0
+        },
+        {
+          "texto": "A exibição é, portanto, inútil ao desate da controvérsia (art. 370, parágrafo único, do CPC), e a presunção do art. 400 do CPC, ainda que aplicada, seria inócua.",
+          "char_start": 45727,
+          "char_end": 45888,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a12",
+      "titulo": "Juros remuneratórios do contrato 021600060343 não são abusivos",
+      "resumo": "A mera superação da taxa média do BACEN não caracteriza abusividade. Pelas peculiaridades do caso (empréstimo não consignado e sem garantias, composição de dívida anterior, alto risco de inadimplência, histórico de endividamento, transparência das informações), validou-se a taxa pactuada.",
+      "tipo": "merito",
+      "tema": "juros remuneratórios",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 596 do STF",
+        "Súmula Vinculante 7 do STF",
+        "Súmula 382 do STJ",
+        "Súmula 297 do STJ",
+        "art. 4º, IX, da Lei 4.595/1964",
+        "REsp 1.061.530/RS (STJ)",
+        "REsp 1.821.182/RS (STJ)",
+        "REsp 2.009.614/SC (STJ)",
+        "AgInt no AREsp 2.007.281/PR (STJ)",
+        "arts. 6º, III, 46, 52 e 54, § 3º, do CDC",
+        "art. 373, I, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Inviável, logo, a declaração de abusividade com base na simples e objetiva comparação da taxa média com a ajustada e é precisamente nesse cotejo isolado que se esgota toda a argumentação da autora (p. 31, 39/43 e 56/58).",
+          "char_start": 27617,
+          "char_end": 27837,
+          "score": 100.0
+        },
+        {
+          "texto": "À vista desses parâmetros, não se pode qualificar como abusivas as taxas pactuadas, eis que a parte demandante não faz qualquer alusão às nuances concretas da contratação, não esclarecendo se suportava negativações ao tempo das tratativas, não esclarecendo se é proprietária de qualquer bem idôneo a amparar eventual execução em hipótese de inadimplemento, tampouco esclarecendo se tinha crédito à disposição em outra instituição financeira, com melhores condições.",
+          "char_start": 32860,
+          "char_end": 33325,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a13",
+      "titulo": "Validade das cláusulas de refinanciamento (VI.1 e VII.5) do contrato 021600060343",
+      "resumo": "As cláusulas impugnadas apenas autorizaram a quitação de saldo anterior com parte do novo crédito e reproduziram a regra de cálculo do valor presente na liquidação antecipada prevista em norma do CMN, não implicando desvantagem exagerada.",
+      "tipo": "merito",
+      "tema": "cláusulas de refinanciamento",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 52, § 2º, do CDC",
+        "Resolução CMN 3.516/2007, art. 2º"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não há nulidade a declarar sobre as cláusulas de refinanciamento.",
+          "char_start": 41550,
+          "char_end": 41615,
+          "score": 100.0
+        },
+        {
+          "texto": "A cláusula VII.5 (p. 116), por sua vez, limita-se a reproduzir a regra regulamentar segundo a qual o valor presente dos pagamentos, na amortização ou liquidação antecipada de operações prefixadas, é calculado pela taxa de juros pactuada (art. 2o da Resolução CMN no 3.516/2007), em concretização do direito assegurado pelo art. 52, § 2o, do CDC.",
+          "char_start": 42033,
+          "char_end": 42378,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a14",
+      "titulo": "Inexistência de cobrança de tarifa de cadastro no contrato 021600060343",
+      "resumo": "O contrato não prevê tarifa de cadastro ou qualquer outra tarifa além do IOF, e a autora não indicou valor algum cobrado a esse título, de modo que o pedido é improcedente.",
+      "tipo": "merito",
+      "tema": "tarifa de cadastro",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 373, I, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O contrato no 021600060343 não contempla a cobrança de tarifa de cadastro, nem de qualquer outra tarifa: o demonstrativo do custo efetivo total registra, como única despesa vinculada à concessão do crédito, o IOF (p. 118), e a cláusula VII.7 atesta a inexistência de outros encargos (p. 116).",
+          "char_start": 42552,
+          "char_end": 42844,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a15",
+      "titulo": "Descaracterização da mora e nulidade da cláusula quinta não se aplicam",
+      "resumo": "Somente a abusividade dos encargos na normalidade contratual descaracteriza a mora. Como não houve abusividade e não se demonstrou pagamento de encargos moratórios, não há nulidade a reconhecer.",
+      "tipo": "merito",
+      "tema": "descaracterização da mora",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "REsp 1.061.530/RS (STJ)"
+      ],
+      "citacoes": [
+        {
+          "texto": "Nos termos da Orientação 2 do REsp no 1.061.530/RS, somente o reconhecimento de abusividade nos encargos do período de normalidade contratual (juros remuneratórios e capitalização) descaracteriza a mora.",
+          "char_start": 42928,
+          "char_end": 43131,
+          "score": 100.0
+        },
+        {
+          "texto": "Inexistente abusividade, não há mora a descaracterizar, nem nulidade a proclamar na cláusula quinta (p. 115), cuja invalidação foi postulada exclusivamente como consequência da pretendida descaracterização da mora (p. 46).",
+          "char_start": 43132,
+          "char_end": 43354,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a16",
+      "titulo": "Inexistência de pagamento indevido e de repetição do indébito (simples ou em dobro)",
+      "resumo": "Validados os encargos contratados, não houve pagamento indevido e tampouco cobrança de quantia indevida que atraia a repetição em dobro do CDC.",
+      "tipo": "merito",
+      "tema": "repetição do indébito",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 876 do CC",
+        "art. 42, parágrafo único, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Válidos os encargos, não houve pagamento indevido (art. 876 do CC), nem, por óbvio, cobrança de quantia indevida apta a atrair o art. 42, parágrafo único, do CDC.",
+          "char_start": 43532,
+          "char_end": 43694,
+          "score": 100.0
+        },
+        {
+          "texto": "Não há, por consequência, valor a ser repetido, tampouco em dobro.",
+          "char_start": 43696,
+          "char_end": 43762,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a17",
+      "titulo": "Revisão e restituição nos contratos 021600040627 e 021600058046 improcedem por falta de substrato fático e por insuficiência do critério da taxa média",
+      "resumo": "A inicial não individualizou dados mínimos desses contratos, é vedado conhecer de ofício a abusividade e a superação da taxa média não caracteriza abuso. Não incide a Súmula 530 do STJ e o contrato 021600058046 foi quitado pelo 021600060343.",
+      "tipo": "merito",
+      "tema": "abusividade de juros (demais contratos)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 381 do STJ",
+        "Súmula 382 do STJ",
+        "Súmula 530 do STJ",
+        "arts. 319, III, e 330, § 2º, do CPC",
+        "art. 373, I, do CPC",
+        "REsp 1.821.182/RS (STJ)",
+        "REsp 2.009.614/SC (STJ)"
+      ],
+      "citacoes": [
+        {
+          "texto": "Em primeiro lugar, a petição inicial não contém nenhuma alegação concreta a seu respeito: não se indicam datas, valores, prazos, taxas, parcelas ou cláusulas específicas.",
+          "char_start": 43916,
+          "char_end": 44086,
+          "score": 100.0
+        },
+        {
+          "texto": "Nos contratos bancários, é vedado ao julgador conhecer, de ofício, da abusividade das cláusulas (Súmula 381 do STJ), e a revisão pressupõe a indicação específica das obrigações controvertidas (arts. 319, III, e 330, § 2o, do CPC).",
+          "char_start": 44521,
+          "char_end": 44751,
+          "score": 100.0
+        },
+        {
+          "texto": "Em segundo lugar, ainda que se admitisse como verdadeiro aquilo que a autora pretendia provar com a exibição a cobrança de 'taxa de juros remuneratórios acima da média do mercado' (p. 3 e 8) , o resultado seria o mesmo, porque a superação da taxa média não configura, por si só, abusividade (Súmula 382 do STJ; REsp n. 1.821.182/RS e REsp n. 2.009.614/SC, acima transcritos).",
+          "char_start": 44829,
+          "char_end": 45204,
+          "score": 99.5
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 13581,
+    "output_tokens": 10815,
+    "cost_usd": 0.12512625,
+    "latency_ms": 89877,
+    "citacoes": 35,
+    "citacoes_ancoradas": 35
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

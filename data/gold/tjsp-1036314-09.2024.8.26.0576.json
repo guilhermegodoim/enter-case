@@ -1,0 +1,150 @@
+{
+  "ruling_id": "tjsp-1036314-09.2024.8.26.0576",
+  "text_sha256": "f8e40afd48e6801436e79b651e0ab1755cfddda37d66399b1977b479fb3e90df",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "A lide pode ser julgada no estado em que se encontra, sem prova pericial",
+      "resumo": "O juiz entendeu que a controvérsia é essencialmente de direito e já está documentalmente instruída, sendo desnecessária a dilação probatória, inclusive a pericial. A própria autora requereu o julgamento antecipado, razão pela qual o juízo julgou no estado do processo.",
+      "tipo": "merito",
+      "tema": "julgamento antecipado",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A matéria em disputa é só de direito, despiciendas outras provas além das que já foram trazidas, motivo autorizante de se dar o julgamento no estado do processo, modalidade julgamento antecipado da lide.",
+          "char_start": 3281,
+          "char_end": 3484,
+          "score": 100.0
+        },
+        {
+          "texto": "Ademais, a controvérsia repousa em matéria predominantemente de direito e interpretação de cláusulas de mútuo financeiro já instruído com a respectiva Cédula de Crédito Bancário e extrato de evolução, sendo prescindível a dilação probatória pericial, mormente quando a parte autora expressamente pugnou pelo julgamento no estado em que se encontra o feito.",
+          "char_start": 3486,
+          "char_end": 3842,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "É lícita a capitalização de juros no contrato firmado após a MP 1.963-17/2000, inexistindo anatocismo ilegal",
+      "resumo": "O magistrado afirmou que a MP 1.963-17/2000 (reeditada como MP 2.170-36/2001) permite a capitalização com periodicidade inferior à anual quando expressamente pactuada, entendimento consolidado pelo STJ no REsp 973.827/RS. Como o contrato é de 17/07/2023 e há previsão suficiente (taxa anual superior ao duodécuplo da mensal), não há ilegalidade na capitalização.",
+      "tipo": "merito",
+      "tema": "capitalização de juros",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "MP 1.963-17/2000",
+        "MP 2.170-36/2001",
+        "REsp 973.827/RS (repetitivo)"
+      ],
+      "citacoes": [
+        {
+          "texto": "Quanto ao anatocismo, a Medida Provisória 1.963-17 de 31.03.2000, expressamente permitiu a capitalização inferior ao período anual.",
+          "char_start": 5394,
+          "char_end": 5525,
+          "score": 100.0
+        },
+        {
+          "texto": "em recente julgamento do REsp 973.827/RS(2007/0179072-3, 2a Seção, processado no rito do art. 543-C, CPC (recurso repetitivo), o Superior Tribunal de Justiça sedimentou interpretação segundo a qual após a edição da Medida Provisória 1.963-17/2000 (reeditada sob no 2.170/36/2001) seria possível cômputo de juros capitalizados em contratos bancários nos quais houvesse previsão expressa nesse sentido.",
+          "char_start": 5826,
+          "char_end": 6226,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, não há falar-se em ilegalidade da capitalização de juros. Acrescente-se que, no caso específico, o período de revisão é posterior a 30.03.2000 (contrato possui data de 17 de julho de 2023).",
+          "char_start": 6383,
+          "char_end": 6579,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Os juros remuneratórios pactuados não são abusivos nem limitados a 12% ao ano; revisão indeferida",
+      "resumo": "Com base no repetitivo REsp 1.061.530/RS e na Súmula 596 do STF, o juiz destacou que instituições financeiras não se sujeitam à Lei de Usura, e juros acima de 12% ao ano, por si, não indicam abusividade. Não houve prova de desvantagem exagerada ou fato superveniente que justificasse revisão, de modo que não há motivo para alterar os percentuais contratados.",
+      "tipo": "merito",
+      "tema": "juros remuneratórios",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "REsp 1.061.530/RS (repetitivo)",
+        "Súmula 596 do STF",
+        "art. 6º, V, do CDC",
+        "art. 51 do CDC",
+        "Súmula 297 do STJ",
+        "art. 591 do CC",
+        "art. 406 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Improcede irresignação da autora quanto às taxas de juros praticadas na relação bancária em questão.",
+          "char_start": 6598,
+          "char_end": 6698,
+          "score": 100.0
+        },
+        {
+          "texto": "A estipulação de juros remuneratórios superiores a 12% ao ano, por si só, não indica abusividade;",
+          "char_start": 10797,
+          "char_end": 10894,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, não vislumbro pelas razões expostas qualquer onerosidade excessiva, muito menos modificação desses percentuais (admitidos na petição inicial) ou de ocorrências de fatos supervenientes a ponto de viabilizar a revisão das taxas de juros cobradas pela instituição financeira.",
+          "char_start": 11566,
+          "char_end": 11845,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "É válida a utilização da Tabela Price; método Gauss é incabível para amortização do mútuo bancário",
+      "resumo": "O juízo asseverou que a Tabela Price é admitida pela jurisprudência, inexistindo ilegalidade ou anatocismo pelo simples uso do sistema. Assim, não há fundamento para substituir o sistema de amortização contratado pelo método de Gauss.",
+      "tipo": "merito",
+      "tema": "tabela price",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "REsp 973.827/RS (repetitivo)"
+      ],
+      "citacoes": [
+        {
+          "texto": "APELAÇÃO \"AÇÃO REVISIONAL DE CLÁUSULA DE CONTRATO C/C REPETIÇÃO DE INDÉBITO\" Contrato de Crédito Bancário Financiamento para aquisição de veículo - Alegação de onerosidade excessiva com cobrança de juros remuneratórios abusivos - Descabimento - Incidência de correção monetária por indexador livremente pactuado e eleito pelas partes - Súmula 596, do STF - Legislação aplicável declarada constitucional pelo C. STF - Possibilidade de aplicação da tabela 'Price', no contrato em questão, e capitalização de juros com periodicidade inferior à anual Tarifas de avaliação do bem e registro de contrato - Validade da contratação, ressalvadas a abusividade da cobrança por serviço não efetivamente prestado; e a possibilidade de controle da onerosidade excessiva em cada caso concreto - Registro de contrato no órgão de trânsito que observou a Resolução do CONTRAN no 320/09 - Tarifas legítimas -Abusividade não configurada Tarifa de Cadastro - Possibilidade de cobrança (Recursos Especiais Repetitivos no 1.251.331/RS e 1.255.573/RS) - CET (Custo Efetivo Total) Valor global da negociação - Percentual que não está limitado à reprodução da taxa de juros remuneratórios - Seguro - Serviço contratado em instrumento separado do financiamento Admissibilidade da cobrança, nos termos decididos no Recurso Especial no 1.639.320-SP - Sentença de improcedência mantida - RECURSO DESPROVIDO.",
+          "char_start": 21493,
+          "char_end": 22871,
+          "score": 100.0
+        },
+        {
+          "texto": "Cabe ao Judiciário coibir eventuais excessos em razão de ilegalidade ou de cláusulas abusivas, mas não mudar as regras do contrato e do mercado financeiro no tocante às taxas de juros.",
+          "char_start": 17892,
+          "char_end": 18076,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 7059,
+    "output_tokens": 8052,
+    "cost_usd": 0.08934375,
+    "latency_ms": 70635,
+    "citacoes": 10,
+    "citacoes_ancoradas": 10
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

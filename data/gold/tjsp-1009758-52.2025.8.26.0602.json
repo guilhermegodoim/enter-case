@@ -1,0 +1,212 @@
+{
+  "ruling_id": "tjsp-1009758-52.2025.8.26.0602",
+  "text_sha256": "e38e1f395e923ecbc2da790e23dc3923f651d775ecf8a3e56fb5c105395bbaa1",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Desnecessidade de citação em razão de comparecimento espontâneo do réu",
+      "resumo": "O juiz reconheceu que o comparecimento espontâneo e a manifestação da ré nos autos suprem a necessidade de citação, permitindo o julgamento imediato.",
+      "tipo": "preliminar",
+      "tema": "comparecimento espontâneo",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Tendo em vista o comparecimento espontâneo da parte ré, faz-se desnecessária sua citação, sobretudo diante da sua manifestação expressa às fls. 299/300.",
+          "char_start": 1309,
+          "char_end": 1461,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Irregularidade da notificação extrajudicial",
+      "resumo": "A tese defensiva foi rejeitada porque a notificação foi enviada ao endereço contratual do devedor, atendendo ao art. 2º, § 2º, do DL 911/69, o que constitui validamente a mora.",
+      "tipo": "merito",
+      "tema": "constituição em mora",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 2º, § 2º, do Decreto-Lei 911/69"
+      ],
+      "citacoes": [
+        {
+          "texto": "Inicialmente, cumpre destacar aqui não haver dúvidas quanto à constituição em mora da parte ré, que foi devidamente notificada, uma vez que a notificação foi enviada para o endereço informado pelo devedor-fiduciante de acordo com o que consta no contrato, cumprindo os requisitos constantes do parágrafo 2o do art. 2o do Decreto Lei. 911/69 (fls. 72/74).",
+          "char_start": 1769,
+          "char_end": 2123,
+          "score": 100.0
+        },
+        {
+          "texto": "Sendo assim, a alegação da requerida quanto a irregularidades na notificação extrajudicial enviada, não merecem acolhimento.",
+          "char_start": 2125,
+          "char_end": 2249,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Perda do direito de purgar a mora por falta de pagamento integral em 5 dias",
+      "resumo": "A ré não depositou a integralidade da dívida após a execução da liminar, perdendo a oportunidade de purgar a mora; o STJ, em repetitivo, exige o pagamento integral no prazo legal, o que acarreta a resolução do contrato e autoriza a consolidação da propriedade.",
+      "tipo": "merito",
+      "tema": "purgação da mora",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 3º, § 2º, do Decreto-Lei 911/69",
+        "REsp 1418593/MS (repetitivo)"
+      ],
+      "citacoes": [
+        {
+          "texto": "Além disso, o réu deixou de depositar o valor integral da dívida, e por isso perdeu eventual oportunidade para purgar a mora (art. 3o, § 2o, do Decreto-Lei no 911/69), o que deu causa à resolução do contrato, caracterizado o esbulho possessório.",
+          "char_start": 2251,
+          "char_end": 2496,
+          "score": 100.0
+        },
+        {
+          "texto": "\"Nos contratos firmados na vigência da Lei no 10.931/2004, compete ao devedor, no prazo de cinco (05) dias após a execução da liminar na ação de busca e apreensão, pagar a integralidade da dívida entendida esta como os valores apresentados e comprovados pelo credor na inicial sob pena de consolidação da propriedade do bem móvel objeto de alienação fiduciária\".",
+          "char_start": 3088,
+          "char_end": 3450,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Aplicabilidade do CDC às instituições financeiras",
+      "resumo": "O juiz afirmou ser pacífica a aplicação do CDC às instituições financeiras, citando a Súmula 297 do STJ.",
+      "tipo": "merito",
+      "tema": "aplicação do CDC",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "Súmula 297 do STJ"
+      ],
+      "citacoes": [
+        {
+          "texto": "Cumpre destacar que a aplicabilidade do Código de Defesa do Consumidor às instituições financeiras é matéria pacífica e não demanda maiores considerações (súmula 297 STJ).",
+          "char_start": 3605,
+          "char_end": 3776,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Abusividade dos juros remuneratórios e do CET",
+      "resumo": "A alegação de juros abusivos foi rejeitada: instituições financeiras não se submetem à Lei da Usura; após a EC 40/2003 não há teto constitucional; o CET maior não indica abusividade; a taxa contratada (2,15% a.m., sem encargos) ficou abaixo da média de mercado (2,50% a.m.).",
+      "tipo": "merito",
+      "tema": "juros abusivos",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 596 do STF",
+        "EC 40/2003",
+        "TJSP Apelação 1003852-50.2020.8.26.0281",
+        "TJSP Apelação 1004482-45.2022.8.26.0020"
+      ],
+      "citacoes": [
+        {
+          "texto": "Importante destacar que permanece consolidado o entendimento de que as instituições financeiras não se submetem às limitações da Lei da Usura, conforme Súnula 596 do Supremo Tribunal Federal.",
+          "char_start": 4650,
+          "char_end": 4841,
+          "score": 100.0
+        },
+        {
+          "texto": "Logo, o CET se refere ao impacto percentual de todos os encargos em relação ao valor líquido do bem adquirido e não há nenhuma irregularidade no fato do percentual do CET ser superior da taxa de juros pactuada entre as partes, pois, repiso, a taxa de juros, tarifas e impostos financiados seguem a mesma taxa contratada, mas o custo efetivo total (CET) leva em consideração apenas o impacto sobre o valor principal tomado.",
+          "char_start": 4226,
+          "char_end": 4648,
+          "score": 100.0
+        },
+        {
+          "texto": "No caso, a taxa média de juros na época da contratação era de 2,50% ao mês, conforme consulta no site do Banco Central, e a taxa de juros contratada, sem a incidência dos encargos financiados, foi de 2,15% ao mês, diante do que não se verifica ilegalidade ou abusividade na taxa de juros aplicada ao contrato impugnado.",
+          "char_start": 8272,
+          "char_end": 8591,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Capitalização diária de juros abusiva",
+      "resumo": "A tese de abusividade da capitalização foi rechaçada, pois o STJ admite capitalização inferior à anual em contratos com instituições do SFN, desde que expressamente pactuada (Súmula 539).",
+      "tipo": "merito",
+      "tema": "capitalização de juros",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 539 do STJ",
+        "MP 2.170-36/2001"
+      ],
+      "citacoes": [
+        {
+          "texto": "No que tange à capitalização de juros, o Superior Tribunal de Justiça consolidou o entendimento de sua licitude em periodicidade inferior à anual nos contratos celebrados após a edição da Medida Provisória no 2.170-36/2001, desde que expressamente pactuada, através da Súmula 539, que assim dispõe:",
+          "char_start": 5222,
+          "char_end": 5520,
+          "score": 100.0
+        },
+        {
+          "texto": "\"É permitida a capitalização de juros com periodicidade inferior à anual em contratos celebrados com instituições integrantes do Sistema Financeiro Nacional a partir de 31/03/2000, desde que expressamente pactuada.\"",
+          "char_start": 5522,
+          "char_end": 5737,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Consolidação da propriedade fiduciária ope legis e desnecessidade de declaração judicial",
+      "resumo": "O juiz deixou de declarar a consolidação da propriedade por ocorrer por força de lei, podendo o credor transferir o bem independentemente de ordem judicial; ressaltou que a consolidação só ocorre após o prazo para purgação da mora.",
+      "tipo": "acessorio",
+      "tema": "consolidação da propriedade fiduciária",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 3º, § 3º, do Decreto-Lei 911/69",
+        "art. 3º, § 2º, do Decreto-Lei 911/69",
+        "art. 66, §§ 4º e 5º, da Lei 4.728/65"
+      ],
+      "citacoes": [
+        {
+          "texto": "Deixo de declarar a consolidação da propriedade em nas mãos do credor fiduciário, uma vez que esta se opera por força de lei, a qual também faculta a transferência do bem independentemente de determinação judicial (§ 3o, do artigo 3o, do Decreto-Lei no 911/69, na redação conferida pela Lei no 10.931/04), sem prejuízo de eventual saldo a ser cobrado na forma do artigo 66, §§ 4o e 5o, da Lei no 4.728/65, alterado pelo artigo 1o do Decreto-Lei no 911/69.",
+          "char_start": 8939,
+          "char_end": 9394,
+          "score": 100.0
+        },
+        {
+          "texto": "Note-se que a propriedade somente se consolida após o decurso do prazo para purgação da mora, o que deve ser observado pelo credor fiduciário (§ 2o, do artigo 3o, do referido diploma).",
+          "char_start": 9395,
+          "char_end": 9579,
+          "score": 100.0
+        }
+      ],
+      "secao": "dispositivo"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 3479,
+    "output_tokens": 8973,
+    "cost_usd": 0.09407875,
+    "latency_ms": 92396,
+    "citacoes": 13,
+    "citacoes_ancoradas": 13
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

@@ -1,0 +1,308 @@
+{
+  "ruling_id": "tjsp-1003925-64.2024.8.26.0157",
+  "text_sha256": "fcdaa2b07a4b3de20bcb838ef48b2e2360b473bcd2594bdd37bb3ea912648e97",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Ausência de interesse de agir da autora",
+      "resumo": "A preliminar suscitada pela ré foi rejeitada no saneador, com prosseguimento do feito ao mérito. A sentença não apresentou fundamentação específica sobre o ponto além do registro do indeferimento no despacho saneador.",
+      "tipo": "preliminar",
+      "tema": "interesse de agir",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "O feito foi saneado, as preliminares rejeitadas, fixados os pontos controvertidos, distribuiu o ônus da prova e deferiu a produção de perícia contábil [fls. 555/557].",
+          "char_start": 3411,
+          "char_end": 3577,
+          "score": 100.0
+        }
+      ],
+      "secao": "relatorio"
+    },
+    {
+      "id": "a02",
+      "titulo": "Revogação da justiça gratuita concedida à autora",
+      "resumo": "O pedido de revogação formulado pela ré não foi acolhido; a gratuidade foi mantida, com suspensão da exigibilidade dos ônus sucumbenciais. A sentença não trouxe motivação específica além da manutenção expressa do benefício no dispositivo.",
+      "tipo": "acessorio",
+      "tema": "gratuidade da justiça",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 98, § 3º do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Deferidos os benefícios da justiça gratuita à autora [fls. 176].",
+          "char_start": 2083,
+          "char_end": 2147,
+          "score": 100.0
+        },
+        {
+          "texto": "observada a suspensão da exigibilidade em virtude da concessão da gratuidade da justiça [CPC, art. 98, § 3o].",
+          "char_start": 40017,
+          "char_end": 40126,
+          "score": 100.0
+        }
+      ],
+      "secao": "dispositivo"
+    },
+    {
+      "id": "a03",
+      "titulo": "Limitação da prestação a 15% da renda e nulidade do aditamento que fixou 20%",
+      "resumo": "Rejeitado. O juiz afirmou que a alteração contratual de 2024, que fixou o comprometimento em 20%, não é abusiva por estar abaixo do teto legal de 30% e que a redução da renda ou alteração de sua composição não autoriza revisão compulsória, à luz do art. 11, § 1º, da Lei 8.692/1993.",
+      "tipo": "merito",
+      "tema": "equivalência salarial/comprometimento de renda",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 11 da Lei 8.692/1993",
+        "art. 11, § 1º, da Lei 8.692/1993",
+        "art. 12 da Lei 8.692/1993"
+      ],
+      "citacoes": [
+        {
+          "texto": "A circunstância estritamente pessoal alegada não autoriza a modificação compulsória da avença, ante a expressa vedação do art. 11, § 1o, da Lei no 8.692/1993.",
+          "char_start": 12937,
+          "char_end": 13095,
+          "score": 100.0
+        },
+        {
+          "texto": "Não há abusividade em cláusula contratual livremente pactuada entre as partes [fls.198/220] e em percentual de equivalência salarial abaixo do teto previsto no artigo art. 11 da Lei Federal no 8.692/1993 [limite legal de 30%].",
+          "char_start": 14727,
+          "char_end": 14953,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Revisão por onerosidade excessiva e imprevisão decorrente de redução da renda",
+      "resumo": "Rejeitado. O magistrado entendeu que não houve acontecimentos extraordinários ou imprevisíveis nem vantagem excessiva da ré e, mesmo sob o prisma do CDC, não se comprovou desproporção ou onerosidade juridicamente relevante.",
+      "tipo": "merito",
+      "tema": "onerosidade excessiva/imprevisão",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 6º, V, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não se vislumbram acontecimentos extraordinários ou imprevisíveis, tampouco obtenção de vantagem excessiva pela ré.",
+          "char_start": 28675,
+          "char_end": 28790,
+          "score": 100.0
+        },
+        {
+          "texto": "Mesmo sob o prisma consumerista [CDC, art. 6o, V], não se demonstrou, no caso concreto, desproporção ou onerosidade juridicamente relevante.",
+          "char_start": 28792,
+          "char_end": 28932,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Anatocismo e ilicitude da Tabela Price",
+      "resumo": "Rejeitado. O juiz afirmou que o uso da Tabela Price não caracteriza, por si, capitalização indevida (Tema 572/STJ) e que, por se tratar de contrato de 2010 no âmbito do SFH, a capitalização mensal era admitida pelo art. 15-A da Lei 4.380/1964; a jurisprudência reconhece a legalidade da Price.",
+      "tipo": "merito",
+      "tema": "tabela price/capitalização de juros",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Tema 572 do STJ",
+        "art. 15-A da Lei 4.380/1964",
+        "Súmula 121 do STF"
+      ],
+      "citacoes": [
+        {
+          "texto": "A utilização do Sistema Francês de Amortização não permite concluir, por si só, nem pela existência nem pela inexistência de capitalização indevida [STJ/tema 572].",
+          "char_start": 7758,
+          "char_end": 7921,
+          "score": 100.0
+        },
+        {
+          "texto": "Tratando-se de contrato celebrado em 2010, a legislação então vigente admitia a pactuação de capitalização mensal nas operações integrantes do SFH, nos termos do art. 15-A da Lei no 4.380/1964.",
+          "char_start": 7922,
+          "char_end": 8115,
+          "score": 100.0
+        },
+        {
+          "texto": "a jurisprudência tem entendido pela legalidade da utilização da Tabela Price no cálculo das prestações.",
+          "char_start": 19409,
+          "char_end": 19512,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Abusividade do reajuste pelo IPC/FIPE e da atualização do saldo antes da amortização",
+      "resumo": "Rejeitado. O juiz reconheceu a validade das cláusulas de reajuste pelo IPC/FIPE para prestações e saldo devedor, esclarecendo que correção monetária e juros são institutos distintos, e que, conforme a Súmula 450 do STJ, a atualização do saldo deve anteceder a amortização; por isso, desconsiderou os cálculos periciais que afastaram o IPC/FIPE.",
+      "tipo": "merito",
+      "tema": "reajuste IPC/FIPE e ordem de amortização",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "Súmula 450 do STJ",
+        "REsp 1.112.524/DF"
+      ],
+      "citacoes": [
+        {
+          "texto": "Não há abusividade na cláusula pactuada entre as partes.",
+          "char_start": 23823,
+          "char_end": 23879,
+          "score": 100.0
+        },
+        {
+          "texto": "Aliás, por oportuno, registre o enunciado da Súmula 450, do C. Superior Tribunal de Justiça, segundo o qual, \"Nos contratos vinculados ao SFH, a atualização do saldo devedor antecede sua amortização pelo pagamento da prestação.\"",
+          "char_start": 24851,
+          "char_end": 25079,
+          "score": 100.0
+        },
+        {
+          "texto": "Por esse motivo, os cálculos indicados no laudo pericial não podem ser acolhidos, pois a perita expressamente afirmou não ter aplicado em seu levantamento contábil os reajustes contratuais pelo IPC/FIPE:",
+          "char_start": 27409,
+          "char_end": 27612,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Venda casada no seguro habitacional",
+      "resumo": "Rejeitado. A contratação do seguro é obrigatória no SFH e não houve prova de imposição de seguradora específica ou de tentativa da autora de contratar com outra empresa; assim, não se configurou venda casada.",
+      "tipo": "merito",
+      "tema": "seguro habitacional/venda casada",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 79 da Lei 11.977/2009",
+        "art. 39, I, do CDC",
+        "REsp 969.129/MG"
+      ],
+      "citacoes": [
+        {
+          "texto": "A conclusão está fundada em questão jurídica, mas no regime do Sistema Financeiro Habitacional a contratação de seguro é obrigatória.",
+          "char_start": 29783,
+          "char_end": 29916,
+          "score": 100.0
+        },
+        {
+          "texto": "Para configuração de venda casada, conforme entendimento jurisprudencial pacificado sobre o tema, necessitaria haver prova cabal de que a parte autora foi compelida a contratar determinada seguradora, em detrimento de outra de sua livre escolha.",
+          "char_start": 29918,
+          "char_end": 30163,
+          "score": 100.0
+        },
+        {
+          "texto": "Na hipótese, nem sequer há referência na petição inicial de que a parte autora pretendia contratar seguro obrigatório com outra empresa ou ainda que foi impedida de fazê-lo.",
+          "char_start": 30165,
+          "char_end": 30338,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a08",
+      "titulo": "Abusividade da Taxa de Compensação de Prestações (TCP)",
+      "resumo": "Rejeitado. O juiz afastou a conclusão pericial de abusividade por extrapolar matéria de direito e acolheu a orientação jurisprudencial pela legalidade da TCP prevista contratualmente e compatível com a natureza do financiamento.",
+      "tipo": "merito",
+      "tema": "taxa de compensação de prestações (TCP)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Sobre a Taxa de Compensação da Prestação, adicional sobre prestações não subsidiadas, novamente a perito invade esfera jurídica, extrapolando os limites de seu encargo técnico de bem descrever a realidade à luz de sua ciência [contabilidade], concluindo por abusividade da taxa de compensação TCP.",
+          "char_start": 34633,
+          "char_end": 34930,
+          "score": 100.0
+        },
+        {
+          "texto": "Pela legalidade, confira-se: \"APELAÇÃO. REVISIONAL DE CONTRATO DE COMPRA E VENDA DE IMÓVEL. Sentença de improcedência. Insurgência do autor. Não cabimento. Taxa TCP - Taxa de Compensação de Prestações. Legalidade, encargo previsto no parágrafo segundo do contrato que integra as normas da CDHU, valor cobrado de R$ 10,56 que não configura onerosidade excessiva.\"",
+          "char_start": 35632,
+          "char_end": 35994,
+          "score": 99.7
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a09",
+      "titulo": "Consignação de parcelas para purga da mora sem inclusão das despesas legais",
+      "resumo": "Rejeitado. O magistrado aplicou o art. 26-A da Lei 9.514/1997 para afirmar que a purga da mora exige o pagamento das parcelas vencidas com encargos e também das despesas do art. 27, § 3º, II; como o valor oferecido não as incluía, a recusa do credor é justa.",
+      "tipo": "merito",
+      "tema": "consignação/purga da mora (alienação fiduciária)",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 26-A da Lei 9.514/1997",
+        "art. 27, § 3º, II, da Lei 9.514/1997"
+      ],
+      "citacoes": [
+        {
+          "texto": "Outrossim, a lei que rege o presente caso [Lei n.o 9.514/97], é clara em seu artigo 26-A, inserido pela Lei n.o 13.465/17 [...] ao prever que a purga da mora deve contar com o pagamento não só das parcelas vencidas (incluídos juros convencionais, as penalidades e os demais encargos contratuais), mas também das despesas de que trata o inciso II do § 3o do art. 27, hipótese a fim de que o contrato de alienação fiduciária poderá convalescer.",
+          "char_start": null,
+          "char_end": null,
+          "score": 0.0
+        },
+        {
+          "texto": "Ora, se no valor proposto pela autora não estão incluídas as aludidas despesas, este Juízo não pode excepcionar o caso da demandante e franquear a ela a possibilidade de descumprir a lei, sempre lembrando que deduzir pretensão contra texto expresso de lei sem afastar sua ilegalidade ou inconstitucionalidade implica litigância de má-fé.",
+          "char_start": 38982,
+          "char_end": 39319,
+          "score": 100.0
+        },
+        {
+          "texto": "Por fim, consigne-se de antemão que é justa a recusa de oferta de pagamento de valor que não abarque todas as dívidas e despesas legais, pois é de conhecimento geral que o credor não é obrigado a receber prestação diversa daquela efetivamente devida.",
+          "char_start": 39321,
+          "char_end": 39571,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a10",
+      "titulo": "Repetição do indébito em dobro pelas cobranças impugnadas",
+      "resumo": "Rejeitado. Como o juiz reconheceu a validade das cláusulas contratuais e a inexistência de ilicitudes ou irregularidades, não há indébito a ser restituído, menos ainda em dobro.",
+      "tipo": "merito",
+      "tema": "repetição do indébito",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Dessa forma, não havendo ilicitudes ou irregularidades contratuais a justificar a alteração do valor da prestação contratual, descabida a pretensão revisional, bem como o pedido consignatório incidental de valor unilateral, porque os valores são inferiores ao indicado na notificação recebida pela autora, datada de dezembro de 2018, referindo débito de fevereiro de 2016 a outubro de 2018 R$25.863,25 fls. 39.",
+          "char_start": 37733,
+          "char_end": 38143,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 11479,
+    "output_tokens": 10306,
+    "cost_usd": 0.11740875,
+    "latency_ms": 101254,
+    "citacoes": 22,
+    "citacoes_ancoradas": 21
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

@@ -1,0 +1,125 @@
+SENTENÇA
+
+Processo no: 1021568-78.2025.8.26.0196
+
+Classe - Assunto Procedimento Comum Cível - Práticas Abusivas
+
+Requerente: [AUTOR]
+
+Requerido: Banco Mercantil do Brasil S.A.
+
+Juiz(a) de Direito: Dr(a). Marcelo Augusto de Moura
+
+Vistos.
+
+[AUTOR] propôs ação revisional de contrato bancário c.c nulidade de juros abusivos e danos morais em face de BANCO MERCANTIL DO BRASIL S.A., alegando, em breve síntese, que celebrou com o réu contrato de renovação de crédito pessoal não consignado de n° 998000382381, no valor de R$ 1.598,88, em 36 parcelas de R$ 328,58, mas os juros remuneratórios pactuados (19,85% ao mês e 778,32% ao ano) estão muito acima da taxa média de mercado divulgada pelo Banco Central do Brasil vigente à época da contratação, que seria de 5,56% ao mês e 91,47% ao ano, sendo, por isso, abusivos. Sustentou que, caso aplicada a taxa média, o valor da prestação seria de R$ 115,53. Requereu a aplicação do Código de Defesa do Consumidor com inversão do ônus da prova, a revisão do contrato para limitar a taxa de juros remuneratórios à média do mercado com afastamento dos efeitos da mora, a repetição simples do indébito no valor de R$ 5.752,35 ou abatimento do saldo devedor, bem como o pagamento de indenização por danos morais no importe não inferior a R$ 10.000,00.
+
+Benefícios da gratuidade da justiça e prioridade na tramitação concedidos (fls. 47).
+
+Em contestação (fls. 53/73), a requerida aduziu preliminar de conexão, com a reunião de ações e prática de advocacia predatória. No mérito, que as taxas do contrato não são abusivas, sendo ônus da prova da parte autora, que a autora é devedora contumaz de crédito, razão pela qual o risco da operação, em virtude do histórico de contratações e ausência de garantias, não apenas justifica como também válida a aplicação do percentual de juros pactuados no contrato de crédito pessoal livremente contratado no autoatendimento via aplicativo com utilização de cartão e senha pessoais, inexistindo equiparação com taxas de empréstimo consignado; que as cláusulas são claras, tendo a autora compreendido e aceitado as condições no ato da celebração, com parcelas fixas prefixadas e prazo de arrependimento de sete dias não exercido; que não há ato ilícito, sendo indevidas a repetição de indébito e a indenização por danos morais, pugnando pela improcedência dos pedidos e condenação por litigância de má-fé.
+
+Réplica presente (fls. 124/134).
+
+Determinação de especificação de provas (fls. 135), ambas partes se manifestaram declinando (fls. 139 e 140/141).
+
+DECIDO.
+
+Matéria predominantemente de direito e, ainda, feito suficientemente instruído com a prova documental pertinente à espécie, sem relevo as provas oral e pericial para o deslinde da demanda, julgamento imediato.
+
+Neste sentido, a doutrina do douto professor Luiz Rodrigues Wambier que sobre o tema:
+
+"(...) deve haver julgamento antecipado se, embora o mérito envolva matéria de fato e de direito, não houver necessidade de produção de provas em audiência. Neste caso, inspirado pelo princípio da economia processual, o legislador autorizou o juiz a dispensar a audiência de instrução e julgamento" (WAMBIER, Luiz Rodrigues, "Curso Avançado de Processo Civil" - São Paulo: Revista dos Tribunais, 2003, p. 425).
+
+Ainda, determinada a especificação de provas, as partes declinaram, presente a preclusão.
+
+A preliminar de conexão suscitada pela instituição financeira não se sustenta, conforme já fundamentado nos autos quando da redistribuição livre (fls. 44), porquanto inexiste identidade de pedido ou causa de pedir com outras demandas que tratam de contratos autônomos.
+
+Ainda, e sem prejuízo disso, ambos os processos indicados pelo réu já foram julgados (pesquisa via SAJ).
+
+Rejeito igualmente a alegação preliminar de advocacia predatória ou carência da ação por irregularidade formal. Conquanto este Juízo tenha determinado a regularização do instrumento de mandato em razão da juntada inicial de procuração assinada por plataforma eletrônica desprovida de certificado ICP-Brasil, a parte autora supriu o vício tempestivamente ao colacionar procuração assinada de próprio punho com indicação expressa do objeto do patrocínio (fls. 150/151), restando hígida a capacidade postulatória e demonstrada a manifestação de vontade para a propositura da ação.
+
+Pela mesma razão, inexiste fundamento para a condenação da autora por litigância de má-fé, porquanto o ajuizamento da presente demanda decorre do exercício regular do direito de ação e de acesso à Justiça, garantidos constitucionalmente, sem que se vislumbre conduta dolosa enquadrada no rol do artigo 80 do Código de Processo Civil.
+
+Passa-se à análise do mérito.
+
+Aplicável o Código de Defesa do Consumidor ao caso, o que já está consolidado ante a Súmula 297 do Superior Tribunal de Justiça:
+
+"O Código de Defesa do Consumidor é aplicável às instituições financeiras"
+
+Apesar disso, depreende-se do contrato (vide folhas 35/36 e 91/92) que as cláusulas foram redigidas de forma clara, boa intelecção, não podendo passar ao largo que a parte autora a isso anuiu quando da contratação, ausente qualquer demonstração, sequer indício, mesmo alegação, de vício do consentimento.
+
+A revisão da taxa de juros pactuada em contrato pode ser efetuada, mas apenas em situações excepcionais nas quais a alegada abusividade fique cabalmente demonstrada ante o caso concreto.
+
+Nesse sentido é a decisão proferida pelo Colendo Superior Tribunal de Justiça no julgamento do REsp n. 1.061.530/RS (Tema 27), com a seguinte tese:
+
+"É admitida a revisão das taxas de juros remuneratórios em situações excepcionais, desde que caracterizada a relação de consumo e que a abusividade (capaz de colocar o consumidor em desvantagem exagerada (art. 51, §1 o, do CDC) fique cabalmente demonstrada, ante às peculiaridades do julgamento em concreto" (destaque meu).
+
+Todavia, ante o crescente aumento de demandas com o objetivo de limitar a taxa de juros estipulada em contratos bancários, percebe-se desvirtuamento do entendimento firmado em julgados superiores, de observância obrigatória, pois para se descortinar se a taxa de juros é abusiva não basta a mera comparação com a taxa média praticada pelo mercado e apurada pelo Banco Central do Brasil, mas, além disso, deve-se ter em conta as particularidades de cada oneração de crédito efetuada. dentre elas a modalidade do crédito concedido (empréstimo consignado, pessoal, com ou sem garantia, financiamento imobiliário, crédito rotativo, renegociação, dentre outros), o custo da captação dos recursos pela instituição financeira credora, mormente, e de relevo, o risco inserido na operação, que possui diversos critérios, dentre eles podemos apontar a renda/patrimônio do tomador do empréstimo, situação econômico-financeira, endividamento, pontualidade (ou não) no pagamento, informações cadastrais ou a própria existência ou não de garantia na operação.
+
+Exatamente esse é o entendimento que se colhe no Colendo Superior Tribunal de Justiça, em julgados nos quais se aplica a tese jurídica firmada no julgamento do REsp 1.061.530/RS (Tema 27), em casos parelhos a este:
+
+"RECURSO ESPECIAL. CONTRATO DE MÚTUO BANCÁRIO. JUROS REMUNERATÓRIOS. REVISÃO. CARÁTER ABUSIVO. REQUISITOS. NECESSIDADE DE FUNDAMENTAÇÃO ADEQUADA. 1- Recurso especial interposto em 19/4/2022 e concluso ao gabinete em 4/7/2022. 2- O propósito recursal consiste em dizer se: a) a menção genérica às "circunstâncias da causa" não descritas na decisão, acompanhada ou não do simples cotejo entre a taxa de juros prevista no contrato e a média praticada no mercado, é suficiente para a revisão das taxas de juros remuneratórios pactuadas em contratos de mútuo bancário; e b) qual o incide a ser aplicado, na espécie, aos juros de mora. 3- A Segunda Seção, no julgamento REsp n. 1.061.530/RS, submetido ao rito dos recursos especiais repetitivos, fixou o entendimento de que "é admitida a revisão das taxas de juros remuneratórios em situações excepcionais, desde que caracterizada a relação de consumo e que a abusividade (capaz de colocar o consumidor em desvantagem exagerada - art. 51, § 1°, do CDC) fique cabalmente demonstrada, ante as peculiaridades do julgamento em concreto." 4- Deve-se observar os seguintes requisitos para a revisão das taxas de juros remuneratórios: a) a caracterização de relação de consumo; b) a presença de abusividade capaz de colocar o consumidor em desvantagem exagerada; e c) a demonstração cabal, com menção expressa às peculiaridades da hipótese concreta, da abusividade verificada, levando-se em consideração, entre outros fatores, a situação da economia na época da contratação, o custo da captação dos recursos, o risco envolvido na operação, o relacionamento mantido com o banco e as garantias ofertadas. 5- São insuficientes para fundamentar o caráter abusivo dos juros remuneratórios: a) a menção genérica às "circunstâncias da causa" ou outra expressão equivalente; b) o simples cotejo entre a taxa de juros prevista no contrato e a média de mercado divulgada pelo BACEN e c) a aplicação de algum limite adotado, aprioristicamente, pelo próprio Tribunal estadual. 6- Na espécie, não se extrai do acórdão impugnado qualquer consideração acerca das peculiaridades da hipótese concreta, limitando-se a cotejar as taxas de juros pactuadas com as correspondentes taxas médias de mercado divulgadas pelo BACEN e a aplicar parâmetro abstrato para aferição do caráter abusivo dos juros, impondo-se, desse modo, o retorno dos autos às instâncias ordinárias para que aplique o direito à espécie a partir dos parâmetros delineados pela jurisprudência desta Corte Superior. 7- Recurso especial parcialmente provido" (STJ, Terceira Turma, REsp 2.009.614/SC, relatoria da Ministra Nancy Andrighi, julgamento em 27/09/2022, DJe de 30/09/2022, destaques meus).
+
+Outro julgado, deveras recente:
+
+"RECURSO ESPECIAL. DIREITO PROCESSUAL CIVIL E DO CONSUMIDOR. CONTRATO BANCÁRIO. AÇÃO DE REVISÃO. JUROS REMUNERATÓRIOS. ABUSIVIDADE. TAXA MÉDIA DE MERCADO. TAXA CONTRATADA. COMPARAÇÃO. FUNDAMENTO EXCLUSIVO. ANÁLISE DAS PECULIARIDADES DO CASO CONCRETO. AUSENTE. DESCONFORMIDADE COM A JURISPRUDÊNCIA DO STJ. RETORNO DOS AUTOS À ORIGEM. 1. O tribunal reconheceu a abusividade dos juros remuneratórios após considerar serem excessivamente superiores à média de mercado para operações da mesma espécie e na mesma época de pactuação, fixando, para o presente caso, uma taxa de juros intermediária. 2. A taxa média estipulada pelo BACEN foi o único critério utilizado para a limitação dos juros remuneratórios, estando o julgamento em desconformidade com a orientação do Superior Tribunal de Justiça. 3. Necessidade de retorno dos autos à origem para a análise dos critérios ensejadores de revisão dos juros remuneratórios, tomando por base as peculiaridades do caso concreto. 4. Recurso especial conhecido e provido" (STJ, Terceira Turma, REsp 2.173.316/MG, relatoria do Ministro Ricardo Villas Bôas Cueva, julgamento em 23/06/2025, DJEN de 26/06/2025, destaque meu).
+
+Conclusão única de que inviável a consideração de abusividade dos juros remuneratórios contratualmente pactuados exclusivamente em comparação com a taxa média de mercado, sem considerar as peculiaridades de cada operação de crédito efetuada.
+
+Aliás, isso ficou explícito em outro julgado recente do colendo Superior Tribunal de Justiça:
+
+"AGRAVO INTERNO. AGRAVO EM RECURSO ESPECIAL. AÇÃO REVISIONAL. CONTRATO DE MÚTUO. TAXA DE JUROS REMUNERATÓRIOS CONTRATADA. ABUSIVIDADE. AUSÊNCIA. ORIENTAÇÃO FIRMADA NO RESP N. 1.061.530/RS. 1. A eventual redução da taxa de juros, somente pelo fato de estar acima da média de mercado, sem que seja mencionada circunstância relacionada ao custo da captação dos recursos, à análise do perfil de risco de crédito do tomador e ao spread da operação, apenas cotejando, de um lado, a taxa contratada e, de outro, o limite aprioristicamente adotado pelo julgador em relação à taxa média divulgada pelo Bacen - está em confronto com a orientação firmada na Segunda Seção desta Corte, nos autos do REsp. 1.061.530/RS. 2. O parâmetro abstratamente eleito pela Corte de origem não vincula o STJ nem deve prevalecer sobre o pactuado, especialmente em caso como o presente, em que as prestações do mútuo foram prefixadas, de modo que não havia como o consumidor alegar desconhecimento da dívida assumida. 3. Agravo interno a que se nega provimento" (AgInt no AREsp n. 2.159.094/RS, relatora Ministra Maria Isabel Gallotti, Quarta Turma, julgado em 15/5/2023, DJe de 18/5/2023, destaque meu).
+
+Dito tudo isso, observando os parâmetros determinados pela Corte Superior, inclusive em recurso especial repetitivo, bem como os recentes julgados supracitados, tem-se que a revisão da taxa de juros remuneratórios é admissível, mas em caráter excepcional, essencial que a parte autora demonstre os elementos que evidenciem a abusividade dos juros pactuados para a especificidade do caso concreto, para cada operação e crédito obtida, entendimento esse que se passa a adotar.
+
+No caso concreto, alega-se abusividade da taxa de juros remuneratórios.
+
+Na mera comparação entre as taxas de juros pactuadas (vide fls. 91/92) e a taxa média de mercado alegada pela autora em sua planilha (vide folhas 37/43) constata-se divergência.
+
+Contudo, como já explicitado, isso não basta, pois, a apuração de eventual abusividade deve se pautar pelo conjunto das peculiaridades de cada caso concreto, cada operação de crédito, não se restringindo à análise da taxa média de juros divulgada pelo Banco Central do Brasil.
+
+Não se demonstrou a possibilidade de obtenção de crédito, com taxas inferiores às pactuadas, para a mesma espécie de contratação e com as mesmas características, tanto da operação, como da parte autora, em instituição financeira distinta.
+
+Ainda, a parte autora contratou operação na modalidade de crédito pessoal não consignado, refinanciando saldo devedor anterior (fls. 91/92), com histórico contínuo de outros empréstimos na instituição financeira (fls. 30/34), sendo a operação destituída de garantias, o que, por certo, aumenta o risco da operação e reflete no custo do crédito.
+
+Além disso, o pagamento é efetuado mediante o débito em conta corrente, o que também aumenta o risco, ante a possibilidade de ausência de saldo para honrar o pagamento.
+
+Atente-se que "o caráter abusivo da taxa de juros contratada haverá de ser demonstrado de acordo com as peculiaridades de cada caso concreto, levando-se em consideração circunstâncias como o custo da captação dos recursos no local e época do contrato; o valor e o prazo do financiamento; as fontes de renda do cliente; as garantias ofertadas; a existência de prévio relacionamento do cliente com a instituição financeira; análise do perfil de risco de crédito do tomador; a forma de pagamento da operação, entre outros aspectos" (STJ, REsp n. 1.821.182/RS, Rel. Min. Maria Isabel Gallotti, Quarta Turma, julgado em 23/6/2022).
+
+Não pode passar ao largo, também, que não existe obrigatoriedade de contratar, situação na qual a parte autora foi até a parte ré para buscar o crédito, aliás, via MOBILE BANKING (vide folhas 35/36), ciente que estava das condições pactuadas, claro o contrato nesse sentido, inarredável a máxima pacta sunt servanda, sendo a regra a força vinculante do contrato.
+
+Assim, a taxa média divulgada pelo Banco Central do Brasil não é um teto para as instituições financeiras, que poderão cobrar taxas superiores ou inferiores, cediço que inaplicáveis as disposições do Código Civil e da Lei de Usura às operações realizadas pelas instituições públicas ou privadas integrantes do Sistema Financeiro Nacional, regidas por ordenamento jurídico especial, nos termos da Súmula 596 do Supremo Tribunal Federal.
+
+Ainda, não se esqueça o conteúdo da Súmula Vinculante no 7 da Excelsa Corte, isto é, não há vedação constitucional à cobrança de juros superiores a 12% ao ano: "A norma do § 3o do artigo 192 da Constituição, revogada pela Emenda Constitucional no 40/2003, que limitava a taxa de juros reais a 12% ao ano, tinha sua aplicação condicionada à edição de lei complementar".
+
+Este o entendimento colhido na Corte Superior:
+
+"AGRAVO REGIMENTAL NO AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. CONTRATO BANCÁRIO. AÇÃO REVISIONAL. JUROS REMUNERATÓRIOS. TAXA MÉDIA DO MERCADO. COBRANÇA ABUSIVA. LIMITAÇÃO. NÃO COMPROVAÇÃO. SÚMULA 83/STJ. CAPITALIZAÇÃO MENSAL DE JUROS. REQUISITOS PREENCHIDOS. REVISÃO. IMPOSSIBILIDADE. SÚMULAS 5 E 7/STJ. PRECEDENTES. AGRAVO NÃO PROVIDO. 1. A circunstância de a taxa de juros remuneratórios praticada pela instituição financeira exceder a taxa média do mercado não induz, por si só, a conclusão de cobrança abusiva, consistindo a referida taxa em um referencial a ser considerado, e não em um limite que deva ser necessariamente observado pelas instituições financeiras. 2. Ante a ausência de comprovação cabal da cobrança abusiva, deve ser mantida, in casu, a taxa de juros remuneratórios acordada. [...] 5. Agravo regimental a que se nega provimento" (STJ, AgRg no AgRg no AREsp 602850/MS, Rel. Ministro RAUL ARAÚJO, Quarta Turma, j. em 20.08.15, DJe 11.09.15, destaque meu).
+
+Neste sentido entendimento desta Corte de Justiça:
+
+"AÇÃO DECLARATÓRIA - CONTRATO - OPERAÇÃO DE EMPRÉSTIMO PESSOAL -TAXAS DE JUROS REPACTUAÇÃO SENTENÇA DE IMPROCEDÊNCIA MANUTENÇÃO - Inaplicabilidade das limitações impostas pelo Decreto 22.626/33, por força da Súmula no 596 do Supremo Tribunal Federal. Não comprovação da suposta abusividade, levando-se em consideração os riscos envolvidos nas operações. APELO DESPROVIDO" (TJSP, Apelação Cível 1000481-57.2024.8.26.0081, Relator (a): Ricardo Pereira Júnior, Órgão Julgador: Núcleo de Justiça 4.0 em Segundo Grau Turma V (Direito Privado 2), Foro de Adamantina - 1a Vara, Data do Julgamento: 13/08/2024, Data de Registro: 14/08/2024).
+
+Outro:
+
+"APELAÇÃO CÍVEL. EMPRÉSTIMO PESSOAL. Pretensão de revisão da taxa de juros remuneratórios contratada e condenação da ré à devolução dos valores pagos a maior. Sentença de parcial procedência. Recurso da ré para que seja reconhecida a validade da composição da taxa de juros. Cabimento. Taxas fixadas em percentual superior à média de mercado. Circunstância que, por si só, não autoriza o pleito revisional. Demais peculiaridades do caso concreto devem nortear, de igual modo, a apuração de eventuais abusividades. Ausência de irregularidades no contrato impugnado. Sentença reformada. RECURSO PROVIDO" (TJSP, Apelação Cível no 1009097-41.2023.8.26.0506, da Comarca de Ribeirão Preto, Núcleo de Justiça 4.0 em Segundo Grau Turma V (Direito Privado 2) do Tribunal de Justiça de São Paulo, relator Desembargador RUI PORTO DIAS, j. 18.09.2025).
+
+Ausente a comprovação de ilicitude ou abusividade na estipulação dos juros, prejudicada a pretensão de repetição do indébito e de descaracterização da mora, bem como o pedido de indenização por danos morais, porquanto inexistente ato ilícito praticado pela instituição ré apto a violar direitos de personalidade.
+
+Posto isso, julgo improcedentes os pedidos formulados por [AUTOR] em face de BANCO MERCANTIL DO BRASIL S.A. e, ante a sucumbência, condeno-a ao pagamento das custas e despesas processuais comprovadas, mais honorários advocatícios arbitrados em 15% do valor atualizado da causa, observado o artigo 98, § 3°, do Código de Processo Civil.
+
+Anoto que a oposição de embargos de declaração manifestamente protelatórios (inclusive voltados à mera rediscussão do julgado) poderá dar ensejo à aplicação da multa prevista no artigo 1.026, § 2o, do Código de Processo Civil.
+
+Caso interposto recurso de apelação, dê-se vista à parte recorrida para contrarrazões.
+
+Após, independentemente de juízo de admissibilidade, remetam-se os autos ao Egrégio Tribunal de Justiça de São Paulo, nos termos do artigo 1.010, § 3o, do Código de Processo Civil, tomando-se as providências necessárias.
+
+Ausente recurso, certifique-se o trânsito em julgado e, exaurida a prestação jurisdicional, após a verificação pela Serventia se deve ser feito o recolhimento da taxa judiciária previsto no artigo 1.098, parágrafo 5o, das NSCGJ, providencie-se a baixa do processo e arquivem-se os autos (código de movimentação 61615).
+
+Para a verificação da necessidade de recolhimento da taxa judiciária (de ingresso) deverá a Serventia observar se no presente caso existe (a) autor beneficiário da gratuidade da justiça, (b) réu não beneficiário da gratuidade da justiça e (c) condenação da parte requerida ao pagamento das custas e despesas processuais, ainda que parcialmente.
+
+P. I. C.
+
+Franca, 29 de setembro de 2026.
+
+DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA

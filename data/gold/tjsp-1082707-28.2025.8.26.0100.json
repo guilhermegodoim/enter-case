@@ -1,0 +1,212 @@
+{
+  "ruling_id": "tjsp-1082707-28.2025.8.26.0100",
+  "text_sha256": "1bcec37e91386221eff656259c74abdda15b91c3a8add8a0d0ff9f5da9d85015",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "improcedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Julgamento antecipado por suficiência da prova documental e indeferimento das demais provas",
+      "resumo": "O juiz entendeu que a prova documental já era suficiente para o deslinde e indeferiu o depoimento pessoal, a prova testemunhal e a perícia contábil por desnecessárias, julgando antecipadamente a lide. Fundamentou-se nos arts. 370 e 355, I, do CPC.",
+      "tipo": "merito",
+      "tema": "julgamento antecipado",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 370 do CPC",
+        "art. 355, I, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A prova documental produzida é suficiente para o deslinde da controvérsia, sendo desnecessárias as demais provas requeridas pelo autor às fls. 294/297.",
+          "char_start": 3329,
+          "char_end": 3480,
+          "score": 100.0
+        },
+        {
+          "texto": "Cabe ao magistrado, como destinatário da prova, determinar as medidas necessárias ao julgamento e indeferir aquelas inúteis ou meramente protelatórias (CPC, art. 370, caput e parágrafo único).",
+          "char_start": 4206,
+          "char_end": 4398,
+          "score": 100.0
+        },
+        {
+          "texto": "Rejeito, portanto, as provas oral e as demais requeridas pelo autor e passo ao julgamento antecipado do mérito, nos termos do art. 355, I, do CPC.",
+          "char_start": 4399,
+          "char_end": 4545,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Inaplicabilidade do CDC à relação entre entregador e plataforma",
+      "resumo": "Afastou-se a incidência do CDC porque o autor utilizava a plataforma como insumo para sua atividade econômica, não como destinatário final, devendo a relação ser regida pelo Código Civil. O juiz também afastou a teoria finalista mitigada por ausência de vulnerabilidade técnica excepcional.",
+      "tipo": "merito",
+      "tema": "inaplicabilidade do CDC",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2o do CDC",
+        "art. 421 do CC",
+        "art. 421-A do CC",
+        "art. 422 do CC",
+        "TJSP Apelação 1014372-64.2024.8.26.0011",
+        "TJSP Apelação 1021383-76.2021.8.26.0003"
+      ],
+      "citacoes": [
+        {
+          "texto": "De proêmio, não incide a legislação consumerista sobre a relação jurídica estabelecida entre as partes.",
+          "char_start": 4547,
+          "char_end": 4650,
+          "score": 100.0
+        },
+        {
+          "texto": "A utilização do aplicativo constituía insumo da atividade econômica desempenhada pelo demandante, circunstância que afasta sua qualificação como consumidor.",
+          "char_start": 5185,
+          "char_end": 5341,
+          "score": 100.0
+        },
+        {
+          "texto": "Tampouco estão demonstradas circunstâncias excepcionais de vulnerabilidade técnica aptas a justificar a aplicação da teoria finalista mitigada.",
+          "char_start": 7262,
+          "char_end": 7405,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Inversão do ônus da prova com base no CDC",
+      "resumo": "O pedido do autor de inversão do ônus da prova foi rejeitado, pois o CDC não se aplica ao caso; aplicou-se a teoria estática, cabendo à ré provar o fato impeditivo nos termos do art. 373, II, do CPC.",
+      "tipo": "merito",
+      "tema": "inversão do ônus da prova",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 6o, VIII, do CDC",
+        "art. 373, II, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A controvérsia deve ser solucionada, portanto, segundo as normas do Código Civil, especialmente os arts. 421, 421-A e 422, e as disposições dos Termos de Uso que disciplinavam a utilização da plataforma, sem a inversão do ônus da prova prevista no art. 6o, VIII, do CDC.",
+          "char_start": 7586,
+          "char_end": 7856,
+          "score": 100.0
+        },
+        {
+          "texto": "Por se tratar de fato impeditivo da pretensão autoral, competia-lhe comprovar tais circunstâncias, nos termos do CPC, art. 373, II, à luz da teoria estática do ônus da prova.",
+          "char_start": 8268,
+          "char_end": 8442,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Desbloqueio e manutenção da conta por bloqueio arbitrário",
+      "resumo": "Embora a ré não tenha comprovado a infração imputada, o juiz reconheceu que a relação é civil e por prazo indeterminado, admitindo denúncia unilateral (art. 473 do CC). Assim, não se pode impor a reativação nem a manutenção compulsória do cadastro do autor.",
+      "tipo": "merito",
+      "tema": "denúncia unilateral do contrato",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 473 do CC",
+        "art. 421 do CC",
+        "art. 421-A do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "A ausência de comprovação da infração imputada ao autor não implica, contudo, a obrigatoriedade de manutenção indefinida da relação contratual.",
+          "char_start": 9259,
+          "char_end": 9402,
+          "score": 100.0
+        },
+        {
+          "texto": "O vínculo estabelecido entre as partes possui natureza civil, continuada e por prazo indeterminado. Nessa espécie de contratação, qualquer das partes pode promover sua resolução unilateral mediante denúncia, nos termos do art. 473 do CC:",
+          "char_start": 9404,
+          "char_end": 9641,
+          "score": 100.0
+        },
+        {
+          "texto": "Desse modo, ainda que não comprovada a justa causa invocada, não cabe impor à ré a reativação e a manutenção compulsória da conta, pois a pretensão equivaleria à perpetuação de vínculo contratual civil por prazo indeterminado.",
+          "char_start": 10721,
+          "char_end": 10947,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Indenização por lucros cessantes pela perda de rendimentos após o bloqueio",
+      "resumo": "O pedido foi rejeitado porque os comprovantes não demonstram garantia de continuidade da atividade, e, sendo lícita a denúncia unilateral do vínculo, inexiste inadimplemento que fundamente lucros cessantes. Aplicaram-se os arts. 402 e 403 do CC.",
+      "tipo": "merito",
+      "tema": "lucros cessantes",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 402 do CC",
+        "art. 403 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Nos termos dos arts. 402 e 403 do CC, a indenização abrange aquilo que o credor razoavelmente deixou de lucrar em consequência direta e imediata do inadimplemento.",
+          "char_start": 11016,
+          "char_end": 11179,
+          "score": 100.0
+        },
+        {
+          "texto": "Os documentos de fls. 46/53 demonstram pagamentos anteriormente recebidos pelo autor, mas não asseguram a continuidade da atividade, quantidade mínima de solicitações ou renda semanal fixa.",
+          "char_start": 11303,
+          "char_end": 11492,
+          "score": 100.0
+        },
+        {
+          "texto": "Além disso, reconhecida a possibilidade de denúncia unilateral do vínculo, não há inadimplemento contratual apto a sustentar lucros cessantes por todo o período posterior ao descredenciamento.",
+          "char_start": 11494,
+          "char_end": 11686,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Indenização por danos morais pelo bloqueio da conta",
+      "resumo": "Negada a indenização por dano moral porque, reconhecida a licitude do encerramento contratual, inexiste ato ilícito a ser reparado.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Reconhecida a licitude do encerramento da relação contratual, inexiste ato ilícito apto a ensejar reparação por dano moral, razão pela qual o pedido indenizatório também deve ser rejeitado.",
+          "char_start": 11870,
+          "char_end": 12059,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 3970,
+    "output_tokens": 7037,
+    "cost_usd": 0.0753325,
+    "latency_ms": 51486,
+    "citacoes": 15,
+    "citacoes_ancoradas": 15
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

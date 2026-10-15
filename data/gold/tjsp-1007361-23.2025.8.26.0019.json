@@ -1,0 +1,221 @@
+{
+  "ruling_id": "tjsp-1007361-23.2025.8.26.0019",
+  "text_sha256": "dc47b34abf884c6ff65e0ffb62e68ff436aff261db744b31a45bf8fa4a53dcde",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Revelia por intempestividade da contestação",
+      "resumo": "O juiz apurou o prazo considerando feriados e concluiu que a defesa deveria ter sido apresentada até 15/07/2025, mas foi protocolada apenas em 12/08/2025. O despacho posterior não reabriu prazo e a ré não demonstrou justa causa, razão pela qual foi decretada a revelia com os efeitos do art. 344 do CPC.",
+      "tipo": "preliminar",
+      "tema": "revelia",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 223 do CPC",
+        "art. 139, VI, do CPC",
+        "art. 344 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "O prazo processual é peremptório. Com o seu decurso, extingue-se o direito de praticar o ato, independentemente de declaração judicial (art. 223, caput, do CPC).",
+          "char_start": 4145,
+          "char_end": 4306,
+          "score": 100.0
+        },
+        {
+          "texto": "O despacho de fls. 74, de 30 de julho de 2025, que determinou aguardar-se a contestação, foi proferido após o esgotamento do prazo e não o reabriu, tratando-se de mero ato de andamento, sem os pressupostos do art. 139, VI, do CPC.",
+          "char_start": 4308,
+          "char_end": 4538,
+          "score": 100.0
+        },
+        {
+          "texto": "Declaro, portanto, a revelia da ré, com os efeitos do art. 344 do CPC, presumindo-se verdadeiros os fatos alegados na petição inicial.",
+          "char_start": 4702,
+          "char_end": 4836,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Incidência exclusiva do CBA, afastando o CDC",
+      "resumo": "A tese da ré foi rejeitada. O juiz reconheceu que a relação é de consumo e que se aplicam as normas do CDC ao transporte aéreo, sem prejuízo do CBA; o Tema 210 do STF (RE 636.331) limita-se a extravio de bagagem em voo internacional, hipótese diversa.",
+      "tipo": "merito",
+      "tema": "aplicação do CDC",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 2o do CDC",
+        "art. 3o do CDC",
+        "RE 636.331 (Tema 210/STF)"
+      ],
+      "citacoes": [
+        {
+          "texto": "A relação entre as partes é de consumo (arts. 2o e 3o do CDC), aplicando-se as normas protetivas do consumidor ao contrato de transporte aéreo, sem prejuízo da disciplina específica do Código Brasileiro de Aeronáutica.",
+          "char_start": 4975,
+          "char_end": 5193,
+          "score": 100.0
+        },
+        {
+          "texto": "O precedente do E. STF no RE no 636.331 (Tema 210 de Repercussão Geral), invocado pela ré, restringe-se à indenização por danos materiais decorrentes de extravio de bagagem em voos internacionais, hipótese estranha aos autos.",
+          "char_start": 5194,
+          "char_end": 5419,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Direito à remarcação gratuita das passagens por motivo de doença grave",
+      "resumo": "Com base na documentação médica e na presunção da revelia, o juiz reconheceu que a exigência de pagamento elevado para remarcação diante de enfermidade grave é prática abusiva. Ratificou a obrigação da ré de remarcar as passagens sem custos adicionais.",
+      "tipo": "merito",
+      "tema": "prática abusiva",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 51, IV, do CDC",
+        "art. 39, V, do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Diante da prova documental produzida (declaração médica de fls. 17/18 e 27, laudo de ultrassonografia de fls. 19/20 e 25/26) e da presunção decorrente da revelia, está caracterizada a exigência de pagamento de valor exorbitante como condição para a remarcação de viagem cuja realização se tornara desaconselhada por razão médica grave, devidamente comunicada e documentada à ré antes da data do embarque.",
+          "char_start": 5421,
+          "char_end": 5825,
+          "score": 100.0
+        },
+        {
+          "texto": "Essa conduta caracteriza prática abusiva, por colocar o consumidor em desvantagem exagerada (art. 51, IV, do CDC) e por se prevalecer de sua fragilidade momentânea para lhe impingir cobrança sem correspondência com o serviço prestado (art. 39, V, do CDC), a despeito de a própria ré já ter alterado unilateralmente o itinerário dos autores por duas vezes.",
+          "char_start": 5827,
+          "char_end": 6182,
+          "score": 100.0
+        },
+        {
+          "texto": "Ratifico, assim, a tutela específica deferida às fls. 36/37, no sentido de que a ré estava obrigada a remarcar as passagens dos autores sem custos adicionais.",
+          "char_start": 6184,
+          "char_end": 6342,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Aplicação de multa por ato atentatório e por descumprimento da tutela",
+      "resumo": "O pedido de multa foi rejeitado. O juiz entendeu que a inutilidade da tutela decorreu de fato pessoal superveniente dos autores, antes do termo para verificação do cumprimento, e não houve prova segura de descumprimento imputável à ré, nem prévia advertência prevista no art. 77, § 1o, do CPC.",
+      "tipo": "acessorio",
+      "tema": "multa por ato atentatório",
+      "suscitado_por": "autor",
+      "decisao": "rejeitado",
+      "fundamento_legal": [
+        "art. 77, § 2o, do CPC",
+        "art. 77, § 1o, do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Tal circunstância é alheia à conduta da ré e antecede o momento em que se poderia sequer cogitar de inadimplemento da obrigação de fazer.",
+          "char_start": 6787,
+          "char_end": 6924,
+          "score": 100.0
+        },
+        {
+          "texto": "Não há, portanto, prova segura de inadimplemento da tutela imputável à ré, o que afasta a aplicação de multa cominatória (que, ademais, nunca foi fixada) e da sanção do art. 77, § 2o, do CPC, cujos pressupostos, inclusive a advertência prévia do § 1o, não se fazem presentes.",
+          "char_start": 7264,
+          "char_end": 7539,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Conversão da obrigação de fazer em perdas e danos (reembolso integral das passagens)",
+      "resumo": "Diante da perda de utilidade do resultado prático equivalente por fato superveniente legítimo, o juiz converteu a tutela específica em perdas e danos, limitando-a ao valor econômico da obrigação originalmente devida: reembolso integral do preço das passagens, a apurar em liquidação, e não ao custo de nova viagem para destino diverso.",
+      "tipo": "merito",
+      "tema": "conversão em perdas e danos",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 499 do CPC"
+      ],
+      "citacoes": [
+        {
+          "texto": "Subsiste, contudo, o direito dos autores à conversão da obrigação de fazer em perdas e danos, tal como por eles requerido (fls. 133/135 e 153/155).",
+          "char_start": 7541,
+          "char_end": 7688,
+          "score": 100.0
+        },
+        {
+          "texto": "O art. 499 do CPC autoriza essa conversão a pedido do credor quando o resultado prático equivalente deixa de ser útil, independentemente de culpa do devedor.",
+          "char_start": 7690,
+          "char_end": 7847,
+          "score": 100.0
+        },
+        {
+          "texto": "A medida que melhor traduz esse valor é o reembolso integral do preço pago pelos autores na aquisição das passagens aéreas para os trechos Campinas/ViracoposLisboa e LisboaCampinas/Viracopos (reservas ANS2NK e CGFCFS), como se a ré tivesse, desde o início, atendido ao pedido de cancelamento por motivo de força maior devidamente comprovado.",
+          "char_start": 8338,
+          "char_end": 8679,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a06",
+      "titulo": "Dano moral configurado pela recusa abusiva de remarcação",
+      "resumo": "O juiz entendeu que a frustração da viagem, somada à recusa de alteração gratuita mesmo diante de doença grave, extrapola o mero aborrecimento e configura lesão a direito extrapatrimonial, reconhecendo o dever de indenizar.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Quanto aos danos morais, a situação relatada a frustração de uma viagem internacional já remarcada por conduta da própria ré, associada à recusa de alteração gratuita diante de doença grave do autor, devidamente comunicada e documentada extrapola o mero aborrecimento inerente às relações contratuais, configurando lesão a interesse extrapatrimonial dos autores, presumida em razão da própria natureza da conduta e da vulnerabilidade da situação vivida por eles, então às voltas com a iminência de uma cirurgia.",
+          "char_start": 8950,
+          "char_end": 9461,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a07",
+      "titulo": "Fixação do quantum dos danos morais em R$ 5.000,00 por autor",
+      "resumo": "Com base na extensão do fato, ausência de sofrimento de excepcional gravidade, caráter compensatório-pedagógico e capacidade econômica da ré, o valor foi arbitrado em R$ 5.000,00 para cada autor.",
+      "tipo": "quantum",
+      "tema": "quantum do dano moral",
+      "suscitado_por": "juizo",
+      "decisao": "acolhido",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Considerando a extensão do fato, a ausência de elementos que indiquem sofrimento de excepcional gravidade, o caráter compensatório e pedagógico da medida e a capacidade econômica da ré, fixo a indenização em R$ 5.000,00 (cinco mil reais) para cada um dos autores, totalizando R$ 10.000,00 (dez mil reais), corrigidos a partir desta data (Súmula 362 do STJ) e juros legais de mora a partir da citação.",
+          "char_start": 9463,
+          "char_end": 9863,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 4091,
+    "output_tokens": 8480,
+    "cost_usd": 0.08991375,
+    "latency_ms": 85039,
+    "citacoes": 15,
+    "citacoes_ancoradas": 15
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}

@@ -1,0 +1,169 @@
+{
+  "ruling_id": "tjsp-1172246-39.2024.8.26.0100",
+  "text_sha256": "9bd41b68a05ff961e39e14cf00e1e44060fe8feac6363799f5966cc770aeb5ee",
+  "schema_version": "q2-args-v1",
+  "status": "rascunho",
+  "resultado": "parcialmente_procedente",
+  "argumentos": [
+    {
+      "id": "a01",
+      "titulo": "Ausência de prova do fato constitutivo do direito do autor",
+      "resumo": "A preliminar foi rejeitada porque a alegação de falta de prova mínima se confunde com o próprio mérito, devendo ser analisada na apreciação do pedido.",
+      "tipo": "preliminar",
+      "tema": "ausência de prova mínima",
+      "suscitado_por": "reu",
+      "decisao": "rejeitado",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "A alegada ausência de provas mínimas se confunde com o mérito, que passo a analisar.",
+          "char_start": 1852,
+          "char_end": 1936,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a02",
+      "titulo": "Inaplicabilidade do CDC à relação entre entregador e plataforma",
+      "resumo": "O juiz reconheceu que não há relação de consumo, mas relação civil, pois o autor utiliza o aplicativo para exercer atividade econômica, não se enquadrando no conceito do art. 2º do CDC.",
+      "tipo": "merito",
+      "tema": "inaplicabilidade do CDC",
+      "suscitado_por": "reu",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 2º do CDC"
+      ],
+      "citacoes": [
+        {
+          "texto": "De início, assiste razão à parte ré quanto à inaplicabilidade do Código de Defesa do Consumidor, visto que não se trata a presente relação de consumo, mas evidente relação fundada no Código Civil.",
+          "char_start": 1938,
+          "char_end": 2134,
+          "score": 100.0
+        },
+        {
+          "texto": "O autor não é consumidor em relação à parte ré, pois utiliza o aplicativo para o desenvolvimento de sua atividade econômica.",
+          "char_start": 2136,
+          "char_end": 2260,
+          "score": 100.0
+        },
+        {
+          "texto": "Decerto que o aplicativo é utilizado pelo entregador parceiro a fim de incrementar sua atividade econômica, realizando a intermediação com os restaurantes, de modo que o autor não se adequa ao conceito de consumidor, definido pelo artigo 2o do Código de Defesa do Consumidor.",
+          "char_start": 2261,
+          "char_end": 2536,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a03",
+      "titulo": "Recadastramento por descredenciamento imotivado",
+      "resumo": "A ré não comprovou violação aos termos de uso e o autor demonstrou a desativação sem justificativa plausível; à luz da boa-fé objetiva e da função social do contrato, o descredenciamento é inadmissível e impõe a reintegração do autor à plataforma.",
+      "tipo": "merito",
+      "tema": "descredenciamento imotivado",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "art. 373, II, do CPC",
+        "art. 421 do CC",
+        "art. 422 do CC"
+      ],
+      "citacoes": [
+        {
+          "texto": "No caso dos autos, a ré não logrou êxito em comprovar a violação dos termos de uso do aplicativo.",
+          "char_start": 3179,
+          "char_end": 3276,
+          "score": 100.0
+        },
+        {
+          "texto": "Nesse panorama, o requerido não se desincumbiu de seu ônus probatório, nos termos do art. 373, inciso II do Código de Processo Civil.",
+          "char_start": 3491,
+          "char_end": 3624,
+          "score": 100.0
+        },
+        {
+          "texto": "Assim, com fundamento nos princípios da boa-fé e da função social do contrato, é inadmissível o descredenciamento do motorista parceiro sem uma justificativa plausível, devendo, portanto, ser reintegrado na plataforma digital.",
+          "char_start": 5525,
+          "char_end": 5751,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a04",
+      "titulo": "Configuração de dano moral pelo bloqueio da conta",
+      "resumo": "Embora o mero inadimplemento não gere dano moral, no caso o bloqueio abrupto retirou a fonte de renda do autor e o acesso ao histórico, caracterizando abalo indenizável.",
+      "tipo": "merito",
+      "tema": "dano moral",
+      "suscitado_por": "autor",
+      "decisao": "acolhido",
+      "fundamento_legal": [
+        "STJ REsp 656.932/SP"
+      ],
+      "citacoes": [
+        {
+          "texto": "Por fim, no que tange ao pedido de indenização por danos morais, atualmente prevalece o entendimento de que: \"O simples descumprimento contratual, por si, não é capaz de gerar danos morais, sendo necessária a existência de um plus, uma consequência fática capaz, essa sim, de acarretar dor e sofrimento indenizável pela sua gravidade (STJ REsp no 656.932/SP, Rel. Min. ANTONIO CARLOS FERREIRA, 4a T., j. 24/02/2014).",
+          "char_start": 5753,
+          "char_end": 6169,
+          "score": 100.0
+        },
+        {
+          "texto": "Contudo, no presente caso não houve simples descumprimento contratual, porquanto, inegável que de uma hora para outra, o autor se viu sem emprego, e mais, sem acesso ao seu histórico, para conferência dos valores a serem recebidos e justificativa do seu bloqueio.",
+          "char_start": 6171,
+          "char_end": 6434,
+          "score": 100.0
+        },
+        {
+          "texto": "A ruptura que afeta a renda impacta diretamente na situação financeira do funcionário, sendo potencial, portanto, para causar o abalo psicológico indenizável.",
+          "char_start": 6436,
+          "char_end": 6594,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    },
+    {
+      "id": "a05",
+      "titulo": "Indenização por dano moral no valor de R$ 15.000,00",
+      "resumo": "O quantum foi fixado em R$ 3.000,00, montante considerado suficiente e proporcional para reparar o dano, inferior ao pedido inicial.",
+      "tipo": "quantum",
+      "tema": "quantum dano moral",
+      "suscitado_por": "autor",
+      "decisao": "parcial",
+      "fundamento_legal": [],
+      "citacoes": [
+        {
+          "texto": "Ao mesmo tempo, o valor da indenização deve se ater aos critérios da razoabilidade e da proporcionalidade de modo a evitar o enriquecimento sem causa da parte autora.",
+          "char_start": 6706,
+          "char_end": 6872,
+          "score": 100.0
+        },
+        {
+          "texto": "Portanto, a fixação no valor de R$ 3.000,00 para o autor é quantia suficiente para indenizar os prejuízos morais sofridos.",
+          "char_start": 7044,
+          "char_end": 7166,
+          "score": 100.0
+        }
+      ],
+      "secao": "fundamentacao"
+    }
+  ],
+  "rascunho": {
+    "modelo": "gpt-5",
+    "snapshot": "gpt-5-2025-08-07",
+    "prompt_version": "q2-gold-draft-v1",
+    "schema_version": "q2-args-v1",
+    "input_tokens": 3178,
+    "output_tokens": 6794,
+    "cost_usd": 0.0719125,
+    "latency_ms": 57225,
+    "citacoes": 12,
+    "citacoes_ancoradas": 12
+  },
+  "revisor": null,
+  "revisado_em": null,
+  "notas": ""
+}
