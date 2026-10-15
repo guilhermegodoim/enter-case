@@ -27,7 +27,7 @@ def git_version(root: Path = ROOT) -> str:
 
     try:
         sha = git("rev-parse", "--short=12", "HEAD")
-        dirty = git("status", "--porcelain")
+        dirty = git("status", "--porcelain", "--untracked-files=no")  # só arquivos versionados
     except (subprocess.CalledProcessError, FileNotFoundError):
         return "nogit"
     return sha + ("+dirty" if dirty else "")
