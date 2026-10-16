@@ -124,3 +124,20 @@ def test_live_smoke(tmp_path):
         pytest.skip("OPENAI_API_KEY ausente")
     out, rec = llm.structured(Out, system="Extraia a tese em 3 palavras.", user="Voo cancelado.")
     assert out.tese and rec.input_tokens > 0
+
+
+def test_invalid_json_from_sdk_becomes_llm_error_and_is_not_cached(tmp_path):
+    from pydantic import ValidationError
+
+    try:
+        Out.model_validate_json('{"tese": "x" } } } }')
+    except ValidationError as e:
+        err = e
+
+    def parse(**kwargs):
+        raise err
+
+    llm = LLM(client=NS(responses=NS(parse=parse)), cache_dir=tmp_path)
+    with pytest.raises(LLMError, match="schema Out"):
+        llm.structured(Out, system="s", user="u")
+    assert not any(tmp_path.rglob("*.json"))

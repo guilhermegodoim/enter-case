@@ -72,3 +72,42 @@ def review(port: int = 8501) -> None:
     app_path = ROOT / "q2_arguments" / "gold_app.py"
     cmd = [sys.executable, "-m", "streamlit", "run", str(app_path), "--server.port", str(port)]
     raise typer.Exit(subprocess.call(cmd))
+
+
+@app.command()
+def extract(
+    ruling_id: str,
+    config: str = typer.Option("chunk_mini_verif", help="Chave de q2_arguments.bench.configs()."),
+) -> None:
+    """Extrai e mostra os argumentos de uma sentença do corpus."""
+    from q2_arguments.bench import configs
+    from q2_arguments.corpus import ruling_text
+    from q2_arguments.extract import extract as run
+
+    cfg = next(c for c in configs() if c.key == config)
+    text = ruling_text(ruling_id)
+    e = run(LLM(), cfg, ruling_id, text)
+    typer.echo(
+        f"run {e.run_id}  chunks={e.n_chunks}  brutos={e.brutos}  "
+        f"sem âncora={e.descartados_sem_ancora}  fundidos={e.fundidos}  "
+        f"US$ {e.cost_usd:.4f}  {e.latency_ms:.0f} ms\n"
+    )
+    for a in e.argumentos:
+        tags = f"{a.tipo}/{a.decisao}/{a.suscitado_por}"
+        typer.echo(f"{a.id} [{tags}] conf={a.confianca} ({a.confianca_nivel})")
+        typer.echo(f"   {a.titulo}\n   {a.resumo}")
+        for c in a.citacoes:
+            src = text[c.char_start : c.char_end][:160] if c.ancorada else "(não ancorada)"
+            typer.echo(f"   [{c.char_start}:{c.char_end} score {c.score}] {src}")
+
+
+@app.command()
+def bench(
+    only: Annotated[list[str] | None, typer.Option(help="Só estas configs (repetível).")] = None,
+    gold: str = typer.Option("todos", help="todos (rascunho+revisado) | revisado"),
+) -> None:
+    """Benchmark de extração: calibra merge no dev, mede no test, grava results/<run_id>/."""
+    from q2_arguments.bench import run
+
+    w = run(only=only or None, gold_mode=gold)
+    typer.echo(f"resultados: {w.dir}")

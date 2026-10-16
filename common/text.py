@@ -199,3 +199,22 @@ def fold_keep_offsets(text: str) -> str:
         )
         out.append(f[0] if len(f) == 1 else c.lower() if len(c.lower()) == 1 else c)
     return "".join(out)
+
+
+_NULL_ESCAPE = re.compile(r"\x00([0-9a-fA-F]{2})")
+
+
+def fix_null_escapes(text: str) -> str:
+    """Conserta saída de LLM com acentos como NUL + 2 dígitos hex ("rela\\x00e7\\x00e3o")."""
+    return _NULL_ESCAPE.sub(lambda m: chr(int(m.group(1), 16)), text).replace("\x00", "")
+
+
+def fix_strings(obj):
+    """Aplica fix_null_escapes em todas as strings de dict/list aninhados."""
+    if isinstance(obj, str):
+        return fix_null_escapes(obj)
+    if isinstance(obj, list):
+        return [fix_strings(x) for x in obj]
+    if isinstance(obj, dict):
+        return {k: fix_strings(v) for k, v in obj.items()}
+    return obj
