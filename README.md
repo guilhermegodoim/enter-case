@@ -61,6 +61,30 @@ uv run ruff check .
 | `data/gold/` | Gold da Q2: argumentos por sentença, rascunho LLM corrigido por humano ([guia](data/gold/GUIDE.md)) |
 | `docs/` | *(fase 6)* respostas escritas |
 
+## Q2: armazenamento, revisão e versionamento
+
+Fluxo de revisão (store em `data/store/q2.sqlite`, fora do git):
+
+```bash
+uv run q2 ingest --config chunk_mini --split dev      # run A (prompt guia-v1)
+uv run q2 review-args                                 # revisor aceita/edita/rejeita/adiciona
+uv run q2 ingest --config chunk_mini_v2 --split dev   # run B (prompt guia-v2), gravada ao lado
+uv run q2 diff <ruling_id> <run_a> <run_b>            # o que mudou; na UI: "Herdar revisões"
+```
+
+- Cada ação de revisão é uma linha nova em `argument_revisions` (revisor, motivo, diff de
+  campos). UPDATE/DELETE são bloqueados por trigger; o estado atual é a última revisão.
+- Edição reancora as citações no texto; citação que não está na sentença é recusada.
+- Rejeitar exige motivo. Exportar para o gold exige zero pendentes e nunca sobrescreve gold
+  revisado: as correções do revisor viram gold para o próximo benchmark.
+- Run nova nunca toca na antiga. "Herdar" copia decisões só para pares equivalentes (mesma
+  questão, mesmo tipo/decisão/suscitado_por); o resto fica pendente.
+- `run_id` = hash de modelo, versão e hash do texto do prompt, schema, parâmetros e código.
+  `extraction_runs` guarda também o snapshot do modelo devolvido pela API.
+- Schema mudou: novo `EXTRACT_SCHEMA_VERSION` + upcaster em `versions.py`. Linhas antigas ficam
+  como foram escritas e são lidas na versão atual (`uv run q2 import-bench` importa as
+  predições v1 da fase 4).
+
 ## Reprodutibilidade
 
 - Toda chamada LLM passa pelo cache em `.cache/llm/`, endereçado pelo hash de modelo, mensagens, schema e parâmetros. Reexecutar um benchmark devolve os mesmos números a custo zero.
