@@ -1,0 +1,137 @@
+{
+  "comparavel": true,
+  "linhas": [
+    {
+      "bench": "q2-bench-4d5403af77",
+      "config": "chunk_mini",
+      "extraction_run_id": "q2-extract-12db7f9f31",
+      "model": "gpt-4.1-mini",
+      "mode": "chunk",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "—",
+      "schema_version": "q2-extracted-v1",
+      "gold": "b139d00606a5",
+      "juiz": "gpt-4.1/q2-match-v2",
+      "provisorio": true,
+      "precision": 0.782312925170068,
+      "recall": 0.7055214723926381,
+      "f1": 0.7419354838709677,
+      "f1_ic95": [
+        0.6986632352941178,
+        0.7865284887972875
+      ],
+      "custo": 0.007421200000000001,
+      "p50": 15935.305749997497
+    },
+    {
+      "bench": "q2-bench-4d5403af77",
+      "config": "full_41",
+      "extraction_run_id": "q2-extract-a7716daf2f",
+      "model": "gpt-4.1",
+      "mode": "full",
+      "prompt_version": "q2-extract-guia-v1",
+      "prompt_sha256": "—",
+      "schema_version": "q2-extracted-v1",
+      "gold": "b139d00606a5",
+      "juiz": "gpt-4.1/q2-match-v2",
+      "provisorio": true,
+      "precision": 0.9913793103448276,
+      "recall": 0.7055214723926381,
+      "f1": 0.8243727598566308,
+      "f1_ic95": [
+        0.7705579605579607,
+        0.8712160505469633
+      ],
+      "custo": 0.026781,
+      "p50": 13394.22220850247
+    },
+    {
+      "bench": "q2-bench-3e5fb45870",
+      "config": "chunk_mini",
+      "extraction_run_id": "q2-extract-eda2728692",
+      "model": "gpt-4.1-mini",
+      "mode": "chunk",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "8f5f6e5815dbedb8",
+      "schema_version": "q2-extracted-v2",
+      "gold": "b139d00606a5",
+      "juiz": "gpt-4.1/q2-match-v2",
+      "provisorio": true,
+      "precision": 0.782312925170068,
+      "recall": 0.7055214723926381,
+      "f1": 0.7419354838709677,
+      "f1_ic95": [
+        0.6986632352941178,
+        0.7865284887972875
+      ],
+      "custo": 0.007421200000000001,
+      "p50": 15935.305749997497
+    },
+    {
+      "bench": "q2-bench-3e5fb45870",
+      "config": "chunk_mini_v2",
+      "extraction_run_id": "q2-extract-bad888d8b5",
+      "model": "gpt-4.1-mini",
+      "mode": "chunk",
+      "prompt_version": "q2-extract-guia-v2+chunk",
+      "prompt_sha256": "974faab14f6cbcdf",
+      "schema_version": "q2-extracted-v2",
+      "gold": "b139d00606a5",
+      "juiz": "gpt-4.1/q2-match-v2",
+      "provisorio": true,
+      "precision": 0.7721518987341772,
+      "recall": 0.7484662576687117,
+      "f1": 0.7601246105919003,
+      "f1_ic95": [
+        0.71632729457436,
+        0.8063247380638685
+      ],
+      "custo": 0.00742524,
+      "p50": 16243.343666996225
+    },
+    {
+      "bench": "q2-bench-3e5fb45870",
+      "config": "full_41_v2",
+      "extraction_run_id": "q2-extract-760976f574",
+      "model": "gpt-4.1",
+      "mode": "full",
+      "prompt_version": "q2-extract-guia-v2",
+      "prompt_sha256": "6fc6e3e4600de1b5",
+      "schema_version": "q2-extracted-v2",
+      "gold": "b139d00606a5",
+      "juiz": "gpt-4.1/q2-match-v2",
+      "provisorio": true,
+      "precision": 0.9307692307692308,
+      "recall": 0.7423312883435583,
+      "f1": 0.8259385665529012,
+      "f1_ic95": [
+        0.76512987012987,
+        0.8767207500561419
+      ],
+      "custo": 0.027017000000000003,
+      "p50": 15561.165166494902
+    },
+    {
+      "bench": "q2-bench-3e5fb45870",
+      "config": "full_41",
+      "extraction_run_id": "q2-extract-c9823d5f00",
+      "model": "gpt-4.1",
+      "mode": "full",
+      "prompt_version": "q2-extract-guia-v1",
+      "prompt_sha256": "45eabfd25126781a",
+      "schema_version": "q2-extracted-v2",
+      "gold": "b139d00606a5",
+      "juiz": "gpt-4.1/q2-match-v2",
+      "provisorio": true,
+      "precision": 0.9913793103448276,
+      "recall": 0.7055214723926381,
+      "f1": 0.8243727598566308,
+      "f1_ic95": [
+        0.7705579605579607,
+        0.8712160505469633
+      ],
+      "custo": 0.026781,
+      "p50": 13394.22220850247
+    }
+  ]
+}

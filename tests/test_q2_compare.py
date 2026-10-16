@@ -35,6 +35,7 @@ def test_old_bench_without_schema_is_v1_and_rows_are_comparable(tmp_path):
     assert comparable(rs)
     md = report(rs, [old, new])
     assert "diretamente comparáveis" in md and "`chunk_mini_v2`" in md and "PROVISÓRIO" in md
+    assert "`chunk_mini` (2 runs, schemas q2-extracted-v1, q2-extracted-v2): F1 74.0 / 74.0" in md
 
 
 def test_different_gold_is_flagged(tmp_path):

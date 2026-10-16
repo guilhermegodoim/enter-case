@@ -69,11 +69,17 @@ def report(rs: list[dict], benches: list[dict]) -> str:
             _pct(r["recall"]), f"{_pct(r['f1'])} ({_pct(lo)}–{_pct(hi)})", f"{r['custo']:.4f}",
             f"{r['p50']:.0f}",
         ]) + " |")  # fmt: skip
-    same = {}
+    # mesma config lógica (modelo, modo, versão do prompt) em benches diferentes: o run_id
+    # muda com schema/código, a saída só muda se o modelo receber outro prompt
+    groups: dict[tuple, list[dict]] = {}
     for r in rs:
-        same.setdefault(r["extraction_run_id"], set()).add(round(r["f1"], 6))
-    reused = [k for k, v in same.items() if len(v) == 1 and sum(
-        x["extraction_run_id"] == k for x in rs) > 1]  # fmt: skip
+        groups.setdefault((r["config"], r["model"], r["mode"], r["prompt_version"]), []).append(r)
+    reruns = [
+        f"`{k[0]}` ({len(v)} runs, schemas {', '.join(sorted({x['schema_version'] for x in v}))}"
+        f"): F1 {' / '.join(_pct(x['f1']) for x in v)}"
+        for k, v in groups.items()
+        if len({x["bench"] for x in v}) > 1
+    ]
     note = (
         "Gold e juiz iguais em todas as linhas: números diretamente comparáveis."
         if comparable(rs)
@@ -87,9 +93,10 @@ Gerado por `uv run q2 compare {" ".join(b["dir"] for b in benches)}`.
 {note}
 {"> **PROVISÓRIO**: gold ainda contém rascunhos LLM não revisados." if prov else ""}
 
-O `run_id` da extração é o hash de modelo, versão e hash do prompt, schema, parâmetros e código.
-Mesma run de extração em benchmarks diferentes ⇒ mesma saída (cache LLM) e mesmo F1:
-{", ".join(f"`{k}`" for k in reused) or "nenhuma repetida"}.
+O `run_id` da extração é o hash de modelo, versão e hash do prompt, schema, parâmetros e código:
+mudar o schema ou o código gera run nova. Mesma config (modelo, modo, versão do prompt)
+reexecutada em benchmarks diferentes, com o cache LLM, deve dar o mesmo F1:
+{"; ".join(reruns) or "nenhuma config repetida"}.
 
 {chr(10).join(lines)}
 """
