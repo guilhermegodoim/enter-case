@@ -34,6 +34,12 @@ uv run q2 gold-status      # quantas sentenças revisadas, citações ancoradas
 uv run q2 extract <ruling_id> --config chunk_mini_verif   # extrai e mostra argumentos de 1 sentença
 uv run q2 bench            # benchmark Q2: calibra merge no dev, mede no test, grava results/<run_id>/
 uv run q2 bench --gold revisado   # só sentenças com gold revisado por humano
+uv run q2 ingest --config chunk_mini --split dev   # extrai e grava no store (data/store/q2.sqlite)
+uv run q2 import-bench q2-bench-4d5403af77        # importa predições antigas (schema v1, upcast)
+uv run q2 review-args      # revisão dos argumentos extraídos (Streamlit): aceitar/editar/rejeitar/adicionar
+uv run q2 runs <ruling_id>                 # runs gravadas para a sentença (modelo, prompt, schema)
+uv run q2 diff <ruling_id> <run_a> <run_b> # o que mudou entre duas runs
+uv run q2 compare <bench_a> <bench_b>      # tabela única entre benchmarks (confere gold e juiz)
 uv run ruff check .
 ```
 
@@ -47,7 +53,10 @@ uv run ruff check .
 | `common/pricing.py` | Tabela de preços por modelo para custo por documento |
 | `q1_similarity/` | Dataset sintético, pipeline de similaridade (hash → MinHash → alinhamento → juiz LLM) e benchmark |
 | `data/synthetic/q1/` | Casos, documentos e pares rotulados da Q1 ([README](data/synthetic/q1/README.md), [estatísticas](data/synthetic/q1/STATS.md)) |
-| `q2_arguments/` | Coleta TJSP, corpus anonimizado, schema, ancoragem de citações, gold + editor, segmentação/chunking, extração, merge, verificador, benchmark *(armazenamento e revisão: fase 5)* |
+| `q2_arguments/` | Coleta TJSP, corpus anonimizado, schema, ancoragem de citações, gold + editor, segmentação/chunking, extração, merge, verificador, benchmark, store + revisão + versionamento |
+| `q2_arguments/store.py` | SQLite (DDL formato Postgres): sentenças, runs de extração, argumentos e revisões append-only; diff e herança entre runs; exportação para o gold |
+| `q2_arguments/versions.py` | Upcasters de schema: linhas antigas nunca reescritas, lidas na versão atual |
+| `q2_arguments/review_app.py` | Revisão humana dos argumentos extraídos (Streamlit) |
 | `data/rulings/` | Corpus da Q2: 30 sentenças públicas anonimizadas ([README](data/rulings/README.md), [estatísticas](data/rulings/STATS.md)) |
 | `data/gold/` | Gold da Q2: argumentos por sentença, rascunho LLM corrigido por humano ([guia](data/gold/GUIDE.md)) |
 | `docs/` | *(fase 6)* respostas escritas |
