@@ -16,6 +16,9 @@ Dados usados: apenas documentos sintéticos (Q1) e decisões judiciais públicas
   chunks para sentenças longas, store append-only com revisão humana e versionamento por run.
   F1 82.4 com `gpt-4.1` no texto inteiro. Os números são provisórios até o gold ser todo revisado.
 
+Versões em LaTeX, com resumo no início e detalhamento do experimento: [q1.tex](docs/q1.tex),
+[q2.tex](docs/q2.tex). Compilam com pdflatex, xelatex ou `tectonic docs/q1.tex`.
+
 ## Setup
 
 Requer [uv](https://docs.astral.sh/uv/) (Python 3.12 é instalado automaticamente).

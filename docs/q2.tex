@@ -1,0 +1,550 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
+\usepackage[brazilian]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
+\usepackage[hidelinks]{hyperref}
+
+\newcommand{\cfg}[1]{\texttt{\detokenize{#1}}}
+\setlist{itemsep=2pt,topsep=4pt}
+
+\title{Q2: extração de argumentos de sentenças judiciais\\[4pt]
+\large Banco de argumentos estruturado, ancorado e revisável}
+\author{Guilherme --- Case técnico Enter}
+\date{16 de outubro de 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+\textbf{Problema.} Receber uma sentença e extrair, de forma estruturada, os argumentos decididos
+pelo juiz, para um banco de argumentos de defesa.
+
+\smallskip\noindent
+\textbf{Saída.} Por argumento: título, resumo, tipo (preliminar, prejudicial, mérito, quantum ou
+acessório), tema, quem suscitou, decisão (acolhido, rejeitado ou parcial), fundamentos legais, de
+1 a 3 citações literais com offsets no texto, posição, seção, confiança e \texttt{run\_id}. O LLM
+só escreve texto. Offsets, posição, seção e confiança são calculados em código.
+
+\smallskip\noindent
+\textbf{Contra invenção.} Toda citação é ancorada no texto em código, e argumento sem citação
+ancorada é descartado. O prompt segue um guia do que é e do que não é argumento. Os enums são
+fechados, a temperatura é 0 e nenhum argumento entra no banco sem revisão humana. Com o prompt
+guiado, de 0\% a 2,4\% dos argumentos brutos vêm sem âncora, contra 3,4\% com um prompt básico.
+
+\smallskip\noindent
+\textbf{Sentenças longas.} A fundamentação é dividida em chunks de 3 mil tokens com
+sobreposição, processados em paralelo, com o relatório e o dispositivo como contexto. Argumentos
+repetidos entre chunks são fundidos pela sobreposição de citações. Com o modelo pequeno, o recall
+em sentenças muito longas sobe de 46,8\% com o texto inteiro para 68,1\% com chunks. Truncar dá
+25,5\%.
+
+\smallskip\noindent
+\textbf{Revisão humana.} Store append-only: cada aceite, edição, rejeição ou adição vira uma
+revisão nova, com revisor, motivo e diff. Uma edição reancora as citações, e uma citação que não
+está no texto é recusada. As revisões viram o gold do próximo benchmark.
+
+\smallskip\noindent
+\textbf{Qualidade.} Gold por sentença com split dev/test. Um juiz LLM pareia os argumentos
+extraídos com os do gold, e um pareador determinístico serve de controle. Métricas: precisão,
+recall e F1 com IC95, taxa de ancoragem, acurácia de campos, custo e latência. Melhor resultado:
+\cfg{gpt-4.1} no texto inteiro, com F1 de 82,4\% e precisão de 99,1\%, a US\$0,027 por sentença.
+Os números são \emph{provisórios}, porque 24 das 30 sentenças do gold ainda são rascunhos de LLM.
+
+\smallskip\noindent
+\textbf{Versionamento.} O \texttt{run\_id} é o hash de modelo, versão e texto do prompt, schema,
+parâmetros e código. Uma run nova fica ao lado da antiga e nunca toca nas revisões. Mudança de
+schema usa upcasters, e um relatório de comparação confere que gold e juiz são os mesmos entre
+versões.
+\end{abstract}
+
+\tableofcontents
+\bigskip
+
+% ------------------------------------------------------------------------------------------
+\section{Contexto e requisitos}
+
+O banco de argumentos alimenta a estratégia de defesa: quais teses vencem, com quais juízes e em
+quais tipos de caso. Quatro requisitos guiaram o desenho:
+\begin{itemize}
+  \item \textbf{Rastreabilidade.} Todo argumento aponta para trechos literais da sentença.
+  \item \textbf{Precisão.} Um argumento inventado contamina a base que orienta a estratégia.
+  \item \textbf{Revisão humana.} Toda saída pode ser aceita, editada ou rejeitada, com histórico.
+  \item \textbf{Versões comparáveis.} Modelos, prompts e schemas mudam, e os resultados precisam
+    continuar comparáveis.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------
+\section{Corpus e gold}
+
+\subsection{Coleta}
+
+As sentenças são públicas, de 1º grau, da Consulta de Julgados de 1º Grau (CJPG) do TJSP. A lista
+de resultados já traz o inteiro teor, então não há download de PDF. A coleta usa 10 consultas de
+3 páginas, com uma requisição a cada 2\,s e cache local. Foram 300 resultados, ou 268 processos
+únicos. Desses, 222 são candidatos: classes cíveis de conhecimento com texto inline completo. O
+CJPG corta o inteiro teor perto de 50 mil caracteres, e as sentenças cortadas foram excluídas.
+A busca da Justiça do Trabalho bloqueou acesso automatizado (HTTP 403), então o corpus é só de
+consumidor.
+
+\subsection{Seleção e anonimização}
+
+A seleção é determinística, por hash do número do processo, com cotas por faixa de tamanho e
+alternância de domínio. Há no máximo 2 sentenças por magistrado e 2 sentenças sem mérito, que
+testam se o extrator inventa argumentos. Uma em cada três sentenças vai para dev.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lr@{\hspace{1.5cm}}lr}
+\toprule
+faixa (tokens) & n & domínio & n \\
+\midrule
+curto ($<$3 mil) & 7 & aéreo & 10 \\
+médio ($<$6 mil) & 11 & bancário & 13 \\
+longo ($<$9 mil) & 8 & varejo/tecnologia & 7 \\
+muito longo ($\ge$9 mil) & 4 & & \\
+\midrule
+total & 30 & split & 10 dev / 20 test \\
+\bottomrule
+\end{tabular}
+\caption{Corpus \cfg{q2-tjsp-v1}. Tamanho em tokens: mínimo 270, mediana 4.357, máximo 12.654.
+No test há 2 sentenças curtas, 9 médias, 5 longas e 4 muito longas.}
+\label{tab:corpus}
+\end{table}
+
+Mesmo sendo decisões públicas, nomes de pessoas físicas privadas são anonimizados. Um LLM
+(\cfg{gpt-4.1}) só \emph{lista} os nomes com seu papel, e a troca é feita em código. CPF, RG,
+telefone, e-mail, CEP e OAB são trocados por regex. Empresas, magistrados e autores de doutrina
+são mantidos. O texto limpo e anonimizado é o \emph{texto canônico}: todos os offsets se referem a
+ele, e seu SHA-256 fica gravado.
+
+\subsection{Gold}
+
+O gold segue um guia de rotulagem (\texttt{data/gold/GUIDE.md}). Um argumento é uma tese sobre
+uma questão que o juiz enfrentou e decidiu, com fundamentação própria. Cada preliminar e cada
+prejudicial é um argumento. No mérito, há um argumento por questão decidida. O valor da
+indenização é um argumento \emph{quantum} separado. Alegações sem decisão e custas aplicadas
+mecanicamente não são argumentos.
+
+O fluxo do gold tem três passos:
+\begin{enumerate}
+  \item O \cfg{gpt-5}, com o texto inteiro, gera um rascunho, e as citações são ancoradas em código.
+  \item Um humano corrige o rascunho no editor.
+  \item Só arquivos marcados como revisados, com 100\% das citações ancoradas, contam como gold
+    revisado.
+\end{enumerate}
+\textbf{Estado atual:} 6 sentenças do test foram revisadas por humano e 24 continuam rascunho. O
+test tem 163 argumentos no gold.
+
+% ------------------------------------------------------------------------------------------
+\section{Solução}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=5mm and 6mm,
+  box/.style={draw, rounded corners, align=center, minimum height=10mm, font=\small,
+              text width=2.6cm},
+  >={Stealth}]
+  \node[box] (s) {Segmentação\\relatório / fund. / dispositivo};
+  \node[box, right=of s] (c) {Chunks de 3k tokens\\(paralelo)};
+  \node[box, right=of c] (l) {LLM: texto,\\campos, citações};
+  \node[box, right=of l] (g) {Ancoragem\\em código};
+  \node[box, below=of g] (m) {Merge por\\citações};
+  \node[box, left=of m] (k) {Confiança\\derivada};
+  \node[box, left=of k] (st) {Store\\append-only};
+  \node[box, left=of st] (r) {Revisão humana\\$\rightarrow$ gold};
+  \draw[->] (s) -- (c);
+  \draw[->] (c) -- (l);
+  \draw[->] (l) -- (g);
+  \draw[->] (g) -- (m);
+  \draw[->] (m) -- (k);
+  \draw[->] (k) -- (st);
+  \draw[->] (st) -- (r);
+\end{tikzpicture}
+\caption{Pipeline de extração. Só a caixa ``LLM'' é gerada por modelo. Todo o resto é
+determinístico.}
+\label{fig:pipeline}
+\end{figure}
+
+\subsection{Schema}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{3.6cm}p{2.6cm}p{7.6cm}}
+\toprule
+campo & preenchido por & observação \\
+\midrule
+\cfg{titulo}, \cfg{resumo}, \cfg{tema} & LLM & \cfg{tema} é um rótulo reutilizável, por exemplo ``fortuito externo''. \\
+\cfg{tipo} & LLM, enum & preliminar, prejudicial, mérito, quantum ou acessório. \\
+\cfg{suscitado_por} & LLM, enum & autor, réu ou juízo (de ofício). \\
+\cfg{decisao} & LLM, enum & acolhido, rejeitado ou parcial. Alimenta ``quais teses vencem''. \\
+\cfg{fundamento_legal[]} & LLM & Forma curta, por exemplo ``Súmula 479 do STJ''. \\
+\cfg{citacoes[]} & texto: LLM; offsets: código & De 1 a 3 trechos literais com \cfg{char_start}, \cfg{char_end} e score de ancoragem. \\
+\cfg{posicao}, \cfg{secao} & código & Envelope das citações no texto e seção onde elas estão. \\
+\cfg{confianca}, \cfg{sinais} & código & Derivados da ancoragem e do verificador, nunca do auto-relato. \\
+\cfg{run_id} & código & Execução que gerou o argumento. \\
+\bottomrule
+\end{tabular}
+\caption{Schema \cfg{q2-extracted-v2}, por argumento. Por sentença, o store guarda tribunal,
+processo, classe, assunto, vara, magistrado, data, resultado e o SHA-256 do texto canônico.}
+\label{tab:schema}
+\end{table}
+
+\noindent Exemplo real, abreviado, de uma predição do benchmark:
+{\small
+\begin{verbatim}
+{"titulo": "Ausência de dano moral por atraso de voo e perda de conexão",
+ "tipo": "merito", "tema": "dano moral",
+ "suscitado_por": "autor", "decisao": "rejeitado",
+ "fundamento_legal": ["art. 14 do CDC", "Resolução 400 da ANAC"],
+ "citacoes": [{"texto": "Conclui-se, daí, que a conduta da empresa aérea
+     não expôs a parte a qualquer situação humilhante ou vexatória,
+     mas a mero dissabor da vida cotidiana.",
+   "char_start": 5545, "char_end": 5694, "score": 100.0}],
+ "secao": "fundamentacao",
+ "posicao": {"char_start": 4370, "char_end": 5694},
+ "confianca": 0.8, "run_id": "q2-extract-1fc1179879"}
+\end{verbatim}
+}
+
+\subsection{Segmentação e chunks}
+
+Relatório, fundamentação e dispositivo são separados por marcadores típicos, como ``É o
+relatório'', ``Fundamento e decido'' e ``Ante o exposto''. Os chunks são parágrafos inteiros da
+fundamentação, empacotados até 3 mil tokens, com 300 tokens de sobreposição: um argumento na
+fronteira aparece inteiro em pelo menos um chunk. Cada chunk recebe, só como contexto, 800 tokens
+do início do relatório (partes e pedidos) e 600 tokens do dispositivo (resultado), com a instrução
+de extrair apenas do trecho analisado.
+
+\subsection{Extração}
+
+O LLM é chamado pela Responses API, com saída estruturada estrita, enums fechados e temperatura
+0. O prompt de sistema incorpora o guia de rotulagem e exige de 1 a 3 citações copiadas
+literalmente, sem reticências e sem correção. Uma saída degenerada, como JSON inválido, recebe uma
+nova tentativa com outra temperatura. Se falhar de novo, o chunk é registrado como falho.
+
+\subsection{Ancoragem}
+
+Cada citação é procurada no texto canônico. A busca é literal primeiro. Se falhar, ela é feita
+sobre o texto sem acento, sem caixa e com espaços colapsados. Por último, usa similaridade
+\texttt{partial\_ratio} $\ge 90$, mapeando a posição de volta para o texto original. Argumento sem
+nenhuma citação ancorada é descartado e registrado para auditoria.
+
+\subsection{Merge e confiança}
+
+Dois argumentos são fundidos quando são do mesmo tipo e têm citações que se sobrepõem no texto.
+Fica o de maior confiança, com a união das citações e dos fundamentos. A confiança é derivada de
+sinais verificáveis:
+\[
+c = \bar{s}_{\text{ancoragem}} / 100 \times f_{\text{verificador}},\qquad
+f \in \{1{,}0;\ 0{,}6;\ 0{,}2\}\ \text{(sustentado, parcial, não sustentado)},
+\]
+com $f = 0{,}8$ sem verificador. O nível é ``alta'' para $c \ge 0{,}85$ e ``média'' para
+$c \ge 0{,}5$. O verificador opcional, um modelo barato, recebe cada argumento e os trechos
+ancorados, lidos do texto e não do que o extrator escreveu.
+
+% ------------------------------------------------------------------------------------------
+\section{Protocolo experimental}
+
+\begin{itemize}
+  \item \textbf{Split por sentença.} O limiar do merge é calibrado no dev (10 sentenças). Os
+    números são do test (20 sentenças, 163 argumentos no gold).
+  \item \textbf{Pareamento extraído $\times$ gold.} Um juiz \cfg{gpt-4.1}, com o prompt
+    \cfg{q2-match-v2}, decide se dois itens tratam da \emph{mesma questão decidida}. O
+    pareamento um-para-um é forçado em código. Sendo $TP$ o número de pares,
+    \[
+      P = \frac{TP}{\#\text{extraídos}},\qquad R = \frac{TP}{\#\text{gold}},\qquad
+      F_1 = \frac{2PR}{P+R}.
+    \]
+  \item \textbf{Controle do juiz.} Um pareador determinístico roda junto: cosseno de embeddings
+    $\ge 0{,}80$, ou $\ge 0{,}60$ quando as citações se sobrepõem, com atribuição húngara. A
+    concordância entre os dois é reportada.
+  \item \textbf{Métricas:} P, R e $F_1$ com IC95 por bootstrap (1.000 reamostragens sobre
+    sentenças); citações ancoradas; brutos sem âncora, o proxy de invenção medido antes do
+    filtro; acurácia de \cfg{tipo} e \cfg{decisao} nos pares; ``citação confere'', quando a
+    citação extraída se sobrepõe à do gold; recall por faixa de tamanho; US\$/sentença; e
+    latência p50 e p95, com chunks em paralelo.
+  \item \textbf{Configurações:} modelos (\cfg{gpt-4.1-nano}, \cfg{gpt-4.1-mini},
+    \cfg{gpt-5-mini}, \cfg{gpt-4.1}); modos texto inteiro, chunk e truncado; prompts guiado
+    v1, guiado v2 e básico; filtro de ancoragem, merge e verificador ligados e desligados.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------
+\section{Resultados}
+
+\noindent\colorbox{yellow!25}{\parbox{\dimexpr\linewidth-2\fboxsep}{\small\textbf{Provisório.}
+24 das 30 sentenças do gold são rascunhos do \cfg{gpt-5}. Os números medem concordância com esse
+rascunho, e modelos da mesma família podem ser favorecidos. Fonte:
+\texttt{results/q2-bench-d9a7b54cc0}.}}
+
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllcccccccc}
+\toprule
+config & modelo & modo & P & R & $F_1$ (IC95) & ancoradas & sem âncora & decisão & US\$/sent. & p50 (s) \\
+\midrule
+\cfg{chunk_nano} & 4.1-nano & chunk & 84,1 & 32,5 & 46,9 (37,0--55,3) & 93,2 & 1,6 & 75,5 & 0,0012 & 9,2 \\
+\cfg{truncado_mini} & 4.1-mini & truncado & 87,8 & 39,9 & 54,9 (47,7--63,6) & 94,8 & 1,3 & 78,5 & 0,0028 & 9,6 \\
+\cfg{full_mini} & 4.1-mini & inteiro & 94,0 & 57,7 & 71,5 (66,4--77,7) & 92,1 & 0,0 & 87,2 & 0,0048 & 15,4 \\
+\cfg{chunk_mini} & 4.1-mini & chunk & 78,2 & 70,6 & 74,2 (69,9--78,7) & 96,1 & 0,0 & 80,9 & 0,0074 & 15,9 \\
+\cfg{chunk_5mini} & 5-mini & chunk & 71,1 & 81,6 & 76,0 (71,7--81,3) & 98,4 & 2,4 & 82,7 & 0,0221 & 53,9 \\
+\cfg{chunk_41} & 4.1 & chunk & 80,1 & 76,7 & 78,4 (73,3--82,4) & 98,6 & 2,3 & 85,6 & 0,0384 & 11,8 \\
+\textbf{\cfg{full_41}} & 4.1 & inteiro & \textbf{99,1} & 70,6 & \textbf{82,4} (77,1--87,1) & 99,6 & 0,8 & 83,5 & 0,0268 & 13,4 \\
+\bottomrule
+\end{tabular}}
+\caption{Modelos e modos, todos com o prompt guiado v1. Valores em \%, exceto custo e latência.}
+\label{tab:modelos}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+config & curto & médio & longo & muito longo \\
+\midrule
+\cfg{truncado_mini} & 100,0 & 58,9 & 29,8 & 25,5 \\
+\cfg{full_mini} & 100,0 & 66,1 & 56,1 & 46,8 \\
+\cfg{chunk_mini} & 100,0 & 69,6 & 71,9 & 68,1 \\
+\cfg{chunk_41} & 66,7 & 69,6 & 80,7 & 80,9 \\
+\cfg{full_41} & 66,7 & 73,2 & 68,4 & 70,2 \\
+\bottomrule
+\end{tabular}
+\caption{Recall (\%) por faixa de tamanho, no test. As faixas têm de 2 a 9 sentenças e indicam
+tendência, não prova.}
+\label{tab:faixas}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lcccccc}
+\toprule
+config & P & R & $F_1$ & sem âncora & decisão & US\$/sent. \\
+\midrule
+\cfg{chunk_mini} (referência) & 78,2 & 70,6 & 74,2 & 0,0 & 80,9 & 0,0074 \\
+\cfg{chunk_mini_basico} (prompt sem guia) & 70,3 & 71,2 & 70,7 & 3,4 & 63,8 & 0,0072 \\
+\cfg{chunk_mini_sem_filtro} & 78,2 & 70,6 & 74,2 & 0,0 & 80,9 & 0,0074 \\
+\cfg{chunk_mini_sem_merge} & 75,0 & 71,8 & 73,4 & 0,0 & 79,5 & 0,0074 \\
+\cfg{chunk_mini_verif} & 78,2 & 70,6 & 74,2 & 0,0 & 80,9 & 0,0101 \\
+\cfg{chunk_mini_verif_drop} & 78,1 & 69,9 & 73,8 & 0,0 & 80,7 & 0,0101 \\
+\bottomrule
+\end{tabular}
+\caption{Ablações sobre \cfg{chunk_mini}. Valores em \%, exceto custo.}
+\label{tab:ablacoes}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{llccc}
+\toprule
+config & prompt & P & R & $F_1$ (IC95) \\
+\midrule
+\cfg{chunk_mini} & guia-v1 & 78,2 & 70,6 & 74,2 (69,9--78,7) \\
+\cfg{chunk_mini_v2} & guia-v2 & 76,7 & 74,8 & 75,8 (71,4--80,6) \\
+\cfg{full_41} & guia-v1 & 99,1 & 70,6 & 82,4 (77,1--87,1) \\
+\cfg{full_41_v2} & guia-v2 & 93,1 & 74,2 & 82,6 (76,5--87,7) \\
+\bottomrule
+\end{tabular}
+\caption{Versão do prompt. A v2 foi ajustada só com erros do dev. No test ela troca precisão por
+recall, dentro do IC.}
+\label{tab:prompt}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+config & P & R & $F_1$ (IC95) \\
+\midrule
+\cfg{chunk_mini} & 72,2 & 72,2 & 72,2 (65,3--80,0) \\
+\cfg{chunk_mini_v2} & 73,7 & 77,8 & 75,7 (66,6--82,1) \\
+\cfg{chunk_41} & 81,8 & 75,0 & 78,3 (66,7--82,8) \\
+\cfg{full_41} & 96,0 & 66,7 & 78,7 (63,1--90,9) \\
+\cfg{full_41_v2} & 90,0 & 75,0 & 81,8 (66,7--88,4) \\
+\bottomrule
+\end{tabular}
+\caption{Só as 6 sentenças do test com gold revisado por humano (36 argumentos). Fonte:
+\texttt{results/q2-bench-ff02007c24}.}
+\label{tab:revisado}
+\end{table}
+
+\paragraph{Controle do juiz.} Em \cfg{chunk_mini}, o pareador determinístico concorda com o juiz
+em 82,3\% dos casos e dá $F_1$ de 71,6, contra 74,2 pelo juiz. Em \cfg{full_41}, a concordância é
+de 89,2\% e o $F_1$ é 80,3. A ordem entre as configurações se mantém.
+
+\paragraph{Sentença sem argumentos.} Uma sentença do test não tem nenhum argumento no gold.
+Nenhuma configuração extraiu argumento nela.
+
+% ------------------------------------------------------------------------------------------
+\section{Discussão: respostas às perguntas do case}
+
+\subsection{Saída estruturada}
+O schema da Tabela~\ref{tab:schema} separa o que o modelo \emph{escreve} do que o sistema
+\emph{prova}. Os campos de consulta (\cfg{tema}, \cfg{decisao}, \cfg{tipo}) com os metadados da
+sentença (magistrado, vara, data) permitem a pergunta que a defesa quer fazer, por exemplo:
+``fortuito externo, rejeitado, nesta vara, nos últimos 12 meses''. A acurácia de \cfg{tipo} nos
+pares é de 84,3\% em \cfg{chunk_mini} e de 93,0\% em \cfg{full_41}.
+
+\subsection{Reduzir argumentos inventados}
+\begin{itemize}
+  \item \textbf{Citação literal obrigatória, ancorada em código.} Com o prompt guiado, de 92,1\%
+    a 99,6\% das citações são ancoradas, e de 0\% a 2,4\% dos argumentos brutos não têm
+    nenhuma âncora. Esses são descartados.
+  \item \textbf{Guia de rotulagem no prompt.} Sem o guia, o $F_1$ cai de 74,2 para 70,7, os
+    argumentos sem âncora sobem para 3,4\% e a acurácia de \cfg{decisao} cai de 80,9 para 63,8.
+  \item \textbf{Campos calculados.} Posição, seção e confiança nunca são gerados pelo modelo.
+  \item \textbf{Revisão humana} antes de qualquer argumento entrar no gold.
+\end{itemize}
+\textbf{O que não ajudou.} O verificador barato não mudou nenhuma métrica de qualidade,
+porque marcou quase tudo como sustentado. Ele custa +US\$0,0027 por sentença e +6,7\,s de p50, e
+fica desligado. Com o prompt guiado, o filtro de ancoragem quase nunca dispara: ele é uma garantia
+para o pior caso, como mostra o prompt básico, e não um ganho médio. \textbf{O risco que sobra}
+é uma citação verdadeira com resumo ou decisão errados. A acurácia de \cfg{decisao} é de 80,9\% a
+83,5\%, e por isso o revisor vê o trecho destacado ao lado do resumo.
+
+\subsection{Sentenças longas}
+Truncar é o pior: os argumentos de mérito ficam no fim, e o recall em sentenças muito longas cai
+para 25,5\% (Tabela~\ref{tab:faixas}). Chunking ajuda \emph{mesmo quando o texto cabe na janela}:
+todas as sentenças do corpus têm até 12.654 tokens, e ainda assim o modelo pequeno com o texto
+inteiro perde argumentos do meio. O custo é a precisão: chunks repetem e fragmentam argumentos. O
+merge por sobreposição de citações recupera parte disso. Sem merge, a precisão cai de 78,2 para
+75,0. Um merge por similaridade de embeddings também foi calibrado no dev, e nenhum limiar
+melhorou o $F_1$. Parte dos argumentos ``extras'' dos chunks parece real e ausente do rascunho do
+gold, e só a revisão humana decide isso.
+
+\subsection{Revisão humana}
+São duas interfaces sobre o mesmo formato. A primeira é um aplicativo Streamlit sobre o store: a
+sentença aparece com as citações destacadas, cada argumento tem aceitar, editar, rejeitar ou
+reabrir, com histórico, e é possível adicionar um argumento que faltou. A segunda é uma página
+estática, para quem não roda Python, cujo JSON exportado é validado e importado. Regras do store,
+cobertas por testes:
+\begin{itemize}
+  \item \textbf{Append-only.} Cada ação é uma linha nova em \cfg{argument_revisions}, com revisor,
+    motivo e diff de campos. Triggers bloqueiam UPDATE e DELETE, e o estado atual é a última
+    revisão.
+  \item \textbf{Edição reancora.} Uma citação que não está na sentença é recusada, então nem o
+    revisor consegue inventar um trecho.
+  \item \textbf{Rejeitar exige motivo.} Os motivos viram insumo para ajustar o prompt.
+  \item \textbf{Concorrência otimista.} Quando dois revisores mexem no mesmo argumento, o segundo
+    recebe um conflito em vez de sobrescrever.
+  \item \textbf{O ciclo se fecha.} A exportação para o gold exige zero pendentes e nunca
+    sobrescreve gold revisado.
+\end{itemize}
+Na primeira revisão real, um revisor externo revisou 6 sentenças. Manteve os 36 argumentos, não
+acrescentou nenhum e mudou as citações de 3. Os números nessas 6 sentenças ficaram idênticos aos
+medidos com o rascunho. Isso confirma o rascunho ou indica uma revisão leve. O próximo passo é
+pedir que o revisor julgue só os argumentos extraídos que não pareiam com o gold.
+
+\subsection{Medir qualidade}
+Offline, com o protocolo da Seção~4. Em produção, a proposta é acompanhar:
+\begin{itemize}
+  \item taxas de aceite, edição e rejeição por run, e os motivos de rejeição;
+  \item argumentos adicionados à mão, como proxy de recall;
+  \item amostragem contínua de sentenças para o gold, estratificada por tribunal, tema e tamanho.
+\end{itemize}
+
+\subsection{Versionar a extração}
+\begin{itemize}
+  \item \textbf{Identidade da run.} O \texttt{run\_id} é o hash de tarefa, modelo, versão do
+    prompt, \emph{hash do texto do prompt}, schema, parâmetros e versão do código. Editar o prompt
+    sem trocar o número de versão também gera uma run nova. A tabela \cfg{extraction_runs} guarda
+    ainda o snapshot do modelo devolvido pela API, por exemplo \cfg{gpt-4.1-mini-2025-04-14}.
+  \item \textbf{Run nova ao lado da antiga.} Ela nunca sobrescreve a anterior. Um diff entre runs
+    pareia os argumentos por citação. ``Herdar revisões'' copia decisões humanas só para pares
+    equivalentes, com mesma questão, tipo, decisão e quem suscitou. O resto volta a pendente.
+  \item \textbf{Schema com upcasters.} A v2 acrescentou \cfg{posicao}. Linhas v1 continuam como
+    foram escritas e são lidas na versão atual por uma cadeia de funções $v_n \rightarrow
+    v_{n+1}$.
+  \item \textbf{Comparação entre versões.} Um relatório junta benchmarks e confere que gold e
+    juiz são os mesmos. As configurações v1, rodadas de novo sob o schema v2, reproduziram a fase
+    anterior exatamente: $F_1$ de 74,2 e 82,4 nos dois schemas.
+  \item \textbf{Regra de promoção.} Uma versão nova só substitui a atual se ganhar fora do IC no
+    gold revisado sem perder precisão. A v2 do prompt não passou (Tabela~\ref{tab:prompt}). Ao
+    promover, só as sentenças não revisadas são reextraídas.
+\end{itemize}
+
+\subsection{Custo, latência e precisão}
+\begin{itemize}
+  \item \textbf{Recomendação:} \cfg{full_41} quando a sentença cabe no contexto, e chunks quando
+    não cabe. A precisão de 99,1\% importa mais que o custo num banco que orienta estratégia. O
+    custo é de cerca de US\$27 por mil sentenças, ou metade disso com a Batch API.
+  \item \textbf{Volume extremo:} \cfg{chunk_mini} custa 3,6 vezes menos, com o mesmo recall, mas
+    com precisão de 78,2\% e mais carga de revisão.
+  \item \textbf{O modelo nano não serve:} o recall é de 32,5\%.
+  \item \textbf{Latência:} de 11 a 16\,s por sentença no p50, fora o \cfg{gpt-5-mini}, que leva
+    54\,s. A extração é assíncrona: a sentença entra numa fila e os argumentos aparecem como
+    pendentes de revisão.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------
+\section{Operação em produção}
+\begin{itemize}
+  \item \textbf{Fila por sentença, com chunks em paralelo.} A extração não depende do resto do
+    caso.
+  \item \textbf{Dados.} Anonimização antes de qualquer uso, chamadas com \texttt{store=False} e,
+    na Enter, Zero Data Retention.
+  \item \textbf{Texto canônico.} Trocar o OCR ou a limpeza gera um texto novo, com outro
+    SHA-256, e exige reextração e reancoragem.
+  \item \textbf{Postgres.} O DDL do store já está no formato do Postgres.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------
+\section{Limitações}
+\begin{itemize}
+  \item \textbf{Gold majoritariamente LLM.} 24 de 30 sentenças são rascunhos. Os números são
+    provisórios até a revisão terminar.
+  \item \textbf{Amostra pequena.} São 20 sentenças no test, e os ICs se sobrepõem entre várias
+    configurações.
+  \item \textbf{Cobertura.} Só consumidor e só TJSP. Não há sentenças trabalhistas.
+  \item \textbf{Tamanho e OCR.} Nenhuma sentença do corpus excede a janela de contexto, e o
+    texto do CJPG é digital. A robustez a OCR não foi medida na Q2.
+  \item \textbf{Confiança.} Sem verificador, todo argumento ancorado fica no nível ``média''. Hoje
+    o sinal útil é binário: ancorado ou não.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------
+\section{Reprodutibilidade}
+
+Os números vêm de três relatórios em \texttt{results/}:
+\begin{itemize}
+  \item \texttt{q2-bench-d9a7b54cc0}: gold atual, com rascunhos e revisados;
+  \item \texttt{q2-bench-ff02007c24}: só gold revisado por humano;
+  \item \texttt{q2-compare-29c1c9288d}: comparação entre versões.
+\end{itemize}
+Os preços foram conferidos em 16/10/2026.
+\begin{verbatim}
+uv sync
+uv run q2 scrape && uv run q2 build      # corpus (cache local, 1 req/2 s)
+uv run q2 bench                          # gold atual (rascunho + revisado)
+uv run q2 bench --gold revisado          # só gold revisado por humano
+uv run q2 compare q2-bench-4d5403af77 q2-bench-3e5fb45870
+uv run q2 review-args                    # revisão humana (Streamlit)
+\end{verbatim}
+Toda chamada de LLM passa por um cache endereçado pelo hash de modelo, mensagens, schema e
+parâmetros. Reexecutar o benchmark reproduz as mesmas métricas, com o custo e a latência
+originais.
+
+\end{document}

@@ -1,0 +1,508 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
+\usepackage[brazilian]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
+\usepackage[hidelinks]{hyperref}
+
+\newcommand{\cfg}[1]{\texttt{\detokenize{#1}}}
+\setlist{itemsep=2pt,topsep=4pt}
+
+\title{Q1: comparação de documentos semelhantes no mesmo caso\\[4pt]
+\large Cópia, versão modificada ou documento diferente}
+\author{Guilherme --- Case técnico Enter}
+\date{16 de outubro de 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+\textbf{Problema.} Para cada documento novo de um caso, decidir se ele é \emph{cópia}, \emph{versão
+modificada} ou \emph{documento diferente} em relação a cada documento anterior do mesmo caso.
+
+\smallskip\noindent
+\textbf{Representação.} Cada documento vira, uma única vez na ingestão, um texto normalizado
+(OCR e layout limpos), dois hashes SHA-256 (texto normalizado e ``esqueleto'' com entidades
+mascaradas), uma assinatura MinHash de shingles de 5 tokens e uma sequência de tokens com offsets
+no texto. Embeddings foram testados e descartados.
+
+\smallskip\noindent
+\textbf{Quase idêntico $\times$ vocabulário parecido.} A comparação usa o \emph{alinhamento} de
+tokens, isto é, ordem e continuidade, e não vocabulário. Cada região divergente é classificada como
+ruído de OCR, dado variável (nome, valor, data), trecho movido ou conteúdo. Só conteúdo novo faz
+de um documento uma versão. Peças da mesma tese escritas por outro escritório não alinham e são
+``diferentes''.
+
+\smallskip\noindent
+\textbf{Documentos longos.} Hash, MinHash e alinhamento rodam localmente, sem janela de contexto.
+O LLM só é chamado na zona cinzenta entre cópia e versão. Ele recebe apenas os trechos
+divergentes, no máximo 25, com 8 tokens de contexto cada, cerca de 1.300 tokens por chamada,
+qualquer que seja o tamanho do documento.
+
+\smallskip\noindent
+\textbf{Avaliação.} Dataset sintético com rótulo exato por construção: 60 casos, 373 documentos e
+1.065 pares. Calibração no dev e medição no test. Os documentos são ingeridos na ordem de chegada.
+Métricas: F1 por classe, precisão de cópia, taxa de revisão humana, latência e custo.
+
+\smallskip\noindent
+\textbf{Resultado.} A cascata completa atinge macro-F1 de 99,4\% e precisão de cópia de 100\%, a
+US\$0,0001 por documento, com 5,4\% dos documentos enviados à revisão humana. Embeddings sozinhos
+ficam em 65,5\%.
+
+\smallskip\noindent
+\textbf{Ação sobre cópia ou versão.} Nada é escondido nem apagado. O documento entra na
+\emph{família} do documento casado, como duplicata ou nova versão, com o diff anexado e com os
+dados que mudaram em destaque. A zona cinzenta vai para confirmação humana.
+
+\smallskip\noindent
+\textbf{Trade-off.} O juiz LLM ganha 0,9 ponto de macro-F1 e elimina falsos ``cópia'', ao custo de
+uma p95 de 6,6\,s nos documentos da zona cinzenta. Ele pode rodar de forma assíncrona. Sem ele, o
+sistema decide 100\% dos documentos em p95 de 25\,ms, a custo zero de API.
+\end{abstract}
+
+\tableofcontents
+\bigskip
+
+% ------------------------------------------------------------------------------------------
+\section{Contexto e requisitos}
+
+No contencioso de massa, os mesmos escritórios protocolam milhares de petições quase idênticas a
+partir de templates, mudando nomes, valores e datas. Três requisitos guiaram o desenho:
+
+\begin{itemize}
+  \item \textbf{Os erros têm custos diferentes.} Uma cópia não detectada desperdiça trabalho. Um
+    falso ``cópia'' pode esconder um documento que importa. A precisão de cópia é a métrica
+    principal.
+  \item \textbf{Vocabulário em comum não é sinal.} Peças jurídicas compartilham boilerplate.
+  \item \textbf{Volume, custo e auditoria.} Cada decisão precisa ser barata, rápida e rastreável
+    até trechos da fonte.
+\end{itemize}
+
+O escopo da comparação é o caso: cada documento novo é comparado só com os anteriores do mesmo
+caso.
+
+% ------------------------------------------------------------------------------------------
+\section{Dataset}
+
+Não há dados de cliente. O dataset é sintético e o rótulo de cada par é exato por construção.
+
+\subsection{Geração}
+
+\begin{enumerate}
+  \item \textbf{Templates, gerados uma vez por LLM} (\cfg{gpt-4.1}): boilerplate por escritório,
+    conteúdo específico por tese e escritório, uma paráfrase de cada parágrafo e parágrafos
+    extras, que são a matéria-prima das versões. Saídas com dado concreto, como R\$, CPF ou data,
+    são rejeitadas. Os templates ficam versionados no repositório.
+  \item \textbf{Montagem determinística} (seed 13). Cada documento é uma sequência de
+    \emph{blocos} com id de origem, mais valores fictícios de entidades e um estilo de
+    formatação. Daí saem as mutações: troca de entidades, ruído de PDF e de OCR em três níveis,
+    versões leve, média e forte, contestação da ré e negativos difíceis.
+  \item \textbf{Rótulo pela proveniência, nunca por métrica de texto.} \emph{Cópia} tem a mesma
+    sequência de blocos. \emph{Versão} vem da mesma linhagem de template com outra sequência de
+    blocos. \emph{Diferente} vem de linhagens distintas, como outro escritório, outra tese ou
+    outro tipo de peça. Assim o gabarito não favorece nenhum método.
+\end{enumerate}
+
+\subsection{Composição}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+ & dev & test & total \\
+\midrule
+casos & 30 & 30 & 60 \\
+pares cópia & 92 & 92 & 184 \\
+pares versão & 180 & 142 & 322 \\
+pares diferente & 256 & 303 & 559 \\
+\midrule
+pares (total) & 528 & 537 & 1.065 \\
+\bottomrule
+\end{tabular}
+\caption{Pares por rótulo e split. O split é por caso. O test tem 186 documentos. São de 2 a 10
+documentos por caso, com mediana de 6. Cada documento tem mediana de 11.521 caracteres e máximo
+de 23.624.}
+\label{tab:dataset}
+\end{table}
+
+Os negativos difíceis existem porque vocabulário parecido não é sinal de cópia:
+\begin{itemize}
+  \item \cfg{tese_vizinha_mesmo_escritorio}: mesma ré e mesmo boilerplate, com tese vizinha, como
+    atraso e cancelamento de voo;
+  \item \cfg{mesma_tese_outro_escritorio}: mesma tese e mesmos fatos, com redação de outro
+    escritório;
+  \item \cfg{outra_tese_mesmo_escritorio}: mesmo boilerplate de consumidor, outro setor;
+  \item \cfg{tipo_diferente}: contestação da ré, com as mesmas partes, valores e tema.
+\end{itemize}
+
+As superfícies simulam como os documentos chegam à plataforma: 124 documentos digitais, 150 PDFs
+exportados, com quebras de linha, paginação e hifenização, e 99 digitalizados com OCR leve, médio
+ou forte, com troca de caracteres e palavras coladas ou partidas.
+
+% ------------------------------------------------------------------------------------------
+\section{Solução}
+
+\subsection{Representação do documento}
+
+Tudo é calculado uma vez na ingestão e guardado como assinatura (Tabela~\ref{tab:repr}).
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{5.6cm}p{8.6cm}}
+\toprule
+Representação & Uso \\
+\midrule
+Texto normalizado: OCR/PDF limpo, marcadores de página e cabeçalhos corridos removidos,
+parágrafos partidos costurados & Texto canônico. É o que o revisor vê, e todo offset aponta
+para ele. \\
+SHA-256 do texto normalizado & Cópia exata em $O(1)$. \\
+SHA-256 do esqueleto: entidades mascaradas (nomes, CPF/CNPJ, valores, datas, nº CNJ),
+minúsculas, sem acento & Cópia com troca de partes, valores e datas, em $O(1)$. \\
+Shingles de 5 tokens e MinHash com 128 permutações & Pré-filtro barato. Também serve para LSH
+se a busca sair do caso. \\
+Tokens mascarados com offsets de caractere & Alinhamento e diff rastreável até a fonte. \\
+\bottomrule
+\end{tabular}
+\caption{Representações por documento.}
+\label{tab:repr}
+\end{table}
+
+\paragraph{Por que tokens e não parágrafos.} Quebras de página partem parágrafos, e o OCR perde
+as linhas em branco e funde o documento inteiro. O parágrafo deixa de ser uma unidade estável. O
+token, com offset no texto normalizado, continua estável.
+
+\subsection{Cascata de decisão}
+
+Para cada par formado pelo documento novo e um documento anterior do caso, as etapas vão da mais
+barata à mais cara (Figura~\ref{fig:cascata}).
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=6mm and 10mm,
+  box/.style={draw, rounded corners, align=center, minimum width=4.6cm, minimum height=9mm,
+              font=\small},
+  res/.style={draw, dashed, rounded corners, align=center, font=\small, minimum width=2.4cm},
+  >={Stealth}]
+  \node[box] (h) {1. Hash normalizado / esqueleto};
+  \node[box, below=of h] (m) {2. Pré-filtro MinHash};
+  \node[box, below=of m] (a) {3. Alinhamento de tokens\\+ regra calibrada};
+  \node[box, below=of a] (j) {4. Juiz LLM\\(só zona cinzenta)};
+  \node[res, right=of h] (oc) {cópia};
+  \node[res, right=of m] (od) {diferente};
+  \node[res, right=of a] (or) {cópia / versão /\\diferente};
+  \node[res, right=of j] (oj) {cópia / versão};
+  \draw[->] (h) -- node[left, font=\scriptsize]{diferem} (m);
+  \draw[->] (m) -- node[left, font=\scriptsize]{acima do limiar} (a);
+  \draw[->] (a) -- node[left, font=\scriptsize]{zona cinzenta} (j);
+  \draw[->] (h) -- node[above, font=\scriptsize]{igual} (oc);
+  \draw[->] (m) -- node[above, font=\scriptsize]{abaixo} (od);
+  \draw[->] (a) -- (or);
+  \draw[->] (j) -- (oj);
+\end{tikzpicture}
+\caption{Cascata por par. No test, as etapas decidiram 16 pares por hash, 229 pelo pré-filtro,
+272 pela regra e 20 pelo LLM.}
+\label{fig:cascata}
+\end{figure}
+
+\paragraph{Etapa 3: alinhamento e classificação de regiões.} Os tokens dos dois documentos são
+alinhados por Indel/LCS (\texttt{rapidfuzz}). Diferenças separadas por menos de 2 tokens iguais
+formam uma \emph{região}, e cada região recebe um tipo:
+\begin{itemize}
+  \item \textbf{ruído:} similaridade de caracteres acima de 75 com o outro lado, como erro de OCR
+    ou hifenização;
+  \item \textbf{dado:} pelo menos metade dos tokens são máscaras de entidade, números ou nomes
+    próprios;
+  \item \textbf{movido:} pelo menos 80\% dos trigramas existem em outro ponto do outro documento;
+  \item \textbf{conteúdo:} todo o resto, ou seja, fato, argumento, pedido ou jurisprudência novos.
+\end{itemize}
+Duas features decidem o rótulo. A \emph{cobertura} é a fração de tokens alinhados. A \emph{razão
+de conteúdo} é o número de tokens em regiões de conteúdo dividido pelo tamanho do maior documento.
+A regra tem dois limiares, calibrados no dev:
+\[
+\text{rótulo} =
+\begin{cases}
+\text{diferente} & \text{se cobertura} < t_{\text{diff}} = 0{,}633,\\
+\text{cópia} & \text{se razão de conteúdo} \le t_{\text{cópia}} = 0{,}0113,\\
+\text{versão} & \text{caso contrário.}
+\end{cases}
+\]
+$t_{\text{diff}}$ maximiza a acurácia entre ``diferente'' e o resto. $t_{\text{cópia}}$ maximiza
+o macro-F1 sob a restrição de precisão de cópia $\ge 98\%$ no dev, porque o falso ``cópia'' é o
+erro mais caro. O limiar do pré-filtro MinHash é 0,176: uma fração da menor similaridade
+observada entre pares da mesma família no dev.
+
+\paragraph{Etapa 4: juiz LLM na zona cinzenta.} A zona cinzenta é a faixa
+\[ t_{\text{cópia}}/2 \;\le\; \text{razão de conteúdo} \;\le\; 2\,t_{\text{cópia}}. \]
+Nela, o
+\cfg{gpt-4.1-mini}, com o prompt \cfg{q1-judge-v1} e temperatura 0, recebe só as regiões que não
+são ruído óbvio, as 25 maiores, cada uma com 8 tokens de contexto. Ele classifica \emph{cada
+trecho por id} como ruído de OCR, dado variável, formatação ou conteúdo. A decisão é derivada em
+código: versão se e somente se algum trecho for conteúdo. Assim todo veredito aponta para trechos
+da fonte, e o campo de decisão livre do modelo é ignorado.
+
+\paragraph{Ação por documento.} O documento novo recebe o rótulo do par mais forte, na ordem
+cópia, versão, diferente. Ele é marcado para revisão humana quando esse par caiu na zona cinzenta.
+
+% ------------------------------------------------------------------------------------------
+\section{Protocolo experimental}
+
+\begin{itemize}
+  \item \textbf{Calibração e teste separados.} Os limiares e a regressão logística são
+    ajustados só no dev. Os números são do test: 30 casos, 186 documentos e 537 pares.
+  \item \textbf{Simulação da produção.} Os documentos de cada caso de teste são ingeridos na
+    ordem de chegada, e cada um é comparado com os anteriores.
+  \item \textbf{Métricas por par:} precisão, recall e F1 por classe, macro-F1, matriz de
+    confusão e acerto por tipo de relação.
+  \item \textbf{Métricas por documento:} acurácia da ação (cópia, versão ou novo), precisão da
+    ação ``cópia'' (o documento casado está certo), taxa de revisão humana, latência p50 e p95
+    e US\$/documento.
+  \item \textbf{Intervalo de confiança} de 95\% por bootstrap com 1.000 reamostragens \emph{sobre
+    casos}, porque os pares de um mesmo caso não são independentes.
+  \item \textbf{Latência} = CPU local medida + latência original das chamadas de API. O cache
+    preserva a latência da primeira chamada.
+\end{itemize}
+
+\paragraph{Métodos comparados.}
+\begin{itemize}
+  \item \cfg{jaccard_bruto}: Jaccard de shingles sobre texto só normalizado.
+  \item \cfg{minhash}: MinHash sobre texto limpo e mascarado.
+  \item \cfg{embeddings}: cosseno médio de embeddings por trecho (\cfg{text-embedding-3-small}).
+  \item \cfg{alinhamento}: hash + alinhamento + regra.
+  \item \cfg{logreg}: regressão logística sobre todas as features léxicas, de alinhamento e de
+    embeddings.
+  \item \cfg{cascata}: hash + pré-filtro + alinhamento + regra.
+  \item \cfg{cascata_llm}: cascata + juiz LLM na zona cinzenta.
+\end{itemize}
+Os baselines de similaridade usam a mesma regra de dois limiares, cada um com sua própria
+similaridade, também calibrada no dev.
+
+% ------------------------------------------------------------------------------------------
+\section{Resultados}
+
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+método & macro-F1 (IC95) & P cópia & R cópia & F1 versão & F1 dif. & revisão & lat. p50/p95 (ms) & US\$/doc \\
+\midrule
+\cfg{jaccard_bruto} & 69,9 (65,6--73,3) & 94,4 & 18,5 & 78,8 & 100,0 & 0,0 & 6 / 12 & 0 \\
+\cfg{minhash} & 73,1 (67,7--78,2) & 85,7 & 26,1 & 79,3 & 100,0 & 0,0 & 9 / 18 & 0 \\
+\cfg{embeddings} & 65,5 (60,2--69,9) & 100,0 & 17,4 & 72,3 & 94,6 & 0,0 & 50 / 852 & 0,00008 \\
+\cfg{alinhamento} & 98,5 (95,6--100,0) & 98,9 & 95,7 & 98,3 & 100,0 & 0,0 & 13 / 30 & 0 \\
+\cfg{logreg} & 98,8 (97,1--100,0) & 95,8 & 100,0 & 98,6 & 100,0 & 2,7 & 55 / 858 & 0,00008 \\
+\cfg{cascata} & 98,5 (95,6--100,0) & 98,9 & 95,7 & 98,3 & 100,0 & 0,0 & 11 / 25 & 0 \\
+\textbf{\cfg{cascata_llm}} & \textbf{99,4} (97,9--100,0) & \textbf{100,0} & 97,8 & 99,3 & 100,0 & 5,4 & 11 / 6596 & 0,00010 \\
+\bottomrule
+\end{tabular}}
+\caption{Split test, valores em \%. P e R por par. ``Revisão'' é a percentagem de documentos
+enviados à revisão humana.}
+\label{tab:metodos}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+relação & \cfg{minhash} & \cfg{embeddings} & \cfg{alinhamento} & \cfg{logreg} & \cfg{cascata_llm} \\
+\midrule
+cópia: ruído de PDF & 100,0 & 100,0 & 100,0 & 100,0 & 100,0 \\
+cópia: OCR leve & 57,1 & 0,0 & 100,0 & 100,0 & 100,0 \\
+cópia: OCR médio & 0,0 & 0,0 & 100,0 & 100,0 & 100,0 \\
+cópia: OCR forte & 0,0 & 0,0 & 91,3 & 100,0 & 91,3 \\
+cópia: troca de entidades & 0,0 & 0,0 & 77,8 & 100,0 & 100,0 \\
+versão leve & 75,0 & 93,8 & 93,8 & 75,0 & 100,0 \\
+versão média & 100,0 & 85,9 & 100,0 & 100,0 & 100,0 \\
+versão forte & 100,0 & 80,6 & 100,0 & 100,0 & 100,0 \\
+dif.: mesma tese, outro escritório & 100,0 & 93,0 & 100,0 & 100,0 & 100,0 \\
+dif.: tese vizinha, mesmo escritório & 100,0 & 100,0 & 100,0 & 100,0 & 100,0 \\
+\bottomrule
+\end{tabular}}
+\caption{Percentagem de pares certos por tipo de relação, no test.}
+\label{tab:relacao}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lccc}
+\toprule
+verdade $\backslash$ predição & cópia & versão & diferente \\
+\midrule
+cópia & 90 & 2 & 0 \\
+versão & 0 & 142 & 0 \\
+diferente & 0 & 0 & 303 \\
+\bottomrule
+\end{tabular}
+\caption{Matriz de confusão de \cfg{cascata_llm}, por par no test. O juiz recebeu 20 pares, com
+26.103 tokens de entrada no total.}
+\label{tab:confusao}
+\end{table}
+
+\subsection{Ablações}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lccp{5.2cm}}
+\toprule
+ablação & macro-F1 & P / R cópia & leitura \\
+\midrule
+\cfg{alinhamento} (referência) & 98,5 & 98,9 / 95,7 & --- \\
+\cfg{sem_mascara} & 97,0 & 98,8 / 90,2 & troca de dados parece mudança \\
+\cfg{sem_layout} & 97,6 & 93,8 / 97,8 & cabeçalho e paginação viram ``conteúdo'' \\
+\cfg{alinhamento_sem_hash} & 98,5 & 98,9 / 95,7 & o hash é atalho de custo, não de qualidade \\
+\cfg{minhash_boilerplate} & 51,0 & 100,0 / 17,4 & remover o texto repetido entre casos destrói o sinal \\
+\bottomrule
+\end{tabular}
+\caption{Ablações no test, valores em \%. \cfg{minhash_boilerplate} deve ser comparado com
+\cfg{minhash}, que tem 73,1.}
+\label{tab:ablacoes}
+\end{table}
+
+% ------------------------------------------------------------------------------------------
+\section{Discussão: respostas às perguntas do case}
+
+\subsection{Como representar cada documento}
+Combinação de hashes, MinHash e tokens com offsets (Tabela~\ref{tab:repr}). Texto bruto no LLM foi
+descartado por custo, latência, limite de contexto e falta de ponteiro para a fonte.
+\textbf{Embeddings foram descartados} pelos números. Eles medem assunto, e o assunto de cópia,
+versão e petição da mesma tese de outro escritório é o mesmo. O limiar calibrado para
+``diferente'' ficou em cosseno 0,977, e o recall de cópia é 17,4\%: nenhuma cópia com OCR médio,
+OCR forte ou troca de entidades foi reconhecida (Tabela~\ref{tab:relacao}). Somados às features
+léxicas na \cfg{logreg}, eles não melhoram a precisão de cópia, que fica em 95,8 contra 98,9 da
+regra.
+
+\subsection{Quase idêntico $\times$ vocabulário jurídico parecido}
+O alinhamento mede ordem e continuidade. Duas petições sobre voo atrasado usam as mesmas palavras,
+mas não alinham em sequências longas. Uma cópia alinha quase inteira, mesmo com OCR ruim. Depois do
+alinhamento, a regra olha \emph{o que} mudou, e não quanto mudou: uma cópia com todos os dados
+trocados continua cópia, e uma versão com um único parágrafo novo vira versão. Todos os negativos
+difíceis tiveram 100\% de acerto com alinhamento.
+
+Remover o boilerplate parecia intuitivo e se mostrou o pior erro (Tabela~\ref{tab:ablacoes}). No
+contencioso de massa o template \emph{é} o sinal de cópia. Os shingles que se repetem entre casos
+são justamente os que marcam a cópia.
+
+\subsection{Documentos longos}
+Nenhuma etapa precisa do documento inteiro numa janela de contexto. Hash, MinHash e alinhamento
+rodam localmente, em milissegundos (p95 de 25\,ms na \cfg{cascata}). O juiz recebe só os trechos
+divergentes, cerca de 1.300 tokens por chamada em média no benchmark, independentemente do tamanho
+do documento. \textbf{Limite:} o alinhamento cresce com o produto dos tamanhos, e os documentos do
+dataset têm no máximo 23,6 mil caracteres. Para peças de centenas de páginas, a mitigação proposta,
+não implementada, é ancorar em blocos com hash igual e alinhar só entre âncoras.
+
+\subsection{Como avaliar se funciona}
+Offline, com o protocolo da Seção~4: rótulos por proveniência, split por caso, ingestão em ordem,
+IC por bootstrap sobre casos e restrição de precisão de cópia na calibração. Reexecutar o benchmark
+lendo o cache de LLM e embeddings reproduz exatamente as mesmas métricas de qualidade. Em produção,
+a proposta é:
+\begin{itemize}
+  \item amostra de pares reais rotulada por advogados, estratificada pela etapa que decidiu, e
+    recalibração dos limiares nela;
+  \item monitoramento da taxa de ``cópia'' desfeita pelo revisor (falso positivo), da taxa de
+    ``novo'' agrupado à mão depois (cópia perdida), da fração na zona cinzenta e da distribuição
+    por etapa;
+  \item alerta quando a fração de regiões de ruído sobe, sinal de mudança de OCR antes de ela
+    virar erro.
+\end{itemize}
+
+\subsection{O que fazer com uma cópia ou versão provável}
+O sistema nunca esconde nem apaga um documento. Ele agrupa em \emph{famílias}, com um documento
+canônico e uma cadeia de versões:
+\begin{itemize}
+  \item \textbf{Cópia:} entra como duplicata do canônico. As regiões de dado que mudaram, como
+    parte, valor ou data, ficam em destaque, porque o valor de uma cópia pode ser outro. O
+    trabalho feito no canônico, como classificação, cálculo e minuta de defesa, pode ser
+    reaproveitado depois de conferir esses dados.
+  \item \textbf{Versão:} entra como nova versão do documento casado, com o diff de conteúdo e
+    offsets nos dois textos. O revisor lê só o que mudou.
+  \item \textbf{Diferente:} abre uma família nova.
+  \item \textbf{Zona cinzenta:} vai para confirmação humana, o que acontece em 5,4\% dos documentos.
+  \item \textbf{Auditoria:} cada par guarda a etapa que decidiu, as features, os limiares, as
+    regiões e o veredito do juiz por trecho, com modelo e versão do prompt.
+\end{itemize}
+
+\subsection{Trade-offs de custo, latência e precisão}
+\begin{itemize}
+  \item \textbf{Juiz LLM:} +0,9 ponto de macro-F1, troca de entidades de 77,8\% para 100\% e
+    precisão de cópia de 100\%. Custa US\$0,00010 por documento, cerca de US\$100 por milhão de
+    documentos. A p95 vai de 25\,ms para 6,6\,s, e 5,4\% dos documentos vão para revisão. Como ele
+    só atua na zona cinzenta, pode rodar de forma assíncrona: o documento entra com o rótulo da
+    regra e é confirmado depois.
+  \item \textbf{Embeddings:} mais caros, mais lentos (p95 de 852\,ms, dominada pela API) e
+    piores. Ficaram fora.
+  \item \textbf{Regressão logística:} recall de cópia de 100\%, mas precisão de cópia de 95,8\%,
+    pior no erro mais caro, e menos auditável que dois limiares. A regra ficou.
+  \item \textbf{Atalhos:} o hash e o pré-filtro não mudam a qualidade, mas o pré-filtro decide
+    229 dos 537 pares sem alinhar.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------
+\section{Operação em produção}
+
+\begin{itemize}
+  \item \textbf{Escopo por caso.} No dataset, cada caso tem mediana de 6 documentos. O custo por
+    documento é dominado pelo alinhamento, em milissegundos.
+  \item \textbf{Fila por caso.} A ingestão é serializada dentro do caso, para que documentos que
+    chegam juntos se vejam em ordem, e paralela entre casos.
+  \item \textbf{Além do caso.} A mesma assinatura MinHash serve para LSH no corpus inteiro. Com
+    limiar 0,5 sobre os 373 documentos, o recall de pares da mesma família foi de 92,1\%,
+    examinando 21,5 candidatos por documento (5,8\% do corpus), com consulta de 0,02\,ms. Isso
+    serve para achar o mesmo modelo de petição em vários processos.
+  \item \textbf{Dados sensíveis.} As etapas 1 a 3 rodam dentro da infraestrutura. Só a zona
+    cinzenta chama o LLM, e só com trechos divergentes, sob Zero Data Retention.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------
+\section{Limitações}
+
+\begin{itemize}
+  \item \textbf{Dados sintéticos.} O ruído vem de mutadores determinísticos, e OCR real, anexos e
+    tabelas digitalizadas não estão cobertos. Os números ficam perto do teto: o benchmark separa
+    bem os métodos, mas superestima a qualidade absoluta esperada em produção.
+  \item \textbf{Definição de produto.} A fronteira entre cópia e versão é uma escolha. Hoje
+    trocar o valor pedido é ``dado'' e mantém o documento como cópia. Tratar isso como versão
+    exige mudar a regra por tipo de região e recalibrar.
+  \item \textbf{Documentos muito longos.} O desempenho do alinhamento em peças de centenas de
+    páginas não foi medido.
+\end{itemize}
+
+% ------------------------------------------------------------------------------------------
+\section{Reprodutibilidade}
+
+Os números deste documento vêm de \texttt{results/q1-bench-a0e48b8c85/report.md}. O dataset é a
+versão \cfg{q1-synth-v1}, com fingerprint \cfg{d4c0f411b0ec}. O \texttt{run\_id} é o hash de
+modelo, versão do prompt, schema, dataset, parâmetros e versão do código.
+
+\begin{verbatim}
+uv sync
+uv run q1 build                    # dataset (seed 13), sem LLM
+uv run q1 bench                    # calibra no dev, mede no test
+uv run q1 demo --case-id caso-007  # ação, família e diff de um caso
+\end{verbatim}
+
+Toda chamada de LLM e de embeddings passa por um cache endereçado pelo hash de modelo, mensagens,
+schema e parâmetros. Reexecutar o benchmark reproduz as mesmas métricas de qualidade e de custo.
+Só a latência de CPU local varia, em 1 a 2\,ms.
+
+\end{document}
