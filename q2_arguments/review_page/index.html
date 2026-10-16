@@ -1,0 +1,911 @@
+<title>Revisão de Argumentos TJSP</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: barra fixa no topo; mesa de trabalho em três colunas (lista de sentenças | autos | fichas
+   de argumento), que vira duas e depois uma coluna. Os autos usam serifa de leitura; a ficha é
+   formulário em sans; números de folha e offsets em mono. */
+:root {
+  --bg: #eef1f4;
+  --surface: #ffffff;
+  --sunk: #f6f8fa;
+  --ink: #18202c;
+  --muted: #5a6575;
+  --line: #d6dce4;
+  --accent: #1d5c63;
+  --accent-soft: #dcebec;
+  --accent-ink: #ffffff;
+  --ok: #2c7a3f;
+  --ok-soft: #dff1e3;
+  --warn: #9a5600;
+  --warn-soft: #fbecd6;
+  --bad: #b3261e;
+  --bad-soft: #f9dedb;
+  --hl-0: #fbe3a1; --hl-1: #cfe3fb; --hl-2: #cdeed6; --hl-3: #f8d0d0; --hl-4: #e2d8f7; --hl-5: #fbd9bf;
+  --hl-ink: #18202c;
+  --ring: #1d5c63;
+  --font-text: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-ui: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --step--1: 0.8125rem;
+  --step-0: 0.9375rem;
+  --step-1: 1.0625rem;
+  --step-2: 1.25rem;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f141a; --surface: #171e27; --sunk: #131a22; --ink: #e5eaf0; --muted: #98a4b3;
+    --line: #2a3542; --accent: #63b6be; --accent-soft: #19363a; --accent-ink: #08191b;
+    --ok: #6cc480; --ok-soft: #173322; --warn: #e3a14a; --warn-soft: #3a2a12; --bad: #f08a80;
+    --bad-soft: #3d1c19;
+    --hl-0: #574719; --hl-1: #1e3b59; --hl-2: #1d462e; --hl-3: #572828; --hl-4: #3b315c; --hl-5: #573820;
+    --hl-ink: #f1f4f7; --ring: #63b6be;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f141a; --surface: #171e27; --sunk: #131a22; --ink: #e5eaf0; --muted: #98a4b3;
+  --line: #2a3542; --accent: #63b6be; --accent-soft: #19363a; --accent-ink: #08191b;
+  --ok: #6cc480; --ok-soft: #173322; --warn: #e3a14a; --warn-soft: #3a2a12; --bad: #f08a80;
+  --bad-soft: #3d1c19;
+  --hl-0: #574719; --hl-1: #1e3b59; --hl-2: #1d462e; --hl-3: #572828; --hl-4: #3b315c; --hl-5: #573820;
+  --hl-ink: #f1f4f7; --ring: #63b6be;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: var(--step-0);
+  line-height: 1.45;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 30; background: var(--surface);
+}
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.label {
+  font-size: var(--step--1); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---------- barra superior */
+.bar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: var(--surface); border-bottom: 1px solid var(--line);
+  padding-block: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px;
+}
+.brand { display: flex; flex-direction: column; gap: 0; min-width: 0; }
+.brand b { font-size: var(--step-1); font-weight: 600; letter-spacing: -0.01em; }
+.brand span { font-size: var(--step--1); color: var(--muted); }
+.nav { display: flex; align-items: center; gap: 6px; min-width: 0; flex: 1 1 320px; }
+.nav select { min-width: 0; flex: 1 1 auto; }
+.progress { display: flex; align-items: center; gap: 10px; font-size: var(--step--1); }
+.meter { width: 120px; height: 6px; border-radius: 3px; background: var(--sunk); border: 1px solid var(--line); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--ok); width: 0; }
+.who { display: flex; align-items: center; gap: 6px; }
+.who input { width: 11rem; }
+.actions { display: flex; gap: 6px; margin-left: auto; }
+
+input[type="text"], select, textarea {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 6px 8px; width: 100%;
+}
+textarea { resize: vertical; line-height: 1.45; }
+select { padding-right: 4px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+  border: 1px solid var(--line); background: var(--surface); border-radius: var(--radius);
+  padding: 6px 12px; cursor: pointer; font-weight: 500;
+}
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn.danger { color: var(--bad); }
+.btn.ghost { border-color: transparent; background: transparent; }
+.btn.small { padding: 3px 8px; font-size: var(--step--1); }
+.btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+
+.banner {
+  background: var(--warn-soft); color: var(--warn); border-bottom: 1px solid var(--line);
+  padding-block: 8px; font-size: var(--step--1);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+/* ---------- mesa de trabalho */
+.desk {
+  display: grid; gap: 16px;
+  grid-template-columns: 220px minmax(0, 1.05fr) minmax(0, 1fr);
+  padding-block: 16px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  align-items: start;
+}
+.pane {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  min-width: 0; display: flex; flex-direction: column;
+}
+.pane-head {
+  padding: 12px 16px; border-bottom: 1px solid var(--line);
+  display: flex; flex-direction: column; gap: 4px;
+}
+.pane-head h2 { margin: 0; font-size: var(--step-1); font-weight: 600; text-wrap: balance; }
+.sticky-pane { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 76px); max-height: calc(100vh - 100px); }
+
+/* lista de sentenças */
+.rail { padding: 8px; gap: 2px; overflow-y: auto; }
+.rail h3 { margin: 8px 8px 4px; }
+.rail button {
+  display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; align-items: center; gap: 8px;
+  width: 100%; text-align: left; border: 0; background: transparent; padding: 6px 8px;
+  border-radius: 4px; cursor: pointer; font-size: var(--step--1);
+}
+.rail button:hover { background: var(--sunk); }
+.rail button[aria-current="true"] { background: var(--accent-soft); }
+.rail .num { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dot { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--muted); }
+.dot.andamento { border-color: var(--warn); background: linear-gradient(90deg, var(--warn) 50%, transparent 50%); }
+.dot.revisado { border-color: var(--ok); background: var(--ok); }
+
+/* autos */
+.ruling-meta { font-size: var(--step--1); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px; font-size: var(--step--1); font-weight: 500;
+  padding: 1px 8px; border-radius: 999px; background: var(--sunk); border: 1px solid var(--line);
+  white-space: nowrap;
+}
+.chip.ok { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.chip.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.chip.bad { background: var(--bad-soft); color: var(--bad); border-color: transparent; }
+.chip.accent { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.ruling {
+  font-family: var(--font-text); font-size: var(--step-1); line-height: 1.62;
+  white-space: pre-wrap; overflow-wrap: anywhere; padding: 16px 20px 24px;
+  overflow-y: auto; flex: 1 1 auto; max-width: 72ch;
+}
+.ruling mark { color: var(--hl-ink); border-radius: 2px; padding: 0 1px; cursor: pointer; }
+.ruling mark::before {
+  content: attr(data-label); font-family: var(--font-mono); font-size: 0.68em; font-weight: 500;
+  vertical-align: super; margin-right: 2px; opacity: 0.75;
+}
+.ruling mark.on { outline: 2px solid var(--accent); outline-offset: 1px; }
+.hl-0 { background: var(--hl-0); } .hl-1 { background: var(--hl-1); } .hl-2 { background: var(--hl-2); }
+.hl-3 { background: var(--hl-3); } .hl-4 { background: var(--hl-4); } .hl-5 { background: var(--hl-5); }
+.selbar {
+  border-top: 1px solid var(--line); background: var(--sunk); padding: 10px 16px;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: var(--step--1);
+}
+.selbar q { font-family: var(--font-text); font-style: italic; flex: 1 1 200px; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* fichas */
+.editor-body { padding: 12px 16px 20px; display: flex; flex-direction: column; gap: 14px; }
+.row { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.field > span { font-size: var(--step--1); color: var(--muted); font-weight: 500; }
+.cards { display: flex; flex-direction: column; gap: 8px; }
+.card { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.card.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.card.removed { opacity: 0.55; }
+.card-head {
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: center;
+  padding: 8px 10px; cursor: pointer; width: 100%; text-align: left; background: transparent; border: 0;
+}
+.swatch { width: 28px; height: 22px; border-radius: 4px; display: grid; place-items: center;
+  font-family: var(--font-mono); font-size: 0.72rem; font-weight: 500; color: var(--hl-ink); }
+.card-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 500; }
+.card-title small { display: block; font-weight: 400; color: var(--muted); font-size: var(--step--1); }
+.card-flags { display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+.card-body { padding: 4px 12px 14px; display: flex; flex-direction: column; gap: 10px; border-top: 1px solid var(--line); }
+.quotes { display: flex; flex-direction: column; gap: 8px; }
+.quote { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; align-items: start; }
+.quote textarea { font-family: var(--font-text); font-size: var(--step-0); }
+.quote .q-state { grid-column: 1 / -1; display: flex; gap: 8px; align-items: center; font-size: var(--step--1); }
+.hint { font-size: var(--step--1); color: var(--muted); margin: 0; }
+.card-foot { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.verdict { border-top: 1px solid var(--line); padding-top: 14px; display: flex; flex-direction: column; gap: 10px; }
+.verdict-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.errors { margin: 0; padding: 10px 12px 10px 28px; background: var(--bad-soft); color: var(--bad); border-radius: var(--radius); font-size: var(--step--1); }
+.status-line { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+/* painéis sobrepostos */
+.overlay {
+  position: fixed; inset: 0; z-index: 40; background: color-mix(in srgb, var(--ink) 40%, transparent);
+  display: flex; justify-content: flex-end;
+}
+.sheet {
+  width: min(640px, 100%); height: 100%; overflow-y: auto; background: var(--surface);
+  border-left: 1px solid var(--line);
+  padding-block: calc(env(safe-area-inset-top, 0px) + 20px) calc(env(safe-area-inset-bottom, 0px) + 24px);
+  padding-left: max(20px, env(safe-area-inset-left, 0px));
+  padding-right: max(20px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 14px;
+}
+.sheet h2 { margin: 0; font-size: var(--step-2); text-wrap: balance; }
+.sheet h3 { margin: 6px 0 0; font-size: var(--step-1); }
+.sheet p, .sheet li { max-width: 65ch; }
+.sheet ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 4px; }
+.sheet-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.sheet table { border-collapse: collapse; font-size: var(--step--1); width: 100%; }
+.sheet td, .sheet th { border-top: 1px solid var(--line); padding: 6px 8px 6px 0; text-align: left; vertical-align: top; }
+.table-wrap { overflow-x: auto; }
+#export-text, #import-text { font-family: var(--font-mono); font-size: 0.75rem; min-height: 180px; }
+.toast {
+  position: fixed; z-index: 50; left: 50%; transform: translateX(-50%);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 20px);
+  background: var(--ink); color: var(--bg); border-radius: var(--radius); padding: 10px 14px;
+  display: flex; gap: 12px; align-items: center; font-size: var(--step--1); max-width: calc(100% - 32px);
+}
+.toast .btn { color: var(--bg); border-color: color-mix(in srgb, var(--bg) 40%, transparent); background: transparent; }
+.empty { padding: 32px 20px; color: var(--muted); }
+
+@media (max-width: 1279px) {
+  .desk { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); }
+  .rail-pane { display: none; }
+}
+@media (min-width: 1280px) { .nav select { display: none; } }
+@media (max-width: 899px) {
+  .desk { grid-template-columns: minmax(0, 1fr); }
+  .sticky-pane { position: static; max-height: none; }
+  .ruling { max-height: 58vh; }
+  .actions { margin-left: 0; }
+  .who input { width: 100%; }
+  .who { flex: 1 1 200px; }
+  .meter { width: 80px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .card, .btn, .rail button { transition: border-color .15s, background-color .15s, box-shadow .15s; }
+}
+</style>
+
+<header class="bar">
+  <div class="brand"><b>Revisão de Argumentos</b><span>Sentenças cíveis · TJSP 1º grau</span></div>
+  <div class="nav">
+    <button class="btn small" id="prev" type="button" aria-label="Sentença anterior">◀</button>
+    <select id="ruling-select" aria-label="Sentença"></select>
+    <button class="btn small" id="next" type="button" aria-label="Próxima sentença">▶</button>
+  </div>
+  <div class="progress" aria-live="polite">
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+    <span id="progress-text" class="mono">0/30</span>
+  </div>
+  <label class="who"><span class="label">Revisor</span><input type="text" id="reviewer" placeholder="Seu nome" autocomplete="name"></label>
+  <div class="actions">
+    <button class="btn" id="open-guide" type="button">Guia</button>
+    <button class="btn primary" id="open-export" type="button">Enviar revisão</button>
+  </div>
+</header>
+<div class="banner" id="storage-warn" hidden>Este navegador não está guardando o progresso automaticamente. Use “Enviar revisão” para copiar o trabalho antes de fechar a página.</div>
+
+<main class="desk">
+  <nav class="pane rail-pane sticky-pane" aria-label="Sentenças">
+    <div class="rail" id="rail"><p class="empty">Carregando sentenças…</p></div>
+  </nav>
+  <section class="pane sticky-pane" aria-labelledby="ruling-title">
+    <div class="pane-head">
+      <h2 id="ruling-title">Carregando…</h2>
+      <div class="ruling-meta" id="ruling-meta"></div>
+    </div>
+    <div class="ruling" id="ruling-text" tabindex="0" aria-label="Texto da sentença"></div>
+    <div class="selbar" id="selbar" hidden>
+      <span class="label">Trecho</span><q id="sel-preview"></q>
+      <button class="btn small primary" id="sel-cite" type="button"></button>
+      <button class="btn small" id="sel-new" type="button">Novo argumento com este trecho</button>
+    </div>
+  </section>
+  <section class="pane" aria-labelledby="editor-title">
+    <div class="pane-head">
+      <h2 id="editor-title">Argumentos</h2>
+      <p class="hint">Cada ficha é uma questão que o juiz decidiu. Corrija, remova o que não é argumento e acrescente o que faltou. Selecione um trecho na sentença para citá-lo.</p>
+    </div>
+    <div class="editor-body" id="editor"></div>
+  </section>
+</main>
+
+<div class="overlay" id="guide" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="guide-title">
+    <div class="sheet-head"><h2 id="guide-title">Guia de revisão</h2><button class="btn" data-close type="button">Fechar</button></div>
+    <p>O objetivo é montar o gabarito de um banco de argumentos de defesa: <b>cada questão que o juiz enfrentou e decidiu, com a razão da decisão e o trecho que a sustenta</b>. As fichas vieram de um rascunho automático e precisam da sua correção.</p>
+    <h3>Como trabalhar</h3>
+    <ul>
+      <li>Comece pelas sentenças marcadas <span class="chip accent">teste</span>: são as que medem o sistema.</li>
+      <li>Leia a sentença à esquerda. Os trechos destacados são as citações de cada ficha.</li>
+      <li>Corrija os campos, remova fichas que não são argumento e crie as que faltam.</li>
+      <li>Para citar, selecione o trecho na sentença e use o botão que aparece embaixo do texto. Assim a citação sai idêntica ao texto.</li>
+      <li>No fim, escolha o resultado da sentença e clique em <b>Marcar como revisada</b>.</li>
+      <li>O progresso fica salvo neste navegador. Quando terminar (ou para pausar), use <b>Enviar revisão</b> e mande o texto copiado para quem te passou o link.</li>
+    </ul>
+    <h3>O que é UM argumento</h3>
+    <ul>
+      <li>Cada preliminar é um argumento: ilegitimidade, falta de interesse de agir, incompetência, inépcia, impugnação à gratuidade.</li>
+      <li>Cada prejudicial é um argumento: prescrição, decadência.</li>
+      <li>No mérito, um argumento por questão decidida: relação jurídica, falha do serviço, excludentes (fortuito externo, culpa exclusiva), dano moral, dano material, repetição em dobro, ônus da prova quando discutido, abusividade de cláusula ou taxa.</li>
+      <li>O valor da indenização é um argumento <i>quantum</i> separado quando o juiz fundamenta o valor.</li>
+      <li>Não divida uma questão em várias fichas só porque o juiz usou vários parágrafos. Não junte questões diferentes numa ficha só.</li>
+    </ul>
+    <h3>O que NÃO é argumento</h3>
+    <ul>
+      <li>Resumo das alegações das partes, sem decisão do juiz.</li>
+      <li>Custas, honorários, correção e juros aplicados de forma padrão; “P.R.I.”; trânsito em julgado.</li>
+      <li>Princípios gerais citados de passagem (boa-fé, função social) que só apoiam outra questão.</li>
+      <li>Sentença sem mérito (abandono, homologação) pode ter zero argumentos.</li>
+    </ul>
+    <h3>Campos</h3>
+    <div class="table-wrap"><table>
+      <tr><th>Título</th><td>A tese em uma linha, do ponto de vista de quem a levantou. Ex.: “Ilegitimidade passiva da plataforma”.</td></tr>
+      <tr><th>Resumo</th><td>1 a 3 frases: o que o juiz decidiu e por quê.</td></tr>
+      <tr><th>Tipo</th><td>preliminar (processual), prejudicial (prescrição/decadência), mérito, quantum (valor), acessório (juros, correção, honorários, gratuidade quando discutidos).</td></tr>
+      <tr><th>Suscitado por</th><td>autor, réu ou juízo (de ofício).</td></tr>
+      <tr><th>Decisão</th><td>O juiz acolheu, rejeitou ou acolheu em parte a tese do título. De ofício: acolhido.</td></tr>
+      <tr><th>Tema</th><td>Rótulo curto e reutilizável: “ilegitimidade passiva”, “fortuito externo”, “dano moral in re ipsa”.</td></tr>
+      <tr><th>Fundamento legal</th><td>Dispositivos, súmulas, temas e precedentes citados para esta questão, um por linha: “art. 14 do CDC”, “Súmula 479 do STJ”.</td></tr>
+      <tr><th>Citações</th><td>1 a 3 trechos literais, de preferência da fundamentação. Uma ou duas frases cada, sem reticências.</td></tr>
+      <tr><th>Seção</th><td>Onde a questão é decidida; quase sempre fundamentação.</td></tr>
+    </table></div>
+    <h3>Casos difíceis</h3>
+    <ul>
+      <li>Tese acolhida só em parte: decisão “parcial”.</li>
+      <li>Tese do réu rejeitada equivale à do autor acolhida: registre uma vez, do lado de quem a levantou primeiro (em geral o réu para preliminares e excludentes; o autor para o pedido de mérito).</li>
+      <li>Embargos de declaração: cada vício alegado é um argumento.</li>
+      <li>Os nomes estão anonimizados ([AUTOR], [PESSOA_1]…). Cite como aparece no texto.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overlay" id="export" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="export-title">
+    <div class="sheet-head"><h2 id="export-title">Enviar revisão</h2><button class="btn" data-close type="button">Fechar</button></div>
+    <p id="export-summary"></p>
+    <p>Copie o texto abaixo e mande para quem te passou o link, por e-mail ou mensagem. Se for longo demais para a mensagem, cole num arquivo .txt e anexe. Dá para enviar parcial e continuar depois: cada envio inclui tudo o que você já revisou.</p>
+    <div class="verdict-actions">
+      <button class="btn primary" id="copy-export" type="button">Copiar texto</button>
+      <span class="muted" id="copy-state" aria-live="polite"></span>
+    </div>
+    <textarea id="export-text" readonly aria-label="Texto da revisão para enviar"></textarea>
+    <h3>Continuar em outro aparelho</h3>
+    <p class="hint">Cole aqui um texto de revisão enviado antes (ou escolha o arquivo .txt) para retomar de onde parou. As sentenças do texto colado substituem as deste navegador.</p>
+    <textarea id="import-text" aria-label="Texto de revisão para carregar"></textarea>
+    <div class="verdict-actions">
+      <button class="btn" id="do-import" type="button">Carregar revisão</button>
+      <label class="btn"><input type="file" id="import-file" accept=".txt,.json,text/plain,application/json" hidden>Escolher arquivo</label>
+      <span id="import-state" aria-live="polite"></span>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" hidden><span id="toast-msg"></span><button class="btn small" id="toast-act" type="button" hidden></button></div>
+
+<script>
+(() => {
+  "use strict";
+  const $ = (s, r = document) => r.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  const ENUM = {
+    tipo: [["preliminar", "preliminar"], ["prejudicial", "prejudicial"], ["merito", "mérito"], ["quantum", "quantum"], ["acessorio", "acessório"]],
+    suscitado_por: [["autor", "autor"], ["reu", "réu"], ["juizo", "juízo (de ofício)"]],
+    decisao: [["acolhido", "acolhido"], ["rejeitado", "rejeitado"], ["parcial", "parcial"]],
+    secao: [["relatorio", "relatório"], ["fundamentacao", "fundamentação"], ["dispositivo", "dispositivo"]],
+    resultado: [["procedente", "procedente"], ["parcialmente_procedente", "parcialmente procedente"], ["improcedente", "improcedente"], ["extinto_sem_merito", "extinto sem mérito"], ["homologacao", "homologação"], ["outro", "outro"]],
+  };
+  const FAIXA = { curto: "curta", medio: "média", longo: "longa", muito_longo: "muito longa" };
+  const S = { data: null, idx: 0, store: { revisor: "", sentencas: {} }, active: null, storageOk: true, sel: null, sq: {}, removed: null };
+  let KEY = "q2rev";
+
+  // ------------------------------------------------------------------ armazenamento local
+  function load() {
+    try {
+      const raw = localStorage.getItem(KEY);
+      if (raw) S.store = Object.assign({ revisor: "", sentencas: {} }, JSON.parse(raw));
+      localStorage.setItem(KEY + ":probe", "1");
+      localStorage.removeItem(KEY + ":probe");
+    } catch (e) { S.storageOk = false; }
+    $("#storage-warn").hidden = S.storageOk;
+  }
+  let saveTimer = null;
+  function save(now) {
+    clearTimeout(saveTimer);
+    const go = () => {
+      try { localStorage.setItem(KEY, JSON.stringify(S.store)); }
+      catch (e) { S.storageOk = false; $("#storage-warn").hidden = false; }
+    };
+    if (now) go(); else saveTimer = setTimeout(go, 250);
+  }
+
+  // ------------------------------------------------------------------ ancoragem (espelha ground.py)
+  const QMAP = { "“": '"', "”": '"', "„": '"', "‘": "'", "’": "'", "–": "-", "—": "-" };
+  const normQ = (q) => q.normalize("NFKC").replace(/[“”„‘’–—]/g, (c) => QMAP[c]).replace(/\s+/g, " ").trim();
+  function foldChar(c) {
+    const l = c.toLowerCase();
+    const f = c.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    return f.length === 1 ? f : l.length === 1 ? l : c;
+  }
+  function squash(t) {
+    const chars = [], idx = [];
+    for (let i = 0; i < t.length; i++) {
+      let c = foldChar(t[i]);
+      if (/\s/.test(c)) { if (!chars.length || chars[chars.length - 1] === " ") continue; c = " "; }
+      chars.push(c); idx.push(i);
+    }
+    return { s: chars.join(""), idx };
+  }
+  function anchor(r, q) {
+    const n = normQ(q || "");
+    if (n.length < 3) return null;
+    const i = r.text.indexOf(n);
+    if (i >= 0) return [i, i + n.length];
+    if (!S.sq[r.ruling_id]) S.sq[r.ruling_id] = squash(r.text);
+    const src = S.sq[r.ruling_id];
+    const sq = squash(n).s.trim();
+    const j = src.s.indexOf(sq);
+    if (j < 0) return null;
+    return [src.idx[j], src.idx[j + sq.length - 1] + 1];
+  }
+  // citação do rascunho com offsets e texto intocado: offsets valem (o texto da sentença é o mesmo)
+  function located(r, c) {
+    if (c.char_start != null && c.char_end != null) return [c.char_start, c.char_end];
+    return anchor(r, c.texto);
+  }
+
+  // ------------------------------------------------------------------ estado de trabalho
+  let uidSeq = 0;
+  const newUid = () => "u" + (++uidSeq);
+  function fromDraft(r) {
+    const d = r.rascunho || { resultado: null, notas: "", argumentos: [] };
+    return {
+      status: "rascunho",
+      resultado: d.resultado || "",
+      notas: d.notas || "",
+      argumentos: d.argumentos.map((a) => ({
+        uid: newUid(), origem: a.id, titulo: a.titulo, resumo: a.resumo, tipo: a.tipo, tema: a.tema,
+        suscitado_por: a.suscitado_por, decisao: a.decisao, secao: a.secao,
+        fundamento_legal: [...(a.fundamento_legal || [])],
+        citacoes: a.citacoes.map((c) => ({ texto: c.texto, char_start: c.char_start, char_end: c.char_end })),
+      })),
+    };
+  }
+  const cur = () => S.data.rulings[S.idx];
+  function work(r = cur()) {
+    const w = S.store.sentencas[r.ruling_id];
+    if (w) { w.argumentos.forEach((a) => { if (!a.uid) a.uid = newUid(); }); return w; }
+    if (!r._draft) r._draft = fromDraft(r);
+    return r._draft;
+  }
+  function touch(r = cur()) {
+    const w = work(r);
+    if (!S.store.sentencas[r.ruling_id]) S.store.sentencas[r.ruling_id] = w;
+    if (w.status !== "andamento") {
+      const was = w.status;
+      w.status = "andamento";
+      if (was === "revisado") toast("A sentença voltou para “em revisão”. Marque como revisada de novo ao terminar.");
+      refreshChrome();
+    }
+    save();
+  }
+  const statusOf = (r) => (S.store.sentencas[r.ruling_id] || {}).status || "rascunho";
+  const label = (i) => "a" + String(i + 1).padStart(2, "0");
+
+  // ------------------------------------------------------------------ texto com destaques
+  function renderText() {
+    const r = cur(), w = work(r);
+    const spans = [];
+    w.argumentos.forEach((a, i) => a.citacoes.forEach((c) => {
+      const p = located(r, c);
+      if (p) spans.push([p[0], p[1], i]);
+    }));
+    spans.sort((x, y) => x[0] - y[0] || y[1] - x[1]);
+    let out = "", pos = 0;
+    for (const [s, e, i] of spans) {
+      if (s < pos) continue;
+      out += esc(r.text.slice(pos, s));
+      const on = w.argumentos[i].uid === S.active ? " on" : "";
+      out += `<mark class="hl-${i % 6}${on}" data-label="${label(i)}" data-arg="${i}">${esc(r.text.slice(s, e))}</mark>`;
+      pos = e;
+    }
+    out += esc(r.text.slice(pos));
+    $("#ruling-text").innerHTML = out;
+  }
+
+  // ------------------------------------------------------------------ editor
+  const opts = (k, v) => ENUM[k].map(([val, lab]) => `<option value="${val}"${val === v ? " selected" : ""}>${esc(lab)}</option>`).join("");
+  function flags(r, a) {
+    const out = [];
+    if (!a.titulo.trim()) out.push('<span class="chip bad">sem título</span>');
+    if (!a.citacoes.length) out.push('<span class="chip bad">sem citação</span>');
+    const miss = a.citacoes.filter((c) => !located(r, c)).length;
+    if (miss) out.push(`<span class="chip bad">${miss} citação não encontrada</span>`);
+    return out.join("");
+  }
+  function quoteState(r, c) {
+    const p = located(r, c);
+    return p
+      ? `<span class="chip ok">encontrada no texto</span><span class="mono muted">car. ${p[0]}–${p[1]}</span>`
+      : `<span class="chip bad">não encontrada no texto</span><span class="muted">copie o trecho exato ou selecione na sentença</span>`;
+  }
+  function cardHTML(r, a, i) {
+    const open = a.uid === S.active;
+    const id = (f) => `f-${a.uid}-${f}`;
+    let body = "";
+    if (open) {
+      body = `<div class="card-body">
+        <label class="field"><span>Título</span><input type="text" id="${id("titulo")}" data-f="titulo" value="${esc(a.titulo)}"></label>
+        <label class="field"><span>Resumo</span><textarea id="${id("resumo")}" data-f="resumo" rows="3">${esc(a.resumo)}</textarea></label>
+        <div class="row">
+          <label class="field"><span>Tipo</span><select id="${id("tipo")}" data-f="tipo">${opts("tipo", a.tipo)}</select></label>
+          <label class="field"><span>Suscitado por</span><select id="${id("susc")}" data-f="suscitado_por">${opts("suscitado_por", a.suscitado_por)}</select></label>
+          <label class="field"><span>Decisão</span><select id="${id("dec")}" data-f="decisao">${opts("decisao", a.decisao)}</select></label>
+          <label class="field"><span>Seção</span><select id="${id("sec")}" data-f="secao">${opts("secao", a.secao)}</select></label>
+        </div>
+        <label class="field"><span>Tema</span><input type="text" id="${id("tema")}" data-f="tema" value="${esc(a.tema)}"></label>
+        <label class="field"><span>Fundamento legal (um por linha)</span><textarea id="${id("fund")}" data-f="fundamento_legal" rows="2">${esc(a.fundamento_legal.join("\n"))}</textarea></label>
+        <div class="field"><span>Citações literais</span>
+          <div class="quotes">${a.citacoes.map((c, k) => `
+            <div class="quote" data-q="${k}">
+              <textarea id="${id("q" + k)}" data-f="quote" rows="3" aria-label="Citação ${k + 1}">${esc(c.texto)}</textarea>
+              <button class="btn small ghost danger" data-act="del-quote" type="button" aria-label="Remover citação ${k + 1}">Remover</button>
+              <div class="q-state">${quoteState(r, c)}</div>
+            </div>`).join("")}
+          </div>
+          <p class="hint">Selecione um trecho na sentença e clique em “Citar em ${label(i)}”, ou <button class="btn small" data-act="add-quote" type="button">adicione uma citação em branco</button>.</p>
+        </div>
+        <div class="card-foot">
+          <button class="btn small" data-act="show" type="button">Ver no texto</button>
+          <button class="btn small danger" data-act="del-arg" type="button">Remover argumento</button>
+        </div>
+      </div>`;
+    }
+    const sub = [ENUM.tipo.find((x) => x[0] === a.tipo)?.[1], ENUM.decisao.find((x) => x[0] === a.decisao)?.[1]].filter(Boolean).join(" · ");
+    return `<article class="card${open ? " on" : ""}" data-i="${i}">
+      <button class="card-head" data-act="toggle" type="button" aria-expanded="${open}">
+        <span class="swatch hl-${i % 6}">${label(i)}</span>
+        <span class="card-title">${esc(a.titulo || "(sem título)")}<small>${esc(sub)}</small></span>
+        <span class="card-flags">${flags(r, a)}</span>
+      </button>${body}
+    </article>`;
+  }
+  function renderEditor() {
+    const r = cur(), w = work(r), st = statusOf(r);
+    const stChip = st === "revisado" ? '<span class="chip ok">revisada</span>'
+      : st === "andamento" ? '<span class="chip warn">em revisão</span>' : '<span class="chip">rascunho automático, não revisado</span>';
+    $("#editor-title").textContent = `Argumentos (${w.argumentos.length})`;
+    $("#editor").innerHTML = `
+      <div class="status-line">${stChip}</div>
+      <div class="cards">${w.argumentos.map((a, i) => cardHTML(r, a, i)).join("") || '<p class="muted">Nenhum argumento. Se a sentença não decidiu nenhuma questão, deixe assim.</p>'}</div>
+      <div><button class="btn" data-act="add-arg" type="button">+ Novo argumento</button></div>
+      <div class="verdict">
+        <div class="row">
+          <label class="field"><span>Resultado da sentença</span><select id="f-${r.ruling_id}-resultado" data-f="resultado"><option value="">escolha…</option>${opts("resultado", w.resultado)}</select></label>
+        </div>
+        <label class="field"><span>Observações (opcional)</span><textarea id="f-${r.ruling_id}-notas" data-f="notas" rows="2">${esc(w.notas)}</textarea></label>
+        <div id="verdict-errors"></div>
+        <div class="verdict-actions">
+          <button class="btn primary" data-act="approve" type="button">Marcar como revisada</button>
+          <button class="btn" data-act="next" type="button">Próxima sentença</button>
+          <button class="btn ghost" data-act="reset" type="button">Restaurar rascunho original</button>
+        </div>
+      </div>`;
+  }
+  function refreshCard(i) {
+    const r = cur(), a = work(r).argumentos[i];
+    const card = $(`#editor .card[data-i="${i}"]`);
+    if (!card) return;
+    $(".card-title", card).innerHTML = `${esc(a.titulo || "(sem título)")}<small>${esc([ENUM.tipo.find((x) => x[0] === a.tipo)?.[1], ENUM.decisao.find((x) => x[0] === a.decisao)?.[1]].filter(Boolean).join(" · "))}</small>`;
+    $(".card-flags", card).innerHTML = flags(r, a);
+    card.querySelectorAll(".quote").forEach((qe) => { $(".q-state", qe).innerHTML = quoteState(r, a.citacoes[+qe.dataset.q]); });
+  }
+
+  // ------------------------------------------------------------------ chrome (lista, barra, progresso)
+  function refreshChrome() {
+    const rs = S.data.rulings;
+    const done = rs.filter((r) => statusOf(r) === "revisado");
+    const doneTest = done.filter((r) => r.split === "test").length;
+    const nTest = rs.filter((r) => r.split === "test").length;
+    $("#meter").style.width = (100 * done.length / rs.length) + "%";
+    $("#progress-text").textContent = `${done.length}/${rs.length} revisadas · teste ${doneTest}/${nTest}`;
+    const sel = $("#ruling-select");
+    const mk = (r) => ({ rascunho: "○", andamento: "◐", revisado: "●" })[statusOf(r)] + " " + r.ruling_id.replace("tjsp-", "") + (r.split === "test" ? "  · teste" : "  · ajuste");
+    sel.innerHTML = rs.map((r, i) => `<option value="${i}"${i === S.idx ? " selected" : ""}>${esc(mk(r))}</option>`).join("");
+    let html = "", group = null;
+    rs.forEach((r, i) => {
+      const g = r.split === "test" ? "Teste · medem o sistema" : "Ajuste · usadas para calibrar";
+      if (g !== group) { html += `<h3 class="label">${g}</h3>`; group = g; }
+      html += `<button type="button" data-goto="${i}" aria-current="${i === S.idx}" title="${esc(r.ruling_id)}">
+        <span class="dot ${statusOf(r)}" aria-label="${statusOf(r)}"></span>
+        <span class="num mono">${esc(r.ruling_id.replace("tjsp-", ""))}</span>
+        <span class="muted">${esc(FAIXA[r.faixa] || r.faixa)}</span></button>`;
+    });
+    $("#rail").innerHTML = html;
+  }
+  function renderRuling() {
+    const r = cur();
+    $("#ruling-title").textContent = `${r.classe} · ${r.assunto}`;
+    $("#ruling-meta").innerHTML = `<span class="mono">${esc(r.ruling_id.replace("tjsp-", "Processo "))}</span>
+      <span>${esc(r.vara)} · ${esc(r.comarca)}</span><span>sentença ${esc(FAIXA[r.faixa] || r.faixa)}</span>
+      ${r.split === "test" ? '<span class="chip accent">teste</span>' : '<span class="chip">ajuste</span>'}`;
+    renderText();
+    renderEditor();
+    refreshChrome();
+    $("#ruling-text").scrollTop = 0;
+    hideSel();
+  }
+  function go(i) {
+    if (i < 0 || i >= S.data.rulings.length) return;
+    S.idx = i; S.active = null;
+    try { localStorage.setItem(KEY + ":idx", String(i)); } catch (e) { /* conveniência */ }
+    renderRuling();
+    window.scrollTo({ top: 0 });
+  }
+
+  // ------------------------------------------------------------------ validação "revisada" (espelha gold.mark_reviewed)
+  function problems(r, w) {
+    const out = [];
+    if (!S.store.revisor.trim()) out.push("Escreva seu nome no campo Revisor, no topo.");
+    if (!w.resultado) out.push("Escolha o resultado da sentença.");
+    w.argumentos.forEach((a, i) => {
+      if (!a.titulo.trim()) out.push(`${label(i)}: falta o título.`);
+      if (!a.citacoes.length) out.push(`${label(i)}: precisa de ao menos uma citação.`);
+      a.citacoes.forEach((c, k) => { if (!located(r, c)) out.push(`${label(i)}: a citação ${k + 1} não foi encontrada no texto.`); });
+    });
+    return out;
+  }
+
+  // ------------------------------------------------------------------ seleção no texto -> citação
+  function selOffsets() {
+    const sel = window.getSelection();
+    if (!sel || !sel.rangeCount || sel.isCollapsed) return null;
+    const rg = sel.getRangeAt(0), root = $("#ruling-text");
+    if (!root.contains(rg.startContainer) || !root.contains(rg.endContainer)) return null;
+    const pre = document.createRange();
+    pre.selectNodeContents(root);
+    pre.setEnd(rg.startContainer, rg.startOffset);
+    const text = cur().text;
+    let s = pre.toString().length, e = s + rg.toString().length;
+    while (s < e && /\s/.test(text[s])) s++;
+    while (e > s && /\s/.test(text[e - 1])) e--;
+    return e - s >= 8 ? [s, e] : null;
+  }
+  function showSel() {
+    const p = selOffsets();
+    if (!p) { hideSel(); return; }
+    S.sel = p;
+    const t = cur().text.slice(p[0], p[1]);
+    $("#sel-preview").textContent = t.replace(/\s+/g, " ");
+    const w = work(), ai = w.argumentos.findIndex((a) => a.uid === S.active);
+    const b = $("#sel-cite");
+    b.hidden = ai < 0;
+    if (ai >= 0) b.textContent = `Citar em ${label(ai)}`;
+    $("#selbar").hidden = false;
+  }
+  function hideSel() { S.sel = null; $("#selbar").hidden = true; }
+  function quoteFromSel() {
+    const r = cur(), [s, e] = S.sel;
+    return { texto: r.text.slice(s, e).replace(/\s+/g, " "), char_start: s, char_end: e };
+  }
+
+  // ------------------------------------------------------------------ toast
+  let toastTimer = null;
+  function toast(msg, act, fn) {
+    $("#toast-msg").textContent = msg;
+    const b = $("#toast-act");
+    b.hidden = !act;
+    if (act) { b.textContent = act; b.onclick = () => { fn(); $("#toast").hidden = true; }; }
+    $("#toast").hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { $("#toast").hidden = true; }, act ? 7000 : 4000);
+  }
+
+  // ------------------------------------------------------------------ exportação / importação
+  function exportObj() {
+    const sentencas = [];
+    for (const r of S.data.rulings) {
+      const w = S.store.sentencas[r.ruling_id];
+      if (!w) continue;
+      sentencas.push({
+        ruling_id: r.ruling_id, text_sha256: r.text_sha256, status: w.status,
+        resultado: w.resultado || null, notas: w.notas || "",
+        argumentos: w.argumentos.map((a) => ({
+          titulo: a.titulo, resumo: a.resumo, tipo: a.tipo, tema: a.tema, suscitado_por: a.suscitado_por,
+          decisao: a.decisao, secao: a.secao, fundamento_legal: a.fundamento_legal,
+          citacoes: a.citacoes.map((c) => { const p = located(r, c); return { texto: c.texto, char_start: p ? p[0] : null, char_end: p ? p[1] : null }; }),
+        })),
+      });
+    }
+    return { formato: S.data.formato, gold_fingerprint: S.data.gold_fingerprint, revisor: S.store.revisor, exportado_em: new Date().toISOString(), sentencas };
+  }
+  function openExport() {
+    const o = exportObj();
+    const rev = o.sentencas.filter((s) => s.status === "revisado").length;
+    const and = o.sentencas.length - rev;
+    $("#export-summary").textContent = o.sentencas.length
+      ? `${rev} sentença(s) revisada(s) e ${and} em andamento. Revisor: ${o.revisor || "(sem nome: preencha no topo)"}.`
+      : "Nenhuma sentença editada ainda. Este texto não tem revisão para enviar.";
+    $("#export-text").value = JSON.stringify(o);
+    $("#copy-state").textContent = "";
+    $("#export").hidden = false;
+  }
+  function doImport(raw) {
+    let o;
+    try { o = JSON.parse(raw); } catch (e) { return "Texto inválido: cole o texto completo, do primeiro { ao último }."; }
+    if (!o || o.formato !== S.data.formato || !Array.isArray(o.sentencas)) return "Este texto não é uma revisão desta página.";
+    const byId = Object.fromEntries(S.data.rulings.map((r) => [r.ruling_id, r]));
+    let n = 0, skip = 0;
+    for (const s of o.sentencas) {
+      const r = byId[s.ruling_id];
+      if (!r || r.text_sha256 !== s.text_sha256) { skip++; continue; }
+      S.store.sentencas[s.ruling_id] = {
+        status: s.status === "revisado" ? "revisado" : "andamento", resultado: s.resultado || "", notas: s.notas || "",
+        argumentos: s.argumentos.map((a) => ({ ...a, uid: newUid(), fundamento_legal: a.fundamento_legal || [], citacoes: a.citacoes || [] })),
+      };
+      n++;
+    }
+    if (!S.store.revisor && o.revisor) { S.store.revisor = o.revisor; $("#reviewer").value = o.revisor; }
+    save(true);
+    renderRuling();
+    return `${n} sentença(s) carregada(s)` + (skip ? `, ${skip} ignorada(s) por não corresponder a esta página.` : ".");
+  }
+
+  // ------------------------------------------------------------------ eventos
+  function bind() {
+    $("#prev").onclick = () => go(S.idx - 1);
+    $("#next").onclick = () => go(S.idx + 1);
+    $("#ruling-select").onchange = (e) => go(+e.target.value);
+    $("#rail").onclick = (e) => { const b = e.target.closest("[data-goto]"); if (b) go(+b.dataset.goto); };
+    $("#reviewer").value = S.store.revisor || "";
+    $("#reviewer").oninput = (e) => { S.store.revisor = e.target.value; save(); };
+    $("#open-guide").onclick = () => { $("#guide").hidden = false; };
+    $("#open-export").onclick = openExport;
+    document.querySelectorAll(".overlay").forEach((ov) => {
+      ov.addEventListener("click", (e) => { if (e.target === ov || e.target.closest("[data-close]")) ov.hidden = true; });
+    });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") document.querySelectorAll(".overlay").forEach((o) => { o.hidden = true; }); });
+    $("#copy-export").onclick = () => {
+      const ta = $("#export-text");
+      const fallback = () => { ta.focus(); ta.select(); $("#copy-state").textContent = "Texto selecionado: use Ctrl+C (ou Cmd+C)."; };
+      try {
+        navigator.clipboard.writeText(ta.value).then(() => { $("#copy-state").textContent = "Copiado."; }, fallback);
+      } catch (e) { fallback(); }
+    };
+    $("#do-import").onclick = () => { $("#import-state").textContent = doImport($("#import-text").value); };
+    $("#import-file").onchange = (e) => {
+      const f = e.target.files[0];
+      if (!f) return;
+      const rd = new FileReader();
+      rd.onload = () => { $("#import-state").textContent = doImport(String(rd.result)); };
+      rd.readAsText(f);
+    };
+
+    const txt = $("#ruling-text");
+    txt.addEventListener("mouseup", () => setTimeout(showSel, 0));
+    txt.addEventListener("keyup", () => setTimeout(showSel, 0));
+    document.addEventListener("selectionchange", () => {
+      clearTimeout(S._st);
+      S._st = setTimeout(() => { if (selOffsets()) showSel(); }, 350);
+    });
+    txt.addEventListener("click", (e) => {
+      const m = e.target.closest("mark");
+      if (!m || !window.getSelection().isCollapsed) return;
+      const a = work().argumentos[+m.dataset.arg];
+      if (a) { S.active = a.uid; renderEditor(); renderText(); $(`#editor .card[data-i="${m.dataset.arg}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
+    });
+    $("#sel-cite").onclick = () => {
+      const w = work(), a = w.argumentos.find((x) => x.uid === S.active);
+      if (!a || !S.sel) return;
+      a.citacoes.push(quoteFromSel());
+      touch(); hideSel(); window.getSelection().removeAllRanges();
+      renderEditor(); renderText();
+    };
+    $("#sel-new").onclick = () => {
+      if (!S.sel) return;
+      const w = work();
+      const a = { uid: newUid(), titulo: "", resumo: "", tipo: "merito", tema: "", suscitado_por: "reu", decisao: "rejeitado", secao: "fundamentacao", fundamento_legal: [], citacoes: [quoteFromSel()] };
+      w.argumentos.push(a); S.active = a.uid;
+      touch(); hideSel(); window.getSelection().removeAllRanges();
+      renderEditor(); renderText();
+      $(`#f-${a.uid}-titulo`)?.focus();
+    };
+
+    const ed = $("#editor");
+    ed.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-act]");
+      if (!b) return;
+      const r = cur(), w = work(r);
+      const card = b.closest(".card");
+      const i = card ? +card.dataset.i : -1;
+      const a = i >= 0 ? w.argumentos[i] : null;
+      switch (b.dataset.act) {
+        case "toggle":
+          S.active = S.active === a.uid ? null : a.uid;
+          renderEditor(); renderText();
+          if (S.active) { const m = $("#ruling-text mark.on"); m?.scrollIntoView({ block: "center", behavior: "smooth" }); }
+          break;
+        case "show": { const m = $("#ruling-text mark.on"); if (m) m.scrollIntoView({ block: "center", behavior: "smooth" }); else toast("Este argumento ainda não tem citação encontrada no texto."); break; }
+        case "add-quote": a.citacoes.push({ texto: "", char_start: null, char_end: null }); touch(); renderEditor(); $(`#f-${a.uid}-q${a.citacoes.length - 1}`)?.focus(); break;
+        case "del-quote": a.citacoes.splice(+b.closest(".quote").dataset.q, 1); touch(); renderEditor(); renderText(); break;
+        case "del-arg": {
+          const [gone] = w.argumentos.splice(i, 1);
+          touch(); S.active = null; renderEditor(); renderText();
+          toast(`Argumento “${gone.titulo || label(i)}” removido.`, "Desfazer", () => { w.argumentos.splice(i, 0, gone); save(); renderEditor(); renderText(); });
+          break;
+        }
+        case "add-arg": {
+          const na = { uid: newUid(), titulo: "", resumo: "", tipo: "merito", tema: "", suscitado_por: "reu", decisao: "rejeitado", secao: "fundamentacao", fundamento_legal: [], citacoes: [] };
+          w.argumentos.push(na); S.active = na.uid; touch(); renderEditor(); renderText();
+          $(`#f-${na.uid}-titulo`)?.focus();
+          break;
+        }
+        case "approve": {
+          const p = problems(r, w);
+          if (p.length) { $("#verdict-errors").innerHTML = `<ul class="errors">${p.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`; return; }
+          if (!S.store.sentencas[r.ruling_id]) S.store.sentencas[r.ruling_id] = w;
+          w.status = "revisado"; w.revisado_em = new Date().toISOString();
+          save(true); renderEditor(); refreshChrome();
+          toast("Sentença marcada como revisada.", S.idx < S.data.rulings.length - 1 ? "Próxima" : null, () => go(S.idx + 1));
+          break;
+        }
+        case "next": go(S.idx + 1); break;
+        case "reset":
+          if (b.dataset.armed) {
+            delete S.store.sentencas[r.ruling_id]; r._draft = null; save(true); S.active = null; renderRuling();
+            toast("Rascunho original restaurado.");
+          } else {
+            b.dataset.armed = "1"; b.textContent = "Confirmar: descartar suas edições desta sentença";
+            b.classList.add("danger");
+            setTimeout(() => { if (b.isConnected) { delete b.dataset.armed; b.textContent = "Restaurar rascunho original"; b.classList.remove("danger"); } }, 5000);
+          }
+          break;
+      }
+    });
+    let qTimer = null;
+    const onField = (e) => {
+      const el = e.target, f = el.dataset.f;
+      if (!f) return;
+      const r = cur(), w = work(r);
+      if (f === "resultado" || f === "notas") { w[f] = el.value; touch(); return; }
+      const card = el.closest(".card");
+      const i = +card.dataset.i, a = w.argumentos[i];
+      if (f === "quote") {
+        const c = a.citacoes[+el.closest(".quote").dataset.q];
+        c.texto = el.value; c.char_start = null; c.char_end = null;
+        clearTimeout(qTimer);
+        qTimer = setTimeout(() => { refreshCard(i); renderText(); }, 300);
+      } else if (f === "fundamento_legal") {
+        a.fundamento_legal = el.value.split("\n").map((x) => x.trim()).filter(Boolean);
+      } else {
+        a[f] = el.value;
+        refreshCard(i);
+      }
+      touch();
+    };
+    ed.addEventListener("input", onField);
+    ed.addEventListener("change", (e) => { if (e.target.tagName === "SELECT") onField(e); });
+  }
+
+  // ------------------------------------------------------------------ início
+  fetch("data.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((d) => {
+    S.data = d;
+    KEY = "q2rev:" + d.gold_fingerprint;
+    load();
+    try { const i = +localStorage.getItem(KEY + ":idx"); if (i >= 0 && i < d.rulings.length) S.idx = i; } catch (e) { /* conveniência */ }
+    bind();
+    renderRuling();
+  }).catch(() => {
+    $("#ruling-title").textContent = "Não foi possível carregar as sentenças";
+    $("#ruling-text").innerHTML = '<p class="empty">Recarregue a página. Se o erro continuar, avise quem te enviou o link.</p>';
+    $("#rail").innerHTML = "";
+  });
+})();
+</script>

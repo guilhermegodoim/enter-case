@@ -1,0 +1,22 @@
+{
+  "run_id": "q2-compare-29c1c9288d",
+  "created_at": "2026-10-16T14:56:19+00:00",
+  "task": "q2-compare",
+  "model": null,
+  "prompt_version": null,
+  "schema_version": null,
+  "dataset": "b139d00606a5",
+  "params": {
+    "benches": [
+      "q2-bench-4d5403af77",
+      "q2-bench-3e5fb45870"
+    ],
+    "only": [
+      "chunk_mini",
+      "chunk_mini_v2",
+      "full_41",
+      "full_41_v2"
+    ]
+  },
+  "code_version": "c45647281bdc+dirty"
+}

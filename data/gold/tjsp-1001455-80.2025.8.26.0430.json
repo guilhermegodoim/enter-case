@@ -2,7 +2,7 @@
   "ruling_id": "tjsp-1001455-80.2025.8.26.0430",
   "text_sha256": "69a9bd9266119689fe951e6c009b108e38c519924959cb852ce82c8b09e11e20",
   "schema_version": "q2-args-v1",
-  "status": "rascunho",
+  "status": "revisado",
   "resultado": "improcedente",
   "argumentos": [
     {
@@ -26,9 +26,9 @@
           "score": 100.0
         },
         {
-          "texto": "Como é sabido, é ônus da parte autora demonstrar os fatos constitutivos de seu direito, destinados à formação da convicção do julgador, a teor do disposto no art. 373, inciso I do Código de Processo Civil.",
-          "char_start": 10227,
-          "char_end": 10432,
+          "texto": "Art. 345. A revelia não produz o efeito mencionado no art. 344 se:\n\nI - havendo pluralidade de réus, algum deles contestar a ação;",
+          "char_start": 10095,
+          "char_end": 10225,
           "score": 100.0
         }
       ],
@@ -278,6 +278,18 @@
           "char_start": 39605,
           "char_end": 39969,
           "score": 100.0
+        },
+        {
+          "texto": "A petição inicial é temerária e traz elementos destituídos de qualquer fundamento fático e jurídico",
+          "char_start": 37603,
+          "char_end": 37702,
+          "score": 100.0
+        },
+        {
+          "texto": "Atitudes como esta evidenciam a mais pura má-fé e desrespeito da parte, merecendo ser alvo de sanção de forma a evitar que se repita.",
+          "char_start": 38229,
+          "char_end": 38362,
+          "score": 100.0
         }
       ],
       "secao": "fundamentacao"
@@ -293,9 +305,15 @@
     "cost_usd": 0.11202125,
     "latency_ms": 79852,
     "citacoes": 20,
-    "citacoes_ancoradas": 20
+    "citacoes_ancoradas": 20,
+    "revisao": {
+      "origem": "pagina-revisao",
+      "formato": "q2-revisao-v1",
+      "gold_fingerprint": "b139d00606a5",
+      "exportado_em": "2026-10-16T19:48:16.748Z"
+    }
   },
-  "revisor": null,
-  "revisado_em": null,
-  "notas": ""
+  "revisor": "Pedro da Hora",
+  "revisado_em": "2026-10-16T20:04:05+00:00",
+  "notas": "Removido do a01 trecho não condizente com a matéria de revelia; Adicionados dois excertos no a10."
 }

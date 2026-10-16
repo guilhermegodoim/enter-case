@@ -2,7 +2,7 @@
   "ruling_id": "tjsp-1007361-23.2025.8.26.0019",
   "text_sha256": "dc47b34abf884c6ff65e0ffb62e68ff436aff261db744b31a45bf8fa4a53dcde",
   "schema_version": "q2-args-v1",
-  "status": "rascunho",
+  "status": "revisado",
   "resultado": "parcialmente_procedente",
   "argumentos": [
     {
@@ -213,9 +213,15 @@
     "cost_usd": 0.08991375,
     "latency_ms": 85039,
     "citacoes": 15,
-    "citacoes_ancoradas": 15
+    "citacoes_ancoradas": 15,
+    "revisao": {
+      "origem": "pagina-revisao",
+      "formato": "q2-revisao-v1",
+      "gold_fingerprint": "b139d00606a5",
+      "exportado_em": "2026-10-16T19:48:16.748Z"
+    }
   },
-  "revisor": null,
-  "revisado_em": null,
+  "revisor": "Pedro da Hora",
+  "revisado_em": "2026-10-16T20:04:05+00:00",
   "notas": ""
 }

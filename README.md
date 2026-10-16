@@ -34,6 +34,12 @@ uv run q2 gold-status      # quantas sentenças revisadas, citações ancoradas
 uv run q2 extract <ruling_id> --config chunk_mini_verif   # extrai e mostra argumentos de 1 sentença
 uv run q2 bench            # benchmark Q2: calibra merge no dev, mede no test, grava results/<run_id>/
 uv run q2 bench --gold revisado   # só sentenças com gold revisado por humano
+uv run q2 ingest --config chunk_mini --split dev   # extrai e grava no store (data/store/q2.sqlite)
+uv run q2 import-bench q2-bench-4d5403af77        # importa predições antigas (schema v1, upcast)
+uv run q2 review-args      # revisão dos argumentos extraídos (Streamlit): aceitar/editar/rejeitar/adicionar
+uv run q2 runs <ruling_id>                 # runs gravadas para a sentença (modelo, prompt, schema)
+uv run q2 diff <ruling_id> <run_a> <run_b> # o que mudou entre duas runs
+uv run q2 compare <bench_a> <bench_b>      # tabela única entre benchmarks (confere gold e juiz)
 uv run ruff check .
 ```
 
@@ -47,10 +53,37 @@ uv run ruff check .
 | `common/pricing.py` | Tabela de preços por modelo para custo por documento |
 | `q1_similarity/` | Dataset sintético, pipeline de similaridade (hash → MinHash → alinhamento → juiz LLM) e benchmark |
 | `data/synthetic/q1/` | Casos, documentos e pares rotulados da Q1 ([README](data/synthetic/q1/README.md), [estatísticas](data/synthetic/q1/STATS.md)) |
-| `q2_arguments/` | Coleta TJSP, corpus anonimizado, schema, ancoragem de citações, gold + editor, segmentação/chunking, extração, merge, verificador, benchmark *(armazenamento e revisão: fase 5)* |
+| `q2_arguments/` | Coleta TJSP, corpus anonimizado, schema, ancoragem de citações, gold + editor, segmentação/chunking, extração, merge, verificador, benchmark, store + revisão + versionamento |
+| `q2_arguments/store.py` | SQLite (DDL formato Postgres): sentenças, runs de extração, argumentos e revisões append-only; diff e herança entre runs; exportação para o gold |
+| `q2_arguments/versions.py` | Upcasters de schema: linhas antigas nunca reescritas, lidas na versão atual |
+| `q2_arguments/review_app.py` | Revisão humana dos argumentos extraídos (Streamlit) |
 | `data/rulings/` | Corpus da Q2: 30 sentenças públicas anonimizadas ([README](data/rulings/README.md), [estatísticas](data/rulings/STATS.md)) |
 | `data/gold/` | Gold da Q2: argumentos por sentença, rascunho LLM corrigido por humano ([guia](data/gold/GUIDE.md)) |
 | `docs/` | *(fase 6)* respostas escritas |
+
+## Q2: armazenamento, revisão e versionamento
+
+Fluxo de revisão (store em `data/store/q2.sqlite`, fora do git):
+
+```bash
+uv run q2 ingest --config chunk_mini --split dev      # run A (prompt guia-v1)
+uv run q2 review-args                                 # revisor aceita/edita/rejeita/adiciona
+uv run q2 ingest --config chunk_mini_v2 --split dev   # run B (prompt guia-v2), gravada ao lado
+uv run q2 diff <ruling_id> <run_a> <run_b>            # o que mudou; na UI: "Herdar revisões"
+```
+
+- Cada ação de revisão é uma linha nova em `argument_revisions` (revisor, motivo, diff de
+  campos). UPDATE/DELETE são bloqueados por trigger; o estado atual é a última revisão.
+- Edição reancora as citações no texto; citação que não está na sentença é recusada.
+- Rejeitar exige motivo. Exportar para o gold exige zero pendentes e nunca sobrescreve gold
+  revisado: as correções do revisor viram gold para o próximo benchmark.
+- Run nova nunca toca na antiga. "Herdar" copia decisões só para pares equivalentes (mesma
+  questão, mesmo tipo/decisão/suscitado_por); o resto fica pendente.
+- `run_id` = hash de modelo, versão e hash do texto do prompt, schema, parâmetros e código.
+  `extraction_runs` guarda também o snapshot do modelo devolvido pela API.
+- Schema mudou: novo `EXTRACT_SCHEMA_VERSION` + upcaster em `versions.py`. Linhas antigas ficam
+  como foram escritas e são lidas na versão atual (`uv run q2 import-bench` importa as
+  predições v1 da fase 4).
 
 ## Reprodutibilidade
 

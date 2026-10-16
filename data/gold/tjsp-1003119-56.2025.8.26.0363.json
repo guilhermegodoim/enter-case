@@ -2,7 +2,7 @@
   "ruling_id": "tjsp-1003119-56.2025.8.26.0363",
   "text_sha256": "0f8933d72ace3ccb6d0ef9078a7bc1674e2a53c691959c254e30e6772530d7f1",
   "schema_version": "q2-args-v1",
-  "status": "rascunho",
+  "status": "revisado",
   "resultado": "extinto_sem_merito",
   "argumentos": [
     {
@@ -37,6 +37,12 @@
           "texto": "Ante o exposto, INDEFIRO A PETIÇÃO INICIAL com fundamento no artigo 321, parágrafo único, do Código de Processo Civil. Em consequência, JULGO EXTINTO o processo a teor do artigo 485, I, do mesmo Diploma Legal.",
           "char_start": 16498,
           "char_end": 16707,
+          "score": 100.0
+        },
+        {
+          "texto": "Aqui, contudo, a autora não trouxe tal documento, nem fez a mais vaga e remota demonstração da impossibilidade de fazê-lo",
+          "char_start": 7902,
+          "char_end": 8023,
           "score": 100.0
         }
       ],
@@ -86,9 +92,15 @@
     "cost_usd": 0.058895,
     "latency_ms": 44254,
     "citacoes": 6,
-    "citacoes_ancoradas": 6
+    "citacoes_ancoradas": 6,
+    "revisao": {
+      "origem": "pagina-revisao",
+      "formato": "q2-revisao-v1",
+      "gold_fingerprint": "b139d00606a5",
+      "exportado_em": "2026-10-16T19:48:16.748Z"
+    }
   },
-  "revisor": null,
-  "revisado_em": null,
+  "revisor": "Pedro da Hora",
+  "revisado_em": "2026-10-16T20:04:05+00:00",
   "notas": ""
 }

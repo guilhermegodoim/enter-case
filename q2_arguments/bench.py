@@ -53,6 +53,8 @@ def configs() -> list[Config]:
         Config(key="truncado_mini", mode="truncate", model=mini),
         Config(key="chunk_mini", mode="chunk", model=mini),
         Config(key="chunk_mini_basico", mode="chunk", model=mini, prompt="basico"),
+        Config(key="chunk_mini_v2", mode="chunk", model=mini, prompt="guia2"),
+        Config(key="full_41_v2", mode="full", model="gpt-4.1", prompt="guia2"),
         Config(key="chunk_mini_sem_filtro", mode="chunk", model=mini, ground_filter=False),
         Config(key="chunk_mini_sem_merge", mode="chunk", model=mini, merge=False),
         Config(key="chunk_mini_verif", mode="chunk", model=mini, **v),
@@ -71,6 +73,7 @@ GROUPS = {
         "chunk_mini", "chunk_mini_basico", "chunk_mini_sem_filtro", "chunk_mini_sem_merge",
     ],
     "Verificador": ["chunk_mini", "chunk_mini_verif", "chunk_mini_verif_drop"],
+    "Versão do prompt (v1 × v2)": ["chunk_mini", "chunk_mini_v2", "full_41", "full_41_v2"],
 }  # fmt: skip
 
 # --------------------------------------------------------------------------- dados
@@ -349,6 +352,8 @@ def run(only: list[str] | None = None, gold_mode: str = "todos") -> RunWriter:
             "config": cfgs[k].model_dump(),
             "extraction_run_id": cfgs[k].spec().run_id,
             "prompt_version": cfgs[k].prompt_version,
+            "prompt_sha256": cfgs[k].prompt_sha256,
+            "schema_version": EXTRACT_SCHEMA_VERSION,
             **agg,
         }
         for row, e in zip(rows, exts, strict=True):
@@ -463,8 +468,9 @@ def report(results: dict[str, dict], meta: dict, spec: RunSpec) -> str:
     )
     any_r = next(iter(results.values()))
     cfg_lines = "\n".join(
-        f"- `{k}`: run `{r['extraction_run_id']}`, prompt `{r['prompt_version']}`, "
-        f"schema `{EXTRACT_SCHEMA_VERSION}`, params `{_params(r['config'])}`"
+        f"- `{k}`: run `{r['extraction_run_id']}`, prompt `{r['prompt_version']}` "
+        f"(sha `{r.get('prompt_sha256', '?')}`), schema `{r.get('schema_version', '?')}`, "
+        f"params `{_params(r['config'])}`"
         for k, r in results.items()
     )
     return f"""# Q2: benchmark de extração de argumentos

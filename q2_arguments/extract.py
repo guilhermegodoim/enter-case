@@ -10,6 +10,7 @@ Princípios (ver docs/q2.md, fase 6):
 
 from __future__ import annotations
 
+import hashlib
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from typing import Literal
@@ -29,9 +30,13 @@ from q2_arguments.segment import (
     sections,
     tail_tokens,
 )
+from q2_arguments.verify import PROMPT_VERSION as VERIFY_PROMPT_VERSION
+from q2_arguments.verify import SYSTEM as VERIFY_SYSTEM
 from q2_arguments.verify import Checagem, verify
 
-EXTRACT_SCHEMA_VERSION = "q2-extracted-v1"  # Argumento (q2-args-v1) + confiança/sinais/run_id
+# v1: Argumento (q2-args-v1) + confiança/sinais/run_id
+# v2: + posicao (envelope das citações ancoradas); upcaster v1 -> v2 em versions.py
+EXTRACT_SCHEMA_VERSION = "q2-extracted-v2"
 MAX_QUOTES = 3
 
 # --------------------------------------------------------------------------- saída do LLM
@@ -97,8 +102,30 @@ argumentos cuja decisão está NESTE TRECHO, com citações copiadas DESTE TRECH
 sentença (relatório) e o dispositivo vêm só como contexto, para saber partes, pedidos e \
 resultado: não extraia deles."""
 
-PROMPTS = {"guia": SYSTEM_GUIA, "basico": SYSTEM_BASICO}
-PROMPT_VERSIONS = {"guia": "q2-extract-guia-v1", "basico": "q2-extract-basico-v1"}
+# v2: ajustada só com erros do split dev de chunk_mini (fase 5): faltavam valor da indenização,
+# aplicabilidade do CDC, ônus da prova e solidariedade; sobravam princípios gerais (boa-fé,
+# função social) listados como argumento próprio.
+_RULES_V2 = _RULES.replace(
+    "- não divida uma questão em vários argumentos; não junte questões diferentes em um só.",
+    """- quando o juiz decide sobre elas, também são argumentos (um cada): aplicabilidade do CDC, \
+inversão ou distribuição do ônus da prova, responsabilidade solidária de outra ré ou da cadeia \
+de fornecimento, efeito de acordo ou pagamento de corréu;
+- quando o juiz fixa um valor de indenização (dano moral, dano material), a fixação do valor é \
+um argumento quantum separado, mesmo com fundamentação curta;
+- princípios gerais citados como apoio (boa-fé objetiva, função social do contrato, pacta sunt \
+servanda) não são argumentos próprios: entram no argumento que ajudam a decidir;
+- não divida uma questão em vários argumentos; não junte questões diferentes em um só.""",
+)
+assert _RULES_V2 != _RULES
+
+SYSTEM_GUIA_V2 = SYSTEM_GUIA.replace(_RULES, _RULES_V2)
+
+PROMPTS = {"guia": SYSTEM_GUIA, "guia2": SYSTEM_GUIA_V2, "basico": SYSTEM_BASICO}
+PROMPT_VERSIONS = {
+    "guia": "q2-extract-guia-v1",
+    "guia2": "q2-extract-guia-v2",
+    "basico": "q2-extract-basico-v1",
+}
 
 # --------------------------------------------------------------------------- configuração
 
@@ -111,7 +138,7 @@ class Config(BaseModel):
     # `budget` tokens (baseline ingênuo de "não cabe no contexto")
     mode: Literal["full", "chunk", "truncate"] = "chunk"
     model: str = "gpt-4.1-mini"
-    prompt: Literal["guia", "basico"] = "guia"
+    prompt: Literal["guia", "guia2", "basico"] = "guia"
     budget: int = 3000  # tokens por chunk
     overlap: int = 300  # tokens de sobreposição entre chunks
     head: int = 800  # tokens do relatório como contexto (modo chunk)
@@ -128,6 +155,14 @@ class Config(BaseModel):
         return v + ("+chunk" if self.mode == "chunk" else "")
 
     @property
+    def prompt_sha256(self) -> str:
+        """Hash do texto real dos prompts: pega edição de prompt sem troca de versão."""
+        parts = [PROMPTS[self.prompt], CHUNK_NOTE if self.mode == "chunk" else ""]
+        if self.verifier:
+            parts.append(VERIFY_SYSTEM)
+        return hashlib.sha256("\x00".join(parts).encode()).hexdigest()[:16]
+
+    @property
     def temperature(self) -> float | None:
         return None if self.model.startswith(("gpt-5", "o")) else 0.0
 
@@ -137,14 +172,33 @@ class Config(BaseModel):
             model=self.model,
             prompt_version=self.prompt_version,
             schema_version=EXTRACT_SCHEMA_VERSION,
-            params=self.model_dump(exclude={"key"}),
+            params={
+                **self.model_dump(exclude={"key"}),
+                "prompt_sha256": self.prompt_sha256,
+                "verifier_prompt_version": VERIFY_PROMPT_VERSION if self.verifier else None,
+            },
         )
 
 
 # --------------------------------------------------------------------------- resultado
 
 
+class Posicao(BaseModel):
+    """Onde o argumento está no texto: envelope das citações ancoradas (offsets do texto)."""
+
+    char_start: int
+    char_end: int
+
+
+def posicao_of(citacoes: list[Citacao]) -> Posicao | None:
+    spans = [(c.char_start, c.char_end) for c in citacoes if c.ancorada]
+    if not spans:
+        return None
+    return Posicao(char_start=min(s for s, _ in spans), char_end=max(e for _, e in spans))
+
+
 class ArgumentoExtraido(Argumento):
+    posicao: Posicao | None = None  # None = nenhuma citação ancorada
     confianca: float = Field(ge=0, le=1)
     confianca_nivel: Literal["alta", "media", "baixa"]
     sinais: dict = Field(default_factory=dict)  # ancoragem, verificador, chunks de origem
@@ -315,6 +369,7 @@ def extract(llm: LLM, cfg: Config, ruling_id: str, text: str) -> Extraction:
 
     for i, a in enumerate(prov, start=1):
         a.id = f"p{i:02d}"
+        a.posicao = posicao_of(a.citacoes)
     # chunks rodam em paralelo; embeddings do merge e verificador vêm depois, em série
     lat_extract = max((r.latency_ms for _, _, r in results), default=0.0)
     lat_after = sum(r.latency_ms for r in calls[len(results) :])

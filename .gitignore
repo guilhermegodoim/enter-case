@@ -8,3 +8,5 @@ __pycache__/
 data/rulings/raw/
 .DS_Store
 *.swp
+data/store/
+dist/
