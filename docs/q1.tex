@@ -22,7 +22,6 @@
 
 \newcommand{\cfg}[1]{\texttt{\detokenize{#1}}}
 \setlist{itemsep=2pt,topsep=4pt}
-\newcommand{\pergunta}[1]{\par\medskip\noindent\textbf{#1}\par\smallskip\noindent\ignorespaces}
 
 \title{Q1: comparação de documentos semelhantes no mesmo caso\\[4pt]
 \large Cópia, versão modificada ou documento diferente}
@@ -34,63 +33,29 @@
 
 \begin{abstract}
 \noindent
-\textbf{Visão geral.} Cada documento novo é comparado só com os documentos anteriores do mesmo
-caso, por uma cascata que vai do mais barato ao mais caro. Primeiro vem o hash. Depois, um
-pré-filtro MinHash. Em seguida, o alinhamento de tokens com classificação das regiões que
-divergem. Por último, um juiz LLM, chamado só na zona cinzenta entre cópia e versão e alimentado
-só com os trechos divergentes. Num benchmark sintético com rótulo exato, a solução atinge
-macro-F1 de 99,4\% e precisão de cópia de 100\%, a US\$0,0001 por documento.
+Cada documento novo é comparado só com os documentos anteriores do mesmo caso, por uma cascata
+que vai da etapa mais barata à mais cara: hash, pré-filtro MinHash, alinhamento de tokens e,
+apenas nos casos ambíguos entre cópia e versão, um juiz LLM que vê só os trechos divergentes. A
+decisão olha \emph{o que} mudou entre os documentos, e não quanto eles se parecem: troca de
+nomes, valores e datas mantém uma cópia, e conteúdo novo faz uma versão. Nada é escondido. O
+documento entra na família do documento casado, com o diff anexado. Num benchmark sintético com
+rótulo exato, a solução atinge macro-F1 de 99,4\% e precisão de cópia de 100\%, a cerca de
+US\$0,0001 por documento.
 
-\pergunta{Como representar cada documento para comparação: texto bruto, chunks, embeddings,
-hashes, MinHash ou outra abordagem?}
-Com uma combinação calculada uma vez na ingestão:
+\medskip\noindent
+\textbf{Respostas às perguntas do case}
 \begin{itemize}
-  \item o texto normalizado, com OCR e layout limpos, que é o texto canônico mostrado ao revisor;
-  \item dois hashes SHA-256: um do texto normalizado e outro do ``esqueleto'', com nomes,
-    valores e datas mascarados;
-  \item uma assinatura MinHash de shingles de 5 tokens;
-  \item a sequência de tokens com offsets no texto.
+  \item Como representar cada documento para comparação? Seção~\ref{sec:q1-repr}.
+  \item Como diferenciar documentos quase idênticos de documentos que só usam vocabulário
+    jurídico parecido? Seção~\ref{sec:q1-vocab}.
+  \item Como lidar com documentos longos que não cabem no contexto de um LLM?
+    Seção~\ref{sec:q1-longos}.
+  \item Como avaliar se a solução está funcionando bem? Seção~\ref{sec:q1-aval}.
+  \item O que fazer quando um documento novo é provável cópia ou versão de outro?
+    Seção~\ref{sec:q1-acao}.
+  \item Quais trade-offs a solução faz em custo, latência e precisão?
+    Seção~\ref{sec:q1-tradeoffs}.
 \end{itemize}
-Embeddings foram testados e descartados. Eles medem assunto, e no mesmo caso quase tudo trata do
-mesmo assunto: sozinhos, ficam em 65,5\% de macro-F1. Texto bruto num LLM também foi descartado,
-por custo, latência e falta de rastreabilidade.
-
-\pergunta{Como diferenciar documentos quase idênticos de documentos que apenas usam vocabulário
-jurídico parecido?}
-Pelo alinhamento: ordem e continuidade do texto, não vocabulário. Cada região divergente é
-classificada como ruído de OCR, dado variável (nome, valor, data), trecho movido ou conteúdo.
-Só conteúdo novo transforma uma cópia em versão. Peças da mesma tese escritas por outro escritório
-não alinham e acertam 100\% como ``diferente''. Remover o boilerplate piora o resultado (51,0\% de
-macro-F1), porque no contencioso de massa o template é justamente o sinal de cópia.
-
-\pergunta{Como lidar com documentos longos que não cabem inteiros no contexto de um LLM?}
-Nenhuma etapa precisa do documento inteiro na janela. Hash, MinHash e alinhamento rodam
-localmente, em milissegundos. O LLM recebe só os trechos divergentes, no máximo 25, com 8 tokens
-de contexto cada. No benchmark foram cerca de 1.300 tokens por chamada, qualquer que fosse o
-tamanho do documento.
-
-\pergunta{Como avaliar se a solução está funcionando bem?}
-Offline, com um dataset sintético de rótulo exato por construção: 60 casos, 373 documentos e
-1.065 pares, com negativos difíceis. A calibração é feita no dev e a medição no test, com os
-documentos ingeridos na ordem de chegada. Métricas: F1 por classe, precisão de cópia (o erro mais
-caro), taxa de revisão humana, latência p50/p95 e custo, com IC95 por bootstrap sobre casos. Em
-produção, a proposta é uma amostra rotulada por advogados e o monitoramento de cópias desfeitas e
-de agrupamentos manuais.
-
-\pergunta{O que fazer quando um novo documento é identificado como provável cópia ou versão de um
-documento existente?}
-Nunca esconder nem apagar. O documento entra na \emph{família} do documento casado: como
-duplicata, com os dados que mudaram em destaque, ou como nova versão, com o diff de conteúdo e
-offsets nos dois textos. O trabalho feito no documento canônico pode ser reaproveitado depois de
-conferir esses dados. Casos da zona cinzenta, 5,4\% dos documentos, vão para confirmação humana.
-Cada decisão guarda a etapa, os limiares e os trechos que a justificam.
-
-\pergunta{Quais trade-offs a solução faz em termos de custo, latência e precisão?}
-Sem LLM, a cascata decide todos os documentos com 98,5\% de macro-F1, p95 de 25\,ms e custo zero
-de API. O juiz LLM ganha 0,9 ponto, leva a precisão de cópia a 100\% e custa cerca de US\$100 por
-milhão de documentos. Em troca, a p95 dos casos de zona cinzenta sobe para 6,6\,s, o que permite
-rodar o juiz de forma assíncrona. A regressão logística tem recall de cópia maior, mas precisão
-de cópia menor (95,8\%) e é menos auditável. Por isso ficou a regra de dois limiares.
 \end{abstract}
 
 \tableofcontents
@@ -399,7 +364,7 @@ ablação & macro-F1 & P / R cópia & leitura \\
 % ------------------------------------------------------------------------------------------
 \section{Discussão: respostas às perguntas do case}
 
-\subsection{Como representar cada documento}
+\subsection{Como representar cada documento}\label{sec:q1-repr}
 Combinação de hashes, MinHash e tokens com offsets (Tabela~\ref{tab:repr}). Texto bruto no LLM foi
 descartado por custo, latência, limite de contexto e falta de ponteiro para a fonte.
 \textbf{Embeddings foram descartados} pelos números. Eles medem assunto, e o assunto de cópia,
@@ -409,7 +374,7 @@ OCR forte ou troca de entidades foi reconhecida (Tabela~\ref{tab:relacao}). Soma
 léxicas na \cfg{logreg}, eles não melhoram a precisão de cópia, que fica em 95,8 contra 98,9 da
 regra.
 
-\subsection{Quase idêntico $\times$ vocabulário jurídico parecido}
+\subsection{Quase idêntico $\times$ vocabulário jurídico parecido}\label{sec:q1-vocab}
 O alinhamento mede ordem e continuidade. Duas petições sobre voo atrasado usam as mesmas palavras,
 mas não alinham em sequências longas. Uma cópia alinha quase inteira, mesmo com OCR ruim. Depois do
 alinhamento, a regra olha \emph{o que} mudou, e não quanto mudou: uma cópia com todos os dados
@@ -420,7 +385,7 @@ Remover o boilerplate parecia intuitivo e se mostrou o pior erro (Tabela~\ref{ta
 contencioso de massa o template \emph{é} o sinal de cópia. Os shingles que se repetem entre casos
 são justamente os que marcam a cópia.
 
-\subsection{Documentos longos}
+\subsection{Documentos longos}\label{sec:q1-longos}
 Nenhuma etapa precisa do documento inteiro numa janela de contexto. Hash, MinHash e alinhamento
 rodam localmente, em milissegundos (p95 de 25\,ms na \cfg{cascata}). O juiz recebe só os trechos
 divergentes, cerca de 1.300 tokens por chamada em média no benchmark, independentemente do tamanho
@@ -428,7 +393,7 @@ do documento. \textbf{Limite:} o alinhamento cresce com o produto dos tamanhos, 
 dataset têm no máximo 23,6 mil caracteres. Para peças de centenas de páginas, a mitigação proposta,
 não implementada, é ancorar em blocos com hash igual e alinhar só entre âncoras.
 
-\subsection{Como avaliar se funciona}
+\subsection{Como avaliar se funciona}\label{sec:q1-aval}
 Offline, com o protocolo da Seção~4: rótulos por proveniência, split por caso, ingestão em ordem,
 IC por bootstrap sobre casos e restrição de precisão de cópia na calibração. Reexecutar o benchmark
 lendo o cache de LLM e embeddings reproduz exatamente as mesmas métricas de qualidade. Em produção,
@@ -443,7 +408,7 @@ a proposta é:
     virar erro.
 \end{itemize}
 
-\subsection{O que fazer com uma cópia ou versão provável}
+\subsection{O que fazer com uma cópia ou versão provável}\label{sec:q1-acao}
 O sistema nunca esconde nem apaga um documento. Ele agrupa em \emph{famílias}, com um documento
 canônico e uma cadeia de versões:
 \begin{itemize}
@@ -459,7 +424,7 @@ canônico e uma cadeia de versões:
     regiões e o veredito do juiz por trecho, com modelo e versão do prompt.
 \end{itemize}
 
-\subsection{Trade-offs de custo, latência e precisão}
+\subsection{Trade-offs de custo, latência e precisão}\label{sec:q1-tradeoffs}
 \begin{itemize}
   \item \textbf{Juiz LLM:} +0,9 ponto de macro-F1, troca de entidades de 77,8\% para 100\% e
     precisão de cópia de 100\%. Custa US\$0,00010 por documento, cerca de US\$100 por milhão de

@@ -22,7 +22,6 @@
 
 \newcommand{\cfg}[1]{\texttt{\detokenize{#1}}}
 \setlist{itemsep=2pt,topsep=4pt}
-\newcommand{\pergunta}[1]{\par\medskip\noindent\textbf{#1}\par\smallskip\noindent\ignorespaces}
 
 \title{Q2: extração de argumentos de sentenças judiciais\\[4pt]
 \large Banco de argumentos estruturado, ancorado e revisável}
@@ -34,67 +33,31 @@
 
 \begin{abstract}
 \noindent
-\textbf{Visão geral.} O LLM só escreve texto: título, resumo, campos categóricos e citações
-copiadas da sentença. Tudo o que precisa ser confiável é calculado em código: a posição das
-citações no texto, o descarte de argumentos sem citação encontrada, a fusão de repetições e a
-confiança. Sentenças longas são divididas em chunks processados em paralelo. Tudo é gravado num
-store append-only, com revisão humana e versão completa de cada execução. O melhor resultado é o
-\cfg{gpt-4.1} com o texto inteiro: F1 de 82,4\% e precisão de 99,1\%, a US\$0,027 por sentença.
-Esses números são \emph{provisórios}, porque 24 das 30 sentenças do gold ainda são rascunhos de
-LLM sem revisão humana.
+Um LLM lê a sentença e escreve, para cada argumento decidido pelo juiz, título, resumo, campos
+categóricos e citações copiadas do texto. Tudo o que precisa ser confiável é feito em código: a
+localização de cada citação no texto, o descarte de argumentos sem citação encontrada, a fusão
+de repetições e a confiança. Sentenças longas são divididas em partes processadas em paralelo.
+Os argumentos ficam num banco que nunca sobrescreve nada, onde um humano aceita, edita ou
+rejeita cada um, e cada execução guarda a versão de modelo, prompt e schema que a gerou. O
+melhor resultado tem F1 de 82,4\% e precisão de 99,1\%, a US\$0,027 por sentença. Esses números
+são \emph{provisórios}: 24 das 30 sentenças do gold ainda são rascunhos de LLM sem revisão
+humana.
 
-\pergunta{Qual saída estruturada armazenar? Exemplo: título do argumento, resumo, trecho citado,
-posição no documento, confiança e tipo de argumento.}
-Por argumento:
+\medskip\noindent
+\textbf{Respostas às perguntas do case}
 \begin{itemize}
-  \item título, resumo e tema;
-  \item tipo: preliminar, prejudicial, mérito, quantum ou acessório;
-  \item quem suscitou: autor, réu ou juízo;
-  \item decisão: acolhido, rejeitado ou parcial;
-  \item fundamentos legais;
-  \item de 1 a 3 citações literais com offsets no texto;
-  \item posição, seção, confiança e \texttt{run\_id}.
+  \item Qual saída estruturada armazenar? Seção~\ref{sec:q2-saida}.
+  \item Como reduzir o risco de o modelo inventar argumentos que não estão no texto?
+    Seção~\ref{sec:q2-invencao}.
+  \item Como lidar com sentenças longas que não cabem no contexto do modelo?
+    Seção~\ref{sec:q2-longas}.
+  \item Como permitir que um humano revise, edite ou rejeite argumentos extraídos?
+    Seção~\ref{sec:q2-revisao}.
+  \item Como medir a qualidade da extração? Seção~\ref{sec:q2-qualidade}.
+  \item Como versionar a extração se o prompt, o modelo ou o schema mudarem?
+    Seção~\ref{sec:q2-versao}.
 \end{itemize}
-Por sentença: tribunal, vara, magistrado, data, resultado e o hash do texto canônico. Os offsets,
-a posição, a seção e a confiança são calculados em código, nunca gerados pelo modelo.
-
-\pergunta{Supondo o uso de um LLM, como reduzir o risco de o modelo inventar argumentos que não
-estão no texto?}
-Com defesas em camadas. Toda citação é procurada no texto em código, e um argumento sem nenhuma
-citação encontrada é descartado. O prompt segue um guia do que é e do que não é argumento. A
-saída é estruturada, com enums fechados e temperatura 0. Nenhum argumento entra no gold sem
-revisão humana. Com o prompt guiado, de 0\% a 2,4\% dos argumentos brutos vêm sem citação
-encontrada, contra 3,4\% com um prompt básico. Um verificador extra com modelo barato foi
-testado, não melhorou nada e ficou desligado.
-
-\pergunta{Como lidar com sentenças longas que não cabem inteiras no contexto do modelo?}
-A sentença é segmentada em relatório, fundamentação e dispositivo. A fundamentação é dividida em
-chunks de 3 mil tokens com sobreposição, processados em paralelo. Cada chunk recebe o início do
-relatório e o dispositivo só como contexto. Argumentos repetidos entre chunks são fundidos quando
-suas citações se sobrepõem no texto. Com o modelo pequeno, o recall em sentenças muito longas
-sobe de 46,8\% com o texto inteiro para 68,1\% com chunks. Truncar dá 25,5\%.
-
-\pergunta{Como permitir que um humano revise, edite ou rejeite argumentos extraídos?}
-Por uma interface que mostra a sentença com as citações destacadas e permite aceitar, editar,
-rejeitar ou adicionar um argumento que faltou. Cada ação vira uma revisão nova, com revisor,
-motivo e diff, e nada é sobrescrito. Uma edição reencontra as citações no texto, e uma citação
-que não está na sentença é recusada. Rejeitar exige motivo. As revisões viram o gold do próximo
-benchmark.
-
-\pergunta{Como medir a qualidade da extração?}
-Contra um gold por sentença, com split dev/test. Um juiz LLM pareia cada argumento extraído com
-os do gold, e um pareador determinístico serve de controle, com 82\% a 89\% de concordância.
-Métricas: precisão, recall e F1 com IC95, taxa de citações encontradas no texto, argumentos sem
-citação encontrada, acurácia de tipo e decisão, recall por tamanho de sentença, custo e latência.
-Quatro modelos, três modos, três prompts e várias ablações foram comparados.
-
-\pergunta{Como versionar a extração se o prompt, o modelo ou o schema mudarem no futuro?}
-O \texttt{run\_id} é o hash de modelo, versão e texto do prompt, schema, parâmetros e código, e o
-snapshot do modelo devolvido pela API também é gravado. Uma run nova fica ao lado da antiga e
-nunca toca nas revisões humanas. Decisões humanas só são herdadas por argumentos equivalentes.
-Mudança de schema usa funções de conversão, e linhas antigas são lidas na versão atual. Um
-relatório de comparação confere que gold e juiz são os mesmos entre versões. Uma versão nova só
-é promovida se ganhar fora do IC sem perder precisão. O prompt v2 não passou nesse critério.
+Os trade-offs de custo, latência e precisão estão na Seção~\ref{sec:q2-custo}.
 \end{abstract}
 
 \tableofcontents
@@ -424,14 +387,14 @@ Nenhuma configuração extraiu argumento nela.
 % ------------------------------------------------------------------------------------------
 \section{Discussão: respostas às perguntas do case}
 
-\subsection{Saída estruturada}
+\subsection{Saída estruturada}\label{sec:q2-saida}
 O schema da Tabela~\ref{tab:schema} separa o que o modelo \emph{escreve} do que o sistema
 \emph{prova}. Os campos de consulta (\cfg{tema}, \cfg{decisao}, \cfg{tipo}) com os metadados da
 sentença (magistrado, vara, data) permitem a pergunta que a defesa quer fazer, por exemplo:
 ``fortuito externo, rejeitado, nesta vara, nos últimos 12 meses''. A acurácia de \cfg{tipo} nos
 pares é de 84,3\% em \cfg{chunk_mini} e de 93,0\% em \cfg{full_41}.
 
-\subsection{Reduzir argumentos inventados}
+\subsection{Reduzir argumentos inventados}\label{sec:q2-invencao}
 \begin{itemize}
   \item \textbf{Citação literal obrigatória, ancorada em código.} Com o prompt guiado, de 92,1\%
     a 99,6\% das citações são ancoradas, e de 0\% a 2,4\% dos argumentos brutos não têm
@@ -448,7 +411,7 @@ para o pior caso, como mostra o prompt básico, e não um ganho médio. \textbf{
 é uma citação verdadeira com resumo ou decisão errados. A acurácia de \cfg{decisao} é de 80,9\% a
 83,5\%, e por isso o revisor vê o trecho destacado ao lado do resumo.
 
-\subsection{Sentenças longas}
+\subsection{Sentenças longas}\label{sec:q2-longas}
 Truncar é o pior: os argumentos de mérito ficam no fim, e o recall em sentenças muito longas cai
 para 25,5\% (Tabela~\ref{tab:faixas}). Chunking ajuda \emph{mesmo quando o texto cabe na janela}:
 todas as sentenças do corpus têm até 12.654 tokens, e ainda assim o modelo pequeno com o texto
@@ -458,7 +421,7 @@ merge por sobreposição de citações recupera parte disso. Sem merge, a precis
 melhorou o $F_1$. Parte dos argumentos ``extras'' dos chunks parece real e ausente do rascunho do
 gold, e só a revisão humana decide isso.
 
-\subsection{Revisão humana}
+\subsection{Revisão humana}\label{sec:q2-revisao}
 São duas interfaces sobre o mesmo formato. A primeira é um aplicativo Streamlit sobre o store: a
 sentença aparece com as citações destacadas, cada argumento tem aceitar, editar, rejeitar ou
 reabrir, com histórico, e é possível adicionar um argumento que faltou. A segunda é uma página
@@ -481,7 +444,7 @@ acrescentou nenhum e mudou as citações de 3. Os números nessas 6 sentenças f
 medidos com o rascunho. Isso confirma o rascunho ou indica uma revisão leve. O próximo passo é
 pedir que o revisor julgue só os argumentos extraídos que não pareiam com o gold.
 
-\subsection{Medir qualidade}
+\subsection{Medir qualidade}\label{sec:q2-qualidade}
 Offline, com o protocolo da Seção~4. Em produção, a proposta é acompanhar:
 \begin{itemize}
   \item taxas de aceite, edição e rejeição por run, e os motivos de rejeição;
@@ -489,7 +452,7 @@ Offline, com o protocolo da Seção~4. Em produção, a proposta é acompanhar:
   \item amostragem contínua de sentenças para o gold, estratificada por tribunal, tema e tamanho.
 \end{itemize}
 
-\subsection{Versionar a extração}
+\subsection{Versionar a extração}\label{sec:q2-versao}
 \begin{itemize}
   \item \textbf{Identidade da run.} O \texttt{run\_id} é o hash de tarefa, modelo, versão do
     prompt, \emph{hash do texto do prompt}, schema, parâmetros e versão do código. Editar o prompt
@@ -509,7 +472,7 @@ Offline, com o protocolo da Seção~4. Em produção, a proposta é acompanhar:
     promover, só as sentenças não revisadas são reextraídas.
 \end{itemize}
 
-\subsection{Custo, latência e precisão}
+\subsection{Custo, latência e precisão}\label{sec:q2-custo}
 \begin{itemize}
   \item \textbf{Recomendação:} \cfg{full_41} quando a sentença cabe no contexto, e chunks quando
     não cabe. A precisão de 99,1\% importa mais que o custo num banco que orienta estratégia. O
