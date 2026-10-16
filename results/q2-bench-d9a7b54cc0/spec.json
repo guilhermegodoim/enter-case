@@ -1,0 +1,40 @@
+{
+  "run_id": "q2-bench-d9a7b54cc0",
+  "created_at": "2026-10-16T20:15:12+00:00",
+  "task": "q2-bench",
+  "model": "gpt-4.1",
+  "prompt_version": "q2-match-v2",
+  "schema_version": "q2-bench-v1",
+  "dataset": "277ee900aad2",
+  "params": {
+    "gold": "todos",
+    "configs": {
+      "full_mini": "q2-extract-e5fc556b63",
+      "truncado_mini": "q2-extract-454fb4b200",
+      "chunk_mini": "q2-extract-9c90034691",
+      "chunk_mini_basico": "q2-extract-a410a9415f",
+      "chunk_mini_v2": "q2-extract-29832806e9",
+      "full_41_v2": "q2-extract-c961719c3a",
+      "chunk_mini_sem_filtro": "q2-extract-829c423c32",
+      "chunk_mini_sem_merge": "q2-extract-a0db146457",
+      "chunk_mini_verif": "q2-extract-4729180445",
+      "chunk_mini_verif_drop": "q2-extract-fcd4c8ff14",
+      "chunk_nano": "q2-extract-134dafc912",
+      "chunk_5mini": "q2-extract-ef05ad8b5c",
+      "chunk_41": "q2-extract-9a2936d928",
+      "full_41": "q2-extract-14fee33152"
+    },
+    "merge_grid": [
+      0.8,
+      0.85,
+      0.88,
+      0.92,
+      1.01
+    ],
+    "emb_match": [
+      0.8,
+      0.6
+    ]
+  },
+  "code_version": "7bd6bbd8a0db"
+}

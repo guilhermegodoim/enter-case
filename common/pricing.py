@@ -6,7 +6,7 @@ custos nas respostas escritas e atualizar PRICES_CHECKED_AT.
 
 from __future__ import annotations
 
-PRICES_CHECKED_AT = "não verificado"
+PRICES_CHECKED_AT = "2026-10-16"
 
 PRICES: dict[str, tuple[float, float]] = {
     "gpt-5": (1.25, 10.00),
