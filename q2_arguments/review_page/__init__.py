@@ -60,6 +60,28 @@ def build_data(out: Path = DATA_OUT) -> Path:
     return out
 
 
+SITE_DIR = ROOT / "dist" / "review-page"
+_HEAD = (
+    '<!doctype html>\n<html lang="pt-BR">\n<head>\n<meta charset="utf-8">\n'
+    '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+)
+
+
+def build_site(out_dir: Path = SITE_DIR) -> Path:
+    """Pasta estática para qualquer host (Netlify Drop, GitHub Pages): index.html + data.json.
+
+    index.html é escrito sem esqueleto (o host do claude.ai o acrescenta); aqui ele vira um
+    documento completo, com <title>/<style>/<link> no <head> e o resto no <body>.
+    """
+    src = (PAGE_DIR / "index.html").read_text("utf-8")
+    cut = src.index("</style>") + len("</style>")
+    page = f"{_HEAD}{src[:cut]}\n</head>\n<body>\n{src[cut:].lstrip()}\n</body>\n</html>\n"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "index.html").write_text(page, "utf-8")
+    build_data(out_dir / "data.json")
+    return out_dir
+
+
 # --------------------------------------------------------------------------- importação
 
 

@@ -234,6 +234,16 @@ def review_page_data() -> None:
     typer.echo(f"{out}  ({out.stat().st_size / 1024:.0f} KB)")
 
 
+@app.command("review-page-build")
+def review_page_build() -> None:
+    """Monta dist/review-page (index.html completo + data.json) para hospedar em qualquer lugar."""
+    from q2_arguments.review_page import build_site
+
+    out = build_site()
+    size = sum(f.stat().st_size for f in out.iterdir()) / 1024
+    typer.echo(f"{out}  ({size:.0f} KB): arraste esta pasta em https://app.netlify.com/drop")
+
+
 @app.command("import-review")
 def import_review_cmd(
     path: str,

@@ -97,3 +97,16 @@ def test_import_rejects_wrong_format_and_missing_reviewer(tmp_path):
         import_review(p, root=tmp_path)
     with pytest.raises(ValueError, match="revisor"):
         import_review(_export(tmp_path, [], revisor=" "), root=tmp_path)
+
+
+def test_build_site_emits_complete_document(tmp_path):
+    from q2_arguments.review_page import build_site
+
+    out = build_site(tmp_path / "site")
+    page = (out / "index.html").read_text()
+    assert page.startswith("<!doctype html>") and page.count("<head>") == 1
+    head, body = page.split("</head>", 1)
+    assert "<title>" in head and "<style>" in head and "</style>" in head
+    assert "<script>" in body and body.rstrip().endswith("</html>")
+    assert "[hidden] { display: none !important; }" in head
+    assert json.loads((out / "data.json").read_text())["formato"] == EXPORT_FORMAT
