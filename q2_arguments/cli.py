@@ -220,3 +220,29 @@ def compare(
 
     w = run_compare(bench_runs, only or None)
     typer.echo(f"resultados: {w.dir}")
+
+
+# --------------------------------------------------------------------------- revisão hospedada
+
+
+@app.command("review-page-data")
+def review_page_data() -> None:
+    """Gera o data.json da página de revisão hospedada (sentenças + rascunhos do gold)."""
+    from q2_arguments.review_page import build_data
+
+    out = build_data()
+    typer.echo(f"{out}  ({out.stat().st_size / 1024:.0f} KB)")
+
+
+@app.command("import-review")
+def import_review_cmd(
+    path: str,
+    force: bool = typer.Option(False, help="Sobrescreve gold já revisado."),
+) -> None:
+    """Importa o JSON exportado pela página de revisão para data/gold (valida e reancora)."""
+    from pathlib import Path
+
+    from q2_arguments.review_page import import_review
+
+    for rid, msg in import_review(Path(path), force=force).items():
+        typer.echo(f"{rid}  {msg}")
