@@ -22,6 +22,7 @@
 
 \newcommand{\cfg}[1]{\texttt{\detokenize{#1}}}
 \setlist{itemsep=2pt,topsep=4pt}
+\newcommand{\pergunta}[1]{\par\medskip\noindent\textbf{#1}\par\smallskip\noindent\ignorespaces}
 
 \title{Q2: extração de argumentos de sentenças judiciais\\[4pt]
 \large Banco de argumentos estruturado, ancorado e revisável}
@@ -33,45 +34,67 @@
 
 \begin{abstract}
 \noindent
-\textbf{Problema.} Receber uma sentença e extrair, de forma estruturada, os argumentos decididos
-pelo juiz, para um banco de argumentos de defesa.
+\textbf{Visão geral.} O LLM só escreve texto: título, resumo, campos categóricos e citações
+copiadas da sentença. Tudo o que precisa ser confiável é calculado em código: a posição das
+citações no texto, o descarte de argumentos sem citação encontrada, a fusão de repetições e a
+confiança. Sentenças longas são divididas em chunks processados em paralelo. Tudo é gravado num
+store append-only, com revisão humana e versão completa de cada execução. O melhor resultado é o
+\cfg{gpt-4.1} com o texto inteiro: F1 de 82,4\% e precisão de 99,1\%, a US\$0,027 por sentença.
+Esses números são \emph{provisórios}, porque 24 das 30 sentenças do gold ainda são rascunhos de
+LLM sem revisão humana.
 
-\smallskip\noindent
-\textbf{Saída.} Por argumento: título, resumo, tipo (preliminar, prejudicial, mérito, quantum ou
-acessório), tema, quem suscitou, decisão (acolhido, rejeitado ou parcial), fundamentos legais, de
-1 a 3 citações literais com offsets no texto, posição, seção, confiança e \texttt{run\_id}. O LLM
-só escreve texto. Offsets, posição, seção e confiança são calculados em código.
+\pergunta{Qual saída estruturada armazenar? Exemplo: título do argumento, resumo, trecho citado,
+posição no documento, confiança e tipo de argumento.}
+Por argumento:
+\begin{itemize}
+  \item título, resumo e tema;
+  \item tipo: preliminar, prejudicial, mérito, quantum ou acessório;
+  \item quem suscitou: autor, réu ou juízo;
+  \item decisão: acolhido, rejeitado ou parcial;
+  \item fundamentos legais;
+  \item de 1 a 3 citações literais com offsets no texto;
+  \item posição, seção, confiança e \texttt{run\_id}.
+\end{itemize}
+Por sentença: tribunal, vara, magistrado, data, resultado e o hash do texto canônico. Os offsets,
+a posição, a seção e a confiança são calculados em código, nunca gerados pelo modelo.
 
-\smallskip\noindent
-\textbf{Contra invenção.} Toda citação é ancorada no texto em código, e argumento sem citação
-ancorada é descartado. O prompt segue um guia do que é e do que não é argumento. Os enums são
-fechados, a temperatura é 0 e nenhum argumento entra no banco sem revisão humana. Com o prompt
-guiado, de 0\% a 2,4\% dos argumentos brutos vêm sem âncora, contra 3,4\% com um prompt básico.
+\pergunta{Supondo o uso de um LLM, como reduzir o risco de o modelo inventar argumentos que não
+estão no texto?}
+Com defesas em camadas. Toda citação é procurada no texto em código, e um argumento sem nenhuma
+citação encontrada é descartado. O prompt segue um guia do que é e do que não é argumento. A
+saída é estruturada, com enums fechados e temperatura 0. Nenhum argumento entra no gold sem
+revisão humana. Com o prompt guiado, de 0\% a 2,4\% dos argumentos brutos vêm sem citação
+encontrada, contra 3,4\% com um prompt básico. Um verificador extra com modelo barato foi
+testado, não melhorou nada e ficou desligado.
 
-\smallskip\noindent
-\textbf{Sentenças longas.} A fundamentação é dividida em chunks de 3 mil tokens com
-sobreposição, processados em paralelo, com o relatório e o dispositivo como contexto. Argumentos
-repetidos entre chunks são fundidos pela sobreposição de citações. Com o modelo pequeno, o recall
-em sentenças muito longas sobe de 46,8\% com o texto inteiro para 68,1\% com chunks. Truncar dá
-25,5\%.
+\pergunta{Como lidar com sentenças longas que não cabem inteiras no contexto do modelo?}
+A sentença é segmentada em relatório, fundamentação e dispositivo. A fundamentação é dividida em
+chunks de 3 mil tokens com sobreposição, processados em paralelo. Cada chunk recebe o início do
+relatório e o dispositivo só como contexto. Argumentos repetidos entre chunks são fundidos quando
+suas citações se sobrepõem no texto. Com o modelo pequeno, o recall em sentenças muito longas
+sobe de 46,8\% com o texto inteiro para 68,1\% com chunks. Truncar dá 25,5\%.
 
-\smallskip\noindent
-\textbf{Revisão humana.} Store append-only: cada aceite, edição, rejeição ou adição vira uma
-revisão nova, com revisor, motivo e diff. Uma edição reancora as citações, e uma citação que não
-está no texto é recusada. As revisões viram o gold do próximo benchmark.
+\pergunta{Como permitir que um humano revise, edite ou rejeite argumentos extraídos?}
+Por uma interface que mostra a sentença com as citações destacadas e permite aceitar, editar,
+rejeitar ou adicionar um argumento que faltou. Cada ação vira uma revisão nova, com revisor,
+motivo e diff, e nada é sobrescrito. Uma edição reencontra as citações no texto, e uma citação
+que não está na sentença é recusada. Rejeitar exige motivo. As revisões viram o gold do próximo
+benchmark.
 
-\smallskip\noindent
-\textbf{Qualidade.} Gold por sentença com split dev/test. Um juiz LLM pareia os argumentos
-extraídos com os do gold, e um pareador determinístico serve de controle. Métricas: precisão,
-recall e F1 com IC95, taxa de ancoragem, acurácia de campos, custo e latência. Melhor resultado:
-\cfg{gpt-4.1} no texto inteiro, com F1 de 82,4\% e precisão de 99,1\%, a US\$0,027 por sentença.
-Os números são \emph{provisórios}, porque 24 das 30 sentenças do gold ainda são rascunhos de LLM.
+\pergunta{Como medir a qualidade da extração?}
+Contra um gold por sentença, com split dev/test. Um juiz LLM pareia cada argumento extraído com
+os do gold, e um pareador determinístico serve de controle, com 82\% a 89\% de concordância.
+Métricas: precisão, recall e F1 com IC95, taxa de citações encontradas no texto, argumentos sem
+citação encontrada, acurácia de tipo e decisão, recall por tamanho de sentença, custo e latência.
+Quatro modelos, três modos, três prompts e várias ablações foram comparados.
 
-\smallskip\noindent
-\textbf{Versionamento.} O \texttt{run\_id} é o hash de modelo, versão e texto do prompt, schema,
-parâmetros e código. Uma run nova fica ao lado da antiga e nunca toca nas revisões. Mudança de
-schema usa upcasters, e um relatório de comparação confere que gold e juiz são os mesmos entre
-versões.
+\pergunta{Como versionar a extração se o prompt, o modelo ou o schema mudarem no futuro?}
+O \texttt{run\_id} é o hash de modelo, versão e texto do prompt, schema, parâmetros e código, e o
+snapshot do modelo devolvido pela API também é gravado. Uma run nova fica ao lado da antiga e
+nunca toca nas revisões humanas. Decisões humanas só são herdadas por argumentos equivalentes.
+Mudança de schema usa funções de conversão, e linhas antigas são lidas na versão atual. Um
+relatório de comparação confere que gold e juiz são os mesmos entre versões. Uma versão nova só
+é promovida se ganhar fora do IC sem perder precisão. O prompt v2 não passou nesse critério.
 \end{abstract}
 
 \tableofcontents
