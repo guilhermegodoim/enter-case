@@ -1,0 +1,1224 @@
+{
+  "meta": {
+    "gold_status": {
+      "revisado": 6
+    },
+    "provisorio": false,
+    "n_dev": 0,
+    "n_test": 6,
+    "merge_limiar": 1.01,
+    "merge_grid": [
+      {
+        "limiar": 0.8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "limiar": 0.85,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "limiar": 0.88,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "limiar": 0.92,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "limiar": 1.01,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ],
+    "gold_modelo": [
+      "gpt-5"
+    ]
+  },
+  "configs": {
+    "full_mini": {
+      "config": {
+        "key": "full_mini",
+        "mode": "full",
+        "model": "gpt-4.1-mini",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-dbc71eacf3",
+      "prompt_version": "q2-extract-guia-v1",
+      "prompt_sha256": "45eabfd25126781a",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 25,
+      "precision": 0.88,
+      "recall": 0.6111111111111112,
+      "f1": 0.7213114754098361,
+      "f1_ic95": [
+        0.6084782608695651,
+        0.821917808219178
+      ],
+      "acuracia_campos": {
+        "tipo": 0.7727272727272727,
+        "decisao": 0.9090909090909091,
+        "suscitado_por": 0.8636363636363636
+      },
+      "citacao_confere": 0.9545454545454546,
+      "citacoes_ancoradas": 0.9420289855072463,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 0,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.88,
+          "n": 25
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "f1": 0.6666666666666666
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.875,
+          "recall": 0.6363636363636364,
+          "f1": 0.7368421052631579
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        }
+      },
+      "concordancia_pareadores": 0.9130434782608695,
+      "f1_pareador_embeddings": 0.7213114754098361,
+      "chunks_por_sentenca": 1.0,
+      "latencia_ms_p50": 14203.243083000416,
+      "latencia_ms_p95": 20490.54245800653,
+      "custo_usd_por_sentenca": 0.0043186,
+      "tokens_entrada_por_sentenca": 6175.833333333333
+    },
+    "truncado_mini": {
+      "config": {
+        "key": "truncado_mini",
+        "mode": "truncate",
+        "model": "gpt-4.1-mini",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-3651d4f67e",
+      "prompt_version": "q2-extract-guia-v1",
+      "prompt_sha256": "45eabfd25126781a",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 20,
+      "precision": 0.8,
+      "recall": 0.4444444444444444,
+      "f1": 0.5714285714285714,
+      "f1_ic95": [
+        0.4307142857142857,
+        0.761904761904762
+      ],
+      "acuracia_campos": {
+        "tipo": 0.8125,
+        "decisao": 0.8125,
+        "suscitado_por": 0.8125
+      },
+      "citacao_confere": 0.875,
+      "citacoes_ancoradas": 0.9574468085106383,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 0,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.8,
+          "n": 20
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.7,
+          "recall": 0.5833333333333334,
+          "f1": 0.6363636363636365
+        },
+        "longo": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.2727272727272727,
+          "f1": 0.42857142857142855
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.75,
+          "recall": 0.3,
+          "f1": 0.4285714285714285
+        }
+      },
+      "concordancia_pareadores": 0.5789473684210527,
+      "f1_pareador_embeddings": 0.5,
+      "chunks_por_sentenca": 1.0,
+      "latencia_ms_p50": 8357.915583008435,
+      "latencia_ms_p95": 10104.748875251971,
+      "custo_usd_por_sentenca": 0.0026802,
+      "tokens_entrada_por_sentenca": 3493.1666666666665
+    },
+    "chunk_mini": {
+      "config": {
+        "key": "chunk_mini",
+        "mode": "chunk",
+        "model": "gpt-4.1-mini",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-1fc1179879",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "8f5f6e5815dbedb8",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 36,
+      "precision": 0.7222222222222222,
+      "recall": 0.7222222222222222,
+      "f1": 0.7222222222222222,
+      "f1_ic95": [
+        0.6530612244897959,
+        0.8000000000000002
+      ],
+      "acuracia_campos": {
+        "tipo": 0.7692307692307693,
+        "decisao": 0.9230769230769231,
+        "suscitado_por": 0.8846153846153846
+      },
+      "citacao_confere": 0.9615384615384616,
+      "citacoes_ancoradas": 0.9900990099009901,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 2,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.7222222222222222,
+          "n": 36
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "f1": 0.6666666666666666
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.6428571428571429,
+          "recall": 0.8181818181818182,
+          "f1": 0.7200000000000001
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1": 0.7
+        }
+      },
+      "concordancia_pareadores": 0.7931034482758621,
+      "f1_pareador_embeddings": 0.7222222222222222,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 13065.240666488535,
+      "latencia_ms_p95": 17396.148551990336,
+      "custo_usd_por_sentenca": 0.006180000000000001,
+      "tokens_entrada_por_sentenca": 8408.666666666666
+    },
+    "chunk_mini_basico": {
+      "config": {
+        "key": "chunk_mini_basico",
+        "mode": "chunk",
+        "model": "gpt-4.1-mini",
+        "prompt": "basico",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-9e206b9088",
+      "prompt_version": "q2-extract-basico-v1+chunk",
+      "prompt_sha256": "9b8fb73777d36262",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 38,
+      "precision": 0.6578947368421053,
+      "recall": 0.6944444444444444,
+      "f1": 0.6756756756756757,
+      "f1_ic95": [
+        0.5711779448621553,
+        0.7419354838709677
+      ],
+      "acuracia_campos": {
+        "tipo": 0.68,
+        "decisao": 0.88,
+        "suscitado_por": 0.72
+      },
+      "citacao_confere": 0.92,
+      "citacoes_ancoradas": 0.9158878504672897,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 1,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.6578947368421053,
+          "n": 38
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.5714285714285714,
+          "recall": 0.6666666666666666,
+          "f1": 0.6153846153846153
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.7272727272727273,
+          "recall": 0.7272727272727273,
+          "f1": 0.7272727272727273
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.6363636363636364,
+          "recall": 0.7,
+          "f1": 0.6666666666666666
+        }
+      },
+      "concordancia_pareadores": 0.8148148148148148,
+      "f1_pareador_embeddings": 0.6486486486486486,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 13757.625853992067,
+      "latencia_ms_p95": 15375.327812515025,
+      "custo_usd_por_sentenca": 0.005903933333333333,
+      "tokens_entrada_por_sentenca": 7453.166666666667
+    },
+    "chunk_mini_v2": {
+      "config": {
+        "key": "chunk_mini_v2",
+        "mode": "chunk",
+        "model": "gpt-4.1-mini",
+        "prompt": "guia2",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-1adea39d90",
+      "prompt_version": "q2-extract-guia-v2+chunk",
+      "prompt_sha256": "974faab14f6cbcdf",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 38,
+      "precision": 0.7368421052631579,
+      "recall": 0.7777777777777778,
+      "f1": 0.7567567567567567,
+      "f1_ic95": [
+        0.6663265306122449,
+        0.8205128205128205
+      ],
+      "acuracia_campos": {
+        "tipo": 0.6785714285714286,
+        "decisao": 0.8928571428571429,
+        "suscitado_por": 0.75
+      },
+      "citacao_confere": 0.8928571428571429,
+      "citacoes_ancoradas": 0.98,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 2,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.7368421052631579,
+          "n": 38
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "f1": 0.6666666666666666
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.6875,
+          "recall": 1.0,
+          "f1": 0.8148148148148148
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1": 0.7
+        }
+      },
+      "concordancia_pareadores": 0.71875,
+      "f1_pareador_embeddings": 0.7297297297297298,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 12445.64518801053,
+      "latencia_ms_p95": 21560.168312993483,
+      "custo_usd_por_sentenca": 0.006390200000000001,
+      "tokens_entrada_por_sentenca": 8679.5
+    },
+    "full_41_v2": {
+      "config": {
+        "key": "full_41_v2",
+        "mode": "full",
+        "model": "gpt-4.1",
+        "prompt": "guia2",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-927f16f03d",
+      "prompt_version": "q2-extract-guia-v2",
+      "prompt_sha256": "6fc6e3e4600de1b5",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 30,
+      "precision": 0.9,
+      "recall": 0.75,
+      "f1": 0.8181818181818182,
+      "f1_ic95": [
+        0.6666666666666666,
+        0.8837209302325582
+      ],
+      "acuracia_campos": {
+        "tipo": 0.8888888888888888,
+        "decisao": 0.8518518518518519,
+        "suscitado_por": 0.8518518518518519
+      },
+      "citacao_confere": 0.8518518518518519,
+      "citacoes_ancoradas": 1.0,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 0,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.9,
+          "n": 30
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        },
+        "longo": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.7272727272727273,
+          "f1": 0.8421052631578948
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.888888888888889
+        }
+      },
+      "concordancia_pareadores": 0.9285714285714286,
+      "f1_pareador_embeddings": 0.8181818181818182,
+      "chunks_por_sentenca": 1.0,
+      "latencia_ms_p50": 14572.268291492946,
+      "latencia_ms_p95": 20368.989114249416,
+      "custo_usd_por_sentenca": 0.02391233333333333,
+      "tokens_entrada_por_sentenca": 6300.833333333333
+    },
+    "chunk_mini_sem_filtro": {
+      "config": {
+        "key": "chunk_mini_sem_filtro",
+        "mode": "chunk",
+        "model": "gpt-4.1-mini",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": false,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-d81ce1689d",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "8f5f6e5815dbedb8",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 36,
+      "precision": 0.7222222222222222,
+      "recall": 0.7222222222222222,
+      "f1": 0.7222222222222222,
+      "f1_ic95": [
+        0.6530612244897959,
+        0.8000000000000002
+      ],
+      "acuracia_campos": {
+        "tipo": 0.7692307692307693,
+        "decisao": 0.9230769230769231,
+        "suscitado_por": 0.8846153846153846
+      },
+      "citacao_confere": 0.9615384615384616,
+      "citacoes_ancoradas": 0.9900990099009901,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 2,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.7222222222222222,
+          "n": 36
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "f1": 0.6666666666666666
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.6428571428571429,
+          "recall": 0.8181818181818182,
+          "f1": 0.7200000000000001
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1": 0.7
+        }
+      },
+      "concordancia_pareadores": 0.7931034482758621,
+      "f1_pareador_embeddings": 0.7222222222222222,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 13065.240666488535,
+      "latencia_ms_p95": 17396.148551990336,
+      "custo_usd_por_sentenca": 0.006180000000000001,
+      "tokens_entrada_por_sentenca": 8408.666666666666
+    },
+    "chunk_mini_sem_merge": {
+      "config": {
+        "key": "chunk_mini_sem_merge",
+        "mode": "chunk",
+        "model": "gpt-4.1-mini",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": false,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-2d52b637d9",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "8f5f6e5815dbedb8",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 38,
+      "precision": 0.7105263157894737,
+      "recall": 0.75,
+      "f1": 0.7297297297297298,
+      "f1_ic95": [
+        0.64,
+        0.8108530405405404
+      ],
+      "acuracia_campos": {
+        "tipo": 0.7407407407407407,
+        "decisao": 0.8888888888888888,
+        "suscitado_por": 0.8518518518518519
+      },
+      "citacao_confere": 0.8888888888888888,
+      "citacoes_ancoradas": 0.9900990099009901,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 0,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.7105263157894737,
+          "n": 38
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "f1": 0.6666666666666666
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.6666666666666666,
+          "recall": 0.9090909090909091,
+          "f1": 0.7692307692307692
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.6363636363636364,
+          "recall": 0.7,
+          "f1": 0.6666666666666666
+        }
+      },
+      "concordancia_pareadores": 0.7096774193548387,
+      "f1_pareador_embeddings": 0.7027027027027027,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 13065.240666488535,
+      "latencia_ms_p95": 17396.148551990336,
+      "custo_usd_por_sentenca": 0.006180000000000001,
+      "tokens_entrada_por_sentenca": 8408.666666666666
+    },
+    "chunk_mini_verif": {
+      "config": {
+        "key": "chunk_mini_verif",
+        "mode": "chunk",
+        "model": "gpt-4.1-mini",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": "gpt-4.1-mini",
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-932da52732",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "fd454892f3218804",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 36,
+      "precision": 0.7222222222222222,
+      "recall": 0.7222222222222222,
+      "f1": 0.7222222222222222,
+      "f1_ic95": [
+        0.6530612244897959,
+        0.8000000000000002
+      ],
+      "acuracia_campos": {
+        "tipo": 0.7692307692307693,
+        "decisao": 0.9230769230769231,
+        "suscitado_por": 0.8846153846153846
+      },
+      "citacao_confere": 0.9615384615384616,
+      "citacoes_ancoradas": 0.9900990099009901,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 2,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "alta": {
+          "precision": 0.7222222222222222,
+          "n": 36
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "f1": 0.6666666666666666
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.6428571428571429,
+          "recall": 0.8181818181818182,
+          "f1": 0.7200000000000001
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1": 0.7
+        }
+      },
+      "concordancia_pareadores": 0.7931034482758621,
+      "f1_pareador_embeddings": 0.7222222222222222,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 19514.797833486227,
+      "latencia_ms_p95": 28509.70573973609,
+      "custo_usd_por_sentenca": 0.008516066666666667,
+      "tokens_entrada_por_sentenca": 12976.833333333334
+    },
+    "chunk_mini_verif_drop": {
+      "config": {
+        "key": "chunk_mini_verif_drop",
+        "mode": "chunk",
+        "model": "gpt-4.1-mini",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": "gpt-4.1-mini",
+        "verifier_drop": true
+      },
+      "extraction_run_id": "q2-extract-d0899be0f6",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "fd454892f3218804",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 36,
+      "precision": 0.7222222222222222,
+      "recall": 0.7222222222222222,
+      "f1": 0.7222222222222222,
+      "f1_ic95": [
+        0.6530612244897959,
+        0.8000000000000002
+      ],
+      "acuracia_campos": {
+        "tipo": 0.7692307692307693,
+        "decisao": 0.9230769230769231,
+        "suscitado_por": 0.8846153846153846
+      },
+      "citacao_confere": 0.9615384615384616,
+      "citacoes_ancoradas": 0.9900990099009901,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 2,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "alta": {
+          "precision": 0.7222222222222222,
+          "n": 36
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "f1": 0.6666666666666666
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.6428571428571429,
+          "recall": 0.8181818181818182,
+          "f1": 0.7200000000000001
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1": 0.7
+        }
+      },
+      "concordancia_pareadores": 0.7931034482758621,
+      "f1_pareador_embeddings": 0.7222222222222222,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 19514.797833486227,
+      "latencia_ms_p95": 28509.70573973609,
+      "custo_usd_por_sentenca": 0.008516066666666667,
+      "tokens_entrada_por_sentenca": 12976.833333333334
+    },
+    "chunk_nano": {
+      "config": {
+        "key": "chunk_nano",
+        "mode": "chunk",
+        "model": "gpt-4.1-nano",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-89eacf7475",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "8f5f6e5815dbedb8",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 14,
+      "precision": 0.7857142857142857,
+      "recall": 0.3055555555555556,
+      "f1": 0.43999999999999995,
+      "f1_ic95": [
+        0.18181818181818182,
+        0.5428571428571428
+      ],
+      "acuracia_campos": {
+        "tipo": 0.5454545454545454,
+        "decisao": 0.7272727272727273,
+        "suscitado_por": 0.45454545454545453
+      },
+      "citacao_confere": 0.5454545454545454,
+      "citacoes_ancoradas": 0.9230769230769231,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 0,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.7857142857142857,
+          "n": 14
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.6666666666666666,
+          "recall": 0.16666666666666666,
+          "f1": 0.26666666666666666
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.8333333333333334,
+          "recall": 0.45454545454545453,
+          "f1": 0.5882352941176471
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.8,
+          "recall": 0.4,
+          "f1": 0.5333333333333333
+        }
+      },
+      "concordancia_pareadores": 0.6363636363636364,
+      "f1_pareador_embeddings": 0.28,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 8355.106437506038,
+      "latencia_ms_p95": 9825.090802500199,
+      "custo_usd_por_sentenca": 0.0010662,
+      "tokens_entrada_por_sentenca": 8408.666666666666
+    },
+    "chunk_5mini": {
+      "config": {
+        "key": "chunk_5mini",
+        "mode": "chunk",
+        "model": "gpt-5-mini",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-42db9b406d",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "8f5f6e5815dbedb8",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 45,
+      "precision": 0.6444444444444445,
+      "recall": 0.8055555555555556,
+      "f1": 0.7160493827160493,
+      "f1_ic95": [
+        0.6296296296296295,
+        0.7931034482758621
+      ],
+      "acuracia_campos": {
+        "tipo": 0.7931034482758621,
+        "decisao": 0.896551724137931,
+        "suscitado_por": 0.7586206896551724
+      },
+      "citacao_confere": 0.9310344827586207,
+      "citacoes_ancoradas": 0.9803921568627451,
+      "brutos_sem_ancora": 0.02040816326530612,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 3,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.6444444444444445,
+          "n": 45
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.6923076923076923,
+          "recall": 0.75,
+          "f1": 0.7199999999999999
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.55,
+          "recall": 1.0,
+          "f1": 0.7096774193548387
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1": 0.7
+        }
+      },
+      "concordancia_pareadores": 0.78125,
+      "f1_pareador_embeddings": 0.6913580246913581,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 43469.41031249298,
+      "latencia_ms_p95": 68632.54201051313,
+      "custo_usd_por_sentenca": 0.018405416666666664,
+      "tokens_entrada_por_sentenca": 8404.333333333334
+    },
+    "chunk_41": {
+      "config": {
+        "key": "chunk_41",
+        "mode": "chunk",
+        "model": "gpt-4.1",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-9ddf560e55",
+      "prompt_version": "q2-extract-guia-v1+chunk",
+      "prompt_sha256": "8f5f6e5815dbedb8",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 33,
+      "precision": 0.8181818181818182,
+      "recall": 0.75,
+      "f1": 0.7826086956521738,
+      "f1_ic95": [
+        0.6666666666666666,
+        0.8282828282828283
+      ],
+      "acuracia_campos": {
+        "tipo": 0.8518518518518519,
+        "decisao": 0.9259259259259259,
+        "suscitado_por": 0.8888888888888888
+      },
+      "citacao_confere": 0.8518518518518519,
+      "citacoes_ancoradas": 1.0,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 2,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.8181818181818182,
+          "n": 33
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.875,
+          "recall": 0.5833333333333334,
+          "f1": 0.7000000000000001
+        },
+        "longo": {
+          "n": 1,
+          "precision": 0.7333333333333333,
+          "recall": 1.0,
+          "f1": 0.846153846153846
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 0.875,
+          "recall": 0.7,
+          "f1": 0.7777777777777777
+        }
+      },
+      "concordancia_pareadores": 0.8928571428571429,
+      "f1_pareador_embeddings": 0.7536231884057971,
+      "chunks_por_sentenca": 2.1666666666666665,
+      "latencia_ms_p50": 10280.494000500767,
+      "latencia_ms_p95": 14129.979135243047,
+      "custo_usd_por_sentenca": 0.03174533333333333,
+      "tokens_entrada_por_sentenca": 8408.666666666666
+    },
+    "full_41": {
+      "config": {
+        "key": "full_41",
+        "mode": "full",
+        "model": "gpt-4.1",
+        "prompt": "guia",
+        "budget": 3000,
+        "overlap": 300,
+        "head": 800,
+        "tail": 600,
+        "ground_filter": true,
+        "merge": true,
+        "merge_threshold": 1.01,
+        "verifier": null,
+        "verifier_drop": false
+      },
+      "extraction_run_id": "q2-extract-e74e314fd5",
+      "prompt_version": "q2-extract-guia-v1",
+      "prompt_sha256": "45eabfd25126781a",
+      "schema_version": "q2-extracted-v2",
+      "n_sentencas": 6,
+      "n_gold": 36,
+      "n_pred": 25,
+      "precision": 0.96,
+      "recall": 0.6666666666666666,
+      "f1": 0.7868852459016393,
+      "f1_ic95": [
+        0.6311740890688259,
+        0.9090909090909091
+      ],
+      "acuracia_campos": {
+        "tipo": 0.875,
+        "decisao": 0.875,
+        "suscitado_por": 0.875
+      },
+      "citacao_confere": 0.875,
+      "citacoes_ancoradas": 1.0,
+      "brutos_sem_ancora": 0.0,
+      "args_em_sentenca_sem_argumento": 0,
+      "sentencas_sem_argumento": 0,
+      "fundidos": 1,
+      "descartados_verificador": 0,
+      "chunks_falhos": 0,
+      "chunks_com_retry": 0,
+      "precisao_por_confianca": {
+        "media": {
+          "precision": 0.96,
+          "n": 25
+        }
+      },
+      "por_faixa": {
+        "curto": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "medio": {
+          "n": 3,
+          "precision": 0.9,
+          "recall": 0.75,
+          "f1": 0.8181818181818182
+        },
+        "longo": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.7272727272727273,
+          "f1": 0.8421052631578948
+        },
+        "muito_longo": {
+          "n": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        }
+      },
+      "concordancia_pareadores": 0.8076923076923077,
+      "f1_pareador_embeddings": 0.7540983606557377,
+      "chunks_por_sentenca": 1.0,
+      "latencia_ms_p50": 12060.632770488155,
+      "latencia_ms_p95": 16756.791656007408,
+      "custo_usd_por_sentenca": 0.022109,
+      "tokens_entrada_por_sentenca": 6175.833333333333
+    }
+  }
+}

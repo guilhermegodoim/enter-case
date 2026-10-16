@@ -2,7 +2,7 @@
   "ruling_id": "tjsp-1182082-36.2024.8.26.0100",
   "text_sha256": "61f83231263f0cd1bfcfe4ae118638e25ce8e60df75365ef5233b533405d1456",
   "schema_version": "q2-args-v1",
-  "status": "rascunho",
+  "status": "revisado",
   "resultado": "improcedente",
   "argumentos": [
     {
@@ -100,9 +100,15 @@
     "cost_usd": 0.0400475,
     "latency_ms": 33315,
     "citacoes": 6,
-    "citacoes_ancoradas": 6
+    "citacoes_ancoradas": 6,
+    "revisao": {
+      "origem": "pagina-revisao",
+      "formato": "q2-revisao-v1",
+      "gold_fingerprint": "b139d00606a5",
+      "exportado_em": "2026-10-16T19:48:16.748Z"
+    }
   },
-  "revisor": null,
-  "revisado_em": null,
-  "notas": ""
+  "revisor": "Pedro da Hora",
+  "revisado_em": "2026-10-16T20:04:05+00:00",
+  "notas": "Sem apontamentos. A conexão entre fatos, fundamentos e julgamento é elucidativa. "
 }
