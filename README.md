@@ -28,31 +28,66 @@ uv sync
 cp .env.example .env   # preencher OPENAI_API_KEY
 ```
 
-## Comandos
+## Rodar
+
+Um comando por pergunta. Corpus e gold já estão no repositório, então nada precisa ser coletado antes.
+
+```bash
+uv run q1 build && uv run q1 bench   # Q1: monta o dataset sintético e roda o benchmark
+uv run q2 bench                      # Q2: benchmark de extração sobre o corpus e o gold versionados
+```
+
+Cada execução grava `spec.json`, `metrics.json` e `report.md` em `results/<run_id>/`. Com o cache
+em `.cache/llm/`, os números se repetem a custo zero.
+
+## Comandos extras
+
+Geral:
 
 ```bash
 uv run pytest              # testes offline (cliente OpenAI simulado)
 uv run pytest -m live      # teste contra a API real (requer chave)
 uv run enter smoke         # 1 chamada estruturada + 1 embedding reais
 uv run enter mask arq.txt  # normaliza e mascara entidades de um texto
-uv run q1 build            # monta o dataset sintético da Q1 (determinístico, sem LLM)
-uv run q1 bench            # benchmark Q1: calibra no dev, mede no test, grava results/<run_id>/
-uv run q1 gen-templates    # (já executado) gera os templates via LLM; só refaz o que falta
+uv run ruff check .
+```
+
+Q1:
+
+```bash
+uv run q1 bench --only cascata     # só um método (repetível)
+uv run q1 demo --case-id caso-001  # ingere um caso em ordem: ação, família e diff de cada documento
+uv run q1 gen-templates            # (já executado) gera os templates via LLM; só refaz o que falta
+```
+
+Q2, refazer corpus e gold do zero:
+
+```bash
 uv run q2 scrape           # coleta sentenças públicas do TJSP CJPG (cache local, 1 req/2 s)
-uv run q2 build            # seleciona e anonimiza o corpus da Q2 em data/rulings
-uv run q2 draft-gold       # rascunhos do gold da Q2 via LLM (nunca sobrescreve revisados)
+uv run q2 build            # seleciona e anonimiza o corpus em data/rulings
+uv run q2 draft-gold       # rascunhos do gold via LLM (nunca sobrescreve revisados)
 uv run q2 review           # editor do gold (Streamlit): corrigir, aprovar, ancorar citações
 uv run q2 gold-status      # quantas sentenças revisadas, citações ancoradas
+uv run q2 review-page-build        # página de revisão do gold hospedável (dist/review-page)
+uv run q2 import-review arq.json   # importa o JSON exportado pela página para data/gold
+```
+
+Q2, benchmark e extração pontual:
+
+```bash
+uv run q2 bench --gold revisado    # só sentenças com gold revisado por humano
 uv run q2 extract <ruling_id> --config chunk_mini_verif   # extrai e mostra argumentos de 1 sentença
-uv run q2 bench            # benchmark Q2: calibra merge no dev, mede no test, grava results/<run_id>/
-uv run q2 bench --gold revisado   # só sentenças com gold revisado por humano
+uv run q2 compare <bench_a> <bench_b>   # tabela única entre benchmarks (confere gold e juiz)
+```
+
+Q2, store, revisão e versionamento (detalhes na seção abaixo):
+
+```bash
 uv run q2 ingest --config chunk_mini --split dev   # extrai e grava no store (data/store/q2.sqlite)
 uv run q2 import-bench q2-bench-4d5403af77        # importa predições antigas (schema v1, upcast)
 uv run q2 review-args      # revisão dos argumentos extraídos (Streamlit): aceitar/editar/rejeitar/adicionar
 uv run q2 runs <ruling_id>                 # runs gravadas para a sentença (modelo, prompt, schema)
 uv run q2 diff <ruling_id> <run_a> <run_b> # o que mudou entre duas runs
-uv run q2 compare <bench_a> <bench_b>      # tabela única entre benchmarks (confere gold e juiz)
-uv run ruff check .
 ```
 
 ## Estrutura
@@ -101,7 +136,6 @@ uv run q2 diff <ruling_id> <run_a> <run_b>            # o que mudou; na UI: "Her
 
 - Toda chamada LLM passa pelo cache em `.cache/llm/`, endereçado pelo hash de modelo, mensagens, schema e parâmetros. Reexecutar um benchmark devolve os mesmos números a custo zero.
 - Em cache hit, custo e latência reportados são os da chamada original.
-- Cada execução grava `spec.json`, `metrics.json` e `report.md` em `results/<run_id>/`.
 - Preços em `common/pricing.py` são referência; conferir antes de citar custos.
 
 ## De onde vem cada número
